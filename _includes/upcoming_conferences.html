@@ -1,0 +1,33 @@
+<section class="anchor__submenu section-container section--spaced" id="ConferencesSlider">
+    <div class="container--small conferences-list">
+        <h2 class="heading heading--large">Upcoming conferences</h2>
+        <p class="paragraph paragraph--medium pt--60 d-pt-40 mb--80 d-mb-50 half-width">Start booking your calendar
+                        with more Code Sync conferences happening across the globe. We will be slowly releasing more dates, in
+                        the meantime here is what we’ve planned already:</p>
+        <div class="slider-inner">
+            <div class="slider-frame">
+                <ul class="columns slider-container">
+                {% assign sorted_conferences = site.conferences | sort: 'date' %}
+                {% for conference in sorted_conferences %}
+                    {% if conference.past == false %}
+                        <li class="column">
+                            <div class="tile ">
+                                <a class="tile--bg" href="{{site.baseurl}}{{ conference.url }}">
+                                    <picture class="tile__bg-image"><img alt="{{ conference.title }} Background" class="tile__logo lazy"
+                                            data-src="{{site.baseurl}}{{ conference.bg_image }}"></picture>
+                                    <picture><img alt="{{ conference.title }} Logo" class="tile__logo lazy"
+                                            data-src="{{site.baseurl}}{{ conference.logo_img }}"></picture>
+                                    <p class="heading heading--medium">{{ conference.conference_dates }}</p>
+                                    <p class="heading heading--small">{{ conference.conference_location }}</p>
+                                </a>
+                                <a class="btn btn--white btn-arrow" href="{{site.baseurl}}{{ conference.url }}">More Info</a>
+                            </div>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <a class="btn btn--pink triangle-left-full color--main mt--80 m-mt-40" href="{{site.baseurl}}/conferences/">All conferences</a>
+    </div>
+</section>

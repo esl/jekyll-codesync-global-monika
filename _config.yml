@@ -1,0 +1,140 @@
+title: Codesync
+description: > # this means to ignore newlines until "baseurl:"
+  Codesync conferences website
+baseurl: "/jekyll-codesync-global" 
+url: "https://esl.github.io" # the base hostname & protocol for your site
+# Build settings
+markdown: kramdown
+
+logo: "./assets/images/icon-large.png"
+
+social: 
+  name: Codesync
+  link: "https://twitter.com/xxxxxx"
+
+# google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+include: []
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-commonmark
+  # - jekyll-include-cache
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/xxxxxxx
+    username: xxxxxxxxx
+    card: image
+
+####################################
+###########   Pagination    ###########
+####################################
+paginate: 12
+paginate_path: "/media/page:num/"
+
+
+# Build settings
+# markdown: kramdown
++ markdown: CommonMark
++ commonmark:
++   options: ["SMART", "FOOTNOTES"]
++   extensions: ["strikethrough", "autolink", "table"]
+permalink: pretty
+
+collections:
+  speakers_db:
+    output: true
+    sort_by: relevance
+  speakers:
+    output: true
+    sort_by: relevance
+  trainers:
+    output: true
+    sort_by: relevance
+  trainings:
+    output: true
+    sort_by: relevance
+  talks:
+    output: true
+  posts:
+    output: true
+  diversity_programs:
+    output: true
+  conferences:
+    output: true
+    sort_by: date
+  tickets:
+    output: true
+  testimonials:
+    output: true
+  sponsors_db:
+    output: true
+  sponsors:
+    output: true
+  conference:
+    output: true
+  conference_brands:
+    output: true
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - 
+    scope:
+      path: ""
+      type: conferences
+    values: 
+      layout: conference
+  - 
+    scope: 
+      path: "trainings"
+      type: conferences
+    values: 
+      layout: conferenceTrainings
+  - 
+    scope:
+        path: ""
+        type: trainings
+    values:
+      layout: training
+  - 
+    scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - 
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - 
+    scope:
+      path: ""
+    values:
+      layout: default
+
+# Google Map JS api
+# This is my api for this template
+key-api: xxxxxx
+map-text: xxxxxx
+map-text-location: xxxxxx
+map-lat: xxxxxx
+map-lng: xxxxxx
+
+# Incremental regeneration helps shorten build times
+# incremental: true
+
+

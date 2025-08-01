@@ -1,0 +1,14 @@
+---
+label: Conference Brands
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Conference Brand Title
+pages:
+- _conference_brands/cbl.md
+- _conference_brands/code-elixir.md
+- _conference_brands/code-mesh.md

@@ -1,0 +1,84 @@
+---
+label: Talk
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: abstract
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Abstract
+- name: conference_path
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: conferences
+      file: 
+      path: 
+  label: Conference Path
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: hours
+  type: text
+  config:
+    required: false
+  label: Hours
+- name: youtube_id
+  type: text
+  config:
+    required: false
+  label: Youtube Video Id
+- name: talk_slides
+  type: file
+  config:
+    maxSize: 64
+  label: talk_slides
+- name: speakers
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 1
+    source:
+      type: pages
+      section: speakers
+  label: speakers
+- name: rooms
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: rooms
+      file: 
+      path: 
+  label: rooms
+pages:
+- _talks/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua.md
+- _talks/sample conf/sample-talk.md
+- _talks/sample conference 2/sample-conference-2-example.md

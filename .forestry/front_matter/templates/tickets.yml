@@ -1,0 +1,62 @@
+---
+label: Tickets
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: desc
+  type: text
+  config:
+    required: false
+  label: Desc
+- name: price
+  type: text
+  config:
+    required: false
+  label: Price
+- name: url
+  type: text
+  config:
+    required: false
+  label: Url
+- name: open
+  type: boolean
+  label: Open
+- name: type
+  type: select
+  default: regular
+  config:
+    required: false
+    options:
+    - regular
+    - special
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+- name: conference_path
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: conferences
+      file: 
+      path: 
+  label: Conference Path
+pages:
+- _tickets/conference-training-ticket.md
+- _tickets/diversity-tickets.md
+- _tickets/early-bird-conference-ticket.md
+- _tickets/early-bird-conference-tutorial-ticket.md
+- _tickets/last-minute-conference-ticket.md
+- _tickets/standard-conference-ticket.md
+- _tickets/student-ticket.md
+- _tickets/volunteer-places.md

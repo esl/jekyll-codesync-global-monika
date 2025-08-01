@@ -1,0 +1,14 @@
+---
+label: Menu Item
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL

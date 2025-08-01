@@ -1,0 +1,14 @@
+---
+label: Schedule
+hide_body: false
+fields:
+- name: conference_rooms
+  type: blocks
+  template_types:
+  - conference-room
+  config:
+    min: 
+    max: 
+  label: Conference Rooms
+pages:
+- _schedules/schedule one.md

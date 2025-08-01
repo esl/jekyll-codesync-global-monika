@@ -1,0 +1,28 @@
+---
+label: Conference Sponsors
+hide_body: false
+fields:
+- name: conference_path
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: conferences
+      file: 
+      path: 
+  label: Conference Path
+- name: sponsor_path
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: sponsors
+      file: 
+      path: 
+  label: Sponsor Path

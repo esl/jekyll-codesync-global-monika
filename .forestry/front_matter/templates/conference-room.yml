@@ -1,0 +1,11 @@
+---
+label: Conference Rooms
+hide_body: false
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+pages:
+- _conference_rooms/Sample conference/sample-conference-room-one.md

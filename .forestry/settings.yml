@@ -1,0 +1,119 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: _conference_rooms
+  label: Rooms
+  create: all
+  match: "**/*"
+  templates:
+  - conference-room
+- type: directory
+  path: _schedules
+  label: Schedule
+  create: all
+  match: "**/*"
+- type: directory
+  path: _speakers
+  label: Speakers
+  create: all
+  match: "**/*"
+  templates:
+  - speaker
+- type: directory
+  path: _speakers_db
+  label: Speakers_db
+  create: all
+  match: "**/*"
+  templates:
+  - speaker_db
+- type: directory
+  path: _tickets
+  label: Tickets
+  create: all
+  match: "**/*"
+  templates:
+  - tickets
+- type: directory
+  path: _testimonials
+  label: Testimonials
+  create: all
+  match: "**/*"
+- type: directory
+  path: _conference_sponsors
+  label: Conference Sponsors
+  create: all
+  match: "**/*"
+  templates:
+  - conference-sponsors
+- type: directory
+  path: _conference_brands
+  label: Conference Brands
+  create: all
+  match: "**/*"
+  templates:
+  - conference-brands
+- type: directory
+  path: _sponsors
+  label: Sponsors
+  create: all
+  match: "**/*"
+  templates:
+  - sponsors
+- type: directory
+  path: _conferences
+  label: Conferences
+  create: all
+  match: "**/*"
+  templates:
+  - conference
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - post
+- type: directory
+  path: _talks
+  label: Talks
+  create: all
+  match: "**/*"
+  templates:
+  - talk
+- type: directory
+  path: _trainings
+  label: Trainings
+  create: all
+  match: "**/*"
+  templates:
+  - training
+- type: directory
+  path: _trainers
+  label: Trainers
+  create: all
+  match: "**/*"
+- type: directory
+  path: _keynotes
+  label: Keynotes
+  create: all
+  match: "**/*"
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - JEKYLL_ENV=staging
+  preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
+  preview_docker_image: forestryio/ruby:2.6
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site

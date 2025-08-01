@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns="http://www.w3.org/1999/xhtml">
+    {% include imports/conferences_head.html %}
+    <body>
+        {% include imports/google_tag_manager.html %}
+        {% include imports/side_social_sidebar.html %}
+        {% include imports/speaker_styles.html %}
+        {% include header.html %}
+        <!-- Conference includes -->
+        {% include conference_menu.html %}
+        <main class="conference">
+            {% include conference_head_section.html %}
+            {% if page.conference_overview == true %}
+                {% include conference_overview.html %}
+            {% endif %}
+            {% if page.conference_themes == true %}
+                {% include conference_themes.html %}
+            {% endif %}
+            {% if page.conference_tickets == true %}
+                {% include conference_tickets.html %}
+                {% include conference_group_tickets.html %}
+                {% include conference_academic_tickets.html %}
+            {% endif %}
+            {% if page.conference_testimonials == true %}
+                {% include conference_testimonials.html %}
+            {% endif %}
+            {% if page.conference_speakers == true %}
+                {% include conference_speakers.html %}
+            {% endif %}
+            {% include conference_trainings.html %}
+            {% if page.conference_health_advice == true %}
+                {% include conference_health_advice.html %}
+            {% endif %}
+            {% if page.conference_venue == true  %}
+                {% include conference_venue.html %}
+            {% endif %}
+            {% include conference_newsletter.html %}
+            {% if page.conference_diversity == true %}
+                {% include conference_diversity.html %}
+            {% endif %}
+            {% if page.conference_volunteers == true %}
+                {% include conference_volunteer.html %}
+            {% endif %}
+            {% if page.conference_past_talks == true %}
+                {% include conference_past_talks.html %}
+            {% endif %}
+            {% if page.conference_call_for_talks == true %}
+                {% include conference_call_for_talks.html %}
+            {% endif %}
+            {% if page.conference_sponsors == true %}
+                {% include conference_sponsors.html %}
+            {% endif %}
+            {% if page.conference_past_conferences == true %}
+                {% include conference_past_conferences.html %}            
+            {% endif %}
+            {% if page.conference_floating_ticket == true %}
+                {% include conference_floating_ticket.html %}            
+            {% endif %}
+            <!-- custom sections -->
+            {% if page.conference_custom_1 == true %}
+                {% include conference_custom_1.html %}            
+            {% endif %}
+            {% if page.conference_custom_2 == true %}
+                {% include conference_custom_2.html %}            
+            {% endif %}
+            {% if page.conference_custom_3 == true %}
+                {% include conference_custom_3.html %}            
+            {% endif %}
+            {% if page.conference_custom_4 == true %}
+                {% include conference_custom_4.html %}            
+            {% endif %}
+            {% if page.conference_custom_5 == true %}
+                {% include conference_custom_5.html %}            
+            {% endif %}
+        </main>
+        {% include footer.html %}
+        <!-- Bottom Imports -->
+        {% include imports/js.html %}
+    </body>
+</html>

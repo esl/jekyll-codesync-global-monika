@@ -1,0 +1,35 @@
+<section class="m-vp-30 m-pb-00 mb--50 section-container speaker-activity">
+    <div class="container--small pt--50 t-pt-25" >
+            <h2 class="heading heading--large activity-name">
+                Past Activities
+            </h2>
+
+            {% for talk in site.talks %}
+                {% for speakerTalk in talk.speakers %}
+                    {% if speakerTalk == page.path %}
+                        {% capture posttime %}{{talk.date | date: '%s'}}{% endcapture %}
+                        {% if posttime < nowunix %} 
+                            <div class="past-activities-container">
+                                <div class="row t-mt-00 t-pt-00" >
+                                    <div class="col-5 t-col-12 conference--box pt--50">
+                                        <div class="heading heading--medium light" style="color:{{ conferencePrimary }}">
+                                            {{ talk.title }}
+                                            <br />
+                                            {{ conferenceTitle }}
+                                            <br />
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <a href="{{ site.baseurl }}{{ talk.url }}" class="btn btn--pink btn-arrow"
+                                style="background-color:{{ conferencePrimary }}; margin-left: 0;">Go to
+                                Talk
+                                </a>
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            
+    </div>
+</section>

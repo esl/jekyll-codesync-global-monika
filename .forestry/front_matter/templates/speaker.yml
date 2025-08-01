@@ -1,0 +1,56 @@
+---
+label: Speaker
+hide_body: false
+fields:
+- name: conference_path
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: conferences
+      file: 
+      path: 
+  label: Conference Path
+- name: speaker_path
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: speakers_db
+      file: 
+      path: 
+  label: Speaker path
+- name: type
+  type: select
+  default: speaker
+  config:
+    required: false
+    options:
+    - speaker
+    - keynote
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  default: "/conference-name/:slug"
+  description: Replace <strong>conference-name </strong>with the slug of the conference
+    that the user belongs to,
+pages:
+- _speakers/Sample Conference 3/sample-conference-3-abeba-birhane.md
+- _speakers/Sample Conference 3/sample-conference-3-aleksandar-filipov.md
+- _speakers/sample-conf/sample-conf-sample-2-speaker-3.md
+- _speakers/sample-conf/sample-speaker-1.md
+- _speakers/sample-conference-2/sample-conf-2-adrian-cruz.md
