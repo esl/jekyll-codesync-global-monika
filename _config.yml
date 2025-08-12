@@ -1,16 +1,15 @@
 title: Codesync
 description: > # this means to ignore newlines until "baseurl:"
   Codesync conferences website
-baseurl: "/jekyll-codesync-global" 
+baseurl: "/jekyll-codesync-global"
 url: "https://esl.github.io" # the base hostname & protocol for your site
 # Build settings
-markdown: kramdown
 
 logo: "./assets/images/icon-large.png"
 
-social: 
+social:
   name: Codesync
-  link: "https://twitter.com/xxxxxx"
+  link: "https://twitter.com/CodeSyncGlobal"
 
 # google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
@@ -27,11 +26,6 @@ plugins:
   # - jekyll-include-cache
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/xxxxxxx
-    username: xxxxxxxxx
-    card: image
 
 ####################################
 ###########   Pagination    ###########
@@ -39,13 +33,11 @@ social:
 paginate: 12
 paginate_path: "/media/page:num/"
 
-
 # Build settings
-# markdown: kramdown
-+ markdown: CommonMark
-+ commonmark:
-+   options: ["SMART", "FOOTNOTES"]
-+   extensions: ["strikethrough", "autolink", "table"]
+markdown: CommonMark
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
 permalink: pretty
 
 collections:
@@ -84,44 +76,37 @@ collections:
     output: true
 
 defaults:
-  - 
-    scope:
+  - scope:
       path: ""
       type: speakers
     values:
       layout: speaker
-  - 
-    scope:
+  - scope:
       path: ""
       type: conferences
-    values: 
+    values:
       layout: conference
-  - 
-    scope: 
+  - scope:
       path: "trainings"
       type: conferences
-    values: 
+    values:
       layout: conferenceTrainings
-  - 
-    scope:
-        path: ""
-        type: trainings
+  - scope:
+      path: ""
+      type: trainings
     values:
       layout: training
-  - 
-    scope:
+  - scope:
       path: ""
       type: talks
     values:
       layout: talk
-  - 
-    scope:
+  - scope:
       path: ""
       type: posts
     values:
       layout: post
-  - 
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
@@ -133,8 +118,5 @@ map-text: xxxxxx
 map-text-location: xxxxxx
 map-lat: xxxxxx
 map-lng: xxxxxx
-
 # Incremental regeneration helps shorten build times
 # incremental: true
-
-
