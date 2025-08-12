@@ -1,17 +1,132 @@
-.flex-row {
-  display: flex;
-  ul {
+.footer-flex {
     display: flex;
-    li {
-      margin: 2em 2em 0 0;
-      padding: .5em;
-    }
-  }
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.past-activities-container {
+.address-col p {
+    color: white;
+    margin: 0;
+}
 
-  .btn {
-    margin: 2em 2em 2em 0;
-  }
+.contact-col {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .footer-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-col {
+        text-align: left;
+    }
+}
+
+/* Complete footer restructure using CSS Grid */
+.footer {
+    position: relative !important;
+}
+
+.footer .section-container {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto auto !important;
+    align-items: start !important;
+    justify-items: start !important;
+    gap: 10px !important; /* Reduced from 20px to 10px */
+    padding: 20px 30px 10px 30px !important; /* Reduced bottom padding to 10px */
+}
+
+/* Logo section - first row */
+.footer .container--small:first-child {
+    grid-row: 1 !important;
+    grid-column: 1 !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.footer .logo {
+    text-align: left !important;
+    padding-top: 10px !important; /* Reduced from default 30px */
+    padding-bottom: 5px !important; /* Much smaller bottom padding */
+}
+
+/* Contact section - second row */
+.footer .top {
+    grid-row: 2 !important;
+    grid-column: 1 !important;
+    width: 100% !important;
+    display: block !important;
+    text-align: left !important;
+    padding-top: 0 !important;
+    padding-bottom: 2px !important; /* Reduced spacing */
+}
+
+.footer .contact {
+    text-align: left !important;
+}
+
+.footer .contact p,
+.footer .contact .highlight {
+    text-align: left !important;
+    margin-bottom: 2px !important; /* Reduced margin between paragraphs */
+}
+
+/* Make address text same size as email/phone */
+.footer .contact p:not(.highlight) {
+    font-size: 1.6rem !important; /* Match the email/phone font size */
+    line-height: 1.4 !important;
+}
+
+.footer .contact br + p {
+    margin-top: 2px !important; /* Reduce space after line breaks */
+}
+
+/* Copyright section - third row */
+.footer .container--small.footer-copy {
+    grid-row: 3 !important;
+    grid-column: 1 !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.footer .bottom {
+    text-align: left !important;
+    padding-top: 0 !important;
+    padding-bottom: 2px !important; /* Further reduced bottom padding */
+}
+
+.footer .bottom .container {
+    text-align: left !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.footer .bottom p.copy {
+    text-align: left !important;
+    margin: 0 !important;
+    line-height: 1.4 !important; /* Tighter line height */
+}
+
+/* Remove all padding that might interfere */
+.footer .top .contact,
+.footer .top .menu {
+    padding-right: 0 !important;
+}
+
+/* Alternative fallback using absolute positioning if grid doesn't work */
+.footer .container--small.footer-copy {
+    position: relative !important;
+    top: auto !important;
+    left: 0 !important;
+    transform: none !important;
+}
+
+/* Reduce overall footer height by removing excess space */
+.footer {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
