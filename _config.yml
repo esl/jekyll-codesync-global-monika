@@ -41,11 +41,10 @@ paginate_path: "/media/page:num/"
 
 
 # Build settings
-# markdown: kramdown
-+ markdown: CommonMark
-+ commonmark:
-+   options: ["SMART", "FOOTNOTES"]
-+   extensions: ["strikethrough", "autolink", "table"]
+markdown: CommonMark
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
 permalink: pretty
 
 collections:
