@@ -1,7 +1,7 @@
 ---
 conference_brand: _conference_brands/code-bean-sto.md
 title: Code BEAM STO
-past: false
+past: true
 bg_image: "/uploads/16d70351e4ef837c6fbab1a10e1576a862092484.jpeg"
 logo_img: "/uploads/aed29706231a343796d1d53a8b64659f728e7426.png"
 conference_location: Virtual

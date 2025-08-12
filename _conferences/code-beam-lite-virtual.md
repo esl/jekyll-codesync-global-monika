@@ -5,13 +5,13 @@ conference_venue: true
 conference_past_conferences: true
 menu: []
 title: Code BEAM Lite Virtual
-past: false
+past: true
 bg_image: ''
 logo_img: ''
 conference_location: Virtual
 primary: ''
 secondary: ''
-conference_init_date: 
+conference_init_date:
 conference_dates: ''
 head_title: Code BEAM Lite Virtual
 overview_heading: ''

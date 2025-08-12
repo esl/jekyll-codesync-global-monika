@@ -5,13 +5,13 @@ conference_venue: true
 conference_past_conferences: true
 menu: []
 title: Code BEAM V
-past: false
+past: true
 bg_image: ''
 logo_img: ''
 conference_location: ''
 primary: ''
 secondary: ''
-conference_init_date: 
+conference_init_date:
 conference_dates: ''
 head_title: Code BEAM V
 overview_heading: ''
