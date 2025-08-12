@@ -1,7 +1,7 @@
 ---
 title: " Just delete it!
 "
-abstract: "Are we creating big balls of mud within our applications? Is an abstraction necessary or is it going to couple the code to the implementation? Can I achieve code isolation without overcomplicating? The challenge is to reach the nirvana of simple code isolation verse complex code abstraction. But is it realistically obtainable? The challenge is set: implement patterns that will allow us to just delete & rewrite code in days instead of weeks, weeks instead of months, and months instead of ... version 2."
+abstract: "Are we creating big balls of mud within our applications? Is an abstraction necessary or is it going to couple the code to the implementation? Can I achieve code isolation without overcomplicating? The challenge is to reach the nirvana of simple code isolation verse complex code abstraction. But is it realistically obtainable? The challenge is set: implement patterns that will allow us to just delete &amp; rewrite code in days instead of weeks, weeks instead of months, and months instead of ... version 2."
 speakers:
 - _speakers/johnny-winn.md
 type: video

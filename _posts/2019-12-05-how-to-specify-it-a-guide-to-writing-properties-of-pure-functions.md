@@ -8,6 +8,6 @@ type: video
 youtube_id: zvRAyq5wj38
 keywords: Property Based Testing,John Hughes,QuickCheck,Testing,Pure functions,Programming
 date: 2019-12-05
-tags: Concurrency & parallelism,Code Mesh LDN 2019
+tags: Concurrency &amp; parallelism,Code Mesh LDN 2019
 slides: /uploads/cm19-john-hughes-how-to-specify-it-compressed.pdf
 ---

@@ -1,7 +1,7 @@
 ---
-title: " Opaque Structures & Other Yerbas - SLIDES - Code BEAM SF 2018
+title: " Opaque Structures &amp; Other Yerbas - SLIDES - Code BEAM SF 2018
 "
-abstract: "Slides for the Brujo Benavides' talk Opaque Structures & Other Yerbas - Code BEAM SF 2018
+abstract: "Slides for the Brujo Benavides' talk Opaque Structures &amp; Other Yerbas - Code BEAM SF 2018
 "
 image_url: /uploads/opaque-structures-other-yerbas
 speakers:

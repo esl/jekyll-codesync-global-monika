@@ -1,5 +1,5 @@
 ---
-title: " Containers & Orchestration: The Elixir way
+title: " Containers &amp; Orchestration: The Elixir way
 "
 abstract: "Containers are the ultimate commodity tool for horizontal scalability of modern systems. However, with so many features that overlap with BEAM capabilities, sometimes it's hard to see the real benefit of integrating them into our workflows."
 speakers:
