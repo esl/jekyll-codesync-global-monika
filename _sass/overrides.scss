@@ -1,123 +1,91 @@
-.footer-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-.address-col p {
-    color: white;
-    margin: 0;
-}
-
-.contact-col {
-    text-align: left;
-}
-
-@media (max-width: 768px) {
-    .footer-flex {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .contact-col {
-        text-align: left;
-    }
-}
-
-/* Force everything to the left - stronger overrides */
+/* Complete footer override - force everything to the left */
 .footer {
-    position: relative !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    font-family:
+        Roboto Mono,
+        monospace !important;
 }
 
 .footer .section-container {
     display: block !important;
+    width: 100% !important;
     max-width: 1340px !important;
     margin: 0 auto !important;
     padding: 20px 30px 10px 30px !important;
 }
 
-/* Reset any grid or flex layouts */
 .footer .container--small {
     display: block !important;
     width: 100% !important;
     margin: 0 !important;
-    grid-column: unset !important;
-    grid-row: unset !important;
+    max-width: none !important;
 }
 
 .footer .logo {
-    text-align: left !important;
-    padding-top: 10px !important;
-    padding-bottom: 5px !important;
-}
-
-/* Force contact section to the left */
-.footer .top {
     display: block !important;
     width: 100% !important;
     text-align: left !important;
-    padding-top: 0 !important;
-    padding-bottom: 10px !important;
-    grid-column: unset !important;
-    grid-row: unset !important;
-    justify-self: unset !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
-    float: none !important;
-    position: relative !important;
+    padding: 10px 0 5px 0 !important;
+}
+
+/* Override the flex layout completely */
+.footer .top {
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+    flex: none !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
 }
 
 .footer .contact {
-    text-align: left !important;
-    width: auto !important;
     display: block !important;
+    width: 100% !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    order: initial !important;
+    flex: none !important;
     float: none !important;
-    position: relative !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
+    position: static !important;
 }
 
 .footer .contact p,
 .footer .contact .highlight {
     text-align: left !important;
-    margin-bottom: 2px !important;
-    float: none !important;
+    margin-bottom: 5px !important;
+    width: 100% !important;
     display: block !important;
 }
 
-/* Force copyright section to the left as well */
 .footer .container--small.footer-copy {
     display: block !important;
     width: 100% !important;
-    margin: 0 !important;
-    grid-column: unset !important;
-    grid-row: unset !important;
-    align-self: unset !important;
+    margin: 10px 0 0 0 !important;
 }
 
 .footer .bottom {
+    display: block !important;
+    width: 100% !important;
     text-align: left !important;
-    padding-top: 0 !important;
-    padding-bottom: 2px !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .footer .bottom .container {
+    display: block !important;
+    width: 100% !important;
     text-align: left !important;
     margin: 0 !important;
-    width: 100% !important;
 }
 
 .footer .bottom p.copy {
     text-align: left !important;
     margin: 0 !important;
     line-height: 1.4 !important;
-}
-
-/* Remove any flexbox or grid properties that might interfere */
-.footer .top .contact,
-.footer .top .menu {
-    padding-right: 0 !important;
-    order: unset !important;
-    flex: unset !important;
+    width: 100% !important;
+    display: block !important;
 }
