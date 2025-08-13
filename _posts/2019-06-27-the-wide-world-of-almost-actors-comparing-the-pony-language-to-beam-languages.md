@@ -1,9 +1,9 @@
 ---
 title: "The wide world of almost-actors: comparing the Pony language to BEAM languages
 "
-abstract: "As Erlang & Elixir programmers, the Actor Model of computation sits comfortably in our minds. Processes that communicate only by message passing makes building concurrent applications easy. It feels natural. We take it for granted.
+abstract: "As Erlang &amp; Elixir programmers, the Actor Model of computation sits comfortably in our minds. Processes that communicate only by message passing makes building concurrent applications easy. It feels natural. We take it for granted.
 
-The inventor of the Actor Model, Dr. Carl Hewitt, says that Erlang does not implement the Actor Model. Erlang co-creators Joe Armstrong and Robert Virding agree with Hewitt. Let's explore Actor Model wrongs & rights with BEAM languages compared to Pony (http://ponylang.io)."
+The inventor of the Actor Model, Dr. Carl Hewitt, says that Erlang does not implement the Actor Model. Erlang co-creators Joe Armstrong and Robert Virding agree with Hewitt. Let's explore Actor Model wrongs &amp; rights with BEAM languages compared to Pony (http://ponylang.io)."
 speakers:
 - _speakers/scott-lystig-fritchie56.md
 type: video

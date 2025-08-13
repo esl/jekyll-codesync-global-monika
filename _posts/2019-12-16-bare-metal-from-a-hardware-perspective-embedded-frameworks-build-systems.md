@@ -1,5 +1,5 @@
 ---
-title: " Bare Metal from a Hardware Perspective: Embedded Frameworks & Build Systems
+title: " Bare Metal from a Hardware Perspective: Embedded Frameworks &amp; Build Systems
 "
 abstract: "It's an exciting time to be interested in programming languages as the abundance of computing power, even in the smallest devices around us, makes almost every language a viable choice for implementation. Almost. 
  
@@ -10,6 +10,6 @@ type: video
 youtube_id: _4FItSzedBk
 keywords: Embedded Devices,IoT,Internet of Things,Embedded Software,Embedded Frameworks,Omer Kilic,Code Mesh LDN
 date: 2019-12-16
-tags: Concurrency & parallelism,Code Mesh LDN 2019
+tags: Concurrency &amp; parallelism,Code Mesh LDN 2019
 slides: /uploads/cm19-omer-kilic-bare-metal-from-a-hardware-perspective-compressed.pdf
 ---

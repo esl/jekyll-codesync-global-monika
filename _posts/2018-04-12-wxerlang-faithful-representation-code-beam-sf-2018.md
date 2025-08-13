@@ -1,5 +1,5 @@
 ---
-title: " wxErlang & Faithful Representation - Code BEAM SF 2018
+title: " wxErlang &amp; Faithful Representation - Code BEAM SF 2018
 "
 abstract: ""
 speakers:

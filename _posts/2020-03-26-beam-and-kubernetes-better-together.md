@@ -8,5 +8,5 @@ type: video
 youtube_id: Nv6GfEGv0kc
 keywords: Code BEAM SF, Cory O'Daniel, Elixir, Kubernetes, K8s, Reliability, Scalability
 date: 2020-03-26
-tags: Scalability & reliability,Code BEAM SF 2020
+tags: Scalability &amp; reliability,Code BEAM SF 2020
 ---
