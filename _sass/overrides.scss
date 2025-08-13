@@ -11,7 +11,7 @@
 }
 
 .contact-col {
-    text-align: right;
+    text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -25,26 +25,67 @@
     }
 }
 
-/* Simple fix to match local version - keep contact info on left */
+/* Position everything on the left side */
 .footer .section-container {
+    display: block !important;
     max-width: 1340px;
     margin: 0 auto;
-    padding: 20px 30px;
+    padding: 20px 30px 10px 30px;
 }
 
-/* Ensure contact section stays in natural position (left side) */
+/* Logo section */
+.footer .container--small:first-child {
+    width: 100%;
+    margin: 0;
+}
+
+.footer .logo {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* Contact section - position on the left */
 .footer .top {
     display: block !important;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 100% !important;
+    text-align: left !important;
+    padding-top: 0 !important;
+    padding-bottom: 10px !important;
 }
 
 .footer .contact {
-    text-align: left;
-    margin-bottom: 20px;
+    text-align: left !important;
+    width: auto !important;
+    display: inline-block !important;
 }
 
-/* Keep copyright section in natural position below contact */
+.footer .contact p,
+.footer .contact .highlight {
+    text-align: left !important;
+    margin-bottom: 2px !important;
+}
+
+/* Copyright section - also on the left, below contact */
+.footer .container--small.footer-copy {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
 .footer .bottom {
-    text-align: left;
+    text-align: left !important;
+    padding-top: 0 !important;
+    padding-bottom: 2px !important;
+}
+
+.footer .bottom .container {
+    text-align: left !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.footer .bottom p.copy {
+    text-align: left !important;
+    margin: 0 !important;
+    line-height: 1.4 !important;
 }
