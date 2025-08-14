@@ -2,6 +2,7 @@
 conference_brand: _conference_brands/cbl.md
 conference_health_advice: true
 conference_venue: false
+published: false
 conference_past_conferences: true
 menu: |-
   * [Programme Committee](#custom1)

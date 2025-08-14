@@ -68,6 +68,7 @@ conference_themes_content: |-
 conference_tickets: true
 conference_health_advice: true
 conference_testimonials: true
+published: false
 conference_venue: true
 conference_diversity: true
 conference_volunteers: true

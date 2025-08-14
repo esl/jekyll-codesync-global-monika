@@ -1,6 +1,7 @@
 ---
 conference_brand: _conference_brands/cbl.md
 conference_health_advice: true
+published: false
 conference_venue: true
 conference_past_conferences: true
 menu: []
@@ -11,7 +12,7 @@ logo_img: ''
 conference_location: Amsterdam
 primary: ''
 secondary: ''
-conference_init_date: 
+conference_init_date:
 conference_dates: ''
 head_title: CBL AMSTERDAM 2018
 overview_heading: ''
