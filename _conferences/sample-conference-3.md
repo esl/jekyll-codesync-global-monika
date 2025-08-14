@@ -77,7 +77,7 @@ conference_past_conferences: true
 conference_speakers: true
 conference_past_talks: true
 title: Sample Conference 3
-past: false
+past: true
 bg_image: "/uploads/sto-e.jpg"
 logo_img: "/uploads/code-sync-logo-48758d77.svg"
 conference_location: Virtual

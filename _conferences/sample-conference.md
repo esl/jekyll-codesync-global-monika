@@ -12,7 +12,7 @@ menu: |-
   * [Training](#training)
   * [Venue](#venue)
 title: Sample conference
-past: false
+past: true
 bg_image: "/uploads/iot-web.jpg"
 logo_img: "/uploads/code-sync-logo-48758d77.svg"
 conference_location: London
