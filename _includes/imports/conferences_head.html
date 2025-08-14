@@ -1,4 +1,12 @@
 <head>
+    <!-- Redirect logic for conferences with external URLs -->
+    {% if page.external_url %}
+    <meta http-equiv="refresh" content="0; url={{ page.external_url }}">
+    <script type="text/javascript">
+        window.location.href = "{{ page.external_url }}";
+    </script>
+    {% endif %}
+
     <meta name="theme-color" content="#ff005f" />
     <title>{{ page.title }}</title>
     <meta name="keywords" content="{{ page.keywords }}" />

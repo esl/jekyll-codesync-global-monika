@@ -1,7 +1,7 @@
 ---
 conference_brand: _conference_brands/cbl.md
 conference_health_advice: true
-conference_venue: true
+conference_venue: false
 conference_past_conferences: true
 menu: |-
   * [Programme Committee](#custom1)
@@ -16,7 +16,7 @@ menu: |-
   * [custom4](#custom4)
   * [custom5](#custom5)
 title: Sample conference 2
-past: false
+past: true
 bg_image: "/uploads/iot-web.jpg"
 logo_img: "/uploads/code-sync-logo-48758d77.svg"
 conference_location: London
@@ -24,7 +24,7 @@ primary: "#4A90E2"
 secondary: "#F5A623"
 conference_init_date: 2020-12-12T07:00:00.000+00:00
 conference_dates: 12 - 15 of December
-head_title: Sample London Conference
+head_title: Sample2 London Conference
 overview_heading: DISCOVER THE FUTURE OF THE ERLANG ECOSYSTEM
 number_of_days: "4"
 number_of_themes: "7"

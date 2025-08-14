@@ -1,46 +1,50 @@
 <section
-  class="anchor__submenu section-container section--spaced"
-  id="past-conferences"
+    class="anchor__submenu section-container section--spaced"
+    id="past-conferences"
 >
-  <div class="container--small conferences-list">
-    <h2 class="heading heading--large mb--50">
-      PAST CONFERENCES
-    </h2>
-    <div class="slider-inner">
-      <div class="slider-frame">
-        <ul class="columns slider-container">
-          {% assign past_conferences = site.conferences | where: 'past', true %}
-          {% for conference in past_conferences %}
-          <li class="column">
-            <div class="tile tile--old">
-              <a class="tile--bg" href="{{site.baseurl}}/{{ conference.url }}">
-                <picture class="tile__bg-image"
-                  ><img
-                    alt="{{ conference.title }}"
-                    class="tile__logo lazy"
-                    data-src="{{site.baseurl}}{{ conference.bg_image }}"
-                /></picture>
-                <picture
-                  ><img
-                    alt="{{ conference.title }}"
-                    class="tile__logo lazy"
-                    data-src="{{site.baseurl}}{{ conference.bg_image }}"
-                /></picture>
-                <p class="heading heading--medium">
-                  {{ conference.conference_dates }}
-                </p>
-                <p class="heading heading--small">
-                  {{ conference.conference_location }}
-                </p>
-              </a>
-              <a class="btn btn--white btn-arrow" href="{{site.baseurl}}/{{ conference.url }}"
-                >Learn more</a
-              >
+    <div class="container--small conferences-list">
+        <h2 class="heading heading--large mb--50">PAST CONFERENCES</h2>
+        <div class="slider-inner">
+            <div class="slider-frame">
+                <ul class="columns slider-container">
+                    {% assign past_conferences = site.conferences | where:
+                    'past', true %} {% for conference in past_conferences %} {%
+                    if conference.external_url %} {% assign conference_link =
+                    conference.external_url %} {% else %} {% assign
+                    conference_link = site.baseurl | append: "/" | append:
+                    conference.url %} {% endif %}
+                    <li class="column">
+                        <div class="tile tile--old">
+                            <a class="tile--bg" href="{{ conference_link }}">
+                                <picture class="tile__bg-image"
+                                    ><img
+                                        alt="{{ conference.title }}"
+                                        class="tile__logo lazy"
+                                        data-src="{{site.baseurl}}{{ conference.bg_image }}"
+                                /></picture>
+                                <picture
+                                    ><img
+                                        alt="{{ conference.title }}"
+                                        class="tile__logo lazy"
+                                        data-src="{{site.baseurl}}{{ conference.bg_image }}"
+                                /></picture>
+                                <p class="heading heading--medium">
+                                    {{ conference.conference_dates }}
+                                </p>
+                                <p class="heading heading--small">
+                                    {{ conference.conference_location }}
+                                </p>
+                            </a>
+                            <a
+                                class="btn btn--white btn-arrow"
+                                href="{{ conference_link }}"
+                                >Learn more</a
+                            >
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+        </div>
     </div>
-  </div>
 </section>

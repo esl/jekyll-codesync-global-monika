@@ -1,5 +1,5 @@
 ---
-conference_brand: _conference_brands/code-beam-light.md
+conference_brand: _conference_brands/code-beam-lite.md
 conference_health_advice: true
 conference_venue: true
 conference_past_conferences: true
@@ -11,7 +11,7 @@ logo_img: ''
 conference_location: ''
 primary: ''
 secondary: ''
-conference_init_date: 
+conference_init_date:
 conference_dates: ''
 head_title: Code BEAM Lite Budapest
 overview_heading: ''

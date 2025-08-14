@@ -1,5 +1,5 @@
 ---
-conference_brand: _conference_brands/code-beam-light-virtual.md
+conference_brand: _conference_brands/code-beam-lite-virtual.md
 conference_health_advice: true
 conference_venue: true
 conference_past_conferences: true

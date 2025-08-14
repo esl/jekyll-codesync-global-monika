@@ -2,644 +2,650 @@
 label: Conference
 hide_body: false
 fields:
-- name: menu
-  type: textarea
-  default: |-
-    * [Programme Committee](#committee)
-    * [Schedule](#schedule)
-    * [Speakers](#speakers)
-    * [Sponsors](#sponsors)
-    * [Media](#media)
-    * [Training](#training)
-    * [Venue](#venue)
-  config:
+  - name: menu
+    type: textarea
+    default: |-
+      * [Programme Committee](#committee)
+      * [Schedule](#schedule)
+      * [Speakers](#speakers)
+      * [Sponsors](#sponsors)
+      * [Media](#media)
+      * [Training](#training)
+      * [Venue](#venue)
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: menu
+    description: Sections available to scrool:<br>#tickets<br>#speakers
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Title for the conference
+  - name: conference_brand
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: conference-brands
+        file:
+        path:
+    label: Conference Brand
+  - name: past
+    type: boolean
+    label: Past
+  - name: bg_image
+    type: file
+    config:
+      maxSize: 64
+    label: Bg Image
+  - name: logo_img
+    type: file
+    config:
+      maxSize: 64
+    label: Logo Img
+  - name: conference_location
+    type: text
+    config:
+      required: false
+    label: Conference Location
+  - name: primary
+    type: color
+    label: Primary
+    config:
+      required: false
+      color_format: Hex
+  - name: secondary
+    type: color
+    label: Secondary
+    config:
+      required: false
+      color_format: Hex
+  - name: conference_init_date
+    type: datetime
+    label: Conference Init Date
+    description: ""
+    config:
+      required: false
+      date_format:
+      time_format:
+      display_utc: false
+  - name: conference_dates
+    type: text
+    config:
+      required: false
+    label: Conference Dates
+  - name: head_title
+    type: text
+    config:
+      required: false
+    label: Head Title
+  - name: conference_overview
+    type: boolean
+    label: conference_overview
+    default: true
+  - name: overview_heading
+    type: text
+    config:
+      required: false
+    label: Overview Heading
+  - name: number_of_days
+    type: number
+    label: Number Of Days
+    description:
+      This will be used to display number of days in the Overview section
+      as well as <strong>it will be used for the schedule.</strong>
+    default: 0
     required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: menu
-  description: Sections available to scrool:<br>#tickets<br>#speakers
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-  description: Title for the conference
-- name: conference_brand
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: conference-brands
-      file: 
-      path: 
-  label: Conference Brand
-- name: past
-  type: boolean
-  label: Past
-- name: bg_image
-  type: file
-  config:
-    maxSize: 64
-  label: Bg Image
-- name: logo_img
-  type: file
-  config:
-    maxSize: 64
-  label: Logo Img
-- name: conference_location
-  type: text
-  config:
-    required: false
-  label: Conference Location
-- name: primary
-  type: color
-  label: Primary
-  config:
-    required: false
-    color_format: Hex
-- name: secondary
-  type: color
-  label: Secondary
-  config:
-    required: false
-    color_format: Hex
-- name: conference_init_date
-  type: datetime
-  label: Conference Init Date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-- name: conference_dates
-  type: text
-  config:
-    required: false
-  label: Conference Dates
-- name: head_title
-  type: text
-  config:
-    required: false
-  label: Head Title
-- name: conference_overview
-  type: boolean
-  label: conference_overview
-  default: true
-- name: overview_heading
-  type: text
-  config:
-    required: false
-  label: Overview Heading
-- name: number_of_days
-  type: number
-  label: Number Of Days
-  description: This will be used to display number of days in the Overview section
-    as well as <strong>it will be used for the schedule.</strong>
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-- name: number_of_themes
-  type: text
-  config:
-    required: false
-  label: Number Of Themes
-- name: number_of_speakers
-  type: text
-  config:
-    required: false
-  label: Number Of Speakers
-- name: number_of_attendees
-  type: text
-  config:
-    required: false
-  label: Number Of Attendees
-- name: conference_themes
-  type: boolean
-  label: conference_themes
-  default: true
-- name: conference_themes_content
-  type: textarea
-  default: |-
-    <div class="col m-col-12">
-                    <p>THE&nbsp;BEAM</p>
+    config:
+      min:
+      max:
+      step:
+  - name: number_of_themes
+    type: text
+    config:
+      required: false
+    label: Number Of Themes
+  - name: number_of_speakers
+    type: text
+    config:
+      required: false
+    label: Number Of Speakers
+  - name: number_of_attendees
+    type: text
+    config:
+      required: false
+    label: Number Of Attendees
+  - name: conference_themes
+    type: boolean
+    label: conference_themes
+    default: true
+  - name: conference_themes_content
+    type: textarea
+    default: |-
+      <div class="col m-col-12">
+                      <p>THE&nbsp;BEAM</p>
 
-                    <p>Learn from the leading experts and Erlang committers about new language constructs, VM
-                                            implementations, and powerful libraries which form the Erlang eco-system. You will learn how many of
-                                            its features work and how to best use them to write fast and efficient code.</p>
-                </div>
-                <div class="col m-col-12">
-                    <p>SCALABILITY AND RELIABILITY</p>
+                      <p>Learn from the leading experts and Erlang committers about new language constructs, VM
+                                              implementations, and powerful libraries which form the Erlang eco-system. You will learn how many of
+                                              its features work and how to best use them to write fast and efficient code.</p>
+                  </div>
+                  <div class="col m-col-12">
+                      <p>SCALABILITY AND RELIABILITY</p>
 
-                    <p>Scaling&nbsp;has been a given for many years now and the BEAM supervision concepts are well
-                                            understood. But you need more, much more. You want to build distributed clusters of massive
-                                            potential, you want to monitor your systems and automatically provision replacement hardware in case
-                                            of failures. What is best-practice? What are the big players doing? How do you ensure you don&#39;t
-                                            have to wake in the middle of the night?</p>
-                </div>
-                <div class="col m-col-12">
-                    <p>TOOLS</p>
+                      <p>Scaling&nbsp;has been a given for many years now and the BEAM supervision concepts are well
+                                              understood. But you need more, much more. You want to build distributed clusters of massive
+                                              potential, you want to monitor your systems and automatically provision replacement hardware in case
+                                              of failures. What is best-practice? What are the big players doing? How do you ensure you don&#39;t
+                                              have to wake in the middle of the night?</p>
+                  </div>
+                  <div class="col m-col-12">
+                      <p>TOOLS</p>
 
-                    <p>It&#39;s not always clear what off-the-shelf software is useful in production-quality systems. In the
-                                            tools&nbsp;track, you will learn what existing production systems&#39; maintainers are using to
-                                            monitor and test their systems via war stories and experience reports of novice and expert users.
-                    </p>
+                      <p>It&#39;s not always clear what off-the-shelf software is useful in production-quality systems. In the
+                                              tools&nbsp;track, you will learn what existing production systems&#39; maintainers are using to
+                                              monitor and test their systems via war stories and experience reports of novice and expert users.
+                      </p>
 
-                    <p>FRAMEWORKS</p>
+                      <p>FRAMEWORKS</p>
 
-                    <p>In the frameworks track, you will learn from the leading experts and committers about new and leading
-                                            frameworks such as&nbsp; Phoenix, MongooseIM, Nerves and RabbitMQ. You will find out how these
-                                            frameworks work, how to best use them and where not to use them.</p>
-                </div>
-                <div class="col m-col-12">
-                    <p>WEB &amp; APIS</p>
+                      <p>In the frameworks track, you will learn from the leading experts and committers about new and leading
+                                              frameworks such as&nbsp; Phoenix, MongooseIM, Nerves and RabbitMQ. You will find out how these
+                                              frameworks work, how to best use them and where not to use them.</p>
+                  </div>
+                  <div class="col m-col-12">
+                      <p>WEB &amp; APIS</p>
 
-                    <p>With recent innovations the BEAM is now suitable for rapid web application development and gives any
-                                            of the established frameworks a run for their money. Much work has been done to integrate with cloud
-                                            providers such as Google and Amazon, and containerisation such as Docker and Kubernetes. The BEAM of
-                                            2019 can control your infrastructure, write Google documents, and is ideal for integrating with 3rd
-                                            party services such as machine learning, and payment providers.</p>
-                </div>
-                <div class="col m-col-12">
-                    <p>CASE STUDIES</p>
+                      <p>With recent innovations the BEAM is now suitable for rapid web application development and gives any
+                                              of the established frameworks a run for their money. Much work has been done to integrate with cloud
+                                              providers such as Google and Amazon, and containerisation such as Docker and Kubernetes. The BEAM of
+                                              2019 can control your infrastructure, write Google documents, and is ideal for integrating with 3rd
+                                              party services such as machine learning, and payment providers.</p>
+                  </div>
+                  <div class="col m-col-12">
+                      <p>CASE STUDIES</p>
 
-                    <p>Every new domain that Erlang and Elixir push into brings a new class of problems and a new class of
-                                            solutions. In this track, we&#39;ll learn from other&#39;s experience, where things have been peachy
-                                            and where they haven&#39;t been so much. We&#39;ll all walk away with a more clear idea of how to
-                                            build highly reliable software.</p>
-                </div>
-                <div class="col m-col-12">
-                    <p>INTRODUCTION TO ERLANG AND ELIXIR</p>
+                      <p>Every new domain that Erlang and Elixir push into brings a new class of problems and a new class of
+                                              solutions. In this track, we&#39;ll learn from other&#39;s experience, where things have been peachy
+                                              and where they haven&#39;t been so much. We&#39;ll all walk away with a more clear idea of how to
+                                              build highly reliable software.</p>
+                  </div>
+                  <div class="col m-col-12">
+                      <p>INTRODUCTION TO ERLANG AND ELIXIR</p>
 
-                    <p>New to Erlang and/or Elixir? Interested, but don&#39;t know quite where to dig in? We&#39;ve all been
-                                            there! In this track, you will learn from other&#39;s experience, get a sense of the lay of the
-                                            software ecosystem, get help from the community and contribute back for everyone&#39;s benefit.</p>
-                </div>
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Conference Themes Content
-  description: Each column can be added manually using the following HTML format:<br><br>&lt;div
-    class="col m-col-12"&gt;<br>  &lt;p&gt;TITLE&lt;/p&gt;<br>  &lt;p&gt;Content&lt;/p&gt;<br>&lt;/div&gt;
-- name: about_title_left
-  type: text
-  config:
-    required: false
-  label: About Title Left
-- name: about_paragraph_1
-  type: text
-  config:
-    required: false
-  label: About Paragraph 1
-- name: about_paragraph_2
-  type: text
-  config:
-    required: false
-  label: About Paragraph_2
-- name: about_paragraph_3
-  type: text
-  config:
-    required: false
-  label: About Paragraph 3
-- name: about_title_right
-  type: text
-  config:
-    required: false
-  label: About Title Right
-- name: about_register_message
-  type: text
-  config:
-    required: false
-  label: About Register Message
-- name: about_group_tickets_message
-  type: text
-  config:
-    required: false
-  label: About Group Tickets Message
-- name: about_academic_tickets_message
-  type: text
-  config:
-    required: false
-  label: About Academic Tickets Message
-- name: about_diversity_message
-  type: text
-  config:
-    required: false
-  label: About Diversity Message
-- name: about_volunteer_message
-  type: text
-  config:
-    required: false
-  label: About Volunteer Message
-- name: conference_tickets
-  type: boolean
-  label: Conference tickets
-  default: true
-- name: tickets_bg_image
-  type: file
-  config:
-    maxSize: 64
-  label: Tickets Bg Image
-- name: tickets_message
-  type: text
-  config:
-    required: false
-  label: Tickets Message
-- name: fees_message
-  type: text
-  config:
-    required: false
-  label: Fees Message
-- name: eventbrite_url
-  type: text
-  config:
-    required: false
-  label: Eventbrite Url
-- name: eventbrite_id
-  type: text
-  config:
-    required: false
-  label: Eventbrite Id
-- name: group_tickets_paragraph_1
-  type: text
-  config:
-    required: false
-  label: Group Tickets Paragraph 1
-- name: group_tickets_paragraph_2
-  type: text
-  config:
-    required: false
-  label: Group Tickets Paragraph 2
-- name: group_enquire_mailto_link
-  type: text
-  config:
-    required: false
-  label: Group Enquire Mailto Link
-- name: academic_tickets_paragraph_1
-  type: text
-  config:
-    required: false
-  label: Academic Tickets Paragraph 1
-- name: academic_tickets_paragraph_2
-  type: text
-  config:
-    required: false
-  label: Academic Tickets Paragraph 2
-- name: academic_enquire_mailto_link
-  type: text
-  config:
-    required: false
-  label: Academic Enquire Mailto Link
-- name: conference_health_advice
-  type: boolean
-  label: Conference Health Advice
-  default: true
-- name: conference_testimonials
-  type: boolean
-  label: conference_testimonials
-  default: true
-- name: health_advice_p_1
-  type: text
-  config:
-    required: false
-  label: Health Advice P 1
-- name: health_advice_p_2
-  type: text
-  config:
-    required: false
-  label: Health Advice P 2
-- name: health_advice_mailto
-  type: text
-  config:
-    required: false
-  label: Health Advice Mailto
-- name: conference_venue
-  type: boolean
-  label: Conference Venue
-  default: true
-- name: venue_name
-  type: text
-  config:
-    required: false
-  label: Venue Name
-- name: venue_address_1
-  type: text
-  config:
-    required: false
-  label: Venue Address 1
-- name: venue_address_2
-  type: text
-  config:
-    required: false
-  label: Venue Address 2
-- name: venue_address_3
-  type: text
-  config:
-    required: false
-  label: Venue Address 3
-- name: venue_transport_directions
-  type: text
-  config:
-    required: false
-  label: Venue Transport Directions
-- name: venue_map_url
-  type: text
-  config:
-    required: false
-  label: Venue Map URL
-- name: venue_taxi_instructions
-  type: text
-  config:
-    required: false
-  label: Venue Taxi Instructions
-- name: newsletter_background_image
-  type: file
-  config:
-    maxSize: 64
-  label: Newsletter Background Image
-- name: conference_diversity
-  type: boolean
-  label: Conference diversity
-  default: true
-- name: diversity_background
-  type: file
-  config:
-    maxSize: 64
-  label: Diversity background
-  description: Background image for diversity
-- name: diversity_message
-  type: text
-  config:
-    required: false
-  label: Diversity Message
-- name: diversity_link_url
-  type: text
-  config:
-    required: false
-  label: Diversity Link URL
-- name: diversity_link_text
-  type: text
-  config:
-    required: false
-  label: Diversity link text
-  description: Text for diversity link
-- name: conference_volunteers
-  type: boolean
-  label: Conference volunteers
-  default: true
-- name: volunteers_background
-  type: file
-  config:
-    maxSize: 64
-  label: Volunteers Background
-  description: Background image for volunteers section
-- name: volunteer_message
-  type: text
-  config:
-    required: false
-  label: Volunteer Message
-- name: volunteer_link_url
-  type: text
-  config:
-    required: false
-  label: Volunteer Link URL
-- name: volunteer_link_text
-  type: text
-  config:
-    required: false
-  label: volunteer link text
-  description: Text for the volunteer link button
-- name: conference_call_for_talks
-  type: boolean
-  label: conference_call_for_talks
-  default: true
-- name: call_for_talks_background_image
-  type: file
-  config:
-    maxSize: 64
-  description: Call for talks background image
-  label: call for talks background image
-- name: call_for_talks_message
-  type: text
-  config:
-    required: false
-  label: Call For Talks Message
-- name: call_for_talks_link
-  type: text
-  config:
-    required: false
-  label: Call For Talks Link
-- name: call_for_talks_link_text
-  type: text
-  config:
-    required: false
-  label: call for talks link text
-  description: text for call for talks link
-- name: conference_sponsors
-  type: boolean
-  label: Conference sponsors
-  default: true
-- name: conference_past_conferences
-  type: boolean
-  label: Conference Past Conferences
-  default: true
-- name: conference_custom_1
-  type: boolean
-  label: Custom Image with url
-- name: conference_custom_1_id
-  type: text
-  config:
-    required: false
-  label: conference_custom_1_id
-  description: This ID is for the menu to scroll directly to that section when you
-    click on the button
-- name: conference_custom_1_img_bg
-  type: file
-  config:
-    maxSize: 64
-  label: conference_custom_1_img_bg
-- name: conference_custom_1_img_link
-  type: text
-  config:
-    required: false
-  label: conference_custom_1_img_link
-- name: conference_custom_2
-  type: boolean
-  label: Custom Title with text center
-- name: conference_custom_2_id
-  type: text
-  config:
-    required: false
-  label: conference_custom_2_id
-  description: Add name of the section to be used in the menu
-- name: conference_custom_2_heading
-  type: text
-  config:
-    required: false
-  label: conference_custom_2_heading
-- name: conference_custom_2_subheading
-  type: text
-  config:
-    required: false
-  label: conference_custom_2_subheading
-- name: conference_custom_2_description
-  type: text
-  config:
-    required: false
-  label: conference_custom_2_description
-- name: conference_custom_2_heading_2
-  type: text
-  config:
-    required: false
-  label: conference_custom_2_heading_2
-- name: conference_custom_2_description_2
-  type: text
-  config:
-    required: false
-  label: conference_custom_2_description_2
-- name: conference_custom_3
-  type: boolean
-  label: Custom Title with text left
-- name: conference_custom_3_id
-  type: text
-  config:
-    required: false
-  description: This ID is for the menu to scroll directly to that section when you
-    click on the button
-  label: Conference_custom_3_id
-- name: conference_custom_3_bg
-  type: file
-  config:
-    maxSize: 64
-  label: conference_custom_3_bg
-- name: conference_custom_3_heading
-  type: text
-  config:
-    required: false
-  label: conference_custom_3_heading
-- name: conference_custom_3_description
-  type: text
-  config:
-    required: false
-  label: conference_custom_3_description
-- name: conference_custom_3_link_url
-  type: text
-  config:
-    required: false
-  label: conference_custom_3_link_url
-- name: conference_custom_3_link_text
-  type: text
-  config:
-    required: false
-  label: conference_custom_3_link_text
-- name: conference_custom_4
-  type: boolean
-  label: Custom Title with text right
-- name: conference_custom_4_id
-  type: text
-  config:
-    required: false
-  label: Conference custom 4 ID
-  description: This ID is for the menu to scroll directly to that section when you
-    click on the button
-- name: conference_custom_4_bg
-  type: file
-  config:
-    maxSize: 64
-  label: conference_custom_4_bg
-- name: conference_custom_4_heading
-  type: text
-  config:
-    required: false
-  label: conference_custom_4_heading
-- name: conference_custom_4_description
-  type: text
-  config:
-    required: false
-  label: conference_custom_4_description
-- name: conference_custom_4_link_url
-  type: text
-  config:
-    required: false
-  label: conference_custom_4_link_url
-- name: conference_custom_4_link_text
-  type: text
-  config:
-    required: false
-  label: conference_custom_4_link_text
-- name: conference_custom_5
-  type: boolean
-  label: Custom Section with 2 columns
-- name: conference_custom_5_id
-  type: text
-  config:
-    required: false
-  label: Conference custom 5 ID
-  description: This ID is for the menu to scroll directly to that section when you
-    click on the button
-- name: conference_custom_5_bg
-  type: file
-  config:
-    maxSize: 64
-  label: conference_custom_5_bg
-- name: conference_custom_5_heading
-  type: text
-  config:
-    required: false
-  label: conference_custom_5_heading
-- name: conference_custom_5_description
-  type: text
-  config:
-    required: false
-  label: conference_custom_5_description
-- name: conference_custom_5_subtitle
-  type: text
-  config:
-    required: false
-  label: conference_custom_5_subtitle
-- name: conference_custom_5_description_2
-  type: text
-  config:
-    required: false
-  label: conference_custom_5_description_2
-- name: conference_speakers
-  type: boolean
-  label: conference_speakers
-  default: true
-- name: conference_past_talks
-  type: boolean
-  label: conference_past_talks
-  default: true
+                      <p>New to Erlang and/or Elixir? Interested, but don&#39;t know quite where to dig in? We&#39;ve all been
+                                              there! In this track, you will learn from other&#39;s experience, get a sense of the lay of the
+                                              software ecosystem, get help from the community and contribute back for everyone&#39;s benefit.</p>
+                  </div>
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Conference Themes Content
+    description:
+      Each column can be added manually using the following HTML format:<br><br>&lt;div
+      class="col m-col-12"&gt;<br>  &lt;p&gt;TITLE&lt;/p&gt;<br>  &lt;p&gt;Content&lt;/p&gt;<br>&lt;/div&gt;
+  - name: about_title_left
+    type: text
+    config:
+      required: false
+    label: About Title Left
+  - name: about_paragraph_1
+    type: text
+    config:
+      required: false
+    label: About Paragraph 1
+  - name: about_paragraph_2
+    type: text
+    config:
+      required: false
+    label: About Paragraph_2
+  - name: about_paragraph_3
+    type: text
+    config:
+      required: false
+    label: About Paragraph 3
+  - name: about_title_right
+    type: text
+    config:
+      required: false
+    label: About Title Right
+  - name: about_register_message
+    type: text
+    config:
+      required: false
+    label: About Register Message
+  - name: about_group_tickets_message
+    type: text
+    config:
+      required: false
+    label: About Group Tickets Message
+  - name: about_academic_tickets_message
+    type: text
+    config:
+      required: false
+    label: About Academic Tickets Message
+  - name: about_diversity_message
+    type: text
+    config:
+      required: false
+    label: About Diversity Message
+  - name: about_volunteer_message
+    type: text
+    config:
+      required: false
+    label: About Volunteer Message
+  - name: conference_tickets
+    type: boolean
+    label: Conference tickets
+    default: true
+  - name: tickets_bg_image
+    type: file
+    config:
+      maxSize: 64
+    label: Tickets Bg Image
+  - name: tickets_message
+    type: text
+    config:
+      required: false
+    label: Tickets Message
+  - name: fees_message
+    type: text
+    config:
+      required: false
+    label: Fees Message
+  - name: eventbrite_url
+    type: text
+    config:
+      required: false
+    label: Eventbrite Url
+  - name: eventbrite_id
+    type: text
+    config:
+      required: false
+    label: Eventbrite Id
+  - name: group_tickets_paragraph_1
+    type: text
+    config:
+      required: false
+    label: Group Tickets Paragraph 1
+  - name: group_tickets_paragraph_2
+    type: text
+    config:
+      required: false
+    label: Group Tickets Paragraph 2
+  - name: group_enquire_mailto_link
+    type: text
+    config:
+      required: false
+    label: Group Enquire Mailto Link
+  - name: academic_tickets_paragraph_1
+    type: text
+    config:
+      required: false
+    label: Academic Tickets Paragraph 1
+  - name: academic_tickets_paragraph_2
+    type: text
+    config:
+      required: false
+    label: Academic Tickets Paragraph 2
+  - name: academic_enquire_mailto_link
+    type: text
+    config:
+      required: false
+    label: Academic Enquire Mailto Link
+  - name: conference_health_advice
+    type: boolean
+    label: Conference Health Advice
+    default: true
+  - name: conference_testimonials
+    type: boolean
+    label: conference_testimonials
+    default: true
+  - name: health_advice_p_1
+    type: text
+    config:
+      required: false
+    label: Health Advice P 1
+  - name: health_advice_p_2
+    type: text
+    config:
+      required: false
+    label: Health Advice P 2
+  - name: health_advice_mailto
+    type: text
+    config:
+      required: false
+    label: Health Advice Mailto
+  - name: conference_venue
+    type: boolean
+    label: Conference Venue
+    default: true
+  - name: venue_name
+    type: text
+    config:
+      required: false
+    label: Venue Name
+  - name: venue_address_1
+    type: text
+    config:
+      required: false
+    label: Venue Address 1
+  - name: venue_address_2
+    type: text
+    config:
+      required: false
+    label: Venue Address 2
+  - name: venue_address_3
+    type: text
+    config:
+      required: false
+    label: Venue Address 3
+  - name: venue_transport_directions
+    type: text
+    config:
+      required: false
+    label: Venue Transport Directions
+  - name: venue_map_url
+    type: text
+    config:
+      required: false
+    label: Venue Map URL
+  - name: venue_taxi_instructions
+    type: text
+    config:
+      required: false
+    label: Venue Taxi Instructions
+  - name: newsletter_background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Newsletter Background Image
+  - name: conference_diversity
+    type: boolean
+    label: Conference diversity
+    default: true
+  - name: diversity_background
+    type: file
+    config:
+      maxSize: 64
+    label: Diversity background
+    description: Background image for diversity
+  - name: diversity_message
+    type: text
+    config:
+      required: false
+    label: Diversity Message
+  - name: diversity_link_url
+    type: text
+    config:
+      required: false
+    label: Diversity Link URL
+  - name: diversity_link_text
+    type: text
+    config:
+      required: false
+    label: Diversity link text
+    description: Text for diversity link
+  - name: conference_volunteers
+    type: boolean
+    label: Conference volunteers
+    default: true
+  - name: volunteers_background
+    type: file
+    config:
+      maxSize: 64
+    label: Volunteers Background
+    description: Background image for volunteers section
+  - name: volunteer_message
+    type: text
+    config:
+      required: false
+    label: Volunteer Message
+  - name: volunteer_link_url
+    type: text
+    config:
+      required: false
+    label: Volunteer Link URL
+  - name: volunteer_link_text
+    type: text
+    config:
+      required: false
+    label: volunteer link text
+    description: Text for the volunteer link button
+  - name: conference_call_for_talks
+    type: boolean
+    label: conference_call_for_talks
+    default: true
+  - name: call_for_talks_background_image
+    type: file
+    config:
+      maxSize: 64
+    description: Call for talks background image
+    label: call for talks background image
+  - name: call_for_talks_message
+    type: text
+    config:
+      required: false
+    label: Call For Talks Message
+  - name: call_for_talks_link
+    type: text
+    config:
+      required: false
+    label: Call For Talks Link
+  - name: call_for_talks_link_text
+    type: text
+    config:
+      required: false
+    label: call for talks link text
+    description: text for call for talks link
+  - name: conference_sponsors
+    type: boolean
+    label: Conference sponsors
+    default: true
+  - name: conference_past_conferences
+    type: boolean
+    label: Conference Past Conferences
+    default: true
+  - name: conference_custom_1
+    type: boolean
+    label: Custom Image with url
+  - name: conference_custom_1_id
+    type: text
+    config:
+      required: false
+    label: conference_custom_1_id
+    description:
+      This ID is for the menu to scroll directly to that section when you
+      click on the button
+  - name: conference_custom_1_img_bg
+    type: file
+    config:
+      maxSize: 64
+    label: conference_custom_1_img_bg
+  - name: conference_custom_1_img_link
+    type: text
+    config:
+      required: false
+    label: conference_custom_1_img_link
+  - name: conference_custom_2
+    type: boolean
+    label: Custom Title with text center
+  - name: conference_custom_2_id
+    type: text
+    config:
+      required: false
+    label: conference_custom_2_id
+    description: Add name of the section to be used in the menu
+  - name: conference_custom_2_heading
+    type: text
+    config:
+      required: false
+    label: conference_custom_2_heading
+  - name: conference_custom_2_subheading
+    type: text
+    config:
+      required: false
+    label: conference_custom_2_subheading
+  - name: conference_custom_2_description
+    type: text
+    config:
+      required: false
+    label: conference_custom_2_description
+  - name: conference_custom_2_heading_2
+    type: text
+    config:
+      required: false
+    label: conference_custom_2_heading_2
+  - name: conference_custom_2_description_2
+    type: text
+    config:
+      required: false
+    label: conference_custom_2_description_2
+  - name: conference_custom_3
+    type: boolean
+    label: Custom Title with text left
+  - name: conference_custom_3_id
+    type: text
+    config:
+      required: false
+    description:
+      This ID is for the menu to scroll directly to that section when you
+      click on the button
+    label: Conference_custom_3_id
+  - name: conference_custom_3_bg
+    type: file
+    config:
+      maxSize: 64
+    label: conference_custom_3_bg
+  - name: conference_custom_3_heading
+    type: text
+    config:
+      required: false
+    label: conference_custom_3_heading
+  - name: conference_custom_3_description
+    type: text
+    config:
+      required: false
+    label: conference_custom_3_description
+  - name: conference_custom_3_link_url
+    type: text
+    config:
+      required: false
+    label: conference_custom_3_link_url
+  - name: conference_custom_3_link_text
+    type: text
+    config:
+      required: false
+    label: conference_custom_3_link_text
+  - name: conference_custom_4
+    type: boolean
+    label: Custom Title with text right
+  - name: conference_custom_4_id
+    type: text
+    config:
+      required: false
+    label: Conference custom 4 ID
+    description:
+      This ID is for the menu to scroll directly to that section when you
+      click on the button
+  - name: conference_custom_4_bg
+    type: file
+    config:
+      maxSize: 64
+    label: conference_custom_4_bg
+  - name: conference_custom_4_heading
+    type: text
+    config:
+      required: false
+    label: conference_custom_4_heading
+  - name: conference_custom_4_description
+    type: text
+    config:
+      required: false
+    label: conference_custom_4_description
+  - name: conference_custom_4_link_url
+    type: text
+    config:
+      required: false
+    label: conference_custom_4_link_url
+  - name: conference_custom_4_link_text
+    type: text
+    config:
+      required: false
+    label: conference_custom_4_link_text
+  - name: conference_custom_5
+    type: boolean
+    label: Custom Section with 2 columns
+  - name: conference_custom_5_id
+    type: text
+    config:
+      required: false
+    label: Conference custom 5 ID
+    description:
+      This ID is for the menu to scroll directly to that section when you
+      click on the button
+  - name: conference_custom_5_bg
+    type: file
+    config:
+      maxSize: 64
+    label: conference_custom_5_bg
+  - name: conference_custom_5_heading
+    type: text
+    config:
+      required: false
+    label: conference_custom_5_heading
+  - name: conference_custom_5_description
+    type: text
+    config:
+      required: false
+    label: conference_custom_5_description
+  - name: conference_custom_5_subtitle
+    type: text
+    config:
+      required: false
+    label: conference_custom_5_subtitle
+  - name: conference_custom_5_description_2
+    type: text
+    config:
+      required: false
+    label: conference_custom_5_description_2
+  - name: conference_speakers
+    type: boolean
+    label: conference_speakers
+    default: true
+  - name: conference_past_talks
+    type: boolean
+    label: conference_past_talks
+    default: true
 pages:
-- _conferences/cbl-amsterdam-2018.md
-- _conferences/cbl-munich-2018.md
-- _conferences/code-beam-light-amsterdam.md
-- _conferences/code-beam-lite-berlin-2018.md
-- _conferences/code-beam-lite-berlin-2019.md
-- _conferences/code-beam-lite-budapest.md
-- _conferences/code-beam-lite-india.md
-- _conferences/code-beam-lite-italy-2020.md
-- _conferences/code-beam-lite-italy.md
-- _conferences/code-beam-lite-milan-2018.md
-- _conferences/code-beam-lite-virtual.md
-- _conferences/code-beam-sf-2018.md
-- _conferences/code-beam-sf-2019.md
-- _conferences/code-beam-sf.md
-- _conferences/code-beam-sto-2018.md
-- _conferences/code-beam-sto-2019.md
-- _conferences/code-beam-v.md
-- _conferences/code-elixir-2018.md
-- _conferences/code-elixir-ldn-2019.md
-- _conferences/code-mesh-2018.md
-- _conferences/code-mesh-ldn-2019.md
-- _conferences/sample-conference-3.md
-- _conferences/sample-conference.md
+  - _conferences/cbl-amsterdam-2018.md
+  - _conferences/cbl-munich-2018.md
+  - _conferences/code-beam-lite-amsterdam.md
+  - _conferences/code-beam-lite-berlin-2018.md
+  - _conferences/code-beam-lite-berlin-2019.md
+  - _conferences/code-beam-lite-budapest.md
+  - _conferences/code-beam-lite-india.md
+  - _conferences/code-beam-lite-italy-2020.md
+  - _conferences/code-beam-lite-italy.md
+  - _conferences/code-beam-lite-milan-2018.md
+  - _conferences/code-beam-lite-virtual.md
+  - _conferences/code-beam-sf-2018.md
+  - _conferences/code-beam-sf-2019.md
+  - _conferences/code-beam-sf.md
+  - _conferences/code-beam-sto-2018.md
+  - _conferences/code-beam-sto-2019.md
+  - _conferences/code-beam-v.md
+  - _conferences/code-elixir-2018.md
+  - _conferences/code-elixir-ldn-2019.md
+  - _conferences/code-mesh-2018.md
+  - _conferences/code-mesh-ldn-2019.md
+  - _conferences/sample-conference-3.md
+  - _conferences/sample-conference.md
