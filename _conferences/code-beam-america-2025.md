@@ -3,7 +3,7 @@ conference_brand: _conference_brands/code-beam-america.md
 title: Code BEAM America 2025
 conference_past_conferences: true
 past: true
-external_url: "https://codebeamerica.com/"
+external_url: "https://codebeamamerica.com/"
 bg_image: "/uploads/code-beam-europe-bg.jpg"
 logo_img: "/uploads/code-beam-america-logo.png"
 conference_location: "San Francisco & Online"
