@@ -626,26 +626,5 @@ fields:
     label: conference_past_talks
     default: true
 pages:
-  - _conferences/cbl-amsterdam-2018.md
-  - _conferences/cbl-munich-2018.md
-  - _conferences/code-beam-lite-amsterdam.md
-  - _conferences/code-beam-lite-berlin-2018.md
-  - _conferences/code-beam-lite-berlin-2019.md
-  - _conferences/code-beam-lite-budapest.md
-  - _conferences/code-beam-lite-india.md
-  - _conferences/code-beam-lite-italy-2020.md
-  - _conferences/code-beam-lite-italy.md
-  - _conferences/code-beam-lite-milan-2018.md
-  - _conferences/code-beam-lite-virtual.md
-  - _conferences/code-beam-sf-2018.md
-  - _conferences/code-beam-sf-2019.md
-  - _conferences/code-beam-sf.md
-  - _conferences/code-beam-sto-2018.md
-  - _conferences/code-beam-sto-2019.md
-  - _conferences/code-beam-v.md
-  - _conferences/code-elixir-2018.md
-  - _conferences/code-elixir-ldn-2019.md
-  - _conferences/code-mesh-2018.md
-  - _conferences/code-mesh-ldn-2019.md
   - _conferences/sample-conference-3.md
   - _conferences/sample-conference.md
