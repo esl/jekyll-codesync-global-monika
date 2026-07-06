@@ -13,7 +13,9 @@ scripted in `migration-data/distribute_new_repos.sh` (dry-run verified: correct
 repo/dir mapping, all snapshot sources present). RUN IT IN AN AUTHENTICATED
 TERMINAL:  `bash migration-data/distribute_new_repos.sh`  (or `DRY_RUN=1 bash
 ...` to preview). The 9 editions for the existing repos (code-beam-america,
-code-beam-stockholm) still go via the PR flow below. CNAME/DNS still pending
+code-beam-stockholm) are scripted in `migration-data/distribute_existing_repos.sh`
+(dry-run verified; pushes a BRANCH and prints the PR URL — never the default
+branch). Run it in an authenticated terminal after the new repos are verified. CNAME/DNS still pending
 sysadmin.
 
 ## Status: PREPARED, blocked on GitHub write access
