@@ -1,0 +1,7 @@
+---
+---
+
+// Overrides assets/css/style.scss from the default github-pages theme
+// (jekyll-theme-primer). The gem's SCSS contains UTF-8 characters that break
+// `jekyll build` under a non-UTF-8 locale, and no page links this stylesheet
+// (layouts use /assets/css/styles.css), so we ship an empty ASCII-only file.
