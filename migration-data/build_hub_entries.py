@@ -78,6 +78,14 @@ EDITIONS = [
     # 2025 editions with confirmed dates + stable archive URLs
     ("lambda-days-2025", "lambda-days", "Lambda Days 2025", "2025-06-12", "12-13 JUNE 2025", "Kraków", "https://www.lambdadays.org/lambdadays2025"),
     ("elixirconf-eu-2025", "elixirconf-eu", "ElixirConf EU 2025", "2025-05-15", "15-16 MAY 2025", "Kraków", "https://www.elixirconf.eu/archives/krakow_2025/index.html"),
+    # Code BEAM Lite — city editions on their own live domains (dates from the archive pages)
+    ("code-beam-lite-stockholm-2025", "code-beam-lite", "Code BEAM Lite Stockholm 2025", "2025-06-02", "2 JUNE 2025", "Stockholm", "https://codebeamstockholm.com/archive/june_2025/index.html"),
+    ("code-beam-lite-london-2025", "code-beam-lite", "Code BEAM Lite London 2025", "2025-01-31", "31 JANUARY 2025", "London", "https://codebeamlondon.com/archive/january_2025/index.html"),
+    ("code-beam-lite-nyc-2024", "code-beam-lite", "Code BEAM Lite NYC 2024", "2024-11-15", "15 NOVEMBER 2024", "New York", "https://codebeamnyc.com/archive/nov_2024/index.html"),
+    ("code-beam-lite-stockholm-2024", "code-beam-lite", "Code BEAM Lite Stockholm 2024", "2024-05-13", "13 MAY 2024", "Stockholm", "https://codebeamstockholm.com/archive/may_2024/index.html"),
+    ("code-beam-lite-stockholm-2023", "code-beam-lite", "Code BEAM Lite Stockholm 2023", "2023-05-12", "12 MAY 2023", "Stockholm", "https://codebeamstockholm.com/archive/may_2023/index.html"),
+    # Partner-run (brand-licensed); Mexico is a city edition -> Code BEAM Lite section for now (reviewable)
+    ("code-beam-lite-mexico-2023", "code-beam-lite", "Code BEAM Mexico 2023", "2023-03-03", "3-4 MARCH 2023", "Mexico City", "https://codebeammexico.com/"),
 ]
 
 ENTRY = """---
