@@ -38,7 +38,8 @@ STRIP_WORDS = ("register", "ticket", "eventbrite", "newsletter", "cookie")
 SCRIPT_BLOCKLIST = ("eventbrite", "googletagmanager", "google-analytics",
                     "gtag", "hotjar", "facebook", "fbevents", "twitter",
                     "linkedin.com/px", "doubleclick")
-ASSET_PREFIXES = ("/uploads", "/assets", "/bundles", "/build", "/favicon")
+ASSET_PREFIXES = ("/uploads", "/assets", "/bundles", "/build", "/favicon",
+                  "/ckeditor", "/manifest")
 SUBPAGE_RE = re.compile(r"^/(speaker/[^/#?]+|media/[^/#?]+)/?$")
 
 
@@ -152,10 +153,19 @@ def rewrite_page(soup, prefix, downloads, subpages, report, page_name):
         if key in subpages:
             frag = f"#{p.fragment}" if p.fragment else ""
             a["href"] = f"{prefix}{key}/index.html{frag}"
-        elif p.netloc or p.path.startswith("/"):
+        elif p.path.startswith("/") and not p.netloc:
+            # root-relative hub link (/about-us/, /conferences/, ...): make it
+            # fully-qualified so it still points at the hub when this archive is
+            # served from a different domain
+            a["href"] = urllib.parse.urljoin(BASE + "/", href.lstrip("/"))
+            external += 1
+        elif not p.netloc and not p.scheme and p.path.startswith("codesync.global"):
+            a["href"] = "https://" + href           # scheme-less codesync.global
+            external += 1
+        elif p.netloc:
             external += 1
     if external:
-        report.append(f"[{page_name}] {external} codesync.global links left absolute")
+        report.append(f"[{page_name}] {external} codesync.global links made absolute/left absolute")
 
 
 def snapshot(slug, outroot):

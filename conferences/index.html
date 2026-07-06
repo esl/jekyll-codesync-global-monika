@@ -35,11 +35,12 @@ head_title: Past Conferences
                         these_conferences reversed %} {% if
                         conference.conference_brand == conference_brand.path %}
                         {% if conference.past == true %}
+                        {% if conference.external_url %}{% assign conference_link = conference.external_url %}{% else %}{% assign conference_link = site.baseurl | append: conference.url %}{% endif %}
                         <div class="column js-column mb--50">
                             <div class="tile tile--old">
                                 <a
                                     class="tile--bg"
-                                    href="{{site.baseurl}}{{ conference.url }}"
+                                    href="{{ conference_link }}"
                                 >
                                     <picture class="tile__bg-image">
                                         <img
@@ -64,7 +65,7 @@ head_title: Past Conferences
                                 </a>
                                 <a
                                     class="btn btn--white btn-arrow"
-                                    href="{{site.baseurl}}{{ conference.url }}"
+                                    href="{{ conference_link }}"
                                 >
                                     {% if conference.past == true %} past {%
                                     endif %} {{ conference.conference_init_date
