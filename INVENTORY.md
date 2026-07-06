@@ -129,12 +129,12 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
 | MQ Summit 2025 (Berlin) | 6 Nov 2025 | esl/mq-summit-page archives/berlin_2025 (mqsummit.com) | [MQ Summit 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZufbYkb1FM9e6onSpjQ8Zdv), 12 videos | hub entry has past:false - flip it |
-| RabbitMQ Summit 2024 | 2024 (verify) | rabbitmqsummit.com/2024 (alive - canonical reference) | [RabbitMQ Summit 2024](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtLJy7PwHNt_CbDcBqVkk8P), 12 videos | add hub entry linking to rabbitmqsummit.com/2024 |
-| RabbitMQ Summit 2023 | 2023 (verify) | rabbitmqsummit.com/2023 (alive - canonical reference); mq-summit-page archives/berlin_2023 may duplicate it | [RabbitMQ Summit 2023](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsALsESTtvpUSSnB-ut0SRJ), 12 videos | add hub entry linking to rabbitmqsummit.com/2023 |
-| RabbitMQ Summit 2022 | 2022 (verify) | rabbitmqsummit.com/2022 (alive - canonical reference) | [RabbitMQ Summit 2022](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zvf7In1ZoxcL5BgqvvJYscQ), 17 videos | add hub entry linking to rabbitmqsummit.com/2022 |
-| RabbitMQ Summit 2021 | 2021 (verify) | rabbitmqsummit.com/2021 (alive - canonical reference) | [RabbitMQ Summit 2021](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zs2ZakMrMBO_tr-CgEbOLRL), 21 videos | add hub entry linking to rabbitmqsummit.com/2021 |
-| RabbitMQ Summit 2019 | 2019 (verify) | rabbitmqsummit.com/2019 (alive - canonical reference) | none | add hub entry; no playlist found |
-| RabbitMQ Summit 2018 | 2018 (verify) | rabbitmqsummit.com/2018 (alive - canonical reference) | none | add hub entry; no playlist found (no 2020 edition exists on the site) |
+| RabbitMQ Summit 2024 | 15 Oct 2024 (Berlin) | rabbitmqsummit.com/2024 (alive - canonical reference) | [RabbitMQ Summit 2024](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtLJy7PwHNt_CbDcBqVkk8P), 12 videos | done - hub entry added, date verified on site 2026-07-07 |
+| RabbitMQ Summit 2023 | 20 Oct 2023 (Berlin) | rabbitmqsummit.com/2023 (alive - canonical reference); mq-summit-page archives/berlin_2023 may duplicate it | [RabbitMQ Summit 2023](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsALsESTtvpUSSnB-ut0SRJ), 12 videos | done - hub entry added, date verified on site 2026-07-07 |
+| RabbitMQ Summit 2022 | 16 Sep 2022 (London) | rabbitmqsummit.com/2022 (alive - canonical reference) | [RabbitMQ Summit 2022](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zvf7In1ZoxcL5BgqvvJYscQ), 17 videos | done - hub entry added, date verified on site 2026-07-07 |
+| RabbitMQ Summit 2021 | 13-14 Jul 2021 (online) | rabbitmqsummit.com/2021 (alive - canonical reference) | [RabbitMQ Summit 2021](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zs2ZakMrMBO_tr-CgEbOLRL), 21 videos | done - hub entry added; date CORRECTED (was 5 Jul, site says 13-14 Jul online), verified 2026-07-07 |
+| RabbitMQ Summit 2019 | 4 Nov 2019 (London) | rabbitmqsummit.com/2019 (alive - canonical reference) | none | done - hub entry added, date verified on site 2026-07-07; no playlist found |
+| RabbitMQ Summit 2018 | 12 Nov 2018 (London) | rabbitmqsummit.com/2018 (alive - canonical reference) | none | done - hub entry added, date verified on site 2026-07-07; no playlist found (no 2020 edition exists on the site) |
 
 ## Upcoming (for the hub banner)
 
