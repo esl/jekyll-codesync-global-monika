@@ -2,7 +2,7 @@
 conference_brand: _conference_brands/code-beam-europe.md
 title: Code BEAM Europe 2025
 conference_past_conferences: false
-past: false
+past: true
 external_url: "https://codebeameurope.com/"
 bg_image: "/uploads/code-beam-europe-bg.jpg"
 logo_img: "/uploads/code-beam-europe-logo.png"

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "snapshot-preview",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /private/tmp/claude-501/-Users-monika-Documents-jekyll-codesync-global-monika/f696939e-4b77-46ca-bf6d-d51b0746ebb6/scratchpad/snapshots/code-beam-lite-italy && python3 -m http.server 8901"],
+      "port": 8901
+    }
+  ]
+}

@@ -15,6 +15,9 @@ head_title: Past Conferences
     <section class="vp--100 m-vp-30 section-container">
         <div class="container--small">
             {% for conference_brand in site.conference_brands %}
+            {% assign brand_past_conferences = site.conferences | where:
+            'conference_brand', conference_brand.path | where: 'past', true %}
+            {% if brand_past_conferences.size > 0 %}
             <div class="pt--30 m-pt-00" id="CodeBEAMSF">
                 <h2 class="heading heading--big">
                     {{ conference_brand.title }}
@@ -73,6 +76,7 @@ head_title: Past Conferences
                     </div>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
     </section>

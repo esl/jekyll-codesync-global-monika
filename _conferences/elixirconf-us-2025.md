@@ -2,7 +2,7 @@
 conference_brand: _conference_brands/elixirconf-us.md
 title: ElixirConf US 2025
 conference_past_conferences: false
-past: false
+past: true
 external_url: "https://elixirconf.com/"
 bg_image: "/uploads/elixirconf-us-bg.jpg"
 logo_img: "/uploads/elixirconf-us-logo.png"

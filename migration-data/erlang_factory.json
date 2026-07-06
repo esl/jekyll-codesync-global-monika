@@ -1,0 +1,612 @@
+[
+  {
+    "url": "http://www.erlang-factory.com/codebeamsto2018/home",
+    "name": "Code BEAM STO 2018",
+    "year": 2018,
+    "city": "Stockholm",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/codebeamsf2018/home",
+    "name": "Code BEAM SF 2018",
+    "year": 2018,
+    "city": "San Francisco",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/india2017/home",
+    "name": "India Erlang & Elixir Factory Lite 2017",
+    "year": 2017,
+    "city": null,
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/eflba2017/home",
+    "name": "Buenos Aires Erlang & Elixir Factory Lite 2017",
+    "year": 2017,
+    "city": "Buenos Aires",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/euc2017/home",
+    "name": "Erlang User Conference 2017",
+    "year": 2017,
+    "city": null,
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/rome2017/home",
+    "name": "Rome Erlang Factory Lite 2017",
+    "year": 2017,
+    "city": "Rome",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/sfbay2017",
+    "name": "Erlang & Elixir Factory SF Bay Area 2017",
+    "year": 2017,
+    "city": "San Francisco",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/berlin2016/home",
+    "name": "Berlin Erlang Factory Lite 2016",
+    "year": 2016,
+    "city": "Berlin",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/mexico2016/home",
+    "name": "Mexico City Erlang Factory Lite 2016",
+    "year": 2016,
+    "city": "Mexico City",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/euc2016/home",
+    "name": "Erlang User Conference 2016",
+    "year": 2016,
+    "city": null,
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/sfbay2016/home",
+    "name": "Erlang Factory SF Bay Area 2016",
+    "year": 2016,
+    "city": "San Francisco",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/brussels2016/home",
+    "name": "Brussels Erlang Factory Lite 2016",
+    "year": 2016,
+    "city": "Brussels",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/berlin2015/home",
+    "name": "Berlin Erlang Factory Lite 2015",
+    "year": 2015,
+    "city": "Berlin",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/mexico2015/home",
+    "name": "Mexico City Erlang Factory Lite 2015",
+    "year": 2015,
+    "city": "Mexico City",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/dublin2015/home",
+    "name": "Dublin Erlang Factory Lite 2015",
+    "year": 2015,
+    "city": "Dublin",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/euc2015/home",
+    "name": "Erlang User Conference 2015",
+    "year": 2015,
+    "city": null,
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/sfbay2015/home",
+    "name": "Erlang Factory SF Bay Area 2015",
+    "year": 2015,
+    "city": "San Francisco",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/berlin2014/home",
+    "name": "Berlin Erlang Factory Lite 2014",
+    "year": 2014,
+    "city": "Berlin",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/chicago2014/home",
+    "name": "Chicago Erlang 2014",
+    "year": 2014,
+    "city": "Chicago",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/euc2014/home",
+    "name": "Erlang User Conference 2014",
+    "year": 2014,
+    "city": null,
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/vancouver2014/home",
+    "name": "Vancouver Erlang Factory Lite",
+    "year": 2014,
+    "city": "Vancouver",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/zurich2014/home",
+    "name": "Zurich Erlang Factory Lite 2014",
+    "year": 2014,
+    "city": "Zurich",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/sfbay2014/home",
+    "name": "Erlang Factory SF Bay Area 2014",
+    "year": 2014,
+    "city": "San Francisco",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "live /mainpage/past_conferences listing (anchor text) + live status sweep; speakers/programme are sections of the single-page site with per-speaker subpages (verified on sfbay2016 home; sfbay2017 is a single root page with speaker assets)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/SFBay2013",
+    "name": null,
+    "year": 2013,
+    "city": "San Francisco",
+    "live_status": 403,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/SFBay2012",
+    "name": null,
+    "year": 2012,
+    "city": "San Francisco",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/SFBay2011",
+    "name": "Erlang Factory SF Bay Area 2011",
+    "year": 2011,
+    "city": "San Francisco",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2011-06 nav title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/SFBay2010",
+    "name": null,
+    "year": 2010,
+    "city": "San Francisco",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/SFBayAreaErlangFactory2009",
+    "name": "SF Bay Area Erlang Factory 2009",
+    "year": 2009,
+    "city": "San Francisco",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "url (self-describing slug); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/ErlangUserConference2013",
+    "name": "Erlang User Conference 2013",
+    "year": 2013,
+    "city": null,
+    "live_status": 403,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "url (self-describing slug); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/ErlangUserConference2012",
+    "name": "Erlang User Conference 2012",
+    "year": 2012,
+    "city": null,
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback ErlangFactoryLites page link title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/ErlangUserConference2011",
+    "name": "Erlang User Conference 2011",
+    "year": 2011,
+    "city": null,
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "url (self-describing slug); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/ErlangUserConference2010",
+    "name": "Erlang User Conference 2010",
+    "year": 2010,
+    "city": "Stockholm",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2011-06 nav title 'Erlang User Conference 2010, Stockholm'; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/ErlangUserConference2009",
+    "name": "Erlang User Conference 2009",
+    "year": 2009,
+    "city": null,
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "url (self-describing slug); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/London2009",
+    "name": null,
+    "year": 2009,
+    "city": "London",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/London2010",
+    "name": null,
+    "year": 2010,
+    "city": "London",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/London2011",
+    "name": "Erlang Factory London 2011",
+    "year": 2011,
+    "city": "London",
+    "live_status": 403,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2011-06 link text; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/London2012",
+    "name": "London Erlang Factory Lite 2012",
+    "year": 2012,
+    "city": "London",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback ErlangFactoryLites page link title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/2009ErlangWorkshop",
+    "name": "SIGPLAN Erlang Workshop 2009",
+    "year": 2009,
+    "city": "Edinburgh",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/TestingTutorialWorkshop2010",
+    "name": "Testing Tutorial Workshop 2010",
+    "year": 2010,
+    "city": null,
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "url (self-describing slug); alias /conference/testingtutorialworkshop also archived; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Paris",
+    "name": "Paris Erlang Factory Lite",
+    "year": null,
+    "city": "Paris",
+    "live_status": 403,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Amsterdam",
+    "name": "Amsterdam Factory Lite",
+    "year": null,
+    "city": "Amsterdam",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Edinburgh",
+    "name": "Edinburgh Factory Lite",
+    "year": 2011,
+    "city": "Edinburgh",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback page <title>; 'August 2011' in page body; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Brussels",
+    "name": "Brussels Erlang Factory Lite",
+    "year": null,
+    "city": "Brussels",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/StAndrews",
+    "name": "St Andrews Erlang Factory Lite 2012",
+    "year": 2012,
+    "city": "St Andrews",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback ErlangFactoryLites page link title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/ErlangFactoryLiteLA",
+    "name": "Erlang Factory Lite 2010, Los Angeles",
+    "year": 2010,
+    "city": "Los Angeles",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/ErlangFactoryLiteMunich",
+    "name": "Erlang Factory Lite Munich",
+    "year": null,
+    "city": "Munich",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2011-06 nav title (no year given; distinct from Munich2012: different archived speaker rosters; likely the 2011 Munich Lite); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Munich2012",
+    "name": null,
+    "year": 2012,
+    "city": "Munich",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index (distinct from ErlangFactoryLiteMunich: different archived speaker rosters); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/krakow2010",
+    "name": "Erlang Factory Lite Krakow 2010",
+    "year": 2010,
+    "city": "Krakow",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2011-06 nav title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Krakow2011",
+    "name": null,
+    "year": 2011,
+    "city": "Krakow",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Krakow2013",
+    "name": null,
+    "year": 2013,
+    "city": "Krakow",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Brisbane2011",
+    "name": null,
+    "year": 2011,
+    "city": "Brisbane",
+    "live_status": 403,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Moscow2012",
+    "name": "Moscow Erlang Factory Lite 2012",
+    "year": 2012,
+    "city": "Moscow",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback ErlangFactoryLites page link title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Vancouver2012",
+    "name": "Vancouver Erlang Factory Lite 2012",
+    "year": 2012,
+    "city": "Vancouver",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback ErlangFactoryLites page link title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Zurich2012",
+    "name": null,
+    "year": 2012,
+    "city": "Zurich",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Berlin2013",
+    "name": "Berlin Erlang Factory Lite 2013",
+    "year": 2013,
+    "city": "Berlin",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2013-12 nav title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Chicago2013",
+    "name": "Chicago Erlang Factory Lite 2013",
+    "year": 2013,
+    "city": "Chicago",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2013-12 nav title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Toronto2013",
+    "name": "Toronto Erlang Factory Lite 2013",
+    "year": 2013,
+    "city": "Toronto",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2013-12 nav title; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/TelAviv2013",
+    "name": "Tel Aviv Erlang Factory Lite 2013",
+    "year": 2013,
+    "city": "Tel Aviv",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "wayback homepage 2013-12 nav link (also present in Wayback CDX index with 15 archived URLs incl. /speakers and /programme); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Budapest2013",
+    "name": null,
+    "year": 2013,
+    "city": "Budapest",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Dublin2013",
+    "name": null,
+    "year": 2013,
+    "city": "Dublin",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/NYC2013",
+    "name": null,
+    "year": 2013,
+    "city": "New York City",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  }
+]

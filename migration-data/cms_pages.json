@@ -1,0 +1,484 @@
+[
+  {
+    "slug": "code-beam-sf-2021",
+    "url": "https://codesync.global/conferences/code-beam-sf-2021/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 63,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/0e8b561d4eb6b384d0db279a4ee1c6e2fc1a22a4.jpeg",
+    "video_links": [
+      "https://www.youtube.com/watch?v=2DlokhJJulU",
+      "https://www.youtube.com/watch?v=y8-9yZlye30",
+      "https://www.youtube.com/watch?v=KDZPBzA3yFw",
+      "https://www.youtube.com/watch?v=aIqamaY5pzM"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "themes",
+      "training",
+      "sponsors",
+      "programme-committee",
+      "volunteers",
+      "map",
+      "call-for-talks"
+    ]
+  },
+  {
+    "slug": "code-beam-v-america-2021",
+    "url": "https://codesync.global/conferences/code-beam-v-america-2021/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 57,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/184b82f86a4b790b3bd5865da0dc2c0e82ca113f.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=sEQCM_N_d_s",
+      "https://www.youtube.com/watch?v=Nw_mQKa3SCI",
+      "https://www.youtube.com/watch?v=5vDdE2opGHQ",
+      "https://www.youtube.com/watch?v=-OpOqSxOycA",
+      "https://www.youtube.com/watch?v=-j_vy9zq3EY"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "themes",
+      "training",
+      "sponsors",
+      "programme-committee",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-sf",
+    "url": "https://codesync.global/conferences/code-beam-sf/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 61,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/151bf449b1fdfbf6c11e67ee9fe9a588f23f5369.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=DYtl42sjaZk",
+      "https://www.youtube.com/watch?v=26KypYl5lXA",
+      "https://www.youtube.com/watch?v=bkLABs04k5o",
+      "https://www.youtube.com/watch?v=55-X7rSw8M0",
+      "https://www.youtube.com/watch?v=Nv6GfEGv0kc"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "themes",
+      "sponsors",
+      "venue",
+      "programme-committee",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-sf-2019",
+    "url": "https://codesync.global/conferences/code-beam-sf-2019/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 60,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/021141654a942dcce1b426c97f6660bcd1253047.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=mw3KnG894Sw",
+      "https://www.youtube.com/watch?v=ZOExnT1PYjs",
+      "https://www.youtube.com/watch?v=hlOj56pAgdg",
+      "https://www.youtube.com/watch?v=FvlyuTkZWy4",
+      "https://www.youtube.com/watch?v=OR2Gc6_Le2U"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "sponsors",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-sf-2018",
+    "url": "https://codesync.global/conferences/code-beam-sf-2018/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 54,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/00fc2d1226949c5f28153638fc225c918ee70abb.jpeg",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-sto-2022",
+    "url": "https://codesync.global/conferences/code-beam-sto-2022/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 43,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/0732a163b91e757b53ac8ea75236cafef0a84fa0.jpeg",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "themes",
+      "training",
+      "sponsors",
+      "venue",
+      "programme-committee",
+      "lightning-talks",
+      "student-program",
+      "diversity-scheme",
+      "volunteers",
+      "safety",
+      "e-shop",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-sto-2021",
+    "url": "https://codesync.global/conferences/code-beam-sto-2021/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 63,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/159a615197c2cfee778fd88c7083246019e2ac46.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=UYBWFB2FRkE",
+      "https://www.youtube.com/watch?v=HOiV_WhYoxs",
+      "https://www.youtube.com/watch?v=qMKB4kjXAa4",
+      "https://www.youtube.com/watch?v=M5NSxVWkvsg",
+      "https://www.youtube.com/watch?v=lS5VQmvI7is"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "themes",
+      "training",
+      "sponsors",
+      "programme-committee",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-sto",
+    "url": "https://codesync.global/conferences/code-beam-sto/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 55,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/151bf449b1fdfbf6c11e67ee9fe9a588f23f5369.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=cVQUPvmmaxQ",
+      "https://www.youtube.com/watch?v=r52S0kf3XQo",
+      "https://www.youtube.com/watch?v=ThouZ1Fy-oQ",
+      "https://www.youtube.com/watch?v=WriObqg_7Ws",
+      "https://www.youtube.com/watch?v=DIZj_7hHLUg"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "themes",
+      "sponsors",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-sto-2019",
+    "url": "https://codesync.global/conferences/code-beam-sto-2019/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 67,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/02345418392f771f2885bb3711e8739854cc84af.jpeg",
+    "video_links": [
+      "https://www.youtube.com/watch?v=NBJ5SiwCNmU",
+      "https://www.youtube.com/watch?v=yyIAJbT_Jf8",
+      "https://www.youtube.com/watch?v=dgllQmf5DXk",
+      "https://www.youtube.com/watch?v=WT-dQ1jFSrg",
+      "https://www.youtube.com/watch?v=_KXHE6ULnww"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "themes",
+      "training",
+      "sponsors",
+      "programme-committee",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-lite-virtual",
+    "url": "https://codesync.global/conferences/code-beam-lite-virtual/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 9,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/15d47f22cc9bc8e54c10dda610f67504ad6c9ac2.jpeg",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "sponsors",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-lite-amsterdam",
+    "url": "https://codesync.global/conferences/code-beam-lite-amsterdam/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 20,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/1eb6e844523fe8d787ed8a227b69bd89186c7dc0.jpeg",
+    "video_links": [
+      "https://www.youtube.com/watch?v=JD0FJTmuV_Q",
+      "https://www.youtube.com/watch?v=pTDJZ3O_v6E",
+      "https://www.youtube.com/watch?v=xmfXptibglQ",
+      "https://www.youtube.com/watch?v=Q-rqPcrBS38",
+      "https://www.youtube.com/watch?v=iGU_vsEZvBM"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "sponsors",
+      "venue",
+      "programme-committee",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-lite-india",
+    "url": "https://codesync.global/conferences/code-beam-lite-india/",
+    "http_status": 200,
+    "schedule_source": "none",
+    "schedule_url": null,
+    "speaker_count": 5,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/a69458fd725b5c9c3b59cd48a43d00c25e6de082.jpeg",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "venue",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-lite-berlin-2019",
+    "url": "https://codesync.global/conferences/code-beam-lite-berlin-2019/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 16,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/756e539f514256e546eb1cf2e8b05ec1a7b7cc0e.jpeg",
+    "video_links": [
+      "https://www.youtube.com/watch?v=EoLabl7PiZ8",
+      "https://www.youtube.com/watch?v=OkGht9d2LgY",
+      "https://www.youtube.com/watch?v=yKUXhuTJRbk"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "sponsors",
+      "venue",
+      "programme-committee",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-lite-budapest",
+    "url": "https://codesync.global/conferences/code-beam-lite-budapest/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 19,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/79ef7c5c2fd513df2d7a0e80cc1a460b07b4f74b.jpeg",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "sponsors",
+      "venue",
+      "programme-committee",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-lite-italy",
+    "url": "https://codesync.global/conferences/code-beam-lite-italy/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 16,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/09fb78a9a6af1b1a3207519366aec4517590e26f.jpeg",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "sponsors",
+      "venue",
+      "programme-committee",
+      "diversity-scheme",
+      "map"
+    ]
+  },
+  {
+    "slug": "cbl-munich-2018",
+    "url": "https://codesync.global/conferences/cbl-munich-2018/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 14,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/1e45a89e2c14f36b5ec140bfafa6de1818f3efdc.jpeg",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "map"
+    ]
+  },
+  {
+    "slug": "cbl-amsterdam-2018",
+    "url": "https://codesync.global/conferences/cbl-amsterdam-2018/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 18,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/0742658d1f652e64e08470213b1ee6d35fe24bb1.png",
+    "video_links": [],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-beam-lite-berlin-2018",
+    "url": "https://codesync.global/conferences/code-beam-lite-berlin-2018/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 14,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/3a5b538d2a44745844d81a8e5aa27c0bb14309c5.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=EoLabl7PiZ8",
+      "https://www.youtube.com/watch?v=aqLujfzvUgM",
+      "https://www.youtube.com/watch?v=OkGht9d2LgY",
+      "https://www.youtube.com/watch?v=ejd8Eqe5760",
+      "https://www.youtube.com/watch?v=K_9IXTUwVL4"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "map"
+    ]
+  },
+  {
+    "slug": "code-mesh-ldn",
+    "url": "https://codesync.global/conferences/code-mesh-ldn/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 50,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/4f3a53fa19544da1c5b0c8f7e6ecf5e1f1a6e12e.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=1bPv2qIs_Ik",
+      "https://www.youtube.com/watch?v=ZkLE0jrflwQ",
+      "https://www.youtube.com/watch?v=m4AikuoWNFw",
+      "https://www.youtube.com/watch?v=CMnBNZTVmLk",
+      "https://www.youtube.com/watch?v=-CWO3IpCco8"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "sponsors",
+      "map"
+    ]
+  },
+  {
+    "slug": "code-mesh-ldn-2019",
+    "url": "https://codesync.global/conferences/code-mesh-ldn-2019/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 51,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/1b393e6ef40f4afa3603902d656f8bb938254ed0.png",
+    "video_links": [
+      "https://www.youtube.com/watch?v=aUji_DlXjm8",
+      "https://www.youtube.com/watch?v=X-AIbtus9gs",
+      "https://www.youtube.com/watch?v=djg7yHL1iaE",
+      "https://www.youtube.com/watch?v=15WkRuOxIrs",
+      "https://www.youtube.com/watch?v=NfdP6wwjsGk"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "about",
+      "themes",
+      "sponsors",
+      "venue",
+      "programme-committee",
+      "map",
+      "call-for-talks"
+    ]
+  },
+  {
+    "slug": "code-mesh-2018",
+    "url": "https://codesync.global/conferences/code-mesh-2018/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 45,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/06e327484c204e1e32b89e35b2f42bb73cd7d04a.jpeg",
+    "video_links": [
+      "https://www.youtube.com/watch?v=TH0tDGk19_c",
+      "https://www.youtube.com/watch?v=aH4RzWWmb4U",
+      "https://www.youtube.com/watch?v=FJQyv26tFZ8",
+      "https://www.youtube.com/watch?v=cT1IAbdJ5ys",
+      "https://www.youtube.com/watch?v=_awIE_9vkV8"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "map"
+    ]
+  },
+  {
+    "slug": "code-elixir-ldn-2019",
+    "url": "https://codesync.global/conferences/code-elixir-ldn-2019/",
+    "http_status": 200,
+    "schedule_source": "cms-native",
+    "schedule_url": null,
+    "speaker_count": 15,
+    "has_speaker_photos": true,
+    "sample_photo_url": "https://codesync.global/uploads/media/speakers/0001/01/02345418392f771f2885bb3711e8739854cc84af.jpeg",
+    "video_links": [
+      "https://www.youtube.com/watch?v=c0KNKbrd9A4",
+      "https://www.youtube.com/watch?v=TdGxvekg6xM",
+      "https://www.youtube.com/watch?v=XGeK9q6yjsg",
+      "https://www.youtube.com/watch?v=H-GyRsMwYRs",
+      "https://www.youtube.com/watch?v=zWytNNPnJUk"
+    ],
+    "has_registration": true,
+    "notable_other_sections": [
+      "training",
+      "sponsors",
+      "map"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "links": [
+    {"url": "https://codebeamamerica.com/archives/CBA_2024/index.html", "final_status": 200, "final_url": "https://codebeamamerica.com/archives/CBA_2024/index.html", "classification": "alive", "wayback_url": null},
+    {"url": "https://codebeamamerica.com/archives/CBA_2022/index.html", "final_status": 200, "final_url": "https://codebeamamerica.com/archives/CBA_2022/index.html", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.erlang-factory.com/sfbay2017/", "final_status": 404, "final_url": "http://www.erlang-factory.com/sfbay2017/", "classification": "dead", "wayback_url": "https://web.archive.org/web/20171211152232/http://www.erlang-factory.com/sfbay2017/"},
+    {"url": "http://www.erlang-factory.com/sfbay2016/", "final_status": 200, "final_url": "http://www.erlang-factory.com/sfbay2016/", "classification": "alive", "wayback_url": null},
+    {"url": "https://codebeameurope.com/", "final_status": 200, "final_url": "https://codebeameurope.com/", "classification": "alive", "wayback_url": null},
+    {"url": "https://codebeameurope.com/archives/berlin_2023/index.html", "final_status": 200, "final_url": "https://codebeameurope.com/archives/berlin_2023/index.html", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.erlang-factory.com/euc2017", "final_status": 200, "final_url": "http://www.erlang-factory.com/euc2017/", "classification": "alive", "wayback_url": null},
+    {"url": "https://codebeamstockholm.com/archive/may_2023/index.html", "final_status": 200, "final_url": "https://codebeamstockholm.com/archive/may_2023/index.html", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.erlang-factory.com/india2017/home", "final_status": 200, "final_url": "http://www.erlang-factory.com/india2017/home", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.erlang-factory.com/eflba2017/home", "final_status": 200, "final_url": "http://www.erlang-factory.com/eflba2017/home", "classification": "alive", "wayback_url": null},
+    {"url": "https://www.elixirconf.eu/archives/lisbon_2024/index.html", "final_status": 200, "final_url": "https://www.elixirconf.eu/archives/lisbon_2024/index.html", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.archive.elixirconf.eu/elixirconfeu2019", "final_status": 200, "final_url": "http://www.archive.elixirconf.eu/elixirconfeu2019", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.archive.elixirconf.eu/elixirconfeu2018", "final_status": 200, "final_url": "http://www.archive.elixirconf.eu/elixirconfeu2018", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.archive.elixirconf.eu/elixirconf2017", "final_status": 200, "final_url": "http://www.archive.elixirconf.eu/elixirconf2017", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.archive.elixirconf.eu/elixirconf2016", "final_status": 200, "final_url": "http://www.archive.elixirconf.eu/elixirconf2016", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.archive.elixirconf.eu/elixirconf2015", "final_status": 200, "final_url": "http://www.archive.elixirconf.eu/elixirconf2015", "classification": "alive", "wayback_url": null},
+    {"url": "https://www.lambdadays.org/lambdadays2024", "final_status": 200, "final_url": "https://www.lambdadays.org/lambdadays2024", "classification": "alive", "wayback_url": null},
+    {"url": "https://www.lambdadays.org/lambdadays2014", "final_status": 200, "final_url": "https://www.lambdadays.org/lambdadays2014", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.codemesh.io/codemesh2017", "final_status": 200, "final_url": "https://www.codemesh.io/codemesh2017", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.codemesh.io/codemesh2016", "final_status": 200, "final_url": "https://www.codemesh.io/codemesh2016", "classification": "alive", "wayback_url": null},
+    {"url": "http://www.elixir.london/", "final_status": null, "final_url": null, "classification": "dead", "reason": "DNS NXDOMAIN for www.elixir.london; apex elixir.london has only MX records, no A record", "wayback_url": "https://web.archive.org/web/20161002060019/http://www.elixir.london/"},
+    {"url": "http://www.elixir.london/2016", "final_status": null, "final_url": null, "classification": "dead", "reason": "DNS NXDOMAIN for www.elixir.london", "wayback_url": "https://web.archive.org/web/20160921010647/http://www.elixir.london/2016"}
+  ],
+  "repos": [
+    {"repo": "code-beam-europe", "archive_dir": "archives", "editions": ["berlin_2023", "berlin_2024", "berlin_2025"]},
+    {"repo": "code-beam-america", "archive_dir": "archives", "editions": ["CBA_2022", "CBA_2024"]},
+    {"repo": "code-beam-stockholm", "archive_dir": "archive", "editions": ["june_2025", "may_2023", "may_2024"], "note": "also has legacy-content/ with 2015-2020 folders"},
+    {"repo": "code-beam-mexico", "archive_dir": "legacy-content", "editions": ["2015", "2016", "2017", "2018", "2019", "2020"], "note": "no archive/ or archives/ dir; legacy-content also contains README.md and res/"},
+    {"repo": "code-beam-nyc", "archive_dir": "archive", "editions": ["nov_2024"]},
+    {"repo": "code-beam-london", "archive_dir": "archive", "editions": ["january_2025"]},
+    {"repo": "code-beam-vancouver", "archive_dir": "legacy-content", "editions": ["2015", "2016", "2017", "2018", "2019", "2020"], "note": "no archive/ or archives/ dir; legacy-content also contains README.md and res/"},
+    {"repo": "elixirconf-eu-jekyll", "archive_dir": "archives", "editions": ["krakow_2025", "lisbon_2023", "lisbon_2024", "london_2022", "virtual_2020", "virtual_x_2020", "warsaw_2021"]},
+    {"repo": "virtual-elixirconf-eu-jekyll", "archive_dir": null, "editions": [], "note": "none - no archive-like directory in repo root"},
+    {"repo": "elixirconf-us", "archive_dir": "archives", "editions": ["elixirconf_2025"]},
+    {"repo": "elixirconf-brasil", "archive_dir": "archives", "editions": ["krakow_2025", "lisbon_2023", "lisbon_2024", "london_2022", "virtual_2020", "virtual_x_2020", "warsaw_2021"]}
+  ]
+}

@@ -26,9 +26,12 @@
             {% assign active_conferences = site.conferences | where: 'past',
             false | sort: 'conference_init_date' %}{% for conference in active_conferences %}
             <li>
+              {% if conference.external_url %}{% assign conference_link =
+              conference.external_url %}{% else %}{% assign conference_link =
+              site.baseurl | append: conference.url %}{% endif %}
               <a
                 class="paragraph big mono"
-                href="{{site.baseurl}}{{ conference.url }}"
+                href="{{ conference_link }}"
               >
                 {{ conference.title }}
               </a>

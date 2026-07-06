@@ -30,8 +30,32 @@ archival content.
 - Conferences currently hosted inside the CMS are extracted OUT:
   - brand already has a repo → add the edition under that repo's `archives/`
   - no brand repo → create one modeled on code-beam-europe's structure
+- Extraction targets (decided):
+  - Code BEAM STO editions → esl/code-beam-stockholm archive/
+  - Code BEAM SF / V America editions → esl/code-beam-america archives/
+  - Code BEAM Lite orphan cities (Amsterdam, Berlin, Budapest, Italy, India,
+    Munich, Virtual) → ONE new shared repo esl/code-beam-lite with
+    archives/<city_year>/; do NOT create per-city repos for cities without an
+    active site. Cities with live repos (Stockholm/NYC/London) keep their own.
+  - Code Mesh → new repo esl/code-mesh (3 CMS editions; codemesh.io 2016/2017
+    can be mirrored into it later).
+  - Code Elixir LDN → new repo esl/code-elixir-ldn (2019 CMS edition, plus the
+    2016-2018 Wayback/playlist reconstructions when they happen).
+- Mirror the five archive.elixirconf.eu editions (2015-2019) into
+  esl/elixirconf-eu-jekyll archives/ while that legacy host is still up.
 - Expect the migration to produce commits/PRs across multiple ESL repos, not
   just this one.
+- Partner-run editions (Code BEAM Mexico, Code BEAM Corunha, Code BEAM Brasil,
+  ElixirConf Brasil, ...) ARE listed on the hub and get added as they happen:
+  upcoming partner conferences appear in the homepage banner / upcoming
+  section, then move to their brand section on /conferences/ once past.
+- MQ Summit and RabbitMQ Summit are ONE brand (a single section on the
+  listing). The RabbitMQ Summit era ran on another platform: use
+  rabbitmqsummit.com as the canonical reference for those editions (per-year
+  pages /2018 /2019 /2021 /2022 /2023 /2024, served from esl/rabbitmq-summit).
+  The current era lives in esl/mq-summit-page (mqsummit.com, archives/). Do
+  not create a separate RabbitMQ section and do not copy rabbitmqsummit.com
+  content into mq-summit-page.
 
 ## Inputs
 
@@ -41,6 +65,10 @@ archival content.
 - The live site https://codesync.global/ — read-only source of truth for
   content that still exists; it will be decommissioned.
 - Conference sub-sites hosted inside the CMS (schedules, speaker pages, photos).
+- http://erlang-factory.com/ — the pre-Sonata generation of conference sites
+  (Erlang Factory, Erlang User Conference, Factory Lite editions). Enumerate
+  everything hosted there; these editions predate codesync.global and many are
+  missing from its listing.
 - External schedule providers used by some conferences: Whova and/or Sessionize.
 - Code Sync YouTube channel + playlists — data source for the future videos
   section, and the only surviving record of some lost conferences (e.g.
@@ -59,6 +87,11 @@ IN:
    ONE canonical listing: the main-nav "all conferences" link and the banner
    "all past conferences" link must resolve to the same page with the same
    ordering.
+   - Pre-Sonata events (Erlang Factory, Erlang User Conference, Erlang &
+     Elixir Factory Lite — everything from erlang-factory.com) go into a
+     single separate "Older Conferences" section at the end of the listing,
+     NOT under the modern brand sections. This deliberately changes the
+     current site, which scatters them under Code BEAM America/Europe/Lite.
 3. Extraction of CMS-hosted conference sub-sites into brand repos (see Repo
    strategy):
    - speaker sections including speaker photos (download and commit the assets)

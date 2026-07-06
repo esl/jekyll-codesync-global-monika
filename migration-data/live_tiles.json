@@ -1,0 +1,474 @@
+[
+ {
+  "brand": "Code BEAM America",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sf-2021/",
+  "date": "03-05 Nov 2021",
+  "loc": "Virtual",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-v-america-2021/",
+  "date": "10-12 Mar 2021",
+  "loc": "Virtual",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sf/",
+  "date": "05-06 Mar 2020",
+  "loc": "San Francisco",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sf-2019/",
+  "date": "28 Feb - 01 Mar 2019",
+  "loc": "San Francisco",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sf-2018/",
+  "date": "15-17 Mar 2018",
+  "loc": "San Francisco",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "external",
+  "url": "https://codebeamamerica.com/archives/CBA_2024/index.html",
+  "title": "Code BEAM America 2024",
+  "date": "07-08 Mar 2024",
+  "loc": "San Francisco"
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "external",
+  "url": "https://codebeamamerica.com/archives/CBA_2024/index.html",
+  "title": "Code BEAM America 2022",
+  "date": "03-04 Nov 2022",
+  "loc": "San Francisco"
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "external",
+  "url": "https://codebeamamerica.com/archives/CBA_2022/index.html",
+  "title": "Erlang &amp; Elixir Factory 2017",
+  "date": "23-24 Mar 2017",
+  "loc": "San Francisco"
+ },
+ {
+  "brand": "Code BEAM America",
+  "type": "external",
+  "url": "http://www.erlang-factory.com/sfbay2017/",
+  "title": "Erlang Factory 2016",
+  "date": "10-11 Mar 2016",
+  "loc": "San Francisco"
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sto-2022/",
+  "date": "19-20 May 2022",
+  "loc": "Stockholm",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sto-2021/",
+  "date": "19-21 May 2021",
+  "loc": "Virtual",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sto/",
+  "date": "10-11 Sep 2020",
+  "loc": "virtual",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-sto-2019/",
+  "date": "16-17 May 2019",
+  "loc": "Stockholm",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "external",
+  "url": "https://codebeameurope.com/",
+  "title": "Code BEAM Europe",
+  "date": "14-15 Oct 2024",
+  "loc": "Berlin"
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "external",
+  "url": "https://codebeameurope.com/",
+  "title": "Code BEAM Europe",
+  "date": "19-20 Oct 2023",
+  "loc": "Berlin"
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "external",
+  "url": "https://codebeameurope.com/archives/berlin_2023/index.html",
+  "title": "Erlang User Conference",
+  "date": "08-09 Jun 2017",
+  "loc": "Stockholm"
+ },
+ {
+  "brand": "Code BEAM Europe",
+  "type": "external",
+  "url": "http://www.erlang-factory.com/euc2017",
+  "title": "Erlang User Conference",
+  "date": "08-09 Sep 2016",
+  "loc": "Stockholm"
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-lite-virtual/",
+  "date": "03-04 Apr 2020",
+  "loc": "Virtual",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-lite-amsterdam/",
+  "date": "28 Nov 2019",
+  "loc": "Amsterdam",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-lite-india/",
+  "date": "14 Nov 2019",
+  "loc": "Bangalore",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-lite-berlin-2019/",
+  "date": "11 Oct 2019",
+  "loc": "Berlin",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-lite-budapest/",
+  "date": "20 Sep 2019",
+  "loc": "Budapest",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-lite-italy/",
+  "date": "22 Mar 2019",
+  "loc": "Bologna, Italy",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/cbl-munich-2018/",
+  "date": "07 Dec 2018",
+  "loc": "Munich",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/cbl-amsterdam-2018/",
+  "date": "30 Nov 2018",
+  "loc": "Amsterdam",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-beam-lite-berlin-2018/",
+  "date": "12 Oct 2018",
+  "loc": "Berlin",
+  "title": null
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "external",
+  "url": "https://codebeamstockholm.com/archive/may_2023/index.html",
+  "title": "Code BEAM Lite Stockholm 2023",
+  "date": "12 May 2023",
+  "loc": "Stockholm"
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "external",
+  "url": "https://codebeamstockholm.com/archive/may_2023/index.html",
+  "title": "Erlang &amp; Elixir Factory Lite",
+  "date": "17 Nov 2017",
+  "loc": "India"
+ },
+ {
+  "brand": "Code BEAM Lite",
+  "type": "external",
+  "url": "http://www.erlang-factory.com/india2017/home",
+  "title": "Erlang &amp; Elixir Factory Lite",
+  "date": "29 Jun 2017",
+  "loc": "Buenos Aires"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "https://www.elixirconf.eu/archives/lisbon_2024/index.html",
+  "title": "ElixirConf EU 2024",
+  "date": "18-19 Apr 2024",
+  "loc": "Lisbon /Virtual"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "https://www.elixirconf.eu/archives/lisbon_2024/index.html",
+  "title": "ElixirConf EU 2023",
+  "date": "20-21 Apr 2023",
+  "loc": "Lisbon / Virtual"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "https://www.elixirconf.eu/archives/lisbon_2023/index.html",
+  "title": "ElixirConf EU 2022",
+  "date": "09-10 Jun 2022",
+  "loc": "London / Virtual"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "https://www.elixirconf.eu/archives/london_2022/index.html",
+  "title": "ElixirConf EU 2021",
+  "date": "09-10 Sep 2021",
+  "loc": "Warsaw"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "https://www.elixirconf.eu/archives/warsaw_2021/index.html",
+  "title": "ElixirConf EU Virtual X 2020",
+  "date": "07-08 Oct 2020",
+  "loc": "Virtual"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "https://www.elixirconf.eu/archives/virtual_x_2020/index.html",
+  "title": "ElixirConf EU Virtual VI 2020",
+  "date": "18-19 Jun 2020",
+  "loc": "Virtual"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "https://www.elixirconf.eu/archives/virtual_2020/index.html",
+  "title": "ElixirConf EU 2019",
+  "date": "08-09 Apr 2019",
+  "loc": "Prague"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "http://www.archive.elixirconf.eu/elixirconfeu2019",
+  "title": "ElixirConf EU 2018",
+  "date": "16-17 Apr 2018",
+  "loc": "Warsaw"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "http://www.archive.elixirconf.eu/elixirconfeu2018",
+  "title": "ElixirConf EU 2017",
+  "date": "05 Apr 2017",
+  "loc": "Barcelona"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "http://www.archive.elixirconf.eu/elixirconf2017",
+  "title": "ElixirConf EU 2016",
+  "date": "11-12 May 2016",
+  "loc": "Berlin"
+ },
+ {
+  "brand": "ElixirConf EU",
+  "type": "external",
+  "url": "http://www.archive.elixirconf.eu/elixirconf2016",
+  "title": "ElixirConf EU 2015",
+  "date": "23-24 Apr 2015",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2024",
+  "title": "Lambda Days 2024",
+  "date": "27-28 May 2024",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2024",
+  "title": "Lambda Days 2023",
+  "date": "05-06 Jun 2023",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2023",
+  "title": "Lambda Days 2022",
+  "date": "28-29 Jul 2022",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2022",
+  "title": "Lambda Days 2021",
+  "date": "17-18 Feb 2021",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2021",
+  "title": "Lambda Days 2020",
+  "date": "13-14 Feb 2020",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2020",
+  "title": "Lambda Days 2019",
+  "date": "14-15 Feb 2019",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2019",
+  "title": "Lambda Days 2018",
+  "date": "22-23 Feb 2018",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2018",
+  "title": "Lambda Days 2017",
+  "date": "09-10 Feb 2017",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2017",
+  "title": "Lambda Days 2016",
+  "date": "25-26 Feb 2016",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2016",
+  "title": "Lambda Days 2015",
+  "date": "26-27 Feb 2015",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Lambda Days",
+  "type": "external",
+  "url": "https://www.lambdadays.org/lambdadays2015",
+  "title": "Lambda Days 2014",
+  "date": "27-28 Feb 2014",
+  "loc": "Krak\u00f3w"
+ },
+ {
+  "brand": "Code Mesh LDN",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-mesh-ldn/",
+  "date": "05-06 Nov 2020",
+  "loc": "Virtual",
+  "title": null
+ },
+ {
+  "brand": "Code Mesh LDN",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-mesh-ldn-2019/",
+  "date": "06-08 Nov 2019",
+  "loc": "London",
+  "title": null
+ },
+ {
+  "brand": "Code Mesh LDN",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-mesh-2018/",
+  "date": "08-09 Nov 2018",
+  "loc": "London",
+  "title": null
+ },
+ {
+  "brand": "Code Mesh LDN",
+  "type": "external",
+  "url": "http://www.codemesh.io/codemesh2017",
+  "title": "Code Mesh",
+  "date": "08-09 Nov 2017",
+  "loc": "London"
+ },
+ {
+  "brand": "Code Mesh LDN",
+  "type": "external",
+  "url": "http://www.codemesh.io/codemesh2017",
+  "title": "Code Mesh",
+  "date": "03-04 Nov 2016",
+  "loc": "London"
+ },
+ {
+  "brand": "Code Elixir LDN",
+  "type": "cms",
+  "url": "http://codesync.global/conferences/code-elixir-ldn-2019/",
+  "date": "18 Jul 2019",
+  "loc": "London",
+  "title": null
+ },
+ {
+  "brand": "Code Elixir LDN",
+  "type": "external",
+  "url": "http://www.elixir.london/",
+  "title": "ELixir.LDN",
+  "date": "16 Aug 2017",
+  "loc": "London"
+ },
+ {
+  "brand": "Code Elixir LDN",
+  "type": "external",
+  "url": "http://www.elixir.london/",
+  "title": "ELixir.LDN",
+  "date": "22 Sep 2016",
+  "loc": "London"
+ }
+]

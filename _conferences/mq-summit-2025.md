@@ -2,7 +2,7 @@
 conference_brand: _conference_brands/mq-summit.md
 title: MQ Summit 2025
 conference_past_conferences: false
-past: false
+past: true
 external_url: "https://mqsummit.com/"
 bg_image: "/uploads/mq-summit-bg.jpg"
 logo_img: "/uploads/mq-summit-logo.png"

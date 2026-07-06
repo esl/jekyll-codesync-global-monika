@@ -1,5 +1,5 @@
 ---
-conference_brand: _conference_brands/cbl.md
+conference_brand: _conference_brands/code-beam-lite.md
 conference_health_advice: true
 published: false
 conference_venue: true
@@ -12,8 +12,8 @@ logo_img: ''
 conference_location: Amsterdam
 primary: ''
 secondary: ''
-conference_init_date:
-conference_dates: ''
+conference_init_date: 2018-11-30T09:00:00.000+00:00
+conference_dates: '30 NOV 2018'
 head_title: CBL AMSTERDAM 2018
 overview_heading: ''
 number_of_days: ''
