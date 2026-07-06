@@ -62,6 +62,11 @@ EDITIONS = [
     # Code BEAM Europe editions already archived in esl/code-beam-europe
     ("code-beam-europe-2024", "code-beam-europe", "Code BEAM Europe 2024", "2024-10-14", "14-15 OCTOBER 2024", "Berlin", "https://codebeameurope.com/archives/berlin_2024/index.html"),
     ("code-beam-europe-2023", "code-beam-europe", "Code BEAM Europe 2023", "2023-10-19", "19-20 OCTOBER 2023", "Berlin", "https://codebeameurope.com/archives/berlin_2023/index.html"),
+    # Code BEAM Europe — Stockholm/virtual era (flagship; migrated from CMS to code-beam-europe archives)
+    ("code-beam-europe-2022", "code-beam-europe", "Code BEAM Europe 2022", "2022-05-19", "19-20 MAY 2022", "Stockholm", "https://codebeameurope.com/archives/stockholm_2022/index.html"),
+    ("code-beam-europe-2021", "code-beam-europe", "Code BEAM Europe 2021", "2021-05-19", "19-21 MAY 2021", "Online", "https://codebeameurope.com/archives/virtual_2021/index.html"),
+    ("code-beam-europe-2020", "code-beam-europe", "Code BEAM Europe 2020", "2020-09-10", "10-11 SEPTEMBER 2020", "Online", "https://codebeameurope.com/archives/virtual_2020/index.html"),
+    ("code-beam-europe-2019", "code-beam-europe", "Code BEAM Europe 2019", "2019-05-16", "16-17 MAY 2019", "Stockholm", "https://codebeameurope.com/archives/stockholm_2019/index.html"),
     # RabbitMQ Summit era (one brand with MQ Summit); rabbitmqsummit.com is canonical.
     # Dates web-verified 2026-07-06 (cloudamqp/10times/elixirforum); 2021 was online.
     ("rabbitmq-summit-2024", "mq-summit", "RabbitMQ Summit 2024", "2024-10-15", "15 OCTOBER 2024", "Berlin", "https://rabbitmqsummit.com/2024"),

@@ -76,10 +76,14 @@ singular). Proposed edition dir names follow each repo's existing scheme;
 | code-beam-sf | Code BEAM SF 2020 | code-beam-america | archives/sf_2020 |
 | code-beam-v-america-2021 | Code BEAM V America 2021 (Mar) | code-beam-america | archives/v_america_mar_2021 |
 | code-beam-sf-2021 | Code BEAM America 2021 (Nov) | code-beam-america | archives/america_nov_2021 |
-| code-beam-sto-2019 | Code BEAM STO 2019 | code-beam-stockholm | archive/may_2019 |
-| code-beam-sto | Code BEAM STO 2020 (Sep) | code-beam-stockholm | archive/september_2020 |
-| code-beam-sto-2021 | Code BEAM STO 2021 (May) | code-beam-stockholm | archive/may_2021 |
-| code-beam-sto-2022 | Code BEAM Europe 2022 (STO) | code-beam-stockholm | archive/may_2022 |
+| code-beam-sto-2019 | Code BEAM Europe 2019 (Stockholm) | code-beam-europe | archives/stockholm_2019 |
+| code-beam-sto | Code BEAM Europe 2020 (virtual) | code-beam-europe | archives/virtual_2020 |
+| code-beam-sto-2021 | Code BEAM Europe 2021 (virtual) | code-beam-europe | archives/virtual_2021 |
+| code-beam-sto-2022 | Code BEAM Europe 2022 (Stockholm) | code-beam-europe | archives/stockholm_2022 |
+
+NOTE: these four are the FLAGSHIP Code BEAM Europe (Stockholm/virtual era),
+NOT Code BEAM Lite Stockholm. codebeamstockholm.com hosts the separate Code BEAM
+Lite Stockholm brand (2023+) and must not receive these editions.
 
 New repos — create first (see below), then add editions:
 

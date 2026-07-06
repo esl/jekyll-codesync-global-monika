@@ -3,7 +3,7 @@ conference_brand: _conference_brands/code-beam-america.md
 title: Code BEAM SF 2020
 conference_past_conferences: true
 past: true
-external_url: "https://codesync.global/conferences/code-beam-sf/"
+external_url: "https://codebeamamerica.com/archives/sf_2020/index.html"
 bg_image: "/uploads/code-beam-europe-bg.jpg"
 logo_img: "/uploads/code-beam-america-logo.png"
 conference_location: "San Francisco"

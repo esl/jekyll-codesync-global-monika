@@ -21,21 +21,27 @@ BRANCH="${BRANCH:-archive-cms-editions}"
 DRY_RUN="${DRY_RUN:-0}"
 
 # repo|archive_base|snapshot_slug|archive_dir
+# NOTE (2026-07-06): the STO 2019-2022 editions are the FLAGSHIP Code BEAM Europe
+# (Stockholm era), NOT Code BEAM Lite Stockholm (codebeamstockholm.com). They go
+# to esl/code-beam-europe, alongside berlin_YYYY. codebeamstockholm.com is the
+# separate Lite brand (first edition may_2023) and must NOT receive these.
+# Executed: code-beam-america on branch 'archive-cms-editions'; code-beam-europe
+# on branch 'archive-stockholm-editions'.
 MAP="
 code-beam-america|archives|code-beam-sf-2018|sf_2018
 code-beam-america|archives|code-beam-sf-2019|sf_2019
 code-beam-america|archives|code-beam-sf|sf_2020
 code-beam-america|archives|code-beam-v-america-2021|v_america_mar_2021
 code-beam-america|archives|code-beam-sf-2021|america_nov_2021
-code-beam-stockholm|archive|code-beam-sto-2019|may_2019
-code-beam-stockholm|archive|code-beam-sto|september_2020
-code-beam-stockholm|archive|code-beam-sto-2021|may_2021
-code-beam-stockholm|archive|code-beam-sto-2022|may_2022
+code-beam-europe|archives|code-beam-sto-2019|stockholm_2019
+code-beam-europe|archives|code-beam-sto|virtual_2020
+code-beam-europe|archives|code-beam-sto-2021|virtual_2021
+code-beam-europe|archives|code-beam-sto-2022|stockholm_2022
 "
 
 run() { if [ "$DRY_RUN" = "1" ]; then echo "  DRY: $*"; else eval "$*"; fi; }
 
-for repo in code-beam-america code-beam-stockholm; do
+for repo in code-beam-america code-beam-europe; do
   echo "=== $repo ==="
   dir="$WORK/$repo"
   if [ "$DRY_RUN" = "1" ]; then

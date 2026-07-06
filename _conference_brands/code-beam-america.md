@@ -7,4 +7,4 @@ primary_color: "#FF6B35"
 secondary_color: "#4ECDC4"
 ---
 
-Code BEAM Europe is the American conference for the BEAM community, bringing together developers, researchers, and companies using Erlang, Elixir, Gleam and other BEAM technologies.
+Code BEAM America is the American conference for the BEAM community, bringing together developers, researchers, and companies using Erlang, Elixir, Gleam and other BEAM technologies.

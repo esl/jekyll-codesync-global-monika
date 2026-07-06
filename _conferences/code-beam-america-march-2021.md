@@ -3,7 +3,7 @@ conference_brand: _conference_brands/code-beam-america.md
 title: Code BEAM America March 2021
 conference_past_conferences: true
 past: true
-external_url: "https://codesync.global/conferences/code-beam-v-america-2021/"
+external_url: "https://codebeamamerica.com/archives/v_america_mar_2021/index.html"
 bg_image: "/uploads/code-beam-europe-bg.jpg"
 logo_img: "/uploads/code-beam-america-logo.png"
 conference_location: "Online"
