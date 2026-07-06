@@ -62,6 +62,17 @@ EDITIONS = [
     # Code BEAM Europe editions already archived in esl/code-beam-europe
     ("code-beam-europe-2024", "code-beam-europe", "Code BEAM Europe 2024", "2024-10-14", "14-15 OCTOBER 2024", "Berlin", "https://codebeameurope.com/archives/berlin_2024/index.html"),
     ("code-beam-europe-2023", "code-beam-europe", "Code BEAM Europe 2023", "2023-10-19", "19-20 OCTOBER 2023", "Berlin", "https://codebeameurope.com/archives/berlin_2023/index.html"),
+    # RabbitMQ Summit era (one brand with MQ Summit); rabbitmqsummit.com is canonical.
+    # Dates web-verified 2026-07-06 (cloudamqp/10times/elixirforum); 2021 was online.
+    ("rabbitmq-summit-2024", "mq-summit", "RabbitMQ Summit 2024", "2024-10-15", "15 OCTOBER 2024", "Berlin", "https://rabbitmqsummit.com/2024"),
+    ("rabbitmq-summit-2023", "mq-summit", "RabbitMQ Summit 2023", "2023-10-20", "20 OCTOBER 2023", "Berlin", "https://rabbitmqsummit.com/2023"),
+    ("rabbitmq-summit-2022", "mq-summit", "RabbitMQ Summit 2022", "2022-09-16", "16 SEPTEMBER 2022", "London", "https://rabbitmqsummit.com/2022"),
+    ("rabbitmq-summit-2021", "mq-summit", "RabbitMQ Summit 2021", "2021-07-05", "5 JULY 2021", "Online", "https://rabbitmqsummit.com/2021"),
+    ("rabbitmq-summit-2019", "mq-summit", "RabbitMQ Summit 2019", "2019-11-04", "4 NOVEMBER 2019", "London", "https://rabbitmqsummit.com/2019"),
+    ("rabbitmq-summit-2018", "mq-summit", "RabbitMQ Summit 2018", "2018-11-12", "12 NOVEMBER 2018", "London", "https://rabbitmqsummit.com/2018"),
+    # 2025 editions with confirmed dates + stable archive URLs
+    ("lambda-days-2025", "lambda-days", "Lambda Days 2025", "2025-06-12", "12-13 JUNE 2025", "Kraków", "https://www.lambdadays.org/lambdadays2025"),
+    ("elixirconf-eu-2025", "elixirconf-eu", "ElixirConf EU 2025", "2025-05-15", "15-16 MAY 2025", "Kraków", "https://www.elixirconf.eu/archives/krakow_2025/index.html"),
 ]
 
 ENTRY = """---

@@ -79,6 +79,35 @@ head_title: Past Conferences
             </div>
             {% endif %}
             {% endfor %}
+
+            {% if site.data.older_conferences %}
+            <div class="pt--30 m-pt-00" id="OlderConferences">
+                <h2 class="heading heading--big">Older Conferences</h2>
+                <div class="grid conferences-grid">
+                    <div class="row">
+                        <p class="col-7 t-col-12 pt--20 normal mb--50">
+                            Our earlier events from the Erlang Factory era
+                            (2009–2018), including the Erlang Factory, Erlang
+                            User Conference and Erlang &amp; Elixir Factory Lite
+                            series. These sites are archived on
+                            erlang-factory.com.
+                        </p>
+                    </div>
+                    {% for group in site.data.older_conferences %}
+                    <h3 class="heading heading--medium pt--20 mb--20">
+                        {{ group.brand }}
+                    </h3>
+                    <ul class="older-conferences-list mb--50">
+                        {% for edition in group.editions %}
+                        <li>
+                            <a href="{{ edition.url }}" target="_blank" rel="noopener">{{ edition.label }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
         </div>
     </section>
 </main>
