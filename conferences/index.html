@@ -35,7 +35,7 @@ head_title: Past Conferences
                         these_conferences reversed %} {% if
                         conference.conference_brand == conference_brand.path %}
                         {% if conference.past == true %}
-                        {% if conference.external_url %}{% assign conference_link = conference.external_url %}{% else %}{% assign conference_link = site.baseurl | append: conference.url %}{% endif %}
+                        {% if conference.local_archive %}{% assign conference_link = site.baseurl | append: conference.external_url %}{% elsif conference.external_url %}{% assign conference_link = conference.external_url %}{% else %}{% assign conference_link = site.baseurl | append: conference.url %}{% endif %}
                         <div class="column js-column mb--50">
                             <div class="tile tile--old">
                                 <a
@@ -89,8 +89,8 @@ head_title: Past Conferences
                             Our earlier events from the Erlang Factory era
                             (2009–2018), including the Erlang Factory, Erlang
                             User Conference and Erlang &amp; Elixir Factory Lite
-                            series. These sites are archived on
-                            erlang-factory.com.
+                            series. Each edition links to its archived
+                            conference site.
                         </p>
                     </div>
                     {% for group in site.data.older_conferences %}
@@ -100,7 +100,11 @@ head_title: Past Conferences
                     <ul class="older-conferences-list mb--50">
                         {% for edition in group.editions %}
                         <li>
+                            {% if edition.local %}
+                            <a href="{{ edition.url | prepend: site.baseurl }}" target="_blank" rel="noopener">{{ edition.label }}</a>
+                            {% else %}
                             <a href="{{ edition.url }}" target="_blank" rel="noopener">{{ edition.label }}</a>
+                            {% endif %}
                         </li>
                         {% endfor %}
                     </ul>
