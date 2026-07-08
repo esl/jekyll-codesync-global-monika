@@ -8,7 +8,7 @@ bg_image: "/uploads/code-mesh-bg.jpg"
 logo_img: ''
 conference_location: "London"
 conference_init_date: 2014-11-04T09:00:00.000+00:00
-conference_dates: "2014"
+conference_dates: "4-5 NOVEMBER 2014"
 head_title: Code Mesh LDN 2014
 ---
 
