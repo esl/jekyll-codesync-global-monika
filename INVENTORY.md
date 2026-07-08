@@ -71,8 +71,12 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 | Code Mesh V 2020 | 5-6 Nov 2020 | CMS: /conferences/code-mesh-ldn/ (50 speakers) | [Code Mesh V 2020](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zu0Jrp0l90aU83_AfuFcN_q), 32 videos | extract to new esl/code-mesh archives/ |
 | Code Mesh LDN 2019 | 6-8 Nov 2019 | CMS: /conferences/code-mesh-ldn-2019/ (51 speakers) | [Code Mesh LDN 2019](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsX7qLphosGW_WoYT4u-udv), 34 videos | extract |
 | Code Mesh LDN 2018 | 8-9 Nov 2018 | CMS: /conferences/code-mesh-2018/ (45 speakers) | [Code Mesh LDN 2018](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtWFBNOrApXaIoCTtj-yk7Y), 36 videos | extract |
-| Code Mesh 2017 | 8-9 Nov 2017 | codemesh.io/codemesh2017 (alive) | none | none - hub links out; consider mirroring later |
-| Code Mesh 2016 | 3-4 Nov 2016 | codemesh.io/codemesh2016 (alive) | none | none - hub links out; consider mirroring later |
+| Code Mesh 2017 | 8-9 Nov 2017 | codemesh.io/codemesh2017 (alive; 41 speaker subpages; Pardot form iframe to strip) | none | mirror into esl/code-mesh archives/ (in progress 2026-07-07) - codemesh.io will repoint to the repo |
+| Code Mesh 2016 | 3-4 Nov 2016 | codemesh.io/codemesh2016 (alive; single page, one YouTube promo embed - keep) | none | mirror into esl/code-mesh archives/ (in progress 2026-07-07) |
+| Code Mesh 2015 | 2015 (verify from page) | codemesh.io/codemesh2015 (alive; censused 2026-07-07, was missing from this inventory) | none | mirror into esl/code-mesh archives/ (in progress 2026-07-07) |
+| Code Mesh 2014 | 2014 (verify from page) | codemesh.io/codemesh2014 (alive; censused 2026-07-07, was missing) | none | mirror into esl/code-mesh archives/ (in progress 2026-07-07) |
+| Code Mesh 2013 | 2013 (verify from page) | codemesh.io/codemesh2013 (alive; censused 2026-07-07, was missing) | none | mirror into esl/code-mesh archives/ (in progress 2026-07-07) |
+| Tech Mesh London 2012 | Dec 2012 (verify from page) | gotocon.com/techmesh-london-2012 (alive on Trifork's GOTO platform; JSP app with query-string pages). Code Mesh's original name - same lineage per Monika. techmeshconf.com is domain-squatted spam, never link it | none | mirror into esl/code-mesh archives/ (in progress 2026-07-07) |
 
 ## Code Elixir LDN / Elixir LDN
 
@@ -88,7 +92,7 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
 | ElixirConf EU 2026 (Malaga) | 23-24 Apr 2026 | www.elixirconf.eu (current site; not yet in archives/) | [ElixirConf EU 2026](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsIgecSexrk26--PBWiEyUy), 14 videos | add hub entry; archive to elixirconf-eu-jekyll archives/ when the site rolls over |
-| ElixirConf EU 2025 (Krakow) | 2025 (verify) | esl/elixirconf-eu-jekyll archives/krakow_2025 | [ElixirConf EU 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zu421KzHuLICUqieJXI2o_Z), 43 videos | add hub entry (missing from listing); 2026 playlist also already exists |
+| ElixirConf EU 2025 (Krakow) | 15-16 May 2025 (14 May training) | esl/elixirconf-eu-jekyll archives/krakow_2025 | [ElixirConf EU 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zu421KzHuLICUqieJXI2o_Z), 43 videos | done - hub entry added, date verified 2026-07-07; 2026 (Malaga 23-24 Apr) deferred until archive URL exists |
 | ElixirConf EU 2024 (Lisbon) | 18-19 Apr 2024 | elixirconf.eu/archives/lisbon_2024 (alive, in repo) | [ElixirConf EU 2024](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtQulvJh7sZFDWkaDvB3QT2), 45 videos | none - hub links out |
 | ElixirConf EU 2023 (Lisbon) | 20-21 Apr 2023 | elixirconf.eu/archives/lisbon_2023 (alive, in repo) | [ElixirConf EU 2023](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtBoR52raL_l7XQIb1YH-H7), 40 videos | none |
 | ElixirConf EU 2022 (London) | 9-10 Jun 2022 | elixirconf.eu/archives/london_2022 (alive, in repo) | [ElixirConf EU 2022](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZuuF39_A_DAh6IwIuh8K6gd), 25 videos | none |
@@ -111,7 +115,7 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
-| Lambda Days 2025 | 2025 (verify) | lambdadays.org (alive); MISSING from codesync.global listing | [Lambda Days 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtDZCilo_GAk0piEyUDhtMG), 49 videos | add hub entry |
+| Lambda Days 2025 | 12-13 Jun 2025 (Kraków) | lambdadays.org/lambdadays2025 (alive) | [Lambda Days 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtDZCilo_GAk0piEyUDhtMG), 49 videos | done - hub entry added, date verified 2026-07-07; series on hiatus in 2026 (no 2026 edition) |
 | Lambda Days 2024 | 27-28 May 2024 | lambdadays.org/lambdadays2024 (alive) | [Lambda Days 2024](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtX2TurK0BIlKD_cHct0rSs), 45 videos | none - hub links out |
 | Lambda Days 2023 | 5-6 Jun 2023 | lambdadays.org/lambdadays2023 | [Lambda Days 2023](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsFoD9SCSIib8QJCsHI4wgc), 43 videos | none |
 | Lambda Days 2022 | 28-29 Jul 2022 | lambdadays.org/lambdadays2022 | [Lambda Days 2022](https://www.youtube.com/playlist?list=PLvL2NEhYV4Ztg01ZtwkIVTDhSHDTB7RTu), 42 videos | none |
@@ -225,7 +229,8 @@ the census; `null` year means the archived page does not state one.
 | Amsterdam Factory Lite | null | Amsterdam | http://www.erlang-factory.com/conference/Amsterdam | wayback-only | yes/yes | wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence) |
 | Brussels Erlang Factory Lite | null | Brussels | http://www.erlang-factory.com/conference/Brussels | wayback-only | yes/yes | wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence) |
 | Erlang Factory Lite Munich | null | Munich | http://www.erlang-factory.com/conference/ErlangFactoryLiteMunich | wayback-only | yes/yes | wayback homepage 2011-06 nav title (no year given; distinct from Munich2012: different archived speaker rosters; likely the 2011 Munich Lite); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence) |
-| Paris Erlang Factory Lite | null | Paris | http://www.erlang-factory.com/conference/Paris | 403 | yes/yes | wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence) |
+| Paris Erlang Factory Lite | 2011 | Paris | http://www.erlang-factory.com/conference/Paris | 403 | yes/yes | wayback page <title>; year 2011 confirmed from archived page body during extraction (2026-07-07); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence) |
+| Paris Erlang Factory Lite 2012 | 2012 | Paris | http://www.erlang-factory.com/conference/Paris2012 | wayback-only | yes/yes | DISCOVERED 2026-07-07 during Wayback extraction (CDX prefix bleed from /conference/Paris): distinct 2012 edition with own archived /speakers (Cesarini, Hebert, Virding, Hoguin, ...) and /programme; missing from every live listing and the original census |
 
 ## Appendix: thematic YouTube playlists (not edition-specific)
 

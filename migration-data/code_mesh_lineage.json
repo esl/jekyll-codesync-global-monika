@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://gotocon.com/techmesh-london-2012",
+    "name": "Tech Mesh London 2012",
+    "year": 2012,
+    "city": "London",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "censused 2026-07-07: Tech Mesh = Code Mesh's original name (same lineage, renamed after year one, per Monika). Site alive on Trifork's GOTO platform (gotocon.com); techmeshconf.com is domain-squatted spam - do not link. JSP app with query-string track/speaker pages."
+  },
+  {
+    "url": "https://codemesh.io/codemesh2013",
+    "name": "Code Mesh 2013",
+    "year": 2013,
+    "city": "London",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "censused 2026-07-07: live on codemesh.io (per-speaker subpages under /codemesh2013/)"
+  },
+  {
+    "url": "https://codemesh.io/codemesh2014",
+    "name": "Code Mesh 2014",
+    "year": 2014,
+    "city": "London",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "censused 2026-07-07: live on codemesh.io"
+  },
+  {
+    "url": "https://codemesh.io/codemesh2015",
+    "name": "Code Mesh 2015",
+    "year": 2015,
+    "city": "London",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "censused 2026-07-07: live on codemesh.io"
+  },
+  {
+    "url": "https://codemesh.io/codemesh2016",
+    "name": "Code Mesh 2016",
+    "year": 2016,
+    "city": "London",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "censused 2026-07-07: live on codemesh.io; single-page site, one YouTube promo iframe (keep), Google Maps iframes (keep)"
+  },
+  {
+    "url": "https://codemesh.io/codemesh2017",
+    "name": "Code Mesh 2017",
+    "year": 2017,
+    "city": "London",
+    "live_status": 200,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "censused 2026-07-07: live on codemesh.io; 41 per-speaker subpages; Pardot subscribe-form iframe (www2.erlang-solutions.com) to strip"
+  }
+]

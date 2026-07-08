@@ -32,7 +32,8 @@ NEW_BRANDS = {
 
 # (slug, brand, title, init_date YYYY-MM-DD, display dates, location, external_url)
 EDITIONS = [
-    # Lambda Days — all Kraków; 2025 at root URL is deferred (date unverified)
+    # Lambda Days — all Kraków. 2025 date verified on lambdadays.org 2026-07-07
+    # (12-13 Jun 2025); no 2026 edition (series on hiatus in 2026).
     ("lambda-days-2024", "lambda-days", "Lambda Days 2024", "2024-05-27", "27-28 MAY 2024", "Kraków", "https://www.lambdadays.org/lambdadays2024"),
     ("lambda-days-2023", "lambda-days", "Lambda Days 2023", "2023-06-05", "5-6 JUNE 2023", "Kraków", "https://www.lambdadays.org/lambdadays2023"),
     ("lambda-days-2022", "lambda-days", "Lambda Days 2022", "2022-07-28", "28-29 JULY 2022", "Kraków", "https://www.lambdadays.org/lambdadays2022"),

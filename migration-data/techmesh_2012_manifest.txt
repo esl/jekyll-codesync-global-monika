@@ -1,0 +1,444 @@
+# Tech Mesh 2012 talk/speaker manifest, from 'Tech Mesh 2012 info.docx'
+# (Trifork GOTO conf-admin export). Cross-check reference for the
+# Wayback reconstruction of techmeshconf.com/techmesh-london-2012.
+
+100% Big Data. 0% Hadoop. 0% Java.
+A Little Graph Theory for the Busy Developer
+Application Stacks for the Modern World
+Beyond MapReduce
+Building an Application Platform: Lessons from CloudBees
+Can your Service survive a Cold Start? (Sadly - probably not)
+ClojureScript: The Essence of Alchemy
+Conversational Big Data
+Developing and Integrating WebSharper Applications with Facebook
+Eden: An F#/WPF Framework for building GUI Tools
+Erlang and OpenFlow: A Match Made in the Cloud!
+Eventual Consistency ftw.
+Faith, Evolution, and Programming Languages: from Haskell to Java
+From Java to Erlang Thinking
+Gaming: How to deal with too much Success
+Go Do: solving Real Problems correctly with Go
+High Performance Financial Service Integration
+How F# Learned to Stop Worrying and Love the Data
+I am for the Web - Massive IM Scalability using WebSockets
+Implementing Riak: Benefits and Challenges
+Integration of Distributed Real-time Data Computing in a Web App using Futures and Iteratees
+Keynote: 183 Years of Programming
+Keynote: Haskell: Practical as well as Cool
+Keynote: The Language of the System
+Living in a Polyglot World: Ruby on the Client, Erlang on the Server
+Making EDSLs fly
+Making most of Scala
+Mary Poppins Meets the Matrix
+Multi-core with less Pain: Deterministic Parallel Programming with Haskell
+Next Top Data Model
+OCaml in the Cloud: How to build an Open Source Virtualisation Platform
+OTP, the Middleware for Concurrent Distributed Scalable Architectures
+Panel Debate: Runtime Evolution, the Future of VMs
+Panel Debate: What the hell is Big Data
+Post Functional
+Pragmatism, Puritanism and Functional Programming
+Real-world scaling with Scala & Akka
+Sharing Data, hiding Complexity (with Clojure and RDF)
+Social Architecture 101
+Software Architecture using ZeroMQ
+The Actor Model applied to the Raspberry Pi and the Embedded Domain
+The Database as a Value
+The Disruptor, Now, Next and the Future
+The New Face of Cassandra
+The Properties of Riak
+Up up and Out: Scaling Software with Akka
+Welcome to Tech Mesh!
+You are not Alone - Scaling Multiplayer Games for the Web
+vert.x - Polyglot Asynchronous Application Development for the Modern Web
+Tracks
+Name
+Host
+Short Description?
+Description?
+Sort pos / Topic color
+Language Track
+Lars Hesel Christensen
+1
+Language Track 2
+Simon Marlow
+1
+Finance & Banking
+Manoj Ladwa
+2
+Next Generation Databases
+Matthew Revell
+2
+Gaming & Social Media
+Manoj Ladwa
+3
+Next Generation Analytics
+Pavlo Baron
+3
+Infrastructure & Messaging
+Michał Ślaski
+4
+Scalability & Multicore
+Mahesh Paolini-Subramanya
+4
+Sold out?
+Property name
+Upload
+Files
+An Akka kata for Green Belts
+Akka
+Files
+Erlang - A Language for programming Reliable Systems
+TechMesh_Erlang
+Files
+OTP System Principles
+OTP
+Files
+The Seductions of Scala
+Scala
+Files
+Name
+Company or Title
+Bio?
+Pic?
+Featured?
+Sort pos
+Alltime?
+Moved
+Adam Granicz
+F# MVP, Author of 4x F# book, CEO of IntelliFactory
+0
+copy
+Ben Moseley
+Professional Functional Programmer
+0
+copy
+Bruce Tate
+Author of Seven Languages in Seven Weeks
+0
+copy
+Christopher Brown
+CTO at Opscode
+0
+copy
+Darach Ennis
+VP of Engineering at Push Technology
+0
+copy
+Dave Scott
+XenServer System Architect @ Citrix
+0
+copy
+David Craelius
+CTO of Klarna
+0
+copy
+David Nolen
+NYTimes Software Engineer
+0
+copy
+Dean Wampler
+Big Dataist, O'Reilly Author
+0
+Duncan Coutts
+Haskell consultant with Well-Typed LLP
+0
+copy
+Enrique Paz Perez
+Senior Backend Developer @ SpilGames
+0
+copy
+Francesco Cesarini
+Founder of Erlang Solutions & Author of Erlang Programming
+0
+Garrett Smith
+CloudBees Architect
+0
+copy
+Henrik Engström
+Senior Software Engineer at Typesafe
+0
+Ian Plosker
+Technical Lead, International Operations at Basho Technologies
+0
+copy
+James Henderson
+Clojure Developer at Deutsche Bank
+0
+copy
+Jan Machacek
+Fully functional technical director at Cake Solutions
+0
+copy
+Jesper Richter-Reichhelm
+Head of Engineering at Wooga
+0
+Jim Webber
+Chief Scientist at Neo Technology and Co-Author of "REST in Practice"
+0
+Joe Armstrong
+Co-inventor of Erlang
+0
+John Hughes
+Co-inventor of QuickCheck and Haskell
+0
+John T Davies
+CTO and co-founder, Incept5 & C24
+0
+copy
+Jonas Bonér
+Creator of Akka
+0
+Kevin Wright
+Senior Engineer at Zeebox
+0
+copy
+Knut Nesheim
+Backend developer at Wooga
+0
+copy
+Kresten Krab Thorup
+Hacker, CTO of Trifork
+0
+Lennart Augustsson
+Author of Cayenne and the HBC Haskell compiler
+0
+Mahesh Paolini-Subramanya
+Internet pioneer, and creator of the first Cloud PBX
+0
+copy
+Malcolm Sparks
+Lead Clojure developer at Deutsche Bank
+0
+Matt Heitzenroder
+General Manager, Basho
+0
+copy
+Michael Barker
+Lead developer at London Multi-Asset eXchange (LMAX)
+0
+copy
+Michaël Figuière
+Engineer & Developer Advocate at DataStax
+0
+copy
+Michał Ślaski
+Scalability and XMPP expert
+0
+copy
+Mike Williams
+Co-inventor of Erlang
+0
+copy
+Omer Kilic
+Embedded Systems Engineer and Raspberry Pi fan
+0
+copy
+Pavlo Baron
+Fighter of huge amounts of chaotic data, mostly using computer science
+0
+copy
+Peter Bourgon
+Backend engineer @ SoundCloud
+0
+Philip Wadler
+Professor of Theoretical Computer Science at the University of Edinburgh
+0
+copy
+Pieter Hintjens
+Founder of ZeroMQ Project, CEO of iMatix
+0
+Rich Hickey
+Inventor of Clojure
+0
+Rob Harrop
+Startup guy and technologist
+0
+Robert Virding
+Co-inventor of Erlang
+0
+copy
+Sadek Drobi
+CTO of Zenexity
+0
+Simon Marlow
+Co-architect of the Glasgow Haskell Compiler, and author of its multicore runtime
+0
+Simon Peyton Jones
+Co-inventor of Haskell, Principal Researcher @ Microsoft
+0
+copy
+Steve Vinoski
+Distributed Systems Expert
+0
+Stuart Bailey
+A CTO of Infoblox and just a regular guy from Chicago
+0
+copy
+Stuart Williams
+Consulting Architect - SpringSource Division of VMware
+0
+copy
+Tobias Gedell
+Super user of F#
+0
+copy
+Tomas Petricek
+Author of "Real-World Functional Programming"
+0
+copy
+Werner Schuster
+InfoQ Lead Editor for Dynamic Languages / Panel Debate Moderator
+0
+copy
+Promotion codes
+code
+Setting
+Value
+ambassador
+step*
+=-100
+basho
+step*
+*0.80
+Cake_solutions
+step*
+*0.80
+drw
+earlybird
+true
+drw
+step*
+*0.5
+erlangfactory
+earlybird
+true
+erlangfactory
+step*
+*0.8
+exhibitor
+step*
+=0
+FP_DAYS
+step*
+*0.70
+FRANCESCO
+step*
+*0.50
+joern
+step*
+*0.5
+kresten
+step*
+*0.5
+Lars250
+step*
+-250
+Lars250
+types
+conf+exh
+LJC
+step*
+=0
+lshift
+earlybird
+true
+lshift
+step*
+*0.9
+lshift
+types
+conf+exh
+Media1
+earlybird
+true
+Media1
+step*
+=0
+Media1
+types
+conf+exh
+nosql250
+step*
+*0.70
+NOSQLVIP
+step*
+0
+oreilly
+earlybird
+true
+oreilly
+step*
+*0.8
+peterharley
+types
+conf+exh
+peterharley1
+step*
+=0
+spilgames
+step*
+*0.80
+spilgames1
+step*
+=0
+spilgames2
+step*
+=0
+spilgames3
+step*
+=0
+spilgames_speaker
+step*
+=0
+sponsor
+earlybird
+true
+sponsor
+step*
+*0.80
+staff
+earlybird
+true
+staff
+step*
+=0
+staff
+types
+conf+exh
+Techmesh_discount
+step*
+*0.80
+TECHMESH_FRIEND
+step*
+*0.80
+TECHMESH_FRIEND_1
+earlybird
+true
+techmeshpromo
+earlybird
+true
+techmeshpromo
+step*
+*0.80
+topconf
+earlybird
+true
+topconf
+step*
+*0.8
+uni200
+earlybird
+true
+uni200
+step*
+=200
+uni200
+types
+conf+exh
+wooga
+earlybird
+true
+wooga
+step*
+*0.5

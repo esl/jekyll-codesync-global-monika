@@ -392,12 +392,12 @@
   {
     "url": "http://www.erlang-factory.com/conference/Paris",
     "name": "Paris Erlang Factory Lite",
-    "year": null,
+    "year": 2011,
     "city": "Paris",
     "live_status": 403,
     "has_speakers": true,
     "has_schedule": true,
-    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence); year 2011 confirmed from archived page body (extraction 2026-07-07)"
   },
   {
     "url": "http://www.erlang-factory.com/conference/Amsterdam",
@@ -608,5 +608,15 @@
     "has_speakers": true,
     "has_schedule": true,
     "source_of_info": "Wayback CDX index; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+  },
+  {
+    "url": "http://www.erlang-factory.com/conference/Paris2012",
+    "name": "Paris Erlang Factory Lite 2012",
+    "year": 2012,
+    "city": "Paris",
+    "live_status": null,
+    "has_speakers": true,
+    "has_schedule": true,
+    "source_of_info": "discovered 2026-07-07 during Wayback extraction of /conference/Paris (CDX prefix bleed): distinct 2012 edition with own /speakers (Cesarini, Hebert, Virding, Hoguin, ...) and /programme in the Wayback CDX index; not on any live listing"
   }
 ]
