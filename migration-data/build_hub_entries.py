@@ -89,13 +89,39 @@ EDITIONS = [
     ("code-beam-lite-mexico-2023", "code-beam-lite", "Code BEAM Mexico 2023", "2023-03-03", "3-4 MARCH 2023", "Mexico City", "https://codebeammexico.com/"),
 ]
 
+# Per-brand tile backgrounds (logo composited onto artwork; see uploads/).
+# Keeps regenerated entries branded instead of blank. elixirconf-brasil has no
+# logo asset yet, so it falls back to the neutral geometric.
+BG = {
+    "lambda-days": "/uploads/lambda-days-bg.jpg",
+    "code-beam-europe": "/uploads/code-beam-europe-tile.jpg",
+    "code-beam-america": "/uploads/code-beam-america-tile.jpg",
+    "code-beam-lite": "/uploads/code-beam-lite-bg.jpg",
+    "code-mesh": "/uploads/code-mesh-bg.jpg",
+    "code-elixir": "/uploads/code-elixir-ldn-bg.jpg",
+    "elixirconf-eu": "/uploads/elixirconf-eu-bg.jpg",
+    "elixirconf-us": "/uploads/elixirconf-us-bg.jpg",
+}
+NEUTRAL_BG = "/uploads/code-beam-europe-bg.jpg"  # brand-neutral geometric fallback
+
+
+def bg_for(slug, brand):
+    if slug.startswith("rabbitmq-summit"):
+        return "/uploads/rabbitmq-summit-bg.jpg"
+    if slug.startswith("mq-summit"):
+        return "/uploads/mq-summit-tile.jpg"
+    if slug.startswith("tech-mesh"):
+        return "/uploads/tech-mesh-bg.jpg"
+    return BG.get(brand, NEUTRAL_BG)
+
+
 ENTRY = """---
 conference_brand: _conference_brands/{brand}.md
 title: {title}
 conference_past_conferences: false
 past: true
 external_url: "{url}"
-bg_image: ''
+bg_image: "{bg}"
 logo_img: ''
 conference_location: "{loc}"
 conference_init_date: {date}T09:00:00.000+00:00
@@ -122,7 +148,8 @@ def main():
             skipped.append(slug)
             continue
         f.write_text(ENTRY.format(brand=brand, title=title, url=url,
-                                  loc=loc, date=date, dates=dates), "utf-8")
+                                  loc=loc, date=date, dates=dates,
+                                  bg=bg_for(slug, brand)), "utf-8")
         created.append(slug)
     print(f"brand files created: {created_brands or 'none (all existed)'}")
     print(f"entries created ({len(created)}): {', '.join(created)}")
