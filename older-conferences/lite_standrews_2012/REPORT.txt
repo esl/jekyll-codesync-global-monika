@@ -1,0 +1,25 @@
+edition: St Andrews Erlang Factory Lite 2012
+source:  http://www.erlang-factory.com/conference/StAndrews  (mode: wayback)
+date:    2026-07-07 14:58
+pages: 12   assets: 23   missing: 6   elapsed: 238s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/ChrisBrown/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/GordonGuthrie/index.html] STRIPPED script: inline
+[speakers/KennethLundin/index.html] STRIPPED script: inline
+[speakers/NataliaChechina/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[submit_talk/index.html] MISSING subpage (-> wayback): /conference/StAndrews/register
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/item/89/standrews3.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/90/standrews2.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/StAndrews_GordonGuthrie/GordonGuthrieRosPhoto.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/89/standrews3.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/90/standrews2.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/StAndrews_GordonGuthrie/GordonGuthrieRosPhoto.jpg: HTTP Error 404: NOT FOUND
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

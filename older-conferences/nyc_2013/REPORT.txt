@@ -1,0 +1,23 @@
+edition: nyc_2013
+source:  http://www.erlang-factory.com/conference/NYC2013  (mode: wayback)
+date:    2026-07-07 16:50
+pages: 18   assets: 43   missing: 0   elapsed: 551s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[register/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AdamDenenberg/index.html] STRIPPED script: inline
+[speakers/AdamKocoloski/index.html] STRIPPED script: inline
+[speakers/ChristianGribneau/index.html] STRIPPED script: inline
+[speakers/ChristopherMeiklejohn/index.html] STRIPPED script: inline
+[speakers/DerekBrown/index.html] STRIPPED script: inline
+[speakers/FredHebert/index.html] STRIPPED script: inline
+[speakers/joearmstrong/index.html] STRIPPED script: inline
+[speakers/LouisPhilippeGauthier/index.html] STRIPPED script: inline
+[speakers/MaheshPaoliniSubramanya/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/NYC2013/index.html] STRIPPED script: inline
+[university/ErlangExpress/index.html] STRIPPED script: inline

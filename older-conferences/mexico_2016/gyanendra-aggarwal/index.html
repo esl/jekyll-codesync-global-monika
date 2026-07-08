@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="http://www.erlang-factory.com/static/upload/media/1510937489338342cblite2.jpg" property="og:image">
+<meta content="México City Erlang Factory Lite 2016
+The Erlang Factory Lite in México City last year was a blast! Join us for the second edition on 29 October 2016 and help us make history again." property="og:description"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>Mexico City Erlang Factory Lite 2016</title>
+<meta content="México City Erlang Factory Lite 2016
+The Erlang Factory Lite in México City last year was a blast! Join us for the second edition on 29 October 2016 and help us make history again." name="description"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<link href="../assets/static/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../assets/static/img/favicon.ico" rel="shortcut icon">
+<link href="../assets/static/css/theme.css" rel="stylesheet"/>
+<script src="../assets/static/js/respond.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="../assets/static/js/theme.js"></script>
+</link></meta></head>
+<body>
+<div id="wrap">
+<div class="push" id="home"></div>
+<div class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="logo-container">
+<img class="factory-logo" src="../assets/static/upload/media/1389285752424240efllogo.png"/>
+</div>
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav" id="top-nav">
+<li><a class="menu-item" href="../#home">Home</a></li>
+<li><a class="menu-item" href="../#about-code-beam-lite">About Code BEAM Lite</a></li>
+<li><a class="menu-item" href="../#speakers">Speakers</a></li>
+<li><a class="menu-item" href="../#programme">Programme</a></li>
+<li><a class="menu-item" href="../#register">Register</a></li>
+<li><a class="menu-item" href="../#venue">Venue</a></li>
+<li><a class="menu-item" href="../#sponsors">Sponsors</a></li>
+<li><a class="menu-item" href="../#contact-us">Contact us</a></li>
+</ul>
+</div><!--/.navbar-collapse -->
+</div><!-- end of container -->
+</div> <!-- end of navbar-->
+<div class="container">
+<div class="block">
+<a class="anchor" id=""></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div id="gyanendra-aggarwal">
+<div class="row">
+<div class="col-md-3 speaker-image-column">
+<div class="speaker_image">
+<img src="../assets/static/upload/media/147693624882519gyanendraaggarwal.jpg"/>
+</div>
+</div><!-- end of col-md-6 -->
+<div class="col-md-8">
+<h3 class="talk-title">
+          
+          
+          From Academic Papers to Real-Life Application<br/>
+</h3>
+<span class="modal_speaker_name">Gyanendra Aggarwal</span><br/>
+<span class="tagline">
+          Senior Software Architect @ Grey Orange
+        </span>
+<br>
+</br></div><!-- end of col-md-->
+</div><!--end of row -->
+<br/>
+<h4 class="modal-title">From Academic Papers to Real-Life Application</h4>
+<p>Using chain-replication (CRAQ) and hitchhiker tree to implement a highly scalable and fault-tolerant fast (read/write) persistent store. This persistent store is being used to create a solution for warehouse automation.</p>
+<p><strong>Talk objectives:</strong></p>
+<p>- Learn and experience how we used these academic papers (with some small variation) to build a real-life application.</p>
+<p><strong>Target audience:</strong></p>
+<p>- All Erlang practitioners.</p>
+<br/>
+<h4 class="modal-title">About Gyanendra </h4>
+<p>
+<span class="speaker-bio">
+<p><span data-sheets-userformat='{"2":769,"3":{"1":0},"11":4,"12":0}' data-sheets-value='{"1":2,"2":"I have worked in software development for about 30 years and used many programming languages. Currently, I am using Erlang for last 3 years and working for a solution for a real-life application using Erlang."}'>Gyanendra has worked in software development for about 30 years and used many programming languages. Currently, he is using Erlang for last 3 years and working for a solution for a real-life application using Erlang.</span></p><br/>
+<p>GitHub:
+        <a href="http://www.github.com/gyanaggarwal">
+          gyanaggarwal
+        </a></p>
+</span>
+</p>
+<a href="../">
+<div class="button">Back to conference page</div>
+</a>
+</div>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+</div>
+</div> <!-- end of wrap -->
+<script type="text/javascript">
+    $(window).scroll(function() {
+        if ($(window).scrollTop() <= 0)
+            $('.logo-container').slideDown({queue: false});
+        else
+            $('.logo-container').slideUp();
+    });
+</script>
+<script src="../assets/static/js/bootstrap.min.js"></script>
+<script src="../assets/static/js/plugins.js"></script>
+<script>
+            $('#top-nav').onePageNav({
+                currentClass: 'active',
+                changeHash: true,
+                scrollSpeed: 750,
+                filter: ':not(.external)'
+            });
+            $('.register-button').click(function() {
+                $('.register-link').click();
+            });
+            $(".dropdown").on('shown.bs.dropdown', function (e) {
+                //function called when dropdown-menu becomes visible
+                var dropdownMenu = $('ul:first', this); //find dropdown-menu
+                //if element was moved to left, set left back to 0 for next calculations
+                $(this).find(".dropdown-menu").first().css('left', 0);
+                var offset = dropdownMenu.offset();
+                var leftOffset = offset.left;
+                var width = dropdownMenu.width();
+                var documentWidth = $(document).width();
+                var sticksOutRightSide = leftOffset + width - documentWidth;
+                if (sticksOutRightSide > 0) {
+                    $(this).find(".dropdown-menu").first().css('left', -(sticksOutRightSide + 20));
+                }
+            });
+        </script>
+
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</body>
+</html>

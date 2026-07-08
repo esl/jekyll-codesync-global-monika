@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="http://www.erlang-factory.com/static/upload/media/1510942643184792cbsto.jpg" property="og:image">
+<meta content="Erlang User Conference 2016
+Thank you everyone, who made the EUC possible. The slides and videos are being added to the website, so keep an eye on this spot." property="og:description"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>Erlang User Conference 2016</title>
+<meta content="Erlang User Conference 2016
+Thank you everyone, who made the EUC possible. The slides and videos are being added to the website, so keep an eye on this spot." name="description"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<link href="../assets/static/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../assets/static/img/favicon.ico" rel="shortcut icon">
+<link href="../assets/static/css/theme.css" rel="stylesheet"/>
+<script src="../assets/static/js/respond.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="../assets/static/js/theme.js"></script>
+</link></meta></head>
+<body>
+<div id="wrap">
+<div class="push" id="home"></div>
+<div class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="logo-container">
+<img class="factory-logo" src="../assets/static/upload/media/1390578324541994euclogotransparent.png"/>
+</div>
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav" id="top-nav">
+<li><a class="menu-item" href="../#home">Home</a></li>
+<li><a class="menu-item" href="../#about-code-beam-sto">About Code BEAM STO</a></li>
+<li><a class="menu-item" href="../#speakers">Speakers</a></li>
+<li><a class="menu-item" href="../#programme">Programme</a></li>
+<li><a class="menu-item" href="../#tutorials">Tutorials</a></li>
+<li><a class="menu-item" href="../#venues">Venues</a></li>
+<li><a class="menu-item" href="../#lightning-talks">Lightning Talks</a></li>
+<li><a class="menu-item" href="../#sponsors">Sponsors</a></li>
+<li><a class="menu-item" href="../#contact-us">Contact us</a></li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+<ul class="dropdown-menu">
+<li><a class="menu-item" href="../about/#about-the-conference">About the conference</a></li>
+<li><a class="menu-item" href="../about/#programme-committee">Programme Committee</a></li>
+<li><a class="menu-item" href="../about/#code-of-conduct">Code of Conduct</a></li>
+<li><a class="menu-item" href="../about/#student-passes">Student passes</a></li>
+<li><a class="menu-item" href="../about/#volunteers">Volunteers</a></li>
+</ul>
+</li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Training</a>
+<ul class="dropdown-menu">
+<li><a class="menu-item" href="../training/#advanced-erlang-techniques-6-7-september">Advanced Erlang Techniques 6 - 7 September</a></li>
+<li><a class="menu-item" href="../training/#phoenix-bootstrap-67-september">Phoenix Bootstrap 6-7 September</a></li>
+<li><a class="menu-item" href="../training/#complete-otp-12-15-september">Complete OTP 12 - 15 September</a></li>
+<li><a class="menu-item" href="../training/#elixir-otp-bootcamp-12-15-september">Elixir/OTP Bootcamp 12 - 15 September</a></li>
+</ul>
+</li>
+</ul>
+</div><!--/.navbar-collapse -->
+</div><!-- end of container -->
+</div> <!-- end of navbar-->
+<div class="container">
+<div class="block">
+<a class="anchor" id=""></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div id="benoit-chesneau">
+<div class="row">
+<div class="col-md-3 speaker-image-column">
+<div class="speaker_image">
+<img src="../assets/static/upload/media/1453818339475307benoit2016.jpg"/>
+</div>
+</div><!-- end of col-md-6 -->
+<div class="col-md-8">
+<h3 class="talk-title">
+          
+          
+          Building a P2P Multi-Purpose Database<br/>
+          
+          Tutorial: Getting Local First with Barrel<br/>
+</h3>
+<span class="modal_speaker_name">Benoit Chesneau</span><br/>
+<span class="tagline">
+          Creator of Barrel and Gunicorn
+        </span>
+<br>
+</br></div><!-- end of col-md-->
+</div><!--end of row -->
+<br/>
+<h4 class="modal-title">Building a P2P Multi-Purpose Database</h4>
+<p>Barrel (https://barrel-db.org) is a modern multi-purpose database in Erlang focusing on data locality (put/match the data next to you) and P2P. Building a database in Erlang is indeed challenging. I/Os are handled differently from the other VM for example. Performance is always a trade-off versus the concurrency and the fault tolerance. On the other hand, Erlang, its <g class="gr_ gr_15 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="15" id="15">vm</g>, the OTP framework offer many competitive advantages that can help you to build a very effective database. To achieve this we created a binding of Facebook <g class="gr_ gr_17 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="17" id="17">rocksdb</g> based on dirty-<g class="gr_ gr_18 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">nif</g>, <g class="gr_ gr_19 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">cowdb</g> to have a pure erlang key/value storage <g class="gr_ gr_20 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="20" id="20">ithout</g> the limit of DETS and our own way to manage presence and claim spaces to store our data over the web.</p>
+<p><strong>Talk objectives:</strong></p>
+<p>This talk will show how we built Barrel in Erlang, using C when we needed it, which pattern we choose to achieve the read/write concurrency and how we distribute the data. It will show you also how we built a P2P protocol allowing us to distribute our data without any bottleneck.</p>
+<p></p>
+<a href="https://www.icloud.com/keynote/0ntpkGjFB5xxjO5-6J3S1LeSg#talk_EUC_2016" target="_blank"><span class="glyphicon glyphicon-picture"> Slides</span></a>
+<br/>
+<a href="https://youtu.be/de6TYu1j7Gg" target="_blank"><span class="glyphicon glyphicon-film"> Video</span></a>
+<h4 class="modal-title">Tutorial: Getting Local First with Barrel</h4>
+<p dir="ltr">In this tutorial we will explore:</p>
+<ul>
+<li dir="ltr">
+<p dir="ltr">What is <g class="gr_ gr_16 gr-alert gr_gramm gr_disable_anim_appear Punctuation multiReplace" data-gr-id="16" id="16">Barrel.</g></p>
+</li>
+<li dir="ltr">
+<p dir="ltr">How to handle your data in Barrel</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">The synchronisation of your data between your applications in Elixir or Erlang without any locking and bottleneck.</p>
+</li>
+<li dir="ltr">
+<p dir="ltr">The addition of new <g class="gr_ gr_17 gr-alert gr_gramm gr_disable_anim_appear Grammar multiReplace" data-gr-id="17" id="17">feature</g> to barrels inside your application</p>
+</li>
+<li dir="ltr">Going further and replicate to any mobile devices</li>
+</ul>
+<p><strong>Summary:</strong></p>
+<p>In physics, the concept of locality is that, for an action at one point to have an influence at another point, something in the space between the points, such as a field, must mediate the action. This exactly what is trying Barrel, a modern multi-purpose database in Erlang focusing on data locality. With <g class="gr_ gr_40 gr-alert gr_gramm gr_disable_anim_appear Punctuation only-ins replaceWithoutSep" data-gr-id="40" id="40">Barrel</g> you're able to put and match the data next to you in a P2P manner without any single point of failure.</p>
+<p><strong>Audience:</strong></p>
+<p>Erlanger who wants to synchronize its data between multiple locations without conflicts in Erlang or Elixir.<strong><span strong="" style="font-size: 14.6667px; font-family: Arial; color: #000000; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"></span></strong></p>
+<a href="https://web.archive.org/web/2019/http://www.erlang-factory.com/static/upload/media/147473010751943benoitchesneaubarreleuc2016.pdf" target="_blank"><span class="glyphicon glyphicon-picture"> Slides</span></a>
+<br/>
+<h4 class="modal-title">About Benoit </h4>
+<p>
+<span class="speaker-bio">
+<p><span data-sheets-userformat='{"2":899,"3":{"1":0},"4":{"1":2,"2":14281427},"10":0,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"Beno\u00eet Chesneau is a internet craftsman, living near Paris. He has years of experience in building small and big-scale database backend websites. He is the founder of a company building innovative web services and open-source applications. Beno\u00eet Chesneau is also the founder of the Barrel projects, the author of Gunicorn and multiple other opensource projects in Python and Erlang."}'>Benoît Chesneau is a internet craftsman, living near Paris. He has years of experience in building small and big-scale database backend websites. He is the founder of a company building innovative web services and open-source applications. Benoît Chesneau is also the founder of the Barrel projects, the author of Gunicorn and multiple other opensource projects in Python and Erlang.</span></p><br/>
+<p>GitHub:
+        <a href="http://www.github.com/benoitc">
+          benoitc
+        </a></p>
+<p>Twitter:
+        <a href="http://www.twitter.com/benoitc">
+          @benoitc
+        </a></p>
+</span>
+</p>
+<a href="../">
+<div class="button">Back to conference page</div>
+</a>
+</div>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+</div>
+</div> <!-- end of wrap -->
+<script type="text/javascript">
+    $(window).scroll(function() {
+        if ($(window).scrollTop() <= 0)
+            $('.logo-container').slideDown({queue: false});
+        else
+            $('.logo-container').slideUp();
+    });
+</script>
+<script src="../assets/static/js/bootstrap.min.js"></script>
+<script src="../assets/static/js/plugins.js"></script>
+<script>
+            $('#top-nav').onePageNav({
+                currentClass: 'active',
+                changeHash: true,
+                scrollSpeed: 750,
+                filter: ':not(.external)'
+            });
+            $('.register-button').click(function() {
+                $('.register-link').click();
+            });
+            $(".dropdown").on('shown.bs.dropdown', function (e) {
+                //function called when dropdown-menu becomes visible
+                var dropdownMenu = $('ul:first', this); //find dropdown-menu
+                //if element was moved to left, set left back to 0 for next calculations
+                $(this).find(".dropdown-menu").first().css('left', 0);
+                var offset = dropdownMenu.offset();
+                var leftOffset = offset.left;
+                var width = dropdownMenu.width();
+                var documentWidth = $(document).width();
+                var sticksOutRightSide = leftOffset + width - documentWidth;
+                if (sticksOutRightSide > 0) {
+                    $(this).find(".dropdown-menu").first().css('left', -(sticksOutRightSide + 20));
+                }
+            });
+        </script>
+
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</body>
+</html>

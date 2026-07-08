@@ -1,0 +1,26 @@
+edition: Mexico City Erlang Factory Lite 2016
+source:  http://www.erlang-factory.com/mexico2016/home  (mode: live)
+date:    2026-07-07 08:29
+pages: 18   assets: 36   missing: 3   elapsed: 17s
+
+[index.html] STRIPPED script: inline
+[bruce-tate/index.html] STRIPPED script: inline
+[jorge-garrido/index.html] STRIPPED script: inline
+[edgar-cabrera/index.html] STRIPPED script: inline
+[ben-marx/index.html] STRIPPED script: inline
+[milton-mazzarri/index.html] STRIPPED script: inline
+[gyanendra-aggarwal/index.html] STRIPPED script: inline
+[misael-perez/index.html] STRIPPED script: inline
+[ricardo-echavarria/index.html] STRIPPED script: inline
+[veronica-lopez/index.html] STRIPPED script: inline
+[jeduan-cornejo/index.html] STRIPPED script: inline
+[enrique-zamudio/index.html] STRIPPED script: inline
+[norberto-ortigoza/index.html] STRIPPED script: inline
+[david-padilla/index.html] STRIPPED script: inline
+[jose-carlos-nieto/index.html] STRIPPED script: inline
+[sergio-acosta/index.html] STRIPPED script: inline
+[raul-guerrero/index.html] STRIPPED script: inline
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

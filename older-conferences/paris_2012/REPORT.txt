@@ -1,0 +1,27 @@
+edition: Paris Erlang Factory Lite 2012
+source:  http://www.erlang-factory.com/conference/Paris2012  (mode: wayback)
+date:    2026-07-07 16:59
+pages: 19   assets: 42   missing: 2   elapsed: 1358s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/BenoitChesneau/index.html] STRIPPED script: inline
+[speakers/CyrilValliez/index.html] STRIPPED script: inline
+[speakers/DominicWilliams/index.html] STRIPPED script: inline
+[speakers/FabriceNourisson/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/FredericScibetta/index.html] STRIPPED script: inline
+[speakers/FredHebert/index.html] STRIPPED script: inline
+[speakers/LoicHoguin/index.html] STRIPPED script: inline
+[speakers/NicolasThauvin/index.html] STRIPPED script: inline
+[speakers/PhilippePinchon/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[sponsorship_opportunities/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/programme/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/item/296/image003.jpeg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/296/image003.jpeg: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

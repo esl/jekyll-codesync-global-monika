@@ -1,0 +1,25 @@
+edition: krakow_2011
+source:  http://www.erlang-factory.com/conference/Krakow2011  (mode: wayback)
+date:    2026-07-07 15:25
+pages: 13   assets: 24   missing: 6   elapsed: 376s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/ArkadiuszNiemiec/index.html] STRIPPED script: inline
+[speakers/DamianDobroczynski/index.html] STRIPPED script: inline
+[speakers/GlebPeregud/index.html] STRIPPED script: inline
+[speakers/JesperLouisAndersen/index.html] STRIPPED script: inline
+[speakers/JoseValim/index.html] STRIPPED script: inline
+[speakers/KrzysztofGoj/index.html] STRIPPED script: inline
+[speakers/MichalNiec/index.html] STRIPPED script: inline
+[speakers/RomanJanusz/index.html] STRIPPED script: inline
+[speakers/ThomasArts/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Krakow2011_ArkadiuszNiemiec/aniemiec.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Krakow2011_DamianDobroczynski/horrible-avatar-in-air.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Krakow2011_RomanJanusz/romek.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Krakow2011_ArkadiuszNiemiec/aniemiec.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Krakow2011_DamianDobroczynski/horrible-avatar-in-air.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Krakow2011_RomanJanusz/romek.jpg: HTTP Error 404: NOT FOUND
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

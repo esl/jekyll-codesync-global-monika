@@ -1,0 +1,20 @@
+edition: Buenos Aires Erlang & Elixir Factory Lite 2017
+source:  http://www.erlang-factory.com/eflba2017/home  (mode: live)
+date:    2026-07-07 08:27
+pages: 12   assets: 29   missing: 3   elapsed: 13s
+
+[index.html] STRIPPED script: inline
+[simon-thompson/index.html] STRIPPED script: inline
+[ben-marx/index.html] STRIPPED script: inline
+[brujo-benavides/index.html] STRIPPED script: inline
+[mariano-guerra/index.html] STRIPPED script: inline
+[francesco-cesarini/index.html] STRIPPED script: inline
+[marcos-almonacid/index.html] STRIPPED script: inline
+[rodrigo-nonose/index.html] STRIPPED script: inline
+[gustavo-giraldez/index.html] STRIPPED script: inline
+[guilherme-nogueira/index.html] STRIPPED script: inline
+[thomas-gautier/index.html] STRIPPED script: inline
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

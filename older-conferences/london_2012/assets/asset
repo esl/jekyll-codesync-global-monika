@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta property="og:image" content="http://www.erlang-factory.com/static/upload/media/" />
+        <meta property="og:description" content='The Erlang Factory conferences provide inspiring talks, trainings and workshops with leading Erlang experts. The Erlang Factory SF Bay Area is the biggest Erlang event in the US, and Erlang Factory Lites are organised on a monthly basis across the US and Europe.'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Erlang Factory</title>
+        <meta name="description" content='The Erlang Factory conferences provide inspiring talks, trainings and workshops with leading Erlang experts. The Erlang Factory SF Bay Area is the biggest Erlang event in the US, and Erlang Factory Lites are organised on a monthly basis across the US and Europe.'>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="/static/img/favicon.ico" />
+        <link rel="stylesheet" href="/static/css/theme.css">
+        <script src="/static/js/respond.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="/static/js/theme.js"></script>
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+    </head>
+    <body>
+        
+<div id="wrap">
+    <div class="push" id="home" style="height: 150px;">
+        <div class="row" style="height: 100%; max-width: 1200px; margin: auto;">
+            <div class="col-md-2" style="height: 100%">
+                <img class="factory-logo" style="float: right;" src="/static/img/factory-logo.png" alt="Erlang Factory logo" />
+            </div>
+            <div class="col-md-8">
+                <p style="color: white; text-align: center; padding: 20px; font-size: 18px;">
+                <span style="font-style: italic">
+                These conferences are explosions of enthusiasm.<br />
+                They have become the meeting place for people who want to build large scale systems<br />
+                that never stop.<br />
+                </span>
+                <span style="font-size: small;">
+                Joe Armstrong (Erlang co-inventor)
+                </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" >
+        <div class="row" style="padding: 0px;">
+            <div class="col-md-2">
+                <div class="main_menu_title">
+                    
+
+
+		    <a href="/mainpage/past_conferences">Past conferences</a>
+                    <a href="http://erlang-factory.com/past_conferences">Archive</a>
+                    <a role="button" data-toggle="modal" href="#about">About</a>
+                    <a role="button" data-toggle="modal" href="#contact">Ask us anything</a>
+                </div>
+		<div class="social_network">
+  <a href="http://www.linkedin.com/groups/Erlang-Factory-2003110?itemaction=mclk&amp;anetid=2003110&amp;impid=&amp;pgkey=anet_search_results&amp;actpref=anetsrch_name&amp;trk=anetsrch_name&amp;goback=.gdr_1311244833631_1" target="_blank"><img src="/static/img/linkedin_logo_big.jpg" width="33px" height="33px" alt="Lindedin" border="0"></a>
+  <a href="http://www.facebook.com/#!/group.php?gid=88484936989" target="_blank"><img src="/static/img/facebook_logo_big.jpg" width="33px" height="33px" alt="Facebook" border="0"></a>
+  <a href="http://www.youtube.com/user/ErlangSolutions" target="_blank"><img src="/static/img/youtube.jpeg" width="33px" height="33px" alt="Facebook" border="0"></a>
+  <a href="https://vimeo.com/erlang" target="_blank"><img src="/static/img/vimeo-icon.png" width="33px" height="33px" alt="Facebook" border="0"></a>
+</div>
+
+            </div>
+            <div class="col-md-8">
+                
+
+		<div class="jumbotron">
+  <h2 class="sponsors-header">Sponsors</h2>
+  <div class="sponsors-container">
+    <a href="http://www.machinezone.com/" target="_blank"> <img style="width: 25%;" src="/static/upload/media/13909890403607901390925654764113image.png" alt="Machine zone"> </a>
+    <a href="http://www.whatsapp.com/" target="_blank"> <img style="width: 30%;" src="/static/upload/media/1392134574986969whatsupwhite.png" alt="What's app"> </a>
+    <a href="https://www.erlang-solutions.com/" target="_blank"> <img style="width: 20%; margin-top: 20px;" src="/static/upload/media/1389870631645186logo.png" alt="Erlang Solutions logo"></a>
+    <br />
+    <a href="http://www.adroll.com/" target="_blank"> <img style="width: 25%; height: 20%; margin-left: 25px;" src="/static/upload/media/1391101237174786adroll.png" alt="Adroll logo"></a>
+    <a href="http://www.getchef.com/chef/" target="_blank"> <img style="width: 15%; margin-left:25px; margin-right: 25px;" src="/static/upload/media/13919149665587chef_vertical_website_reg.png" alt="Chef vertical logo"></a>
+    <a href="http://openx.com/" target="_blank"> <img style="width: 25%; height: 20%;" src="/static/upload/media/1392382599523815openx.png" alt="Platformatec logo"></a>
+    <br />
+    <a href="http://plataformatec.com.br/" target="_blank"> <img style="width: 25%; height: 20%;" src="/static/upload/media/1390845102321715plaformatec.png" alt="Platformatec logo"></a>
+    <a href="http://basho.com/" target="_blank"> <img style="width: 22%; margin-top: 25px; margin-left: 20px; margin-right: 20px;" src="/static/upload/media/1392130680259551basho1.png" alt="basho"> </a>
+    <a href="http://www.drdobbs.com/" target="_blank"> <img style="width: 20%; margin-top: 20px;" src="/static/upload/media/1391179712828283drdobbscopy.png" alt="Dr Dobbs logo"></a>
+    <br />
+    <a href="https://kato.im/" target="_blank"><img style="width: 25%; margin-left: 60px;" src="/static/upload/media/1391963542263view.png" alt=""> </a>
+    <a href="https://www.tipbit.com/"><img style="margin: 20px;" src="/static/upload/media/1393519657778384tipbitlogoshadowed.png" alt="" width="70" height="69"></a>
+    <a href="http://www.spilgames.com/" target="_blank"><img style="width: 30%;" src="/static/upload/media/1390492832580533spillgameslogo.png" alt=""> </a>
+    <br />
+    <a href="http://www.sqor.com/" target="_blank"> <img style="width: 15%; height: 15%; margin-left: 30px;" src="/static/upload/media/1389603050819978sqor_logo_final_cmyk.png" alt=""></a>
+    <a href="http://www.2600hz.com/" target="_blank"> <img style="width: 15%; height: 15%;" src="/static/upload/media/13914486584894662600hzlogo_transparent.png" alt=""></a>
+  </div>
+</div>
+
+            </div>
+            <div class="col-md-2">
+                <a class="twitter-timeline" href="https://twitter.com/erlangfactory" data-widget-id="440466961579778048">Tweets by @erlangfactory</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <a class="conference_link" role="button" data-toggle="modal" href="#newsletter">Subscribe to our newsletter</a>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="modal fade" tabindex="-1"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+      x    
+    </button>
+    <h3 class="talk-title">About</h3>
+  </div>
+  <div class="modal-body">
+    <h4 class="modal-title">Organiser</h4 class="modal-title">
+    <p>
+      Erlang Solutions Ltd. is the only company of its kind totally focused on Erlang and its community, offering industry-leading research, development, training and worldwide support. This helps our customers realise the potential of Erlang-based solutions, with all the inherent benefits of the speed to market, low lifetime cost, extreme reliability and scalability offered by Erlang.
+    </p>
+    <p>
+      We organise the yearly Erlang Factory conference in the San Francisco Bay Area and in 2009 we took over organising the Erlang User Conference from Ericsson. We also organise or co-organise Erlang Factory Lite conferences all over the world.
+    </p>
+    <h4 class="modal-title">The Erlang Factory SF Bay</h4 class="modal-title">
+    <p>
+      The Erlang Factory SF Bay is a two-day tech conference focused on the Erlang programming language. It brings together the rapidly growing community that uses Erlang in order to showcase the language and its various application to today's distributed environments. Those less familiarized with the language get first-hand accounts on how companies solve real-world challenges using Erlang. Training courses on Erlang, OTP and other tools ad solutions based on the language are usually organised around the conference.
+    </p>
+    <h4 class="modal-title">The Erlang User Conference</h4 class="modal-title">
+    <p>
+      The Erlang User Conference is the oldest Erlang conference in the world, run annually since 1994 (except 1996 when everybody was busy developing the first version of OTP). This two-days conference is hosted in Stockholm, the birthplace of the Erlang programming language.  
+    </p>
+    <p>
+      Together with the Conference are optional three-day "University" training courses and tutorials, not only in Erlang itself, but also in related technologies and Erlang-based systems and products. The value of attending the courses in this way is that they are condensed versions of the more usual 5-day courses and allow delegates to attend the training as well as the conference in the 5-day period. Furthermore, having the training close behind the opportunity to discuss applications of it with experts, multiplies its value many times over compared with having just the training by itself.
+    </p>
+    <h4 class="modal-title">Erlang Factory Lites</h4 class="modal-title">
+    <p>
+      As the Erlang community got bigger, people started asking us to bring the Factory to their city. So the Erlang Factories 
+      Lite were created. Members of the local Erlang community usually lead the initiative, and in 2013 Factory Lites were held in Munich, Krakow, Budapest, Dublin, New York, Chicago, Berlin, Toronto and Tel Aviv. 
+    </p>
+    <h4 class="modal-title">Code of conduct</h4>
+    <p>
+      All attendees, speakers, sponsors and volunteers at our conferences are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
+    </p>
+    <p style="font-weight: bold">
+      tl;dr: Don't be a Jerk
+    </p>
+    
+    <p style="font-weight: bold">The Quick Version</p>
+    <p>Our conferences are dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
+    
+    <p style="font-weight: bold">The Less Quick Version</p>
+    <p>Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+    
+    <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+    
+    <p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
+    
+    <p>If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
+    
+    <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded t-shirts.</p>
+    
+    <p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+    
+    <p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
+    
+    <p>Original source and credit: <a href="http://2012.jsconf.us/#/about">The Ada Initiative</a></p>
+    <p>Please help by translating or improving: <a href="https://github.com/confcodeofconduct/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a></p>
+    <p>This work is licensed under a Creative Commons Attribution 3.0 Unported License</p>
+
+
+  </div>
+  <div class="modal-footer">
+    <button class="button" data-dismiss="modal" aria-hidden="true">
+      Close
+    </button>
+  </div>
+</div>
+
+<div id="archive" class="modal fade" tabindex="-1"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+      x    
+    </button>
+    <h3 class="talk-title">Archive</h3>
+  </div>
+  <div class="modal-body">
+    Archive
+  </div>
+  <div class="modal-footer">
+    <button class="button" data-dismiss="modal" aria-hidden="true">
+      Close
+    </button>
+  </div>
+</div>
+
+<div id="contact" class="modal fade" tabindex="-1"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+      x    
+    </button>
+    <h3 class="talk-title">Ask us anything</h3>
+  </div>
+  <div class="modal-body">
+    <iframe src="http://www2.erlang-solutions.com/l/23452/2014-03-03/3lz8f" width="100%" height="400" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe> 
+  </div>
+  <div class="modal-footer">
+    <button class="button" data-dismiss="modal" aria-hidden="true">
+      Close
+    </button>
+  </div>
+</div>
+
+<div id="newsletter" class="modal fade" tabindex="-1"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+      x
+    </button>
+    <h3 class="talk-title">Subscribe to our newsletter</h3>
+  </div>
+  <div class="modal-body">
+    <iframe src="http://www2.erlang-solutions.com/l/23452/2014-03-03/3lz2p" width="100%" height="400" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+  </div>
+  <div class="modal-footer">
+    <button class="button" data-dismiss="modal" aria-hidden="true">
+      Close
+    </button>
+  </div>
+</div>
+
+</div> <!-- end of wrap -->
+
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/plugins.js"></script>
+        <script>
+            $('#top-nav').onePageNav({
+                currentClass: 'active',
+                changeHash: true,
+                scrollSpeed: 750,
+                filter: ':not(.external)'
+            });
+            $('.register-button').click(function() {
+                $('.register-link').click();
+            });
+            $(".dropdown").on('shown.bs.dropdown', function (e) {
+                //function called when dropdown-menu becomes visible
+                var dropdownMenu = $('ul:first', this); //find dropdown-menu
+                //if element was moved to left, set left back to 0 for next calculations
+                $(this).find(".dropdown-menu").first().css('left', 0);
+                var offset = dropdownMenu.offset();
+                var leftOffset = offset.left;
+                var width = dropdownMenu.width();
+                var documentWidth = $(document).width();
+                var sticksOutRightSide = leftOffset + width - documentWidth;
+                if (sticksOutRightSide > 0) {
+                    $(this).find(".dropdown-menu").first().css('left', -(sticksOutRightSide + 20));
+                }
+            });
+        </script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-235575-6', 'erlang-factory.com');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+	<script type="text/javascript">
+        gaJsHost = "https://ssl.";
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+           try {
+            var pageTracker = _gat._getTracker("UA-235575-6");
+            pageTracker._trackPageview();
+           } catch(err) {}
+        </script>
+        <script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+    </body>
+</html>

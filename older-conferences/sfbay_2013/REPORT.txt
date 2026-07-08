@@ -1,0 +1,113 @@
+edition: sfbay_2013
+source:  http://www.erlang-factory.com/conference/SFBay2013  (mode: wayback)
+date:    2026-07-07 08:37
+pages: 93   assets: 161   missing: 10   elapsed: 454s
+
+[index.html] STRIPPED script: inline
+[community/index.html] STRIPPED script: inline
+[erlounge/index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[programme/79/index.html] STRIPPED script: inline
+[programme/80/index.html] STRIPPED script: inline
+[register/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AdamDenenberg/index.html] STRIPPED script: inline
+[speakers/AlexanderGounares/index.html] STRIPPED script: inline
+[speakers/AndrewThompson/index.html] STRIPPED script: inline
+[speakers/AnthonyMolinaro/index.html] STRIPPED script: inline
+[speakers/AntonLavrik/index.html] STRIPPED script: inline
+[speakers/AntonyFalco/index.html] STRIPPED script: inline
+[speakers/BenoitChesneau/index.html] STRIPPED script: inline
+[speakers/BobDionne/index.html] STRIPPED script: inline
+[speakers/BobIppolito/index.html] STRIPPED script: inline
+[speakers/BrettCameron/index.html] STRIPPED script: inline
+[speakers/CaseyRosenthal/index.html] STRIPPED script: inline
+[speakers/ChadDePue/index.html] STRIPPED script: inline
+[speakers/ChristianGribneau/index.html] STRIPPED script: inline
+[speakers/CliffMoon/index.html] STRIPPED script: inline
+[speakers/DennisDocter/index.html] STRIPPED script: inline
+[speakers/DionisisKakoliris/index.html] STRIPPED script: inline
+[speakers/EnriquePazPerez/index.html] STRIPPED script: inline
+[speakers/ErikMeijer/index.html] STRIPPED script: inline
+[speakers/ErikStenman/index.html] STRIPPED script: inline
+[speakers/EvanMiller/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/FredHebert/index.html] STRIPPED script: inline
+[speakers/GarrettSmith/index.html] STRIPPED script: inline
+[speakers/GeneSher/index.html] STRIPPED script: inline
+[speakers/GeoffCant/index.html] STRIPPED script: inline
+[speakers/GuanhuaYe/index.html] STRIPPED script: inline
+[speakers/JamesAimonetti/index.html] STRIPPED script: inline
+[speakers/JamesMayfield/index.html] STRIPPED script: inline
+[speakers/JaredKofron/index.html] STRIPPED script: inline
+[speakers/JayNelson/index.html] STRIPPED script: inline
+[speakers/JeremyOng/index.html] STRIPPED script: inline
+[speakers/joearmstrong/index.html] STRIPPED script: inline
+[speakers/JohnKemp/index.html] STRIPPED script: inline
+[speakers/JohnVlachoyiannis/index.html] STRIPPED script: inline
+[speakers/JosephDeVivo/index.html] STRIPPED script: inline
+[speakers/JoseValim/index.html] STRIPPED script: inline
+[speakers/kenjirikitake/index.html] STRIPPED script: inline
+[speakers/KennethLundin/index.html] STRIPPED script: inline
+[speakers/KnutNesheim/index.html] STRIPPED script: inline
+[speakers/LoicHoguin/index.html] STRIPPED script: inline
+[speakers/MaheshPaoliniSubramanya/index.html] STRIPPED script: inline
+[speakers/MarcCampbell/index.html] STRIPPED script: inline
+[speakers/MarioIzquierdo/index.html] STRIPPED script: inline
+[speakers/MartinHald/index.html] STRIPPED script: inline
+[speakers/michalslaski/index.html] STRIPPED script: inline
+[speakers/NoahGift/index.html] STRIPPED script: inline
+[speakers/OmerKilic/index.html] STRIPPED script: inline
+[speakers/PrashanthMundkur/index.html] STRIPPED script: inline
+[speakers/RamCSingh/index.html] STRIPPED script: inline
+[speakers/ReidDraper/index.html] STRIPPED script: inline
+[speakers/RickReed/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/ScottLystigFritchie/index.html] STRIPPED script: inline
+[speakers/SethFalcon/index.html] STRIPPED script: inline
+[speakers/SteveVinoski/index.html] STRIPPED script: inline
+[speakers/StuartBailey/index.html] STRIPPED script: inline
+[speakers/TorbjornTornkvist/index.html] STRIPPED script: inline
+[speakers/UlfWiger/index.html] STRIPPED script: inline
+[speakers/VilleTuulos/index.html] STRIPPED script: inline
+[speakers/YingLi/index.html] STRIPPED script: inline
+[speakers/YosukeHara/index.html] STRIPPED script: inline
+[speakers/YuriiRashkovskii/index.html] STRIPPED script: inline
+[speakers/YushengLi/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[sponsorship_opportunities/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/index.html] STRIPPED script: inline
+[tracks/analyticsweb/index.html] STRIPPED script: inline
+[tracks/bigdataanddatabases/index.html] STRIPPED script: inline
+[tracks/bigdataanddatabases/index.html] MISSING subpage (-> wayback): /conference/SFBay2013/submit_talk
+[tracks/casestudies/index.html] STRIPPED script: inline
+[tracks/databases/index.html] STRIPPED script: inline
+[tracks/devops/index.html] STRIPPED script: inline
+[tracks/erlanginbusiness/index.html] STRIPPED script: inline
+[tracks/erlanginbusiness/index.html] MISSING subpage (-> wayback): /conference/SFBay2013/submit_talk
+[tracks/erlanginthecloud/index.html] STRIPPED script: inline
+[tracks/erlanginthecloud/index.html] MISSING subpage (-> wayback): /conference/SFBay2013/submit_talk
+[tracks/Gaming--Social-Media/index.html] STRIPPED script: inline
+[tracks/infrastructureandmessaging/index.html] STRIPPED script: inline
+[tracks/thepolyglotprogrammer/index.html] STRIPPED script: inline
+[tracks/thepolyglotprogrammer/index.html] MISSING subpage (-> wayback): /conference/SFBay2013/submit_talk
+[tracks/toolsandgadgets/index.html] STRIPPED script: inline
+[tracks/vmandmulticore/index.html] STRIPPED script: inline
+[university/index.html] STRIPPED script: inline
+[university/ErlangExpress/index.html] STRIPPED script: inline
+[university/OTPExpress/index.html] STRIPPED script: inline
+[university/RaspberryPi/index.html] STRIPPED script: inline
+[university/RiakTraining/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/item/400/ImAttending.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/402/seeyouthere.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/72/tripadvisor.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/SFBay2012_RamCSingh/afiniatewotagline.png: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/SFBay2013_ChadDePue/inaka.png: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/400/ImAttending.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/402/seeyouthere.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/72/tripadvisor.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/SFBay2012_RamCSingh/afiniatewotagline.png: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/SFBay2013_ChadDePue/inaka.png: HTTP Error 404: NOT FOUND
+REWROTE 5 never-archived asset ref(s) to Wayback URLs

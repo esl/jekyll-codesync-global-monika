@@ -1,0 +1,41 @@
+edition: Paris Erlang Factory Lite
+source:  http://www.erlang-factory.com/conference/Paris  (mode: wayback)
+date:    2026-07-07 14:40
+pages: 12   assets: 21   missing: 4   elapsed: 158s
+
+SKIPPED out-of-prefix page: /conference/Paris2012
+SKIPPED out-of-prefix page: /conference/Paris2012/programme
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/BenoitChesneau
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/CyrilValliez
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/DominicWilliams
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/FabriceNourisson
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/francescocesarini
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/FredericScibetta
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/FredHebert
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/LoicHoguin
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/NicolasThauvin
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/PhilippePinchon
+SKIPPED out-of-prefix page: /conference/Paris2012/speakers/RobertVirding
+SKIPPED out-of-prefix page: /conference/Paris2012/sponsor/list
+SKIPPED out-of-prefix page: /conference/Paris2012/sponsorship_opportunities
+SKIPPED out-of-prefix page: /conference/Paris2012/talks
+SKIPPED out-of-prefix page: /conference/Paris2012/tracks/programme
+SKIPPED out-of-prefix page: /conference/Paris2012/venue
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[register/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/BenoitChesneau/index.html] STRIPPED script: inline
+[speakers/DominicWilliams/index.html] STRIPPED script: inline
+[speakers/LoicHoguin/index.html] STRIPPED script: inline
+[speakers/PaulGuyot/index.html] STRIPPED script: inline
+[speakers/RomainGauthier/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/Parisprogramme/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://erlang-factory.com//upload/item/57/af83_venue3.JPG: HTTP Error 404: NOT FOUND
+MISSING asset http://erlang-factory.com//upload/item/58/af83_venue2.JPG: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://erlang-factory.com//upload/item/57/af83_venue3.JPG: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://erlang-factory.com//upload/item/58/af83_venue2.JPG: HTTP Error 404: NOT FOUND
+REWROTE 2 never-archived asset ref(s) to Wayback URLs

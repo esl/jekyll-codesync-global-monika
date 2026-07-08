@@ -1,0 +1,21 @@
+edition: Erlang Factory Lite Munich
+source:  http://www.erlang-factory.com/conference/ErlangFactoryLiteMunich  (mode: wayback)
+date:    2026-07-07 15:10
+pages: 11   assets: 25   missing: 2   elapsed: 302s
+
+[index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/KlausTrainer/index.html] STRIPPED script: inline
+[speakers/PavloBaron/index.html] STRIPPED script: inline
+[speakers/PavloBaron/index.html] MISSING subpage (-> wayback): /conference/ErlangFactoryLiteMunich/tracks/ConferenceProgramme
+[speakers/TinoBreddin/index.html] STRIPPED script: inline
+[speakers/VolkerMische/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[submit_talk/index.html] MISSING subpage (-> wayback): /conference/ErlangFactoryLiteMunich/register
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://erlang-factory.com//upload/item/36/Munichmap.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://erlang-factory.com//upload/item/36/Munichmap.jpg: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

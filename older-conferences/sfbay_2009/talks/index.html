@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Reconstructed from Wayback Machine captures of http://www.erlang-factory.com/conference/SFBayAreaErlangFactory2009/talks (codesync.global migration, 2026-07-07) -->
+<head>
+<title>Erlang Factory - Erlang Factory SF Bay Area 2009 - Talks</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="../assets/css/conf.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/css/ctable.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta content="The Erlang Factory conferences provide inspiring talks, trainings and workshops with leading Erlang experts. The Erlang Factory SF Bay Area is the biggest Erlang event in the US, and Erlang Factory Lites are organised on a monthly basis across the US and Europe." name="description"/>
+<meta content="erlang factory training consulting conference solutions london san francisco " name="keywords"/>
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript">//nothing </script>
+<script src="../assets/javascript/jquery.countdown.js" type="text/javascript">//nothing </script>
+<script src="../assets/javascript/script.js" type="text/javascript">//nothing </script>
+</head>
+<body>
+<div class="PageBackgroundGradient"> </div>
+<div class="Main">
+<div class="Sheet">
+<div class="Sheet-body">
+<a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/"><div class="Header" style="background-image: url(../assets/upload/conferenceimage/SFBayAreaErlangFactory2009/gen-head-bay6.jpg);">
+<div>
+<table class="logo">
+<tr><td class="logo-name"> </td></tr>
+<tr><td class="logo-text"> </td></tr>
+</table>
+</div>
+</div>
+</a>
+<div class="contentLayout">
+<div class="sidebar1">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory</div>
+<ul>
+<li><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/" title="Erlang Factory">Home</a></li>
+<li><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/about" title="About">About Us</a></li>
+<li><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/contact" title="Contact">Contact</a></li>
+</ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th"><a href="../">Erlang Factory SF Bay Area 2009</a></div><ul> <li><a href="../speakers/" title="Speakers">Speakers</a></li><li><a href="./" title="Talks">Talks</a></li><li><a href="../contact/" title="Conference Contact">Conference Contact</a></li><li><a href="../sponsor/list/" title="Sponsors">Sponsors</a></li></ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Organisers</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Newsletter</div>
+<p>
+                      Subscribe to our Erlang Factory newsletter to receive
+                      the latest updates and news
+                    </p>
+<form action="/ml/subscribe" id="signupform" method="post">
+<table style="width: 100%;">
+<tr>
+<td>
+<input id="s" maxlength="256" name="email" onblur="if (this.value == '') {this.value = 'Your Email';}" onfocus="if(this.value == 'Your Email') {this.value = '';}" size="17" style="width: 95%;" type="text" value="Your Email"/>
+</td>
+</tr>
+<tr>
+<td>
+<div id="recaptcha_widget" style="display:none">
+<div id="recaptcha_image"> </div>
+<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+<span class="recaptcha_only_if_image">Enter the words above:</span>
+<span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+<br/>
+<input id="recaptcha_response_field" name="recaptcha_response_field" style="width:150px" type="text"/>
+<div><a href="javascript:Recaptcha.reload()">Get another CAPTCHA</a></div>
+<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">Get an audio CAPTCHA</a></div>
+<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">Get an image CAPTCHA</a></div>
+<div><a href="javascript:Recaptcha.showhelp()">Help</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="buttonclass" type="submit" value="Sign Up"/>
+</td>
+</tr>
+</table>
+<script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"> </script>
+<script type="text/javascript">
+Recaptcha.create("6Lc7LNISAAAAAH_MJuG4ilssW-cJ6dsw-1Buckj6",
+    "recaptcha_widget",
+    {
+      theme: "custom",
+    }
+  );
+
+$('input[type="submit"]').click(validateCaptchaAndSubmit);
+
+function validateCaptchaAndSubmit(eo) {
+    var challengeId = $('input#recaptcha_challenge_field')[0].value;
+    var userSolution = $('input#recaptcha_response_field')[0].value;
+    $.post(	'/verify_captcha',
+			{"challenge_id":challengeId, "user_solution":userSolution},
+			function(data, textStatus, jqXHR) {
+				if(data=="true") {
+					$("form[action='/ml/subscribe']").submit();
+				} else {
+					alert("Incorrect captcha solution!");
+				}
+			},
+			"text"
+		     );
+    return false;
+}
+</script>
+<style type="text/css">
+div#recaptcha_image {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_image img {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_widget {
+    width: 160px !important;
+}
+</style>
+</form>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="content2">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory SF Bay Area 2009 - Talks</div>
+<div class="post">
+<div class="entry">
+<p>
+<p><b><a href="../speakers/Lennartohman/"><font color="brown">A service fail over and take over system for Erlang/OTP </font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/Lennartohman/">
+<img alt="Lennart Öhman" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_Lennartohman/lennartohman-small2.jpg"/>
+<br/>Lennart Öhman</a>
+<br/>
+<div class="company">Sjöland &amp; Thyselius Telecom AB</div>
+</td>
+</tr></table></td><td vertical-align="top">Erlang/OTP positions itself in the niche for building fault tolerant software systems with redundancy over two or more independent nodes. However Erlang/OTP comes with surprisingly little built in support to make failover and takeover/migration of responsibilities between nodes in a safe way. The Fail Over and Take Over System (FOTOS) presented in this paper offers mechanisms to keep a consistent state over several nodes, and also detect partial network failures preventing individual nodes from making premature decisions. Applications cooperating over the network can make use of the guaranteed consistent information to make unanimous decisions when having to decide on to where now failed services shall be failed-over, and also in a potentially ongoing procedure where to resume the service.   <div align="right"><p><a href="../speakers/Lennartohman/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/69/LennartOhman.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/BobIppolito/"><font color="brown">Ad Serving in Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/BobIppolito/">
+<img alt="Bob Ippolito" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_BobIppolito/BobIppolitosmall.jpg"/>
+<br/>Bob Ippolito</a>
+<br/>
+<div class="company">Mochi Media Inc.</div>
+</td>
+</tr></table></td><td vertical-align="top">We've been using Erlang at Mochi Media since the 2006 launch of MochiAds, our advertising platform for Flash games. It's the first time any of us have done any production software with a functional programming language, and thus far it's turned out to be a great experience. The success of the MochiAds platform led us to writing many other products (internal and external) on the same technology stack. We believe Erlang to be one of the key reasons why we're able to develop more quickly and scale more easily than our competitors.     <div align="right"><p><a href="../speakers/BobIppolito/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/28/BobIppolito-AdServinginErlang.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/TonyArcieri/"><font color="brown">Building Languages on Erlang (and an introduction to Reia)</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/TonyArcieri/">
+<img alt="Tony Arcieri" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_TonyArcieri/tonyarcieri-small.jpg"/>
+<br/>Tony Arcieri</a>
+<br/>
+<div class="company">Medioh Inc</div>
+</td>
+</tr></table></td><td vertical-align="top">Erlang exposes all of the functionality needed to build new programming
+languages with ease. In this talk you will learn the basics of how to
+create your own programming language on top of the Erlang VM, including scanning with leex, parsing with yecc, compiling parsed code from the Erlang abstract format into bytecode, and loading the resulting bytecode into the code server. The session will also cover the presenter's language: Reia, a scripting language for the Erlang VM. 
+
+The talk will cover how Reia is
+implemented, what ideas it borrows from Erlang, where it deviates,
+and how it is able to introduce imperative features while still
+compiling to a functional form. It will also cover Reia's object-oriented features like classes, inheritance, and polymorphism as well as how they map to Erlang's process model.  <div align="right"><p><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/50/BuildingLanguagesonErlang,Reiacombined.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/AbhayKumer/"><font color="brown">Building Reliable Distributed Heterogenous Services with Katamari/Fuzed </font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/AbhayKumer/">
+<img alt="Abhay Kumar" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_AbhayKumer/AbhayKumar.jpg"/>
+<br/>Abhay Kumar</a>
+<br/>
+<div class="company">Powerset R&amp;D, Microsoft Corporation</div>
+</td>
+<td height="160" width="130">
+<a href="../speakers/DaveFayram/">
+<img alt="Dave Fayram" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_DaveFayram/DaveFayram-small.jpg"/>
+<br/>Dave Fayram</a>
+<br/>
+<div class="company">Microsoft Corporation</div>
+</td>
+</tr></table></td><td vertical-align="top">Erlang is a powerful language for distributed computation, but most
+modern production software is written in a variety of languages that
+are not as suited to reliable, distributed programing. At Powerset, we
+developed a platform for reliable distributed computing that leveraged
+the Erlang Ports infrastrcutre to make the robustness and flexibility
+of Erlang-based networked infrastructure to a variety of language
+runtimes, without onerous cross-porting work. From that base, we
+extended our system to support heterogenous networks of services which
+can be added or removed in real time without interrupting existing
+services, using a simple model akin to an erlang event loop to talk
+with external code.
+   <div align="right"><p><a href="../speakers/AbhayKumer/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/42/dave_fayram_abhay_kumar-katamari.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/ChrisAnderson/"><font color="brown">CouchDB Apps</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/ChrisAnderson/">
+<img alt="Chris Anderson" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_ChrisAnderson/foto_ca.jpg"/>
+<br/>Chris Anderson</a>
+<br/>
+<div class="company">CouchDB Ltd</div>
+</td>
+</tr></table></td><td vertical-align="top"><div>“Look Ma, no middleware”. This presentation is a tour de force
+through building standalone CouchDB applications with nothing but HTML
+&amp; Ajax directly talking to CouchDB’s REST API.</div><div><br/></div><div>CouchDB
+applications run locally, on a users machine. Application data can be
+replicated between users and central servers alike using a peer to peer
+structure. Users can access their data when offline (for example when
+on a plane). Even the applications themselves can be replicated (for
+software updates) and tech-savy users can enhance their local copy and
+make patches to their friends and co-workers available through
+replication.</div><div><br/></div><div>Bring your Laptop to follow along
+when we build the example application. Bonus points, when you come with
+a running CouchDB installation.</div> <div align="right"><p><a href="../speakers/ChrisAnderson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/3/ChrisAnderson-CouchDB.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/timdysigner/"><font color="brown">CouchDB Case Studies</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/timdysigner/">
+<img alt="Tim Dysinger" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_timdysigner/tim2.jpg.jpeg"/>
+<br/>Tim Dysinger</a>
+<br/>
+<div class="company"></div>
+</td>
+<td height="160" width="130">
+<a href="../speakers/nitinborwankar/">
+<img alt="Nitin Borwankar" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_nitinborwankar/nitinsmall.png"/>
+<br/>Nitin Borwankar</a>
+<br/>
+<div class="company"></div>
+</td>
+</tr></table></td><td vertical-align="top"><span style="font-weight: bold;">CouchDB w/ Lisp Flavored Erlang - talk by Tim Dysinger </span><br/>Tim will show some neat tricks playing with CouchDB and Erlang nodes. He has written some Lisp Flavored Erlang code to manipulate and map/reduce the Enron Email Dataset on multiple CouchDB nodes. He’ll show how to pull out miscellaneous aggregated data we might use in warehouse reports.<br/><br/><span style="font-weight: bold;">CouchDB and bibJSON and the Bibliographic Knowledge Network - talk by Nitin Borwankar</span><br/>The Bibliographic Knowledge Network (bibkn.org) is an NSF funded
+project to extract knowledge out of aggreagte bibliographies of
+academic researchers. A foundation problem that needs to be solved is
+one of author disambiguation ( is J. Pitman the same as Jim Pitman or
+Jane Pitman ?). BKN is in the process of evolving workflows for name
+disambiguation so that social network analysis of academic
+collaboration can be carried with confidence in identity of
+participants. Bibliographic data is available in mostly untyped or
+weakly typed data which makes disambiguation difficult.
+Our experience of the ease of use and robustness of CouchDB encouraged
+us to evolve a next generation bibliographic data format (bibJSON)
+which is in early draft form. We have evolved workflows that refine
+untyped bibliographic data and convert it to data with strong identity
+of authors.
+We use CouchDB to anchor a lot of the workflows and Python client side
+scripts to import/export data.
+The talk includes an overview of the state of the BKN project and how
+CouchDB is a foundation element of our technology.<br/> <div align="right"><p><a href="../speakers/timdysigner/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/76/CouchDBCaseStudies.zip" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/janlehnardt/"><font color="brown">CouchDB from 10,000 ft - an introduction to CouchDB</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/janlehnardt/">
+<img alt="Jan Lehnardt" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_janlehnardt/jan-lehnardt-small.jpg"/>
+<br>Jan Lehnardt</br></a>
+<br>
+<div class="company">CouchDB Ltd</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>This presentation takes a look at CouchDB from 10,000 ft. We try
+not to lose you in technical details and paint the big picture that you
+need to understand CouchDB’s strengths and weaknesses.</div><div><br/></div><div>CouchDB
+is a document oriented database. It does not adhere to the relational
+principles of traditional databases. You will learn what that means for
+your application design.</div><div><br/></div><div>CouchDB’s replication
+support solves the problems of high-traffic web sites, distributed
+peer-to-peer, and offline applications all at the same time. We show
+you what kind of applications you are able to build with that.</div><div><br/></div><div>However,
+CouchDB is no Silver Bullet and there are cases where it is a poor fit.
+You will learn to decide when to use it for your project and when you
+are better off with a different solution.</div> <div align="right"><p><a href="../speakers/janlehnardt/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/2/CouchDB-Intro-Erlang-Factory.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/VilleTuulos/"><font color="brown">Disco: Having fun with gigabytes of data</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/VilleTuulos/">
+<img alt="Ville Tuulos" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_VilleTuulos/villeTuulos-small.jpg"/>
+<br>Ville Tuulos</br></a>
+<br>
+<div class="company">Nokia</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Disco is an open-source implementation of the Map/Reduce framework.The Disco core is written in Erlang, which makes the most critical components of the system, namely job scheduling, distribution and fault detection, remarkably compact and robust. Users can specify jobs in Python, with all batteries included, without having to worry about any issues related to parallelism. As the result, Disco makes it fun to process massive amounts of data with hundreds of CPUs in parallel. This talk will introduce Map/Reduce programming with Disco and show how to perform simple and some more complicated data-processing tasks with minimal amount of code. For Erlang hackers, and for future Disco comitters, the talk will include a walk-through of central components of Disco, showing how Erlang can be used to handle large amounts of data efficiently.</td></tr></table></p><br/><p><b><a href="../speakers/RichardCarlsson/"><font color="brown">EUnit Howto: tips, tricks and news </font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RichardCarlsson/">
+<img alt="Richard Carlsson" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_RichardCarlsson/richardcarlsson-small.jpg"/>
+<br/>Richard Carlsson</a>
+<br/>
+<div class="company"></div>
+</td>
+</tr></table></td><td vertical-align="top">Recently, the EUnit unit testing framework for Erlang was shipped for
+the first time as an official part of the Erlang/OTP distribution. While
+the documentation is fairly complete, it is not always obvious how the 
+various features are supposed to be used in practice. Richard Carlsson, the author of Eunit, will in his talk focus on getting Eunit up and running, tweaking it to fit your build environment,
+and leveraging its features in typical testing situations. 
+He will also briefly present some new additions since the R12B-5 release. <br/> <div align="right"><p><a href="../speakers/RichardCarlsson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/33/EUnitinPractice.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/EugeneLetuchy/"><font color="brown">Erlang at Facebook</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/EugeneLetuchy/">
+<img alt="Eugene Letuchy" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_EugeneLetuchy/EugeneLetuchy-small.jpg"/>
+<br/>Eugene Letuchy</a>
+<br/>
+<div class="company">Facebook </div>
+</td>
+</tr></table></td><td vertical-align="top">Erlang has been used to develop a number of applications at Facebook. Eugene Letuchy has been involved with this development and will discuss the reasons for choosing Erlang and the benefits it has brought.<br/> <div align="right"><p><a href="../speakers/EugeneLetuchy/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/SumeetBajaj/"><font color="brown">Erlang at SAP</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/SumeetBajaj/">
+<img alt="Sumeet Bajaj" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_SumeetBajaj/SumeetBajaj.jpg"/>
+<br/>Sumeet Bajaj</a>
+<br/>
+<div class="company">SAP</div>
+</td>
+</tr></table></td><td vertical-align="top">Sumeet is a part of a small group at SAP Research that is using Erlang to develop a communications serviceprototype to connect real world devices with enterprise applications. The group has worked with Erlang for almost a year and in this talk Sumeet will discuss their experience in learning applying Erlang to the challenge of building a high performance rules engine. He will also discuss some of the results of their
+work pertaining to scalability and performance.  <div align="right"><p><a href="../speakers/SumeetBajaj/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/57/SumeetBajaj_ErlangatSAP.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/MartinLogan/"><font color="brown">Erlware at Orbitz</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MartinLogan/">
+<img alt="Martin Logan" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_MartinLogan/martinlogan-small.jpg"/>
+<br/>Martin Logan</a>
+<br/>
+<div class="company">Orbitz Inc.</div>
+</td>
+</tr></table></td><td vertical-align="top">Orbitz like many other advanced technology companies here in the states, Google, Yahoo, Facebook, uses service orientation.  This talk will focus on where Erlang fits into that picture from a high level and how it is managed from a development, testing, and deployment perspective with the Erlware tools.  This talk will put forward the efficient way Orbitz develops and maintains a production quality Erlang package.    <div align="right"><p><a href="../speakers/MartinLogan/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/YarivSadan/"><font color="brown">ErlyWeb and its use in creating simple real-time web-based chat applications</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/YarivSadan/">
+<img alt="Yariv Sadan" border="1" class="talk" src="../assets/upload/peopleimage/2008LondonErlangeXchange_YarivSadan/YarivSadan.jpg"/>
+<br/>Yariv Sadan</a>
+<br/>
+<div class="company">Facebook</div>
+</td>
+</tr></table></td><td vertical-align="top">Erlang was originally designed to build telcom systems. For most of its existence, most web developers have ignored Erlang partly because it was unproven as a web language and partly because it lacked good web development tools. This is unfortunate because Erlang's strengths in concurrency, distributed programming, and fault tolerance can be advantageous for many web applications. ErlyWeb was created to fill this gap: its goal is to make it as easy to build websites in Erlang as in other languages while allowing developers to leverage Erlang's unique capabilities. In this talk, I will give a brief overview of ErlyWeb and demonstrate how to use ErlyWeb to create a simple real-time web-based chat application.    <div align="right"><p><a href="../speakers/YarivSadan/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/63/YarivSadan-ErlyWeb.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/CliffMoon/"><font color="brown">Everything you wanted to know about Dynomite but were afraid to ask</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/CliffMoon/">
+<img alt="Cliff Moon" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_CliffMoon/CliffMoon.jpg"/>
+<br/>Cliff Moon</a>
+<br/>
+<div class="company">Microsoft Corporation</div>
+</td>
+</tr></table></td><td vertical-align="top">Dynomite is an open source distributed key value database modeled after 
+Amazon’s Dynamo. Dynomite was built from the ground up to support what 
+would be a traditional RDBMS’s worst nightmare: low latency random read 
+and write access to large binary objects.
+<br/>
+<br/>Dynomite is different from memcache style distributed hash tables in 
+that it handles all routing and failover internally. Clients need merely 
+connect to one node to have access to the entire cluster. It can provide 
+low read and write latency to clients even in the face of node failures 
+due to its relaxed consistency constraints.
+<br/>
+<br/>During this session we will discuss how to tell whether Dynomite is a 
+good fit for an application. Discussions will also include dynamic 
+cluster configuration, how to choose an appropriate storage engine, and 
+how to tune a Dynomite cluster for some common scenarios.
+   <div align="right"><p><a href="../speakers/CliffMoon/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/35/CliffMoon.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/ClaraBenacEarle/"><font color="brown">Hands-on session with the McErlang model checker</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/ClaraBenacEarle/">
+<img alt="Clara Benac Earle" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_ClaraBenacEarle/Clarabenac_earle-small.jpg"/>
+<br>Clara Benac Earle</br></a>
+<br>
+<div class="company">Technical University of Madrid</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Following the talk on the McErlang Model Checker by <a href="../speakers/LarsAkeFredlund/">Lars-Ake Fredlund</a>, Clara Benac-Earle will provide a hands-on demonstration of the tool for those interested. Delegates will be shown how to install it onto their laptops and then they will be taken through some exercises to demonstrate its usage.<br/> <div align="right"><p><a href="../speakers/ClaraBenacEarle/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/64/McErlangTutorial.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/PaulMineiro/"><font color="brown">Integrating OS package management and Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PaulMineiro/">
+<img alt="Paul Mineiro" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_PaulMineiro/PaulMineirosmall.jpg"/>
+<br/>Paul Mineiro</a>
+<br/>
+<div class="company">N54 Inc.</div>
+</td>
+</tr></table></td><td vertical-align="top">Erlang supports hot code loading at the language level as a differentiating language feature, but it can be confusing to use in practice. OTP provides a high level interface via the concept of releases, but the OTP model is geared towards environments where changes are large and infrequent due to low risk tolerance (substantial QA), and deployed to a relatively small amount of static nodes.  For the typical startup, code changes are small and frequent, risk tolerance to changes is high but fast rollback is essential (i.e., there is essentially no QA), and the number of nodes is large (and on EC2, dynamic).<br/><br/> In this talk I describe an alternative high level interface to hot code loading which leverages the OS package management system (e.g., rpm, deb).  In addition to being a better fit for the typical startup, it has advantages in a heterogenous environment where Erlang is one of many interacting and dependent technologies deployed, by creating a uniform method for treating code distribution, dependency specification, and provisioning.  <div align="right"><p><a href="../speakers/PaulMineiro/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/27/paul_mineiro.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/RobertVirding/"><font color="brown">Keynote: The Erlang Rationale</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RobertVirding/">
+<img alt="Robert Virding" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_RobertVirding/RobertVirdingsmall.jpg"/>
+<br/>Robert Virding</a>
+<br/>
+<div class="company">FMV</div>
+</td>
+</tr></table></td><td vertical-align="top">While Erlang has much in common with other functional
+languages it does many things differently from other languages. In this talk one of the three inventors of Erlang will look at the rationale behind Erlang and try to show how many of its
+important features combine to work together. We will also look at how Erlang
+was first developed to show the reason for some of the features in the
+rationale.<link href="file:///C:%5CUsers%5CFrank%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml" rel="File-List"/><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><link href="file:///C:%5CUsers%5CFrank%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx" rel="themeData"/><link href="file:///C:%5CUsers%5CFrank%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml" rel="colorSchemeMapping"/><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]--><link href="file:///C:%5CUsers%5CFrank%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml" rel="File-List"/><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><link href="file:///C:%5CUsers%5CFrank%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx" rel="themeData"/><link href="file:///C:%5CUsers%5CFrank%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml" rel="colorSchemeMapping"/><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]-->
+<div align="right"><p><a href="../speakers/RobertVirding/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/26/EF09-ErlangRationale.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/DamienKatz/"><font color="brown">Keynote: The history of CouchDB development from a very personal point of view</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/DamienKatz/">
+<img alt="Damien Katz" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_DamienKatz/DamienKatz.jpg"/>
+<br/>Damien Katz</a>
+<br/>
+<div class="company"></div>
+</td>
+</tr></table></td><td vertical-align="top">This talk is about the history of CouchDB development from a very
+personal point of view. I'll talk about my inspirations for CouchDB and
+why I decided to move my wife and kids to a cheaper place and live off
+savings to build this thing. I'll discuss how the project has
+progressed  and evolved, the decision to switch to Erlang and the
+transition to joining the Apache Foundation. It's also about the day to
+day grind of working alone at home for months on end, how I deal with
+feeling panicked and overwhelmed and trying to make progress through it
+all.
+<br/>
+<div align="right"><p><a href="../speakers/DamienKatz/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/40/DamienKatz.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/EzraZygmuntowicz/"><font color="brown">Keynote: You got your Erlang in my Ruby</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/EzraZygmuntowicz/">
+<img alt="Ezra Zygmuntowicz" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_EzraZygmuntowicz/ezrazygmuntowicz.jpg"/>
+<br/>Ezra Zygmuntowicz</a>
+<br/>
+<div class="company">Engine Yard Inc.</div>
+</td>
+</tr></table></td><td vertical-align="top">With functional style, message passing concurrency primitives baked in
+and the power of OTP for building fault tolerant applications, Erlang
+is the best in breed programming environment for making horizontally
+scalable network servers.
+
+With a clean object model and beautiful, concise syntax, Ruby is
+one of the most productive and expressive dynamic languages available
+right now.
+Both of these platforms have great strengthsand weaknesses. Erlang
+syntax is bizaar for most programmers and String and IO handling are
+fairly primitive. Ruby has some scalability limits like 1024 open
+sockets or file descriptors and no true concurrency, only green threads.
+
+In this talk we will explore a melding of the two called Nanite.
+Nanite is a framework where you write 'agents' in Ruby and use
+RabbitMQ (Erlang) as a messaging bus/hub. We can exploit the power of
+Erlang's message passing and scalability to distribute the work our to
+Ruby 'Nanites' that implement functionality. This ends up looking like
+an exploded Erlang VM where the actors are implemented as Ruby
+processes with Erlangin the middle holding everything together. With
+this powerful combination we get to play to the strengths of each
+language to build a hive mind of interconnected processing power.
+   <div align="right"><p><a href="../speakers/EzraZygmuntowicz/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/41/EzraZygmuntowicz.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/tobbetornkvist/"><font color="brown">Kreditor - running a 24x7 system; architecture and experiences</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/tobbetornkvist/">
+<img alt="Tobbe Tornkvist" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_tobbetornkvist/tobbetornqvist.jpg"/>
+<br/>Tobbe Tornkvist</a>
+<br/>
+<div class="company">Kreditor AB</div>
+</td>
+</tr></table></td><td vertical-align="top">The talk will give a brief history of Kreditor and will then will go into some
+detail about the system architecture of their 24x7 system that serves
+some 3000 E-stores. In particular, the use of Mnesia in a non-distributed
+mode will be described as well as how this was utilized in the
+move of the system to a different data centre.
+
+          <div align="right"><p><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/68/Kreditor.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/RobertVirding/"><font color="brown">Lisp Flavoured Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RobertVirding/">
+<img alt="Robert Virding" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_RobertVirding/RobertVirdingsmall.jpg"/>
+<br/>Robert Virding</a>
+<br/>
+<div class="company">FMV</div>
+</td>
+</tr></table></td><td vertical-align="top">In this talk we will describe and demonstrate Lisp
+Flavored Erlang (LFE). LFE allows you to write Erlang code in a lisp
+syntax and combines the versatility and extensibility of lisp with the
+COP power of Erlang. LFE is completely integrated with Erlang/OTP and
+code written in LFE can freely be used together with modules written in
+vanilla Erlang and applications in Erlang/OTP. LFE is also much easier
+to use than vanilla Erlang when generating code. We will describe the
+system, its tools and its implementation, and also demonstrate some of
+its features and using its programming environment.<br/><br/><br/><br/> <div align="right"><p><a href="../speakers/RobertVirding/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/61/Robertvirding-LispFlavouredErlang.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/TomPrestonWerner/"><font color="brown">Mixing Erlang and Ruby with Erlectricity</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/TomPrestonWerner/">
+<img alt="Tom Preston-Werner" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_TomPrestonWerner/TomPreston-Werner.jpg"/>
+<br>Tom Preston-Werner</br></a>
+<br>
+<div class="company">Github</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><p>Erlang isn't good for everything. Neither is Ruby. But together they create a powerful force that can be harnessed to engineer highly scalable systems that defer to Ruby for more mundane tasks. The secret to this unholy alliance is a two way communication layer called Erlectricity that lets you craft Ruby nodes that receive messages just like Erlang processes.<br/><br/>I will demonstrate how this setup can lead to elegant and extensible system design with simple examples, and then explain how Erlectricity helped us build a self-assembling, YAWS based meta-server called Fuzed that lets you put Rails apps or other Ruby servers into a heterogenous cloud.</p><div align="right"><p><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/36/tom_preston_werner_erlectricity.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/MickaelRemond/"><font color="brown">OneTeam Media Server: Adding Video to Instant Messaging with Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MickaelRemond/">
+<img alt="Mickaël Rémond" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_MickaelRemond/MickaelRemond-small.jpg"/>
+<br/>Mickaël Rémond</a>
+<br/>
+<div class="company">Process One</div>
+</td>
+</tr></table></td><td vertical-align="top">OneTeam Media Server is a new project launched by ProcessOne which is a Media server for Flash clients implementing the FLV and RTMP protocol. The project is designed so that it can work hand in hand with ejabberd, ProcessOne Instant Messaging platform. This presentation presents the goal and the architecture of the project and demonstrates the video platform. We will give performance feedback on Erlang use for binary processing in a highly demanding context.      <div align="right"><p><a href="../speakers/MickaelRemond/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/39/MickaelRemond-oneteammediaserver.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/NickGerakines/"><font color="brown">Test-driven development with Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/NickGerakines/">
+<img alt="Nick Gerakines" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_NickGerakines/NickGerakines-small.jpg"/>
+<br/>Nick Gerakines</a>
+<br/>
+<div class="company">Electronic Arts</div>
+</td>
+</tr></table></td><td vertical-align="top">Test-driven development may not be the first thing you think of when Erlang comes to mind, but it should.  Using test-driven development, you can save substantial amounts of time, effort and energy. Nick's presentation will step through Erlang related test-driven development patterns as well as the tools and software available to Erlang engineers.   <div align="right"><p><a href="../speakers/NickGerakines/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/32/NickGerakines.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/JohnHughes/"><font color="brown">Testing Erlang programs for multicore </font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JohnHughes/">
+<img alt="John Hughes" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_JohnHughes/johnhughes-small.jpg"/>
+<br/>John Hughes</a>
+<br/>
+<div class="company">QuviQ AB</div>
+</td>
+</tr></table></td><td vertical-align="top">Erlang programs are easily ported to multicore; one gets a great speed-up for free, because the Erlang programs are concurrent in nature. Nevertheless, running your Erlang application on a multicore processor may well reveal errors that you have never spotted before. The Erlang scheduler on a single core is very deterministic and certain sequences of events simply cannot occur, although they do occur in theory and certainly on a multicore. Since the number of possible interleavings on a multicore is impractically large, successfully running your old test suite may not give you the confidence you need to ship you software. More testing is necessary, but running the same suite many times or adding more test cases hardly solves the problem.<br/><br/>As a result of the <a href="http://www.protest-project.eu/">ProTest </a>research project, <a href="http://www.cs.chalmers.se/%7Erjmh/QuickCheck/">QuickCheck</a> comes with an extension to test Erlang programs for multicore. Defects that cannot be detected on a single core, can be revealed by this extension. The extension also improves the analysis phase of the defect by presenting the simplest interleaving that lead to the defect and a visualization of the messages send and received.<br/>    <br/> <div align="right"><p><a href="../speakers/JohnHughes/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/55/TestingErlangProgrammesforMulticore.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/MichalSlaski/"><font color="brown">The Erlang Web</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MichalSlaski/">
+<img alt="Michal Slaski" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_MichalSlaski/michal_slaski-small.jpg"/>
+<br>Michal Slaski</br></a>
+<br>
+<div class="company">Erlang Solutions Ltd</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><span class="body">Michal Slaski will be presenting the <a href="http://www.erlang-web.org/">Erlang Web</a>.
+The Erlang Web is an open source framework for the rapid prototyping
+and development of applications based on HTTP protocols, giving the
+developer better control of content management separating data, html
+generation and glue and logic.  While some Erlang frameworks are focused on getting started quickly, the Erlang Webtries instead to be complete. During the talk Michal will discuss
+concepts implemented in the framework, show results of stress tests and
+present a short demo. Emphasis will be made on the latest features and additions to the framework. <br/><br/>Sites developed using the <a href="http://www.erlang-web.org">Erlang Web</a> framework include:<br/></span><ul><li><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com">www.erlang-factory.com</a></li><li><a href="http://www.umbria-rentals.com">www.umbria-rentals.com</a></li><li><a href="http://www.erlang-solutions.com">www.erlang-solutions.com</a></li><li><a href="http://www.protest-project.eu">www.protest-project.eu</a></li></ul> <div align="right"><p><a href="../speakers/MichalSlaski/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/1/MichalSlaski_ErlangWeb.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/LarsAkeFredlund/"><font color="brown">The McErlang model checker</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/LarsAkeFredlund/">
+<img alt="Lars-Ake Fredlund" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_LarsAkeFredlund/lars-akefredlund-small.jpg"/>
+<br>Lars-Ake Fredlund</br></a>
+<br/>
+<div class="company">Technical University of Madrid</div>
+</td>
+</tr></table></td><td vertical-align="top">In this tutorial <span style="font-weight: bold;">Lars-Ake Fredlund</span> will introduce the McErlang model checking tool for verifying Erlang programs, and examine some case studies where the tool has been successfully applied. 
+
+<br/><br/>Model checking is a verification technique where the all the states of a program are systematically explored and checked against correctness properties. Although very effective in hardware verification, there are a number of problems when applying model checking to software:
+<br/><br/>- Need for abstraction: to use a model checking tool it is often necessary to abstract the source code, almost never is the full source language supported.<br/> <br/>- State spaces are too large for model checking algorithms to work. <br/><br/>In the design of the McErlang model checker for Erlang we have addressed both these problems. The language supported is full Erlang, with normal datatypes, processes, nodes, links, monitors, and so on. Moreover its verification algorithm provide some answers even when state spaces are huge (becoming more similar to testing).<br/><br/>In addition to the Tutorial, there will also be a Hands-on session where <span style="font-weight: bold;">Clara Benac Earle</span> will be covering the basics of the McErlang tool. This will allow delegates to install the tool and try it out with the help of some exercises.<br/> <div align="right"><p><a href="../speakers/LarsAkeFredlund/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/58/presentation_of_mcerlang_at_SFfactory.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/RustyKlophaus/"><font color="brown">The Nitrogen Web Framework</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RustyKlophaus/">
+<img alt="Rusty Klophaus" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_RustyKlophaus/Rusty-small.jpg"/>
+<br>Rusty Klophaus</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">Nitrogen is an exciting framework not just for what it brings to the
+table, but also for what it leaves behind. By leveraging Erlang records
+as a surprisingly elegant markup language, discarding MVC in favor of
+an event-driven architecture, and only supporting Javascript-based
+forms, Nitrogen challenges many existing notions about what an Erlang
+application/web framework should do, and has invigorated others in the
+Erlang community to think unorthodox thoughts while building their own
+projects. Rusty will present a high level overview of Nitrogen, dive
+down to walk through a sample Nitrogen application, and then discuss
+the future of this rapidly maturing framework.   <div align="right"><p><a href="../speakers/RustyKlophaus/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/65/RustyKlophaus.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/BryanOSullivan/"><font color="brown">The other side of functional programming</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/BryanOSullivan/">
+<img alt="Bryan O'Sullivan" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_BryanOSullivan/BryanOSullivan-small.jpg"/>
+<br>Bryan O'Sullivan</br></a>
+<br>
+<div class="company">Linden Lab</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Although Haskell and Erlang are both functional languages, they diverge
+in many ways in their approaches to building software. In this talk,
+we'll look at some of the key differences between the two languages,
+and show off some of the most exciting development and testing
+techniques that the Haskell perspective enables: how to write
+bulletproof, elegant code that executes blazingly fast.     <div align="right"><p><a href="../speakers/BryanOSullivan/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/37/BryanOSullivan.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/jimlarsson/"><font color="brown">Using Erlang to Solve Concurrent Problems</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/jimlarsson/">
+<img alt="Jim Larson" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_jimlarsson/jim-larson-headshot.jpg"/>
+<br>Jim Larson</br></a>
+<br/>
+<div class="company">Google</div>
+</td>
+</tr></table></td><td vertical-align="top">No product specification would ever ask us to make a GUI freeze during a DNS lookup, increase the latency of server requests, or leave needed processing hardware sit idle.  Yet even software delivered by well-funded teams of professionals commits these offences - all from a hesitance to tackle the problems of concurrency. But with conventional languages and environments, concurrent programming is difficult and dangerous.
+
+Erlang is promoted as a "concurrency-oriented language". Its core
+language provides a minimal set of concurrency primitives, providing a
+foundation for the full-featured support in the OTP library. But
+equally important is Erlang's intentional omission of dangerous
+features, which allow even imperfect programs to run safely and
+securely with high availability.
+
+This talk introduces the Erlang way of concurrency, from basic
+language primitives to architectural patterns, and how to apply them to
+designing, programming, testing, debugging, and running your programs.
+We'll also discuss performance and distribution.
+</td></tr></table></p><br/><p><b><a href="../speakers/joewilliams/"><font color="brown">Web Server Deathmatch</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/joewilliams/">
+<img alt="Joe Williams" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_joewilliams/joewilliams2.jpg"/>
+<br/>Joe Williams</a>
+<br/>
+<div class="company">Cloudant</div>
+</td>
+</tr></table></td><td vertical-align="top">Picking the picking the right tool for the job isn't easy, especially when you have many options to choose from. Regardless of the job one aspect to take into account is performance. This talk will pit Apache, nginx, Lighttpd, Yaws, inets:httpd and MochiWeb against each other in a battle royale of performance. Who will come out on top?   <div align="right"><p><a href="../speakers/joewilliams/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/71/JoeWilliams-Web_Server_Deathmatch.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/justinsheehy/"><font color="brown">Webmachine: an Erlang resource server for the Web</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/justinsheehy/">
+<img alt="Justin Sheehy" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_justinsheehy/JustinSheehy.jpg"/>
+<br/>Justin Sheehy</a>
+<br/>
+<div class="company">Basho Technologies</div>
+</td>
+</tr></table></td><td vertical-align="top">Webmachine is a system for easily and declaratively building well-behaved HTTP applications in Erlang.  It is based on a very different execution model than most frameworks, making it easy to focus on writing the core of your application while also helping you do the harder parts of HTTP right.  Justin Sheehy will discuss Webmachine's unusual Web programming model and demonstrate how to quickly build and extend Erlang / Web / REST applications.   <div align="right"><p><a href="../speakers/justinsheehy/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/60/sheehy_factory-webmachine.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/><p><b><a href="../speakers/FrancescoCesarini/"><font color="brown">Welcome</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/FrancescoCesarini/">
+<img alt="Francesco Cesarini" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_FrancescoCesarini/francescocesarini-small.jpg"/>
+<br/>Francesco Cesarini</a>
+<br/>
+<div class="company">Erlang Solutions Ltd</div>
+</td>
+</tr></table></td><td vertical-align="top">Francesco Cesarini, Technical Director of Erlang Solutions Ltd - organisers of the Erlang Factory - opens the event with a short address.<br/> </td></tr></table></p><br><p><b><a href="../speakers/KevinSmith/"><font color="brown">Writing an XMPP Client in Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KevinSmith/">
+<img alt="Kevin Smith" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_KevinSmith/KevinSmith-small.jpg"/>
+<br/>Kevin Smith</a>
+<br/>
+<div class="company">Hypothetical Labs, Inc.</div>
+</td>
+</tr></table></td><td vertical-align="top">Many languages today have at least one good XMPP client library. Ruby?
+Check. Java? Check. Python? Check. Even so-called "academic" languages
+like Haskell have at least one XMPP client. Erlang -- a language bred
+for message passing and concurrency -- is sadly lacking a good client.
+In this talk, I will describe how I used Erlang's core strengths to
+build a working XMPP client in 5 days. I'll also share the lessons I
+learned using Erlang to rapidly prototype and deliver a working
+solution.
+
+       <div align="right"><p><a href="../speakers/KevinSmith/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192939/http://www.erlang-factory.com/upload/presentations/29/kevin_smith_adventures_in_xmpp.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br/>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></p>
+<div style="clear: left;"> </div>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<table width="100%">
+<tr>
+<td width="20%">
+</td>
+<td align="center" valign="bottom">
+<div class="footer">
+  © 1999 - 2020 
+  <a href="http://www.erlang-solutions.com/" target="_blank">
+    Erlang
+  </a>
+<a href="http://www.erlang-solutions.com/" target="_blank">
+    Solutions Ltd.
+  </a>
+</div>
+</td>
+<td align="right" width="20%">
+</td>
+</tr>
+</table>
+</div>
+<div class="Sheet-tl"> </div>
+<div class="Sheet-tr"><div> </div></div>
+<div class="Sheet-bl"><div> </div></div>
+<div class="Sheet-br"><div> </div></div>
+<div class="Sheet-tc"><div> </div></div>
+<div class="Sheet-bc"><div> </div></div>
+<div class="Sheet-cl"><div> </div></div>
+<div class="Sheet-cr"><div> </div></div>
+<div class="Sheet-cc"> </div>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</html>

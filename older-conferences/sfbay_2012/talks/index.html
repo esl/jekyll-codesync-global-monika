@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Reconstructed from Wayback Machine captures of http://www.erlang-factory.com/conference/SFBay2012/talks (codesync.global migration, 2026-07-07) -->
+<head>
+<title>Erlang Factory - Erlang Factory SF Bay Area 2012 - Talks</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="../assets/css/conf.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/css/ctable.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta content="The Erlang Factory conferences provide inspiring talks, trainings and workshops with leading Erlang experts. The Erlang Factory SF Bay Area is the biggest Erlang event in the US, and Erlang Factory Lites are organised on a monthly basis across the US and Europe." name="description"/>
+<meta content="erlang factory training consulting conference solutions london san francisco " name="keywords"/>
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript">//nothing </script>
+<script src="../assets/javascript/jquery.countdown.js" type="text/javascript">//nothing </script>
+<script src="../assets/javascript/script.js" type="text/javascript">//nothing </script>
+</head>
+<body>
+<div class="PageBackgroundGradient"> </div>
+<div class="Main">
+<div class="Sheet">
+<div class="Sheet-body">
+<a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/"><div class="Header" style="background-image: url(../assets/upload/conferenceimage/SFBay2012/SFBay2012copycopy.jpg);">
+<div>
+<table class="logo">
+<tr><td class="logo-name"> </td></tr>
+<tr><td class="logo-text"> </td></tr>
+</table>
+</div>
+</div>
+</a>
+<div class="contentLayout">
+<div class="sidebar1">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory</div>
+<ul>
+<li><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/" title="Erlang Factory">Home</a></li>
+<li><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/about" title="About">About Us</a></li>
+<li><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/contact" title="Contact">Contact</a></li>
+</ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th"><a href="../">Erlang Factory SF Bay Area 2012</a></div><ul> <li><a href="../speakers/" title="Speakers">Speakers</a></li><li><a href="./" title="Talks">Talks</a></li><li><a href="../tracks/" title="Tracks">Tracks</a></li><li><a href="../university/" title="University">University</a></li><li><a href="../programme/" title="Programme">Programme</a></li><li><a href="../sponsor/list/" title="Sponsors">Sponsors</a></li></ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Organisers</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Newsletter</div>
+<p>
+                      Subscribe to our Erlang Factory newsletter to receive
+                      the latest updates and news
+                    </p>
+<form action="/ml/subscribe" id="signupform" method="post">
+<table style="width: 100%;">
+<tr>
+<td>
+<input id="s" maxlength="256" name="email" onblur="if (this.value == '') {this.value = 'Your Email';}" onfocus="if(this.value == 'Your Email') {this.value = '';}" size="17" style="width: 95%;" type="text" value="Your Email"/>
+</td>
+</tr>
+<tr>
+<td>
+<div id="recaptcha_widget" style="display:none">
+<div id="recaptcha_image"> </div>
+<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+<span class="recaptcha_only_if_image">Enter the words above:</span>
+<span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+<br/>
+<input id="recaptcha_response_field" name="recaptcha_response_field" style="width:150px" type="text"/>
+<div><a href="javascript:Recaptcha.reload()">Get another CAPTCHA</a></div>
+<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">Get an audio CAPTCHA</a></div>
+<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">Get an image CAPTCHA</a></div>
+<div><a href="javascript:Recaptcha.showhelp()">Help</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="buttonclass" type="submit" value="Sign Up"/>
+</td>
+</tr>
+</table>
+<script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"> </script>
+<script type="text/javascript">
+Recaptcha.create("6Lc7LNISAAAAAH_MJuG4ilssW-cJ6dsw-1Buckj6",
+    "recaptcha_widget",
+    {
+      theme: "custom",
+    }
+  );
+
+$('input[type="submit"]').click(validateCaptchaAndSubmit);
+
+function validateCaptchaAndSubmit(eo) {
+    var challengeId = $('input#recaptcha_challenge_field')[0].value;
+    var userSolution = $('input#recaptcha_response_field')[0].value;
+    $.post(	'/verify_captcha',
+			{"challenge_id":challengeId, "user_solution":userSolution},
+			function(data, textStatus, jqXHR) {
+				if(data=="true") {
+					$("form[action='/ml/subscribe']").submit();
+				} else {
+					alert("Incorrect captcha solution!");
+				}
+			},
+			"text"
+		     );
+    return false;
+}
+</script>
+<style type="text/css">
+div#recaptcha_image {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_image img {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_widget {
+    width: 160px !important;
+}
+</style>
+</form>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="content2">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory SF Bay Area 2012 - Talks</div>
+<div class="post">
+<div class="entry">
+<p>
+<p><b><a href="../speakers/RamCSingh/"><font color="brown">"Big Data” and the Future of DevOps</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RamCSingh/">
+<img alt="Ram C Singh" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_RamCSingh/RCSat201105SAPlounge-headshot2incolor.png"/>
+<br/>Ram C Singh</a>
+<br/>
+<div class="company">Afiniate</div>
+</td>
+</tr></table></td><td vertical-align="top">The hypothesis behind DevOps is that production and deployment risks decrease when Development understands the impact their code has on operations, and when Operations understands how the software was developed and why a new version has to be deployed. DevOps improves an IT organization’s collaboration, coordination, and management of releases by establishing best practices and automating processes. Decreasing deployment risks makes it possible to increase the speed in which new software can be deployed, thereby improving the business' overall agility.   <br/><br/>But, the staff must still rely on traditional infrastructure operation visualization and analysis tools, and employ ad hoc, manually intensive processes in order identify anomalies, respond to failures, and keep the infrastructure operational day-to-day. This talk will explore ways to make better use of infrastructure “Big Data” to increase IT uptime, decrease total costs of ownership, and keep CIOs and their teams off the hot seat.  <div align="right"><p><a href="../speakers/RamCSingh/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/588/BigDataandtheFutureofDevOps-RamCSingh.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/SimonThompson/"><font color="brown">A Domain-Specific Language for Scripting Refactorings in Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/SimonThompson/">
+<img alt="Simon Thompson" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2010_SimonThompson/Screenshot2010-09-23at10.10.54.png"/>
+<br/>Simon Thompson</a>
+<br/>
+<div class="company">The University of Kent</div>
+</td>
+</tr></table></td><td vertical-align="top">Refactoring is the process of changing the design of a program without changing its behaviour. Many refactoring tools have been developed for various programming languages; however, their support for composite refactorings – refactorings that are composed from a number of primitive refactorings – is limited. In particular, there is a lack of powerful and easy-to-use frameworks that allow users to script their own large-scale refactorings efficiently and effectively. <br/><br/>This paper introduces the domain-specific language framework of Wrangler – a refactoring and code inspection tool for Erlang programs – that allows users to script composite refactorings, test them and apply them on the fly. The composite refactorings are fully integrated into Wrangler and so can be previewed, applied and ‘undone’ interactively. <br/><br/>As a part of the presentation there will be a demonstration of the DSL in action, showing how complex refactorings can easily be described using the language, which is itself embedded in Erlang. This demonstration will include a set of refactorings designed to eliminate "bug preconditions" in Erlang models for components, as well as the Wrangler mechanism for synthesising API migration refactorings, illustrated by the example of moving from the regexp to the re library for regular expressions in Erlang/OTP. <br/> <div><br/></div><div><div><b>Talk Objectives: G</b>ain an understanding of refactoring for Erlang, using the Wrangler tool, ain an understanding of writing refactorings within Wrangler's API and DSL and gain an understanding of the facilities for API upgrade provided by Wrangler.</div><div><br/></div><div><b>Target Audience: </b>Erlang software developers and maintainers.</div></div> <div align="right"><p><a href="../speakers/SimonThompson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/548/Simonthompson.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/KostisSagonas/"><font color="brown">A PropEr Tutorial</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KostisSagonas/">
+<img alt="Kostis Sagonas" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_KostisSagonas/Kostis"/>
+<br>Kostis Sagonas</br></a>
+<br>
+<div class="company">Uppsala University and National Technical University of Athens</div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/ManolisPapadakis/">
+<img alt="Manolis Papadakis " border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_ManolisPapadakis/ManolisPapadakis.jpg"/>
+<br>Manolis Papadakis </br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">Property-based testing is a novel approach to software testing, where the tester needs only specify the generic structure of valid inputs for the program under test, plus certain properties that the program is expected to satisfy for every valid input. PropEr is an open-source tool for property-based testing in Erlang. Its salient feature is that it provides a tight integration of the language of types and specs of Erlang with property-based testing. Any type can be used as a generator and any function spec can be directly used as simple property of a function. In addition, PropEr comes with components for testing stateful applications.<span style="font-weight: bold;"></span><br/><br/>This hands-on tutorial will introduce through examples the support that PropEr provides for property-based testing in Erlang, present some of the common mistakes that novice users do, and will give advice for the proper use of the tool.<br/> <div><br/><span style="font-weight: bold;">Talk objectives:</span> Describe and explain the use of PropEr on some examples.<br/>
+<br/>
+<span style="font-weight: bold;">Target audience:</span> Test-conscious Erlang programmers.<br/><br/></div> </td></tr></table></p><br><p><b><a href="../speakers/KostisSagonas/"><font color="brown">A Scalability Study of Erlang/OTP</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KostisSagonas/">
+<img alt="Kostis Sagonas" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_KostisSagonas/Kostis"/>
+<br>Kostis Sagonas</br></a>
+<br>
+<div class="company">Uppsala University and National Technical University of Athens</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>The concurrency model of the Erlang language is claimed to be ideally suited for the multicore era. In theory it allows concurrent programs to achieve good scalability as the number of cores increases. OK, but what happens in practice?</div><div><br/></div><div>Since November 2011, we have embarked on a project that aims to improve the scalability of Erlang programs on machines with hundreds, thousands, and possibly even hundreds of thousands of cores. As a first step, we have created a benchmark suite, consisting of both synthetic benchmarks and actual Erlang applications with needs for massive concurrency, in order to measure the scalability of existing Erlang/OTP versions, identify possible bottlenecks in the language and the VM, and get inspiration for language extensions and VM improvements for future versions of Erlang/OTP. The talk will present the results of our investigation so far and offer some advice on dos and don'ts for achieving good scalability on the existing VM.</div><div><br/></div><div>NOTE: If you are curious to find out how your application performs in terms of scalability, feel free to send it to the speaker by mid-March and he may include the results in his talk. The only prerequisite is that your application should be highly concurrent and more or less self-contained.</div><div><br/></div><div><a href="http://www.release-project.eu">RELEASE</a></div><div><br/></div><div><span style="font-weight: bold; ">Talk objectives:</span> Report on the scalability of Erlang/OTP.</div><div><br/></div><div><b>Target audience:</b> Performance conscious Erlang programmers. Anybody curious what scalability to expect from current and future Erlang/OTP versions.<br/><br/><b><br/></b></div><div><br/></div><div><br/></div><div><br/></div> <div align="right"><p><a href="../speakers/KostisSagonas/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JimZemlin/"><font color="brown">A World Without Linux</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JimZemlin/">
+<img alt="Jim Zemlin" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JimZemlin/hs_zemlin_business.jpg"/>
+<br>Jim Zemlin</br></a>
+<br>
+<div class="company">The Linux Foundation</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div><div>Let's take a moment and think about a world without Linux. Your Internet search, your social networking company, you mobile phone os, your ecommerce provider. Where would we -- and they -- be without Linux? What were the critical defining moments that contributed to the foundation of Linux and its establishment as the underpinning of so much of our economy and culture. Jim Zemlin will discuss the cross points of Linux and Erlang and how both are contributing to the advancement of technology in key segments that are making this world WITH Linux and open source software an amazing place to be. </div></div><div><br/></div> <div align="right"><p><a href="../speakers/JimZemlin/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/531/ErlangFactoryKeynote.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/GarrettSmith/"><font color="brown">Accelerated Erlang Development with e2</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/GarrettSmith/">
+<img alt="Garrett Smith" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2011_GarrettSmith/Garrett.jpg"/>
+<br>Garrett Smith</br></a>
+<br>
+<div class="company">CloudBees</div>
+</br></td>
+</tr></table></td><td vertical-align="top">e2 is a light weight library that simplifies development of correct OTP applications. It improves developer productivity by eliminating boilerplate code and clarifying important concepts that are often lost in OTP's complexity.<br/><br/>Many view OTP as an advanced topic, to be used only after a developer has mastered lower level Erlang concepts. e2 simplifies the use of OTP to the point where it's no longer "advanced" or complex.<br/><br/>Some have called e2 "OTP on rails".<br/><br/>e2 was born from the speaker's experience teaching OTP fundamentals at ErlangCamp and his work with new Erlang developers at CloudBees. e2 is running in production in a variety of organizations and is a proven accelerator for learning Erlang and building correct applications.<br/><br/><span style="font-weight: bold;">Talk objectives: </span>To present the e2 framework, the motivation for its development, and its benefits to new and experience Erlang developers.<br/><br style="font-weight: bold;"/><span style="font-weight: bold;">Target audience:</span> Anyone interested in improving their Erlang skills and, in particular, those who have deferred the use of OTP in their application because of its complexity.<div><br/></div><div>Presentation slides are available <a href="http://gar1t.com/presentations/factory-sf-2012">here</a>.<br/><br/> </div> <div align="right"><p><a href="../speakers/GarrettSmith/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JayNelson/"><font color="brown">BUBBA: Benchmarking Using Browser-Based Animation</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JayNelson/">
+<img alt="Jay Nelson" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JayNelson/JayN.jpg"/>
+<br>Jay Nelson</br></a>
+<br>
+<div class="company">DuoMark International, Inc.</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Microbenchmarks are notoriously bad at predicting overall performance, but running experiments with actual production code using alternative implementations for key algorithms can identify expected performance improvements if the comparisons are executed relative to each other in the same environment. I show how to use YAWS, HTML5 and d3.js to dynamically graph the benchmark performance of erlang code. The goal is to make it easy for a contributor to demonstrate an improvement to your code and convince you to accept a pull request.<br/><br/>This talk is the result of experiments developing tools needed for geographically distributed collaborative erlang development. The approach presented applies equally well to other erlang web server implementations such as mochiweb, cowboy, misultin and others, but I wanted to give an overlooked stalwart some much needed love in the modern age of javascript.<br/><br/><span style="font-weight: bold;">Talk objectives: </span>Show the integration of YAWS with modern interactive javascript data visualizations based on dynamic Erlang code. Demonstrate comparative benchmarking of Erlang code with live graph generation during execution.<br/><br/><span style="font-weight: bold;">Target audience: </span>Developers tuning their Erlang algorithms. GUI implementers wishing to integrate the latest JS advances with an Erlang backend.<br/> <div align="right"><p><a href="../speakers/JayNelson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/VilleTuulos/"><font color="brown">Bitdeli: Data Crunching on a Shoestring Budget</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/VilleTuulos/">
+<img alt="Ville Tuulos" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_VilleTuulos/villeTuulos-small.jpg"/>
+<br>Ville Tuulos</br></a>
+<br>
+<div class="company">Bitdeli</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Thanks to utility computing providers such as Amazon EC2, the basic infrastructure for processing Big Data is available to everyone. Whereas earlier it was critical to design the software so that it would not hit limits of your infrastructure, now the software needs to avoid hitting your credit limit.<br/><br/>In this talk, we will tell how and why we have used Erlang to build Bitdeli, a new backend service for data-intensive web applications. A key design goal was to make the system extremely cost-efficient without sacrificing scalability or latency. This required a language that can cope with a rapidly changing environment, which made Erlang a natural choice for the job.<br/><br/><span style="font-weight: bold;">Talk Objectives: </span>Give an overview of Erlang and Big Data. Show why Erlang is a great tool for managing data-intensive systems in the cloud. Share tips &amp; tricks on how to use Amazon Web Services in a cost-effective manner.<br/><br/><span style="font-weight: bold;">Target Audience: </span>Data enthusiasts and Erlangers using AWS and other utility computing providers.<br/> <div><br/></div><div>Presentation slides are available <a href="http://tuulos.github.com/Erlang-Factory-2012/">here</a>.</div> <div align="right"><p><a href="../speakers/VilleTuulos/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/498/ville-tuulos.txt" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JeffMoriarty/"><font color="brown">Boston Globe's use of Erlang to building a next-generation newspaper site</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JeffMoriarty/">
+<img alt="Jeff Moriarty" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JeffMoriarty/Jeff.jpg"/>
+<br>Jeff Moriarty</br></a>
+<br>
+<div class="company">The Boston Globe</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>The Boston Globe launched its new subscription site at BostonGlobe.com using advanced techniques of Responsive Design and aspects of HTML 5 to optimize the device for as many screen sizes as possible. In the process, the development team chose Erlang to build its My Saved feature, which allows users to save stories to a queue for reading later or when offline. Moriarty will talk about the overall strategy, why they chose Erlang and Mnesia as the foundation and what they are planning next. </div><div><br/></div><div><b>Talk objectives: T</b>o show how Erlang helped a publisher build a scaleable Web application</div><div><br/></div><div><b>Target audience:</b> Technology managers, product managers, solution architects, developers (though my talk will not be highly technical)</div> <div align="right"><p><a href="../speakers/JeffMoriarty/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/AndyGross/"><font color="brown">Building Cloud Storage Services with Riak</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/AndyGross/">
+<img alt="Andy Gross" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2010_AndyGross/basho.jpg"/>
+<br>Andy Gross</br></a>
+<br>
+<div class="company">Basho Technologies</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Riak and Erlang are being extended to push the boundaries of scalability and reliability in the Cloud. Because of this, some of the world's largest companies are relying on Riak and Erlang to build resilient cloud storage services. This talk will cover the approach Riak takes to distributed, reliable cloud storage, with a focus on long-running production deployments and applicability to real-world scenarios.<br/><br/><span style="font-weight: bold;">Talk objectives:</span> To report on how Riak and Erlang are being used to solve real world cloud storage problems.<br/><br style="font-weight: bold;"/><span style="font-weight: bold;">Target audience: </span>Anyone interested how to use both Riak and Erlang to solve large scale Internet infrastructure problems.<br/><br/> <div align="right"><p><a href="../speakers/AndyGross/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/571/AndyGross-ErlangFactorySF2012-RiakCloudStorage.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/MarkPhillips/"><font color="brown">Building a community around Healthy Distributed Systems</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MarkPhillips/">
+<img alt="Mark Phillips" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_MarkPhillips/MarkP"/>
+<br>Mark Phillips</br></a>
+<br>
+<div class="company">Basho Technologies</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Distributed systems aren't limited to the world of computing. Companies and communities, for example, are also distributed networks of resources. In this talk, we'll take a high-level look at computers, companies, and communities as distributed systems and examine why maintaining their health is crucial if they are to scale.<br/><br/> <div align="right"><p><a href="../speakers/MarkPhillips/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/568/EF-Healthy-Distributed-Systems.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/PeroSubasic/"><font color="brown">Building data-parallel pipelines in Erlang </font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PeroSubasic/">
+<img alt="Pero Subasic" border="1" class="talk" src="../assets/upload/peopleimage/London2011_PeroSubasic/PortraitBW.JPG"/>
+<br>Pero Subasic</br></a>
+<br>
+<div class="company">AOL</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>Data-parallel processing frameworks are being introduced at a fast pace and Erlang seems to be particularly well suited to soft real-time applications with high level of data parallelism and processing concurrency where reliability is important. With increased memory size and multi-core computing capabilities of modern processors and introduction of high-performance persistent storage, Erlang covers increasing portions of response time-data volume chart and complements very well existing large-scale analytics platforms like Hadoop. </div><div><br/></div><div>This talk aims at presenting a case for building soft real-time, scalable data-parallel processing pipelines in Erlang. </div><div><br/></div><div>We present architecture and simple specification language for building data-parallel flows in Erlang and share use cases covering data-parallel methods such as map-reduce and iterative graph algorithms to illustrate flexibility of the proposed approach. We discuss other important elements of the architecture such as capacity planning for typical use cases, relationship with other ecosystem components, instrumentation and monitoring, scheduling, replication and failover. </div><div><br/></div><div><b>Talk objectives:  </b>Introduce the general area of data-parallel processing. Make case for using Erlang for data-parallel processing. Share proposed architecture for building data-parallel pipelines in Erlang. Share use cases and lessons learned; solicit feedback on proposed architecture </div><div><br/></div><div><b>Target audience: </b>System and infrastructure architects, large-scale data architects and scientists, CTOs, CIOs.</div> <div align="right"><p><a href="../speakers/PeroSubasic/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/505/ErlangFactoryBay2012.PeroSubasic.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JohnHughes/"><font color="brown">Certifying your car with Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JohnHughes/">
+<img alt="John Hughes" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2010_JohnHughes/johnhughes-small.jpg"/>
+<br>John Hughes</br></a>
+<br>
+<div class="company">QuviQ AB</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Modern cars are full of software, with 50-100 processors and tens of millions of lines of code. Increasingly, this software is based on the AUTOSAR standard, drawn up by a consortium including Toyota, Ford, GM, and most of the world's other major car manufacturers. AUTOSAR defines the "basic software" which should run on each processor, providing a standardised environment enabling AUTOSAR applications to be distributed freely around the processors in the car.<br/><br/>Such is the theory. In practice, the basic software is supplied by<br/>multiple vendors, and follows the standard to a greater or lesser degree. Mixing software from different vendors can lead to unexpected failures as a result. For the last year Quviq has been working with Volvo to model AUTOSAR basic software components using Erlang, and test them for compliance using QuickCheck. I'll present some of the challenges and results--which may help make your car more reliable in the future!<br/> <div align="right"><p><a href="../speakers/JohnHughes/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/582/CertifyingyourcarwithErlang.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/DustinSallings/"><font color="brown">Couchbase Performance and Scalability: Iterating with DTrace Observability</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/DustinSallings/">
+<img alt="Dustin Sallings" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_DustinSallings/dustin.jpeg"/>
+<br>Dustin Sallings</br></a>
+<br>
+<div class="company">Couchbase</div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/MattIngenthron/">
+<img alt="Matt Ingenthron" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_MattIngenthron/MattIngenthron-headshot.jpg"/>
+<br>Matt Ingenthron</br></a>
+<br>
+<div class="company">Couchbase</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Couchbase Server provides a simple, distributed document store. Written in a combination of Erlang using components of OTP for clustering and supervision alongside some C/C++, Couchbase Server manages the distribution of documents across a cluster of commodity hardware allowing for indexing of these documents and analytics through views. The system is accessible from nearly any programming language or through one of two open protocols: HTTP and memcached protocol.<br/><br/>This session will be a case study in designing and building this distributed, document oriented database. Couchbase ran into challenges with understanding where performance bottlenecks were in the system, for which Couchbase's Dustin Sallings contributed new DTrace probes to the common Erlang VM. Using these probes, Dustin and the Couchbase team were able to identify and correct bottlenecks in the system. Since then, Dustin and others in the Erlang community have collaborated to enhance Erlang observability. Couchbase also had to overcome some challenges in trying to cluster the system to ever larger groups of computers with Erlang/OTP. The Couchbase team has been able to overcome these challenges with careful separation of cluster management from data management processing and careful attention to how OTP is used in the system.<div><br/></div><div>In this session, Dustin and Matt will cover these topics, sharing what has worked and where the challenges were in bringing Couchbase Server together. Couchbase Server has it's roots in both the Apache CouchDB project and the Membase project.<br/><div><br/></div><div><div><b>Talk objectives: </b>This session will educate the attendee on how Couchbase has been able to use DTrace and Erlang together to better understand the interaction between Couchbase Server, the Erlang VM, other user-space software and the operating system's network and IO services.</div><div><br/></div><div><b>Target audience: </b>The ideal attendee of this session will have a solid background in Erlang software development and a familiarity with UNIX systems.</div> </div></div> <div align="right"><p><a href="../speakers/DustinSallings/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/511/ErlangDtrace.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/TimSpurway/"><font color="brown">Dancing with Big Data: Disco + Inferno</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/TimSpurway/">
+<img alt="Tim Spurway" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_TimSpurway/timspurway.jpeg"/>
+<br>Tim Spurway</br></a>
+<br>
+<div class="company">Chango Inc.</div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/MazdakRezvani/">
+<img alt="Mazdak Rezvani" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_MazdakRezvani/Masdek.jpg"/>
+<br>Mazdak Rezvani</br></a>
+<br>
+<div class="company">Chango</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>Chango is an online advertising company that pioneered a technique called Search Retargeting. Our systems look at about 10 billion records / day which means we need a fast and effective way of analyzing our data. In our search for a better Map/Reduce framework we found Disco, an Erlang/Python based Map/Reduce framework that's small, fast, elegant, understandable. We needed a way to tame the power of Disco and that's when we came up with the Inferno project which takes even more complexity out of Map/Reduce. With Inferno you concentrate about what you want from your data by letting it take care of all the underlying Map/Reduce complexity.</div><div><br/></div><div><b>Talk objectives: </b>Familiarise audience with the Erlang-based Disco Map/Reduce framework. Introduce Chango's recently-opened Inferno framework that makes working with Disco a breeze.</div><div><br/></div><div><b>Target audience:</b> People interested in Big Data or Map / Reduce - the talk is going to be Basic to Intermediate</div><div><br/></div> <div align="right"><p><a href="../speakers/TimSpurway/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/532/Inferno.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/BenoitChesneau/"><font color="brown">Data in the Cloud with Refuge</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/BenoitChesneau/">
+<img alt="Benoît Chesneau" border="1" class="talk" src="../assets/upload/peopleimage/London2011_BenoitChesneau/Benoit"/>
+<br>Benoît Chesneau</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">More and more things will be connected in order to make our lives and our businesses more efficient and more enjoyable. But while some people are creating big data clusters, The Refuge projetc wants to build a platform that will allow you to connect data endpoint and use datas in a distributed and decentralized manner. <br/><br/>The refuge data platform is fully written in Erlang (with some C) and is embedding Apache CouchD as the primary data storage. <br/><br/><span style="font-weight: bold;">Talk objectives:</span> This talk will give an overview on how refuge interconnects data endpoints over HTTP and Erlang RPC in different locations around the world or in your office(s). How you can replicate and query these data endpoints in quasi realtime using Erlang. Also a quick overlook will be done on how the deployement on different systems and platform has been made easy by just using Erlang releases &amp; rebar.<br/><br/><br/><span style="font-weight: bold;">Target audience</span>: Erlang developers of any level and people interrested in building a true decentralized data platform.<br/> <div align="right"><p><a href="../speakers/BenoitChesneau/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/544/refuge_ef_20120329.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/BlakeGentry/"><font color="brown">Deploying Erlang applications in the Heroku cloud</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/BlakeGentry/">
+<img alt="Blake Gentry" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_BlakeGentry/Blake.jpg"/>
+<br>Blake Gentry</br></a>
+<br>
+<div class="company">Heroku</div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/GeoffCant/">
+<img alt="Geoff Cant" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_GeoffCant/GeoffCant"/>
+<br>Geoff Cant</br></a>
+<br>
+<div class="company">Heroku</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>Heroku's cloud application platform has grown from its Ruby heritage into a true polyglot platform. Apps can now be built and deployed in nearly any language, including Erlang.</div><div><br/></div><div>Come see how to quickly get started running Erlang apps on Heroku. Learn advanced tricks to run your app with any Erlang version and customize the Erlang build pack to suit your needs.</div><div><br/></div><div><b>Target audience: </b>Erlang developers of any level looking to focus more on building their app and less on managing infrastructure.</div><div><br/></div><div>Presentation slides are available <a href="http://erlang-factory-2012.herokuapp.com/">here</a>.</div> <div align="right"><p><a href="../speakers/BlakeGentry/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/527/erlang-factory-2012-slides.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JaredFlatow/"><font color="brown">Disco: Reflections on Building a Distributed Data Processing Platform with Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JaredFlatow/">
+<img alt="Jared Flatow" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JaredFlatow/Jared.png"/>
+<br>Jared Flatow</br></a>
+<br>
+<div class="company">Nokia Research Center</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Disco is a 5-year old framework for distributing and processing data, complete with its own tag-based filesystem, and a protocol for writing workers to process data in any language. The Disco backend is written in Erlang, which provides a fault-tolerant backbone for coordinating tasks between nodes.<br/><br/>This talk will reflect on the evolution of Disco, and the lessons learned in developing a distributed data processing platform with Erlang. We'll talk about what we got right in Disco and where there is still room for improvement, and we'll give an update about the Disco roadmap.<div><br/></div><div><div><b>Talk objectives: </b>Summarize the Disco Project in terms of past, present and future status. Provide lessons learned in developing Disco (specifically using Erlang and Python). Reflect on the big data ecosystem and how it relates to the Erlang community. Discuss problems in distributed computing, and the relative strengths and weaknesses of Erlang in this domain</div><div><br/></div><div><b>Target audience: </b>Anyone interested in building or using a distributed computing platform. Open-source developers looking to glean insight from the Disco experience.</div> <div><br/></div><div><br/></div></div> <div align="right"><p><a href="../speakers/JaredFlatow/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/542/JaredFlatowErlangFactory2012.zip" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/KostisSagonas/"><font color="brown">ErLLVM</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KostisSagonas/">
+<img alt="Kostis Sagonas" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_KostisSagonas/Kostis"/>
+<br>Kostis Sagonas</br></a>
+<br>
+<div class="company">Uppsala University and National Technical University of Athens</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>This talk will describe the architecture, design decisions, and the current implementation and performance of ErLLVM. ErLLVM is an extension of the HiPE native code compiler of Erlang/OTP that uses the Low Level Virtual Machine (LLVM) compiler infrastructure as a back-end. As such, it benefits from the set of existing components and low-level optimizations that LLVM provides. More importantly, it is in principle readily </div><div>available on all platforms that LLVM supports.</div><div><br/></div><div>ErLLVM is a full system currently available as open-source and has been tested on x86 and x86_64 based machines running Linux. It supports the complete Erlang language and to the best of our knowledge is robust enough for others to try. We welcome user feedback and extensions!</div><div><br/></div><div><b>Talk objectives: </b>Introduce ErLLVM and present its salient features and current performance.</div><div><br/></div><div><b>Target audience: </b>Performance conscious Erlang programmers.</div><div><br/></div> <div align="right"><p><a href="../speakers/KostisSagonas/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/519/erllvm.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JoeWilliams/"><font color="brown">Erlang Application Metrics with Folsom</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JoeWilliams/">
+<img alt="Joe Williams" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_JoeWilliams/joewilliams2.jpg"/>
+<br>Joe Williams</br></a>
+<br>
+<div class="company">Boundary</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Tracking application metrics is pivotal to knowing what your 
+applications are doing at any point in time. Folsom is a library to help
+ developers track these details through various metric types and 
+powerful statistical functions. This talk will cover details on metrics 
+collection and exporting in general as well as how to get started with 
+Folsom and Folsom Webmachine. <div><br/></div><div><div><b>Talk objectives: </b>Describe what Folsom is and how to use it including code examples and a live demo</div><div><br/></div><div><b>Target audience:</b> Any Erlang developer that lacks visibility into what their applications may be doing</div></div> <div align="right"><p><a href="../speakers/JoeWilliams/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/500/folsom.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/UlfWiger/"><font color="brown">Erlang End-To-End - Building and Managing Connected Devices</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/UlfWiger/">
+<img alt="Ulf Wiger" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_UlfWiger/Ulf.jpg"/>
+<br>Ulf Wiger</br></a>
+<br>
+<div class="company">Feuerlabs Inc</div>
+</br></td>
+</tr></table></td><td vertical-align="top">How do you remotely manage and debug embedded devices over intermittent and sometimes bad communication links? How can you achieve high productivity and short time to market, and still take advantage of the latest developments in device hardware technology? Is it possible to do high-performance touch screen graphics from Erlang? Feuerlabs announced its birth at the EUC 2011, and is now busy on its first customer projects. The market for Connected Devices is poised for explosive growth, and there is a great need for powerful software innovation. Using Erlang for our end-to-end solution offers many benefits. Erlang in the backend is a no-brainer - its support for scalable and reliable systems is well known. In this presentation, we will describe why Erlang also is a great fit for the embedded device side. We will talk about our first applications, describe our progress towards the Open Source release of the Exosense Device Programming platform, and highlight some novel approaches to some of the problems in this domain.<br/><br/><span style="font-weight: bold;">Talk objectives:</span> Demonstrate Erlang's suitability for developing applications on Connected Devices<br/><br/><span style="font-weight: bold;">Target audience: </span>People looking for new exciting product opportunities and Erlang programmers and architects.<br/> <div align="right"><p><a href="../speakers/UlfWiger/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/525/SFErlangFactory2012-Feuerlabs.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/ErikStenman/"><font color="brown">Erlang Scales - Do You?</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/ErikStenman/">
+<img alt="Erik Stenman" border="1" class="talk" src="../assets/upload/peopleimage/London2010_ErikStenman/erik-stenman-large.jpg"/>
+<br>Erik Stenman</br></a>
+<br>
+<div class="company">Klarna AB</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>The Swedish payment solution provider Klarna has grown from three founders to over 600 employees in seven years. The customer base has grown from zero to 14.000 connected e-stores and almost ten million end users.</div><div><br/></div><div>To grow at this rate, currently one new employee every second day, brings tremendous demands on scalability. </div><div>Obviously the technical solution has to scale with the increased user load, but the process and the people in the organisation need to scale as well.</div><div><br/></div><div>This talk will draw on the experiences from Klarna's journey so far with a focus on scaling people and processes, but it will also touch on some technical challenges and choices.</div><div>Erik will share some anecdotes from a business in rapid growth and sprinkle the presentation with tips of dos and don'ts when scaling your development and operation.</div><div>     </div><div><b>Talk objectives: </b>Give some practical advice on how to scale from a start-up to a large company. Give some examples of things to avoid when trying to scale. Make it clear that technology (especially Erlang) is important when scaling, but that people and processes are even more important.</div><div><br/></div><div><b>Target audience: </b>Anyone interesting in growing their company rapidly, especially those who already have discovered that Erlang is a good base for a scalable technical solution.</div> <div align="right"><p><a href="../speakers/ErikStenman/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/572/Erlang_scales_Do_you.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/AdamKocoloski/"><font color="brown">Erlang Writ Large</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/AdamKocoloski/">
+<img alt="Adam Kocoloski" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_AdamKocoloski/AdamK.jpg"/>
+<br>Adam Kocoloski</br></a>
+<br>
+<div class="company">Cloudant</div>
+</br></td>
+</tr></table></td><td vertical-align="top">The Erlang/OTP programming model and framework is a boon to developers trying to build robust, scalable servers. Immutable data structures, lightweight processes and message passing in lieu of shared state all encourage healthy server designs with predictable operational characteristics.<br/><br/>Cloudant builds and operates a global network of database servers based on a heavily customized flavor of Apache CouchDB called BigCouch.  I'll provide a view of our Data Layer through an Erlang/OTP lens and show how various pieces of the stack -- from the storage subsystem up to global data replication -- mirror the essential elements of a typical Erlang application.<br/><br/><span style="font-weight: bold;">Target audience:</span> Erlangers and Systems Engineers.  Anyone with a weakness for distributed systems.<br/> <div align="right"><p><a href="../speakers/AdamKocoloski/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/552/kocoloski-erlang-writ-large.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/PaulJones/"><font color="brown">Erlang and PaaS, panel debate</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PaulJones/">
+<img alt="Paul Jones" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_PaulJones/paul_jones.jpeg"/>
+<br>Paul Jones</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">What services could a PaaS provide to make Erlang easier to deploy and operate in production? Are there any Erlang features that are fundamentally incompatible with PaaS? How can some of Erlang/OTP's more unique features (distributed processes, hot code upgrades) be made PaaS compatible?<br/><br/>In this session, we'll explore these topics through an open discussion with the aim of discovering how best to make a PaaS where Erlang feels like a first class citizen.<br/><br style="font-weight: bold;"/><span style="font-weight: bold;">Talk objectives:</span> To generate an open discussion about how to progress Erlang as a strong Platform-as-a-Service tenant<br/><br/><span style="font-weight: bold;">Target audience:</span> Anyone interested in deployment techniques for Erlang<br/> <div align="right"><p><a href="../speakers/PaulJones/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/RogerJSmith/"><font color="brown">Erlang and the "100 Million Problem"</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RogerJSmith/">
+<img alt="Roger J Smith " border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_RogerJSmith/roger.png"/>
+<br>Roger J Smith </br></a>
+<br>
+<div class="company">Solevo LLC</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>Within the last year, the two dominant US mobile operators have eclipsed 100 million subscribers.  Along with this honor comes a host of technology issues ideally suited for Erlang-based solutions. </div><div><br/></div><div>This talk will explore the perfect storm of opportunity in the mobile industry (and others) including barriers to entry, paths to success, and an extrapolative perspective on where carrier ecosystems are heading.  Expect a talk that is devoid of Erlang code examples and laden with anecdotes of why the "best" technology doesn't always win, all while remaining generally optimistic on the prospects of an Erlang-centric future.</div><div><br/></div><div><b>Talk objectives: </b>Explore the business needs of major corporations facing the "100 Million Problem", a technology dilemma plaguing those that dared to succeed but not scale. Discuss the applicability to Erlang as a core technology to overcoming the problem and laying the foundation for significant ROI</div><div><br/></div><div><b>Target audience: </b>Anyone in the unenviable position of having to sell their Erlang-based technology/solution to someone who doesn't realize they need it.  Anyone in the enviable position of needing to evolve beyond their current technology investments and exploring Erlang as an option</div> <div align="right"><p><a href="../speakers/RogerJSmith/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/533/EF-100MillionProblem-final.pptx" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/PaoloNegri/"><font color="brown">Erlang as a Cloud Citizen</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PaoloNegri/">
+<img alt="Paolo Negri" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_PaoloNegri/paolo.gif"/>
+<br>Paolo Negri</br></a>
+<br>
+<div class="company">wooga.com</div>
+</br></td>
+</tr></table></td><td vertical-align="top">This talk wants to sum up the experience of designing, deploying and maintaining an Erlang application targeting the cloud and precisely AWS as hosting infrastructure.<br/><br/>As the application now serves a significantly large user base with a sustained throughput of thousands of games actions per second we're able to analyse retrospectively our engineering and architectural choices and see how Erlang fits in the cloud environment also comparing it to previous experiences of clouds deployments of other platforms.<br/><br/>We'll discuss properties of Erlang as a language and OTP as a framework and how we used them to design a system that is a good cloud citizen. We'll also discuss topics that are still open for a solution.<br/><br/><span style="font-weight: bold;">Target audience:</span> This talk, is targeted to who's interested in deploying Erlang applications on the AWS cloud (or similar cloud providers) or those who aren't already using erlang but are interested in learning about the combination of erlang/OTP as a programming language and framework and cloud infrastructure.<br/><br/><span style="font-weight: bold;">Talk objective</span>: This talk will share real word experience of operating our erlang game server hosted in the cloud. Information will be given about how we targeted the design of our application to be deployed on the cloud sharing practical advice and comparison with other frameworks/platforms. We'll also report on topics that are still open for a satisfactory solution.<br/> <div align="right"><p><a href="../speakers/PaoloNegri/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/512/EFSF2012_Paolo.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/OliverReeves/"><font color="brown">Erlang for .NET Developers</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/OliverReeves/">
+<img alt="Oliver (OJ) Reeves" border="1" class="talk" src="../assets/upload/peopleimage/Brisbane2011_OliverReeves/profile.png"/>
+<br>Oliver (OJ) Reeves</br></a>
+<br>
+<div class="company">Functional IO</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div><div>For many years a large number of developers have found comfort in the Microsoft world. From the early days of COM through to the later years of .NET, these developers have managed to get by working within the realms of a single technology at a time. The idea of monoglot programming is no longer sustainable. No single runtime or language exists which can best solve every problem that developers face.</div><div><br/></div><div>.NET developers are realising that there is more to life and technology than .NET, and they are starting to reach out to see what other tools are available to help them solve their problems in new and interesting ways. Those people looking to build highly-available systems with serious uptime need look no further than Erlang.</div><div><br/></div><div>Erlang -- the battle-hardened, fault-tolerant, easily distributed language and runtime from Ericsson -- was designed from the ground up to deal with failure, concurrency and distribution. This talk will cover some of the features of Erlang, describe key areas of the language in ways that .NET developers can relate to, highlight areas of your architecture that can be replaced with Erlang components, and show that integrating Erlang with your .NET applications is much easier than expected.</div><div><br/></div><div><b>Talk objectives: </b>Help people understand the benefits of using the right tool. Highlight ways to integrate Erlang and to clarify any myths around Erlang's viability as a platform particularly in the Microsoft world</div><div><br/></div><div><b>Target audience: </b>Erlang beginners and .NET/Java developers, integrators, architects</div></div> <div align="right"><p><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/518/Erlangfor.NETDevelopersv3.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/RichardCarlsson/"><font color="brown">Erlang metaprogramming made easy</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RichardCarlsson/">
+<img alt="Richard Carlsson" border="1" class="talk" src="../assets/upload/peopleimage/SFBayAreaErlangFactory2009_RichardCarlsson/richardcarlsson-small.jpg"/>
+<br>Richard Carlsson</br></a>
+<br>
+<div class="company">Klarna AB</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>To generate Erlang code dynamically, you have until now had two choices: you could either create plain tuples according to the "abstract format" as generated by erl_parse (which is messy and has many special cases to keep in mind), or you could use the API functions in the erl_syntax module (which offer more abstraction, but can get pretty verbose). This talk will present the missing ingredient; a library allowing you to use template strings with metavariables, both for generating and matching on abstract syntax trees. As examples, I will show how we have used this at Klarna to implement a small domain-specific language for business logic, and demonstrate how you too can easily write a parse transform and even implement your own DSL that compiles to Beam code.</div><div><br/></div><div><b>Talk objectives:</b> Blowing a few minds.</div><div><br/></div><div><b>Target audience: </b>Anyone who wants to generate Erlang modules at run-time, for example for implementing a DSL or a parse transform.</div> <div align="right"><p><a href="../speakers/RichardCarlsson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/543/Metaprogramming.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/BrettCameron/"><font color="brown">Erlang on OpenVMS and in the HP Cloud – an overview of what HP is wittingly and perhaps unwittingly doing with Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/BrettCameron/">
+<img alt="Brett Cameron" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_BrettCameron/Bret.jpg"/>
+<br>Brett Cameron</br></a>
+<br>
+<div class="company">Hewlett Packard</div>
+</br></td>
+</tr></table></td><td vertical-align="top">The speaker has made something of a hobby in recent years of porting Open Source software to HP’s heritage OpenVMS operating system. One of the most challenging and interesting porting exercises was porting Erlang/OTP. In this talk, the speaker will discuss the motivations behind this work, some of the challenges faced, progress to date, and future plans. In addition, the speaker has recently joined HP’s corporate Cloud Services team, and in this capacity he will provide an overview of where and how Erlang is currently being used within the HP Cloud, and will outline potential future opportunities to further leverage Erlang technology in this space.<br/><br/><span style="font-weight: bold;">Talk objectives: </span>To describe the work done by the speaker to port Erlang to HP’s OpenVMS operating system and to provide an overview of how Erlang is currently used within HP’s Cloud infrastructure (and how it may further be used in the future).<br/><br style="font-weight: bold;"/><span style="font-weight: bold;">Target audience: </span>General audience (there will be some content of a technical nature, but this will not be integral to the talk).<br/> <div align="right"><p><a href="../speakers/BrettCameron/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/576/ErlangonOpenVMSandinhpcloud.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/MaximKharchenko/"><font color="brown">Erlang on Xen: a quest for lower instance startup latency</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MaximKharchenko/">
+<img alt="Maxim Kharchenko" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_MaximKharchenko/mk1.JPG"/>
+<br>Maxim Kharchenko</br></a>
+<br>
+<div class="company">Barque Groupe d'Energie</div>
+</br></td>
+</tr></table></td><td vertical-align="top">The new Erlang emulator is being developed that is capable of running 
+directly on Xen hypervisor without an operating system. The design goal 
+of the new emulator is to minimize the startup latency of new Xen 
+instances running Erlang applications. The long-term vision is a 
+super-elastic fabric for Erlang applications that allow real-time 
+provisioning of computing resources. <div><br/></div><div><div><b>Talk objectives:</b> to share with the audience the ideas underlying the new implementation of Erlang VM.</div><div><br/></div><div><b>Target audience:</b> Erlang VM implementors and Erlang developers in general.</div></div>     The new Erlang emulator is being developed that is capable of running 
+directly on Xen hypervisor without an operating system. The design goal 
+of the new emulator is to minimize the startup latency of new Xen 
+instances running Erlang applications. The long-term vision is a 
+super-elastic fabric for Erlang applications that allow real-time 
+provisioning of computing resources. <div><br/></div> <div align="right"><p><a href="../speakers/MaximKharchenko/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/579/Erlang_On_Xen_EF_20012_MK.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/MaximKharchenko/"><font color="brown">ErlangPro: when packaging is the game-changer</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MaximKharchenko/">
+<img alt="Maxim Kharchenko" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_MaximKharchenko/mk1.JPG"/>
+<br>Maxim Kharchenko</br></a>
+<br>
+<div class="company">Barque Groupe d'Energie</div>
+</br></td>
+</tr></table></td><td vertical-align="top">ErlangPro is a way to facilitate the Erlang development and to extend the capabilities of applications written in Erlang and operated in various target distributed environments. Being the new form of packaging and deployment of Erlang-based software products, it is at the same time a new deployment and maintenance strategy for distributed solutions, which enables single-image solution delivery and single console monitoring, management and control for virtually any-size installations. ErlangPro's development environment creates an isolation layer between application and operating system, provides easy access to high variety of development tools, automates packaging custom software components with Erlang/OTP and the process of generating of the virtual appliances.<br/><br/> <div align="right"><p><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/584/ErlangProEFSFpresentation.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/GeneSher/"><font color="brown">Evolving Universal Learning Networks Through Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/GeneSher/">
+<img alt="Gene Sher" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_GeneSher/Gene.jpg"/>
+<br>Gene Sher</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">  This talk will cover the use of Erlang in the development of Neural 
+Networks, and other types of evolving learning graphs (Universal 
+Learning Networks). The talk will elaborate on why Erlang is a perfect 
+fit for the development of distributed learning networks, the importance
+ of Erlang's features to the field of Computational Intelligence, and 
+provide a case study of its use in the construction of distributed 
+topology and parameter evolving universal learning network called DXNN.  <div><br/></div><div><div><b>Talk objectives: </b>To discuss the utility, applicability, and effectiveness of Erlang within the field of Computational Intelligence development, and to provide a case study of using Erlang to develop a scalable universal learning network.</div><div><br/></div><div><b>Target audience: </b>Computational Intelligence researchers and enthusiasts, Erlang programmers and anyone that is generally interested in developing soft computing systems.</div></div> <div align="right"><p><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/536/ErlangConferencePresentation_2012.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/YuriiRashkovskii/"><font color="brown">Fear Not, or a Brief Introduction to Parse Transformations</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/YuriiRashkovskii/">
+<img alt="Yurii Rashkovskii" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_YuriiRashkovskii/yuriiotp.jpg"/>
+<br>Yurii Rashkovskii</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">Parse transformations is one of those techniques that is generally either loved or hated. They are a fantastic weapon but used carelessly can shoot you in the foot. But the only way to learn using such weapons carefully is to master them first.<br/><br/>An explanation of mechanics will be given, and some tricks &amp; libraries that simplify the whole job of writing parse transformations will be shown. A few existing parse transformations (such as SeqBind and Exportie) will be explained and some other usage ideas will be discussed.<br/><br/><span style="font-weight: bold;">Talk objective:</span> To provide a starting point on using parse transformations, a scarcely documented subject.<br/><br/><span style="font-weight: bold;">Talk audience:</span> Die-hard hackers, Explorers &amp; Adventurists.<br/><br/><br/> <div align="right"><p><a href="../speakers/YuriiRashkovskii/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/521/yrashk_parse_transformations_sf12.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/YuriiRashkovskii/"><font color="brown">Hackathon</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/YuriiRashkovskii/">
+<img alt="Yurii Rashkovskii" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_YuriiRashkovskii/yuriiotp.jpg"/>
+<br>Yurii Rashkovskii</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">On the third day of the conference we will be  running a Hackathon. The 
+goal of the hackathon is to take the  collaborative coding happening 
+globally on the internet into a room of -  with a bit of luck - coders 
+already having collaborated online.<br/><br/>Aimed  at primarily Erlang 
+open source coders, a good grasp of writing Erlang  to produce working 
+code is required. The hackathon won't be a tutorial  on Erlang but the 
+chance to hack on anything you want while sharing it  and socializing 
+with people you only meet annually.<br/><br/>Ideally you  will sit down 
+and work on a project/task you had discussed virtually  with one of the 
+participants or initiate other developers to  contribute  to a project 
+by tutoring them. This will also allow you to discuss the  project and 
+get feedback.<br/><br/>Attendees should bring a laptop with them that has Erlang up and running. <div><br/></div></td></tr></table></p><br><p><b><a href="../speakers/KarlAnderson/"><font color="brown">Handling a Polyglotten WAN</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KarlAnderson/">
+<img alt="Karl Anderson" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_KarlAnderson/Karl_color_1_.jpg"/>
+<br>Karl Anderson</br></a>
+<br>
+<div class="company">2600hz</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>In the ever expanding world of cloud computing, messaging across back-end systems must be done quickly, reliably, and accurately 100% of the time. In this talk, we will discuss how AMQP is the open standard application layer protocol with Erlang implementation through RabbitMQ that successfully meets  these needs. It serves as a rendezvous point for back-end systems to communicate efficiently and reliably while providing extensive features and full functionality for all languages to communicate with one another, otherwise known as polyglot programming. </div><div><br/></div><div><b>Talk objectives:</b> Give an overview of AMQP strengths and pain points. Demonstrate how it uses RabbitMQ to keep everything in native Erlang data type.</div><div><br/></div><div><b>Target audience: </b>Developers and System Engineers.</div> <div align="right"><p><a href="../speakers/KarlAnderson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/PaulJones/"><font color="brown">How Cloud Foundry, the first Open PaaS, can help you deploy apps faster and experiment with new technologies.</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PaulJones/">
+<img alt="Paul Jones" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_PaulJones/paul_jones.jpeg"/>
+<br>Paul Jones</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/MonicaWilkinson/">
+<img alt="Monica Wilkinson" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_MonicaWilkinson/MonicaWilliams.jpg"/>
+<br>Monica Wilkinson</br></a>
+<br>
+<div class="company">Cloud Foundry</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Join Monica Wilkinson of the Cloud Foundry Team and Paul Jones, founder at 23wide, for a hands-on-session to learn how to develop and deploy a simple application to the cloud in minutes and experiment with new technology. In this session, you will learn:<br/><ul><li>What is Cloud Foundry - Monica</li><li>How to deploy and scale apps on Cloud Foundry - Monica</li><li>How to bind application services - Monica</li><li>How languages go into Cloud Foundry - Paul</li><li>How Erlang runs on Cloud Foundry - Paul</li><li>Open Source Process - Monica</li></ul><span style="font-weight: bold;">Target audience</span>: Web Developers<div><br/></div><div>Presentation slides are also available <a href="http://studios.cloudfoundry.com/erlang/index.html">here</a>.<br/>   <div><br/></div> </div> <div align="right"><p><a href="../speakers/PaulJones/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/580/CloudFoundry@ErlangFactory.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JeffMa/"><font color="brown">How I became a TenXer</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JeffMa/">
+<img alt="Jeff Ma" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JeffMa/JefferyMa.jpg"/>
+<br>Jeff Ma</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">There's a belief in the valley that your top employees, specifically 
+software engineers are ten times more productive than your average 
+employees. The notion transfers to almost any profession - even card 
+counters. In this talk, I will discuss the tools that helped make me a 
+tenXer at the blackjack table and will explain how those same tools and 
+systems can help make anyone a tenXer in their profession.</td></tr></table></p><br><p><b><a href="../speakers/SethFalcon/"><font color="brown">How to migrate a web API to Erlang, change databases, and not have your customers notice</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/SethFalcon/">
+<img alt="Seth Falcon" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_SethFalcon/seth-front-small.jpg"/>
+<br>Seth Falcon</br></a>
+<br>
+<div class="company">Opscode</div>
+</br></td>
+</tr></table></td><td vertical-align="top">In this case study, we'll describe how and why we ported Opscode's high-volume Hosted Chef API from Ruby/CouchDB to Erlang/MySQL and share insights on:<br/><br/>- Writing high-volume web APIs in Erlang with webmachine<br/>- Scripting with gen_fsm to coordinate loosely coupled back-end systems during a datastore migration.<br/>- Performance and operational comparisons between Ruby/Erlang and CouchDB/MySQL<br/><br/><br/><span style="font-weight: bold;">Talk objectives: </span>Share our experience and results of porting a web service from Ruby to Erlang. Describe how we used Erlang to coordinate a datastore migration and the impacts of switching from CouchDB to MySQL. Discuss operations related characteristics of web services written in Erlang <br/><br/><span style="font-weight: bold;">Target audience: </span>Anyone considering writing or porting a web service to Erlang. Engineers interested in operational aspects of Erlang-based web services<br/><br/> <div align="right"><p><a href="../speakers/SethFalcon/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/kenjirikitake/"><font color="brown">IPv6 programming for Erlang/OTP</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/kenjirikitake/">
+<img alt="Kenji Rikitake" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_kenjirikitake/kenjiface-20110529-120x142.jpg"/>
+<br>Kenji Rikitake</br></a>
+<br>
+<div class="company">Kyoto University, Japan</div>
+</br></td>
+</tr></table></td><td vertical-align="top">IP version 6 (IPv6) has been gaining more popularity as an alternative to the current IP version 4 (IPv4) protocol, as the global IPv4 address spaces will no longer be freely assigned. In this talk, Kenji will explain the similarity and difference between IPv4 and IPv6, and how the two protocols are handled in Erlang/OTP library modules. Kenji will also describe common pitfalls and lessons learned from reviewing various software packages to make them IPv6-compatible.<br/><br/><div><b>Talk objectives: </b>Give an overview of IPv6 and how it is different from IPv4. Show how Erlang/OTP handles IPv6-specific details in the library modules. Share the programming details to maintain compatibility both on IPv4 and IPv6.</div><div><br/></div><span style="font-weight: bold;">Target audience: </span>Erlang programmers and systems administrators interested in deploying code for the IPv6 networks.<br/> <div align="right"><p><a href="../speakers/kenjirikitake/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/502/efsfbay2012-rikitake-ipv6-v1.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/RobertVirding/"><font color="brown">Implementing languages on the Erlang VM </font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RobertVirding/">
+<img alt="Robert Virding" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2010_RobertVirding/RobertVirdingsmall.jpg"/>
+<br>Robert Virding</br></a>
+<br>
+<div class="company">Erlang Solutions</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>When creating a new language, either a DSL (Domain Specific Language) or a more general purpose one, it can be a great help to build on top of an existing language or VM. This can give you "for free" many of the properties and existing libraries of that system. However, it can also limit you to the properties of the base system thereby restricting your language. This talk will describe building languages on the Erlang VM and how the features of Erlang affect the properties of these languages. It will also look at some of the tools available for Erlang for implementing new languages.</div><div><br/></div><div><div><b>Talk objectives: </b>Describe some of the features/limitations of Erlang which can affect languages built on top of it. Describe some of the tools available to language designers/implementers in Erlang. Discuss various ways of implementing language features in Erlang.</div><div><br/></div><div><b>Target audience: </b>Erlang programmers who wish to implement other languages on top of the Erlang VM.</div></div> <div align="right"><p><a href="../speakers/RobertVirding/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/523/EFSF2012-Implementinglanguages.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/LukasLarsson/"><font color="brown">Just-in-time compiler for the Erlang VM</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/LukasLarsson/">
+<img alt="Lukas Larsson" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_LukasLarsson/Lukas.jpg"/>
+<br>Lukas Larsson</br></a>
+<br>
+<div class="company">Erlang Solutions</div>
+</br></td>
+</tr></table></td><td vertical-align="top">After the success of the Java Hot Spot VM, just-in-time compilers are become more and more popular in more and more languages. Just-in-time compilers attempt to make code run faster by compiling parts of your programs to native code in order to speed up execution time. Just-in-time compilers have been shown to speed up performance by up to a factor of 5 for specific benchmarks and it is about time that the Erlang VM is fitted with one of its own.<br/><br/>This talk will give a brief overview of the different approaches one can take to just-in-time compiling and then dive into the details of how the Erlang VM executes code. After laying the ground work I will try to explain how a JIT can be done for the Erlang VM and finish of with a status report of what work has been done so far.<br/> <div><br/></div><div><div><b>Talk objectives: </b>Explain how a JIT compiler could be implemented for the Erlang VM and report on what has been done so far in the prototype at Ericsson.</div><div><br/></div><div><b>Target audience: </b>Developers interested in future developments and details of the Erlang VM.</div></div> <div align="right"><p><a href="../speakers/LukasLarsson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/516/SF-JIT-Pres.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/LoicHoguin/"><font color="brown">Leverage the World Wide West with Farwest</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/LoicHoguin/">
+<img alt="Loïc Hoguin" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2011_LoicHoguin/cowboy_hat.jpeg"/>
+<br>Loïc Hoguin</br></a>
+<br>
+<div class="company">Nine Nines</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Today's applications are often web applications. And the ones who aren't usually include not only an HTTP server, but a complex interface to access all the components of the underlying application. All this in realtime.<br/><br/>Farwest is a new web development platform that allows you to painlessly build realtime web applications. It is designed to allow a clean separation of concerns, allowing an Erlang developer to only worry on the backend, and a frontend developer to never have to look at Erlang code.<br/><br/>Farwest packs many great libraries and mechanisms to cut down the amount of code you need to write. It's entirely built on REST principles and all existing Farwest code can be used as a REST API out of the box. It also brings Erlang's upgrade management to the frontend, allowing you to fully upgrade both server and client-side of your web application in a single step.<br/><br/><span style="font-weight: bold;">Target audience</span>: Web developers and REST enthusiasts.<br/><br/><span style="font-weight: bold;">Talk objectives:</span> Understand how Farwest could help you deliver web apps that are both realtime and compliant with REST principles. Learn why Erlang developers shouldn't write frontend code. Get started with setting up your first web application with Farwest.<br/> <div align="right"><p><a href="../speakers/LoicHoguin/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/ChristianWestbrook/"><font color="brown">Magicbeam (or Devops Rules Everything Around Me)</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/ChristianWestbrook/">
+<img alt="Christian Westbrook" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_ChristianWestbrook/cwErlFactory2011.jpg"/>
+<br>Christian Westbrook</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/JonathanFreedman/">
+<img alt="Jonathan Freedman" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JonathanFreedman/brev.JPG"/>
+<br>Jonathan Freedman</br></a>
+<br>
+<div class="company">CoTweet/ExactTarget</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>The open source application magicbeam contains a variety of functionality which has been used at the ExactTarget Social Media Lab. We find it helps to ensure we are developing a robust OTP system. The core functionality allows us to easily deploy software without having to implement the full OTP release handling process. The full functionality of magicbeam is useful for both production and development environments differing only in how lucky a DevOps engineer feels.</div><div><br/></div><div><b>Talk objectives:</b> Understanding of the open source package and how it can be used to harden and extend an OTP system..</div><br/>
+<span style="font-weight: bold;">Target audience:</span> Mid to advanced Erlang developers who like pushing buttons.<br/> <div align="right"><p><a href="../speakers/ChristianWestbrook/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/549/efactmagicbeam.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/KenWilson/"><font color="brown">Migrating a C++ team to using Erlang to deliver a real-time bidding ad system</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KenWilson/">
+<img alt="Ken Wilson" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_KenWilson/KENWILSON.jpg"/>
+<br>Ken Wilson</br></a>
+<br>
+<div class="company">AOL</div>
+</br></td>
+</tr></table></td><td vertical-align="top">ADTECH’s ad delivery systems have traditionally been built using C++ technology. When the time came to build a real time bidding ad delivery system the team felt that traditional approaches would not be able to scale to the requirements that such a system would demand. The team undertook a very short investigation and then embarked on a journey to transform themselves, in a very short period of time, into an Erlang development group despite having no previous experience of the language. This talk is about that journey and some of the lessons learnt in the process.<br/><br/><span style="font-weight: bold;">Talk objective:</span> To share our experiences moving from a traditional C++ development methodology to functional Erlang methodology.<br/><br/><span style="font-weight: bold;">Target audience: </span>Anyone interested in large scalable systems, online advertisement delivery and on-boarding a new development paradigm such as Erlang.<br/> <div align="right"><p><a href="../speakers/KenWilson/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/PhilToland/"><font color="brown">Polyglot Paralellism: A Case Study in Using Erlang at Rackspace</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PhilToland/">
+<img alt="Phil Toland" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_PhilToland/photo.png"/>
+<br>Phil Toland</br></a>
+<br>
+<div class="company">Rackspace Hosting</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Two years ago Rackspace had a problem: how do we backup 20K network devices, in 8 datacenters, across 3 continents, with less than a 1% failure rate -- every single day? Many solutions were tried and found wanting: a pure Perl solution, a vendor solution and one in Ruby, but none worked well enough. They were not fast enough, not reliable enough or they were not transparent enough when things went wrong.
+After re-examining the problem we decided to rewrite critical portions of the Ruby application in Erlang. This solution was a huge success. In this talk we'll get down and dirty with the details: why the solution was so successful as well as the problems we faced and how we solved them. We'll cover how we overcame the typical objections, the application architecture, where Erlang was a good fit and where it was not and how Ruby and Erlang work together. 
+<div><br/></div><div><b>Talk objectives: </b>Describe the challenges of using Erlang in a corporate environment. Show the pros and cons of using Erlang to build an automation tool. Discuss the architecture of an Erlang-based automation tool .</div><div><br/></div><div><b>Target audience: </b>Developers who are interested in using Erlang to solve automation problems. Developers who need to use Erlang with other programming languages. Anyone who wants to introduce Erlang into a corporate development shop.</div> <div align="right"><p><a href="../speakers/PhilToland/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/526/PolyglotParallelismEF2012.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JackMofitt/"><font color="brown">Props: A DSL for Dealing with JSON-like Structures in Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JackMofitt/">
+<img alt="Jack Moffitt" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JackMofitt/jackmoffitt.jpg"/>
+<br>Jack Moffitt</br></a>
+<br>
+<div class="company">TalkTo</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Dealing with JSON in Erlang is not nearly as seamless as in JavaScript. Using existing tooling from the Erlang ecosystem, I've created a new and, most importantly, easy to use data structure for working with JSON-like property structures. Learn how to use props for your own projects, and also you can leverage tools like Neotoma to make your own DSLs.<br/><br/><span style="font-weight: bold;">Talk objectives: </span>Introduce Props library and present how it was made and how others can make their own DSLs in Erlang.<br/><br/><span style="font-weight: bold;">Target audience:</span> Erlang developers who work with JSON-like structures or who are interested in DSLs.<br/><br/> <div align="right"><p><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/522/Props-ErlangFactory-March2012.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/TristanSloughter/"><font color="brown">Publishing and Consuming APIs with Mashape</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/TristanSloughter/">
+<img alt="Tristan Sloughter" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_TristanSloughter/headshot.png"/>
+<br>Tristan Sloughter</br></a>
+<br>
+<div class="company">Mashape</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Mashape provides a world-class marketplace to manage, distribute and 
+consume any kind of API in the world, both cloud and internal, both 
+existing or just born, targeting every developer, company or 
+organization committed into the Internet. In this talk Mashape developer
+ Tristan Sloughter will discuss their system for publishing APIs, 
+generating native clients and consuming these APIs through Mashape. <div><br/></div><div>Presentation slides are available <a href="http://tsloughter.github.com/mashape_ef_2012/">here</a>.</div></td></tr></table></p><br><p><b><a href="../speakers/FredHebert/"><font color="brown">Real Time Bidding: Where Erlang Blooms</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/FredHebert/">
+<img alt="Fred Hebert" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2011_FredHebert/photo.jpg"/>
+<br>Fred Hebert</br></a>
+<br>
+<div class="company">BLOOM Digital Platforms</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>When advertisers want to buy advertisement, they can do it at large on some user group and hope to get decent results, or participate in Real Time Bidding (RTB). In RTB, advertisers bid on individual advertisement spaces to obtain more targeted audiences. This is usually built on the backbone of large exchanges where bidders require high performance, short response times, and a high volume.</div><div><br/></div><div>BLOOM 's AdGear platform is a service offering (along other things) a unified interface that offers media buying capability over ad exchanges, as well as traditional third-party ad delivery and trafficking. An Erlang gateway is used to route dozens of thousands of queries per second from and to exchanges and ad agencies.</div><div><br/></div><div>In this talk, we explain why we chose Erlang, and give insights in our design and architecture, including things that were learnt while developing it, chases for bottlenecks and glory.</div><div><br/></div><div><b>Talk objectives:</b> To share/gain experiences in using Erlang for highly concurrent soft-real time systems.</div><div><br/></div><div><b>Target audience:</b> somewhat experimented Erlang programmers wanting to learn or share about production systems using the language.</div> <div align="right"><p><a href="../speakers/FredHebert/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JesseNewland/"><font color="brown">Rewriting GitHub Pages with Riak Core, Riak KV, and Webmachine</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JesseNewland/">
+<img alt="Jesse Newland" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JesseNewland/Jessie.jpg"/>
+<br>Jesse Newland</br></a>
+<br>
+<div class="company">GitHub</div>
+</br></td>
+</tr></table></td><td vertical-align="top">GitHub Pages, a feature allowing users to publish content to the web by simply pushing content to one of their GitHub hosted repositories, has had lackluster performance and uptime in the recent years. In this talk, Jesse will discuss the core requirements of the GitHub Pages application, why Erlang, Riak, and Webmachine were chosen for the development, and how they were used to fulfill those requirements now and for years to come with minimal development and operational maintenance.<br/><br style="font-weight: bold;"/><span style="font-weight: bold;">Talk objectives:</span> Demonstrate the use of Riak Core as a platform for application.<br/><br/><span style="font-weight: bold;">Target audience:</span> Erlang developers interested in Riak, Riak Core and Webmachine.<br/><br/>       GitHub Pages, a feature allowing users to publish content to the web by simply pushing content to one of their GitHub hosted repositories, has had lackluster performance and uptime in the recent years. In this talk, Jesse will discuss the core requirements of the GitHub Pages application, why Erlang, Riak, and Webmachine were chosen for the development, and how they were used to fulfill those requirements now and for years to come with minimal development and operational maintenance.<br/><br style="font-weight: bold;"/><span style="font-weight: bold;">Talk objectives:</span> Demonstrate the use of Riak Core as a platform for application.<br/><br/><span style="font-weight: bold;">Target audience:</span> Erlang developers interested in Riak, Riak Core and Webmachine.<br/><br/> <div align="right"><p><a href="../speakers/JesseNewland/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/570/github-pagesonriakwebmachine.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/DarrenSchreiber/"><font color="brown">Rewriting the way communication happens, the tools that made it possible</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/DarrenSchreiber/">
+<img alt="Darren Schreiber" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_DarrenSchreiber/DarrenSchreiber-thumb-80x100-847.jpg"/>
+<br>Darren Schreiber</br></a>
+<br>
+<div class="company">2600hz</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Telecom and VoIP have been long overlooked for decades due to its 
+unreliability. But by using the newest emerging technologies that have 
+surfaced within the last couple years, 2600hz has rewritten the 
+telephony stack from the ground up to create a platform that is changing
+ the way we communicate. In this talk, Darren will go in-depth in the 
+2600hz architecture that translates beyond telecom to anything massively
+ scalable and highly distributed. <br/></td></tr></table></p><br><p><b><a href="../speakers/MagnusKlaar/"><font color="brown">Saloon - A simple interface for node and application monitoring.</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MagnusKlaar/">
+<img alt="Magnus Klaar " border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_MagnusKlaar/mklaar.jpg"/>
+<br>Magnus Klaar </br></a>
+<br>
+<div class="company">Nine Nines</div>
+</br></td>
+</tr></table></td><td vertical-align="top">The Erlang runtime system includes an extensive set of primitive functions for observing a running application. Having this capability available both during the development and throughout the whole lifetime of an application is one of the great advantages of using Erlang/OTP. We believe that there is lots of room for improving the current set of desktop and web based tools building on this capability. In doing so we hope to make life easier for developers who're just getting started with Erlang as well as more experienced developers looking to improve their understanding of an application.<br/>                                                                                <br/>In this talk we want to present a data collection application building on the tracing and error reporting capabilities in the erlang runtime system as well as the open source library folsom by Joe Williams. We also want to present a web application for controlling and presenting the data collected from one or more running Erlang nodes.<br/> <div align="right"><p><a href="../speakers/MagnusKlaar/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/FernandoBenavides/"><font color="brown">Scaling Web Applications in Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/FernandoBenavides/">
+<img alt="Fernando Benavides" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_FernandoBenavides/Fernado.jpg"/>
+<br>Fernando Benavides</br></a>
+<br>
+<div class="company">Inaka Labs</div>
+</br></td>
+</tr></table></td><td vertical-align="top">One of the most common reasons why people choose Erlang is to build 
+highly scalable systems. And Erlang does a great job helping developers 
+reach those goals. But creating a scalable web system is not a matter of
+ just writing it in Erlang. In this talk I will create a sample web 
+project and I'll show several tricks ant tactics to make it scale from 
+1K to 100K clients.<br/><br/><span style="font-weight: bold;">Talk objectives: </span>To share my experience scaling web applications in Erlang.<br/><br/><span style="font-weight: bold;">Target audience:</span> Anyone who has built an Erlang web application and needed to know how to make changes to make it scale. Anyone who has scaled other application platforms and wants to know how to work with Erlang.<br/> <div align="right"><p><a href="../speakers/FernandoBenavides/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/RickReed/"><font color="brown">Scaling to Millions of Simultaneous Connections</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/RickReed/">
+<img alt="Rick Reed" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_RickReed/RickReed.jpg"/>
+<br>Rick Reed</br></a>
+<br>
+<div class="company">WhatsApp</div>
+</br></td>
+</tr></table></td><td vertical-align="top">In order to meet the demands of our growing user population while keeping our server footprint as small as possible, at WhatsApp we've been optimizing our Erlang-based server applications and tuning and patching the BEAM emulator and FreeBSD kernel to remove bottlenecks and improve efficiency. Our results have demonstrated the fantastic scalability of Erlang, and in this talk we will share some of the discoveries and modifications we have made along the path to supporting millions of connected users per server.<br/> <div><br/></div><div><div><b>Talk objectives:</b> To describe the speaker's work in identifying and eliminating throughput bottlenecks in the company's Erlang-based messaging systems.</div><div><br/></div><div><b>Target audience: </b>People interested in optimizing Erlang for Internet-scale communications applications.</div></div> <div align="right"><p><a href="../speakers/RickReed/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/558/efsf2012-whatsapp-scaling.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/MikeWilliams/"><font color="brown">Small is Beautiful</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MikeWilliams/">
+<img alt="Mike Williams" border="1" class="talk" src="../assets/upload/peopleimage/London2011_MikeWilliams/mike.jpg"/>
+<br>Mike Williams</br></a>
+<br>
+<div class="company">Ericsson AB</div>
+</br></td>
+</tr></table></td><td vertical-align="top">The keynote will be about the two approaches used for software development today. Either as large (LARGE) projects with a lot of organization and lots of people (sometimes hundreds) using standard technology (C++, Java, UML etc), or by a small  (SMALL) number of highly competent people using advanced technology (Erlang, Haskell, OCaml etc). <br/> <br/>There are cases where LARGE may be necessary, for example in developing software for cellular (mobile) base stations. But for a lot of cases, the SMALL approach is both cheaper and faster. If you look at the presentations at Erlang user conferences/factories, you see that all applications described use the SMALL approach. The LARGE approach will inevitably result in outsourcing software development to countries where labor costs are cheaper, we see already that companies like IBM and Ericsson do a lot of their software development in India and China. If we want to keep a vibrant software development (programming) business in the West (North America and Western Europe) we need to exploit the SMALL approach and also expand it to areas where the LARGE approach is used today. In other words, we need technologies such as Erlang and highly skilled and competent people to exploit them.<br/> <br/>After working as a manager (without pointy hair) for more than 20... years, Mike will also offer some advice about what not to tell your managers.<br/> <div align="right"><p><a href="../speakers/MikeWilliams/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/535/SmallisBeautiful.ppt" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/AndreasSchultz/"><font color="brown">Spring Fever for your networks</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/AndreasSchultz/">
+<img alt="Andreas Schultz" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_AndreasSchultz/aschultz.jpg"/>
+<br>Andreas Schultz</br></a>
+<br>
+<div class="company">Travelping GMBH</div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/HolgerWinkelmann/">
+<img alt="Holger Winkelmann" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_HolgerWinkelmann/holger_1_small_looking_right_300_400.jpg"/>
+<br>Holger Winkelmann</br></a>
+<br>
+<div class="company">Travelping GMBH</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>Software Defined Networks (SDN) is one of the hot topics in the networking industry these days. SDN is a radical change in the way networking is approached today. SDN brings the whole software development eco system close the network forwarding elements like switches and router. SDN enables the operators to integrate all the network resources and aspect into the application domain. The network virtualization will follow the computer virtualization.<br/><br/></div><div>By defining a vendor agnostic API (OpenFlow) to program the behavior of a whole network or network segment. This specification enables the software industry to quickly deliver new architectures, standards, functionalities and applications running on top of every OpenFlow enabled network.</div><div><br/></div><div>FlowER is an open-source Erlang based OpenFlow controller. Its purpose is to provide a simplified platform for writing network control software in Erlang. While still under heavy development, FlowER is the basis for Travelping next generation products and already in use in selected projects.</div><div>This talk will give an introduction to SDN, OpenFlow and how Erlang and FlowER can help you to get some spring fever in to your network.</div><div><br/></div><div><b>Talk objectives: </b>Inform the audience about the momentum of software defined Networking (SDN). Show how a software ecosystem can change the world of networking. Tell the industries how the FlowERs can help to develop production-ready OpenFlow applications in Erlang.</div><div><br/></div><div><b>Target audience:</b> Network equipment vendors, network operators (telecoms), datacenter providers, virtualisation companies.</div><div><br/></div> <div align="right"><p><a href="../speakers/AndreasSchultz/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/555/flowerv04-120405100316-phpapp01.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/ChadDePue/"><font color="brown">Step by Step: Implementing Redis In Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/ChadDePue/">
+<img alt="Chad DePue" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_ChadDePue/chad.jpg"/>
+<br>Chad DePue</br></a>
+<br>
+<div class="company">Inaka Networks</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div><div>We'll walk through the tradeoffs and design decisions made when building a Redis Server Clone in Erlang. We're using leveldb as the backend, so we'll talk about how that choice affects ultimate performance goals. There are not appropriate sorted set structures in Erlang so we have to build those and we'll talk in detail about those objects. These issues will lead into a discussion about performance of Redis and Edis, so we'll show some benchmarks and talk about the tradeoffs. Finally, we'll talk about production system deployment, and how we've used Edis in the production environment. </div><div><br/></div><div><b>Target audience</b>: Developers who may be curious to see Erlang used to build a familiar piece of server infrastructure. Erlang developers who will be interested in our design decisions, particularly around unusual data structures. DevOps folks who would be interested in how Edis could work in their deployments.</div><div><br/></div><br/> </div> <div align="right"><p><a href="../speakers/ChadDePue/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/503/Edis-ImplementingRedisinErlang.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/AdamKocoloski/"><font color="brown">Tackling and Taming Big Distributed Data</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/AdamKocoloski/">
+<img alt="Adam Kocoloski" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_AdamKocoloski/AdamK.jpg"/>
+<br>Adam Kocoloski</br></a>
+<br>
+<div class="company">Cloudant</div>
+</br></td>
+</tr></table></td><td vertical-align="top">In this talk, Adam will be doing an overview of BigCouch and how it 
+turns distributed data into clustered, fault-tolerant and highly 
+available resources. In the presentation he will take you under the hood
+ of their distributed database and demonstrate how big distributed data 
+is made manageable again.<br/><br/> </td></tr></table></p><br><p><b><a href="../speakers/JosephBlomstedt/"><font color="brown">Test-First Construction of Distributed Systems</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JosephBlomstedt/">
+<img alt="Joseph Blomstedt" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_JosephBlomstedt/JoeB.jpg"/>
+<br>Joseph Blomstedt</br></a>
+<br>
+<div class="company">Basho Technologies</div>
+</br></td>
+</tr></table></td><td vertical-align="top">With the power provided by Erlang/OTP, developing complex distributed 
+systems is easier than ever.  However, verifying the correctness of 
+these complex systems remains a challenge. This talk will present an 
+approach to testing that I have used at Basho which leverage's QuviQ's 
+QuickCheck. I will present how to build a system model in QuickCheck to 
+test an early-stage idea against random orderings of client events and 
+server state transitions. Then, how the model can be converted into the 
+actual intended product code. And finally, how unit tests and system 
+tests can be extracted from the original model, with the system tests 
+leveraging a QuickCheck harness that deploys and runs command sequences 
+against a cluster of multiple Erlang VMs.  I will also present 
+preliminary details about integrating the Concuerror tool into this 
+approach, as well as thoughts on generating Coq proof scripts from the 
+original Erlang model. <div><br/></div><div><div><b>Talk objectives: </b>This talk presents a practical approach to using property-based testing to gain confidence in a complex distributed system, from early stage prototyping to final implementation. A developer attending this talk will learn how to use property-based testing as a tool during early state prototyping, as well as understand how to extend the underlying test model into a final implementation along with integration tests that verify that the implementation matches the model used during prototyping/exploratory research.</div><div><br/></div><div><b>Target audience: </b>This talk is aimed at existing Erlang developers who understand first hand the challenges of verifying and trusting complex systems and are interested in new approaches to this problem. This talk also demonstrates how the abstractions used by Erlang/OTP simplify reasoning about complex systems, and may therefore serve as motivation</div><div>for those new to Erlang or who are still contemplating using Erlang in their organization.</div></div> <div align="right"><p><a href="../speakers/JosephBlomstedt/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/514/TestFirstConstructionDistributedSystems.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/PatrikNyblom/"><font color="brown">The "halfword" Virtual Machine</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PatrikNyblom/">
+<img alt="Patrik Nyblom" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2009_PatrikNyblom/PatrikNyblom.jpg"/>
+<br>Patrik Nyblom</br></a>
+<br>
+<div class="company">Ericsson AB</div>
+</br></td>
+</tr></table></td><td vertical-align="top">The 64bit Erlang Virtual machine can host very large Erlang applications. However, the amount of memory consumed for an ordinary Erlang process is doubled compared to a 32bit virtual machine. Memory bandwidth is a bottleneck in modern computer environments, so wasting memory on 64bit heaps (with e.g. 128 bits consumed for every character in a string) is a problem. The halfword virtual machine addresses these problems for applications having vast amounts of data in ETS tables and binaries, but does not need more than 4GB of primary memory for regular Erlang processes - a class of applications that is quite common. Using the halfword virtual machine gets you the best of two worlds - even higher speed than with any of the ordinary virtual machines, but a huge memory address range for data stored in i.e. mnesia and ETS and as binaries.<br/><br/>The linux halfword virtual machine has been in OTP since the R14B02 release, but few people know about it and ever consider using it, a fact that we want to change.<span style="font-weight: bold;"></span><br/><br/><span style="font-weight: bold;">Talk objectives: </span>To describe the halfword virtual machine, it's inner workings and what you can gain from using it. A lot of applications would have use for it, but few people knows what this is and how it works.<br/><br/><span style="font-weight: bold;">Talk audience:</span> Developers and people with a general interest in how the virtual machine works.<br/> <div><br/></div> <div align="right"><p><a href="../speakers/PatrikNyblom/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/569/Halfword_Erlang_Factory_SF_2012.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/PatrikNyblom/"><font color="brown">The Erlang/OTP Roadmap</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PatrikNyblom/">
+<img alt="Patrik Nyblom" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2009_PatrikNyblom/PatrikNyblom.jpg"/>
+<br>Patrik Nyblom</br></a>
+<br>
+<div class="company">Ericsson AB</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div class="description">
+    Patrik gives an update of the Erlang/OTP team's work at Ericsson - their current projects and plans for future.<br/><br/></div> <div align="right"><p><a href="../speakers/PatrikNyblom/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/560/NewInOTP_R15B01.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/KasperHulthin/"><font color="brown">The right tool for the right job - the story behind the making of Podio</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KasperHulthin/">
+<img alt="Kasper Hulthin" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_KasperHulthin/KH_Profil__600K__head_reasonably_small.jpg"/>
+<br>Kasper Hulthin</br></a>
+<br>
+<div class="company">Podio</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Who are the right people to build the right tool for the right job? The people who are actually doing the job! Kasper will tell the story behind the making of Podio and their vision to change how we all work by empowering everyone to build their own work tool, one app at the time. Join the talk and learn how this relates to transparency, mobility, the spreadsheet, a swimming pool company in Kuwait and the music industry.</td></tr></table></p><br><p><b><a href="../speakers/JoeWilliams/"><font color="brown">Tutorial: Demystifying Erlang Releases, Upgrades and Deployment</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JoeWilliams/">
+<img alt="Joe Williams" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_JoeWilliams/joewilliams2.jpg"/>
+<br>Joe Williams</br></a>
+<br>
+<div class="company">Boundary</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>Erlang deployments are generally known to be troublesome but this is not their true nature. It is generally an artifact of the tools and methods used to build and operate them. This talk will discuss how to build, release, upgrade and deploy Erlang projects based on production experience with CouchDB and BigCouch at Cloudant using tools like rebar and Chef.</div><div><br/></div><div><b>Talk objectives:</b> Explain how Erlang hot-upgrades work and how to use rebar to do them. Show some best practices in deploying Erlang applications.Show how to automate deploying Erlang applications.</div><div><br/></div><div><b>Target audience: </b>Anyone deploying Erlang applications, especially sysadmins, systems-minded developers and the devops crowd.</div> </td></tr></table></p><br><p><b><a href="../speakers/MichalPtaszek/"><font color="brown">Tutorial: Ejabberd</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MichalPtaszek/">
+<img alt="Michal Ptaszek" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_MichalPtaszek/MichalP"/>
+<br>Michal Ptaszek</br></a>
+<br>
+<div class="company">Erlang Solutions</div>
+</br></td>
+</tr></table></td><td vertical-align="top">This tutorial introduces basics of OMP - Open Messaging Platform.<br/><br/>During a half-day tutorial we will be introduced briefly to the XMPP protocol, then to turn to internal ejabberd architecture and finally to focus on clustering and distribution model of ejabberd-based system. Having the theoretical background in place we will move to the hands-on part where each participant will get a chance to configure, tune, set up and stress test a cluster of ejabberd nodes.<br/><br/>One of the goals for the ejabberd course is also to show examples of capacity planning, operations, monitoring and debugging techniques.<br/><br/>Requirements for this tutorial: a laptop with Erlang distribution (R14B04 and higher) installed (Linux/Mac OS), basic knowledge of how the IM systems work, a will to build a highly scalable XMPP cluster.<br/><br/> </td></tr></table></p><br><p><b><a href="../speakers/KevinSmith/"><font color="brown">Tutorial: Fine-tuning the Erlang VM</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KevinSmith/">
+<img alt="Kevin Smith" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_KevinSmith/KevinSmith.png"/>
+<br>Kevin Smith</br></a>
+<br>
+<div class="company">Opscode</div>
+</br></td>
+</tr></table></td><td vertical-align="top">This 1.5 hour class will focus on diagnosing and fixing common Erlang performance problems with a mix of lecture and live code demonstrations. Topics to be covered include SMP vs. UP scheduling, tuning garbage collection, writing well behaved NIFs, and using built-in tools like percept and monitor to visualize &amp; diagnose system performance.<br/><br/> </td></tr></table></p><br><p><b><a href="../speakers/CliffMoon/"><font color="brown">Tutorial: Monitoring and Management of Erlang in Production</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/CliffMoon/">
+<img alt="Cliff Moon" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_CliffMoon/cliffmoon.jpg"/>
+<br>Cliff Moon</br></a>
+<br>
+<div class="company">Boundary</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Attendees will learn monitoring and management best practices for Erlang by extending the work they did in the Deployment and Releases tutorial. Attendees will instrument their application using folsom, hot deploy their code changes, and pipe their new application metrics into a munin dashboard for visualization and alerting.  Attendees will also learn how to diagnose hot spots and other runtime issues using Erlangs built-in remote shell facilities.<br/> </td></tr></table></p><br><p><b><a href="../speakers/JesperLouisAndersen/"><font color="brown">Tutorial: Tracing and Debugging</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JesperLouisAndersen/">
+<img alt="Jesper Louis Andersen" border="1" class="talk" src="../assets/upload/peopleimage/London2011_JesperLouisAndersen/Jesper.jpg"/>
+<br>Jesper Louis Andersen</br></a>
+<br>
+<div class="company">Erlang Solutions</div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/LukasLarsson/">
+<img alt="Lukas Larsson" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_LukasLarsson/Lukas.jpg"/>
+<br>Lukas Larsson</br></a>
+<br>
+<div class="company">Erlang Solutions</div>
+</br></td>
+</tr></table></td><td vertical-align="top">A distinct feature of the Erlang VM is the ability to trace and debug on a live system. In this tutorial we want to give people an overview of the facilities in the Erlang VM that helps a developer or administrator figure out errors in programs while they are running. The ability to operate on a live production system is a valuable trait of concurrent systems. Apart from Tracing and debugging, we will also be covering match specifications and we will introduce the "Restricted debugger" from the "eper" suite by Mats Cronqvist.<br/><br/> </td></tr></table></p><br><p><b><a href="../speakers/UnConference2012/"><font color="brown">Unconference 2012</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/UnConference2012/">
+<img alt="Various Speakers" border="1" class="talk" src="../assets/images/nopicture.jpg"/>
+<br>Various Speakers</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+</tr></table></td><td vertical-align="top">9:15 - 10:00 <a href="../speakers/JeffMa/">How I became a TenXer - Jeff Ma</a><br/><br/>There's a belief in the valley that your top employees, specifically software engineers are ten times more productive than your average employees. The notion transfers to almost any profession - even card counters. In this talk, I will discuss the tools that helped make me a tenXer at the blackjack table and will explain how those same tools and systems can help make anyone a tenXer in their profession.<br/><br/>10:00 - 10:45 <a href="../speakers/AdamKocoloski/">Tackling and Taming Big Distributed Data - Adam Kocoloski</a><br/><br/>In this talk, Adam will be doing an overview of BigCouch and how it turns distributed data into clustered, fault-tolerant and highly available resources. In the presentation he will take you under the hood of their distributed database and demonstrate how big distributed data is made manageable again.<br/><br/>10:45 - 11:30 <a href="../speakers/KasperHulthin/">Under the Hood with Podio – Kasper Hulthin</a><br/>
+<br/>
+Who are the right people to build the right tool for the right job? The 
+people who are actually doing the job! Companies like Twitter and Conde 
+Nast have already created customized applications on Podio to improve 
+their workflow and collaboration. Kasper will tell the story behind the 
+making of Podio and their vision to change how we all work by empowering
+ everyone to build their own work tool, one app at a time.  Join the 
+talk and learn how this relates to transparency, mobility, the 
+spreadsheet, a swimming pool company in Kuwait and the music industry.<br/><br/>11:30 - 12:00 - Discussion Groups<br/><br/>12:00 - 13:00 - Lunch <br/><br/>13:00 - 13:45 <a href="../speakers/TristanSloughter/">Publishing and Consuming APIs with Mashape – Tristan Sloughter</a><br/><br/>Mashape provides a world-class marketplace to manage, distribute and consume any kind of API in the world, both cloud and internal, both existing or just born, targeting every developer, company or organization committed into the Internet. In this talk Mashape developer Tristan Sloughter will discuss their system for publishing APIs, generating native clients and consuming these APIs through Mashape.<br/><br/>13:45 - 14:30 <a href="../speakers/DarrenSchreiber/">Rewriting the way communication happens, the tools that made it possible - Darren Schreiber</a><br/><br/>Telecom and VoIP have been long overlooked for decades due to its unreliability. But by using the newest emerging technologies that have surfaced within the last couple years, 2600hz has rewritten the telephony stack from the ground up to create a platform that is changing the way we communicate. In this talk, Darren will go in-depth in the 2600hz architecture that translates beyond telecom to anything massively scalable and highly distributed.<br/><br/>14:30 - 15:00 Discussion Groups<br/><br/> </td></tr></table></p><br><p><b><a href="../speakers/KasperHulthin/"><font color="brown">Under the Hood with Podio</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/KasperHulthin/">
+<img alt="Kasper Hulthin" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_KasperHulthin/KH_Profil__600K__head_reasonably_small.jpg"/>
+<br>Kasper Hulthin</br></a>
+<br>
+<div class="company">Podio</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Who are the right people to build the right tool for the right job? The 
+people who are actually doing the job! Companies like Twitter and Conde 
+Nast have already created customized applications on Podio to improve 
+their workflow and collaboration. Kasper will tell the story behind the 
+making of Podio and their vision to change how we all work by empowering
+ everyone to build their own work tool, one app at a time.  Join the 
+talk and learn how this relates to transparency, mobility, the 
+spreadsheet, a swimming pool company in Kuwait and the music industry.</td></tr></table></p><br><p><b><a href="../speakers/NoahGift/"><font color="brown">Using Erlang’s Location Transparency For Devops Work</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/NoahGift/">
+<img alt="Noah Gift" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_NoahGift/Noah"/>
+<br>Noah Gift</br></a>
+<br>
+<div class="company"></div>
+</br></td>
+<td height="160" width="130">
+<a href="../speakers/MichaelBakkemo/">
+<img alt="Michael Bakkemo" border="1" class="talk" src="../assets/images/nopicture.jpg"/>
+<br>Michael Bakkemo</br></a>
+<br>
+<div class="company">Loggly</div>
+</br></td>
+</tr></table></td><td vertical-align="top">The cloud, and especially Amazon, has raised the bar for systems administration and large-scale systems architecture. In this talk I will go through how we have used Erlang’s location transparency features to manage clusters of machines on using EC2 and rightscale.<br/><br/><span style="font-weight: bold;">Talk objectives</span>: Communicate how to manage machines with Erlang on Amazon.<br/><br/><span style="font-weight: bold;">Talk audience</span>: Anyone interested in cloud computing, devops, or location transparency.<br/> <div align="right"><p><a href="../speakers/NoahGift/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/537/erlang_conf_2012_loggly.pptx" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/DrHoracioGonzalezVelez/"><font color="brown">Virtualizing Parallel Patterns for CPU/GPU Architectures</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/DrHoracioGonzalezVelez/">
+<img alt="Horacio González-Vélez" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2012_DrHoracioGonzalezVelez/horacio.jpg"/>
+<br>Horacio González-Vélez</br></a>
+<br>
+<div class="company">Robert Gordon University</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Commonly-used patterns of parallel computation, communication, and interaction provide a high-level parallel programming methodology which allows the conceptual description of parallel programs whilst fostering platform independence and algorithm abstraction. This talk presents some trends in parallel patterns for CPU/GPU architectures to enable software and hardware virtualization. It will discuss some initial results and the plans in ParaPhrase,  a novel 36-month €3.5 million European research project to develop a new structured pattern-based framework in Erlang and C/C++ for heterogeneous parallel architectures.<br/> <div><br/></div><div><div><b>Talk objectives: </b>Discuss parallel computing trends including multi/many core architectures. Illustrate parallel patterns for CPU/GPU architectures and their applications.</div><div><br/></div><div><b>Target audience:</b> Technical. From CTOs of mid-large size companies to High Performance Computing specialists.</div></div> <div align="right"><p><a href="../speakers/DrHoracioGonzalezVelez/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/507/ParaPhrase-ErlangFactory-Mar2012.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/francescocesarini/"><font color="brown">Welcome</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/francescocesarini/">
+<img alt="Francesco Cesarini" border="1" class="talk" src="../assets/upload/peopleimage/London2009_francescocesarini/francescocesarini-small.jpg"/>
+<br>Francesco Cesarini</br></a>
+<br>
+<div class="company">Erlang Solutions Ltd.</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Francesco Cesarini, Technical Director of Erlang Solutions Ltd - organisers of the Erlang Factory - opens the event
+with a short address and introduces the tracks for each day. 
+      </td></tr></table></p><br><p><b><a href="../speakers/PavloBaron/"><font color="brown">What can be done with Java but should better be done with Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/PavloBaron/">
+<img alt="Pavlo Baron" border="1" class="talk" src="../assets/upload/peopleimage/ErlangUserConference2011_PavloBaron/Pavlo.jpg"/>
+<br>Pavlo Baron</br></a>
+<br>
+<div class="company">Codecentric</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Software development is more of craftsmanship than of engineering. A good craftsman carries more tools around than just a hammer. And it's relatively inefficient to use a hammer where you need a saw. So when you take the Java ecosystem for hammer, there is still a lot of situations where a saw called Erlang would be a much better fit. In this talk you will learn these situations from concrete examples.<br/><br/><b>Talk objectives: </b>To explain to the Java people in which cases they should prefer Erlang over Java as platform, the lingual advantages of Erlang, but also cases where they should stay with Java.<br/><span style="font-weight: bold;"><br/>Target audience:</span> Java professionals.<br/><br/> <div><br/></div> <div align="right"><p><a href="../speakers/PavloBaron/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/506/Baron_JavaErlang.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/MaheshPaoliniSubramanya/"><font color="brown">Your business depends on your customers - keeping them in the loop</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/MaheshPaoliniSubramanya/">
+<img alt="Mahesh Paolini-Subramanya" border="1" class="talk" src="../assets/upload/peopleimage/SFBay2011_MaheshPaoliniSubramanya/Mahesh.jpg"/>
+<br>Mahesh Paolini-Subramanya</br></a>
+<br>
+<div class="company">Vocalocity</div>
+</br></td>
+</tr></table></td><td vertical-align="top"><div>Some of you are in businesses that generate - possibly vast amounts of - data as part of your regular operations, quite a bit of which is used by your customers in one form or the other.  As your business scales, an issue that you will almost certainly face is that of data latency and consistency degradation. To put it differently, the speed of access to, and reliability of your data will decrease, causing you and your customers quite a bit of pain and suffering.  </div><div><br/></div><div>In this talk, we will explore this issue in detail.  In particular, we will focus on how an erlang-based infrastructure can ease your pain at scale, and help keep your customers - happily - in the loop.</div><div><br/></div><div><div><b>Talk Objectives: </b>Show that having to deal with customers and their pesky requirements doesn't necessarily have to corrupt your elegantly architected system, especially at scale.</div><div><br/></div><div><b>Target Audience: </b>Anyone with customers - in particular, customers whose data-access spans the gamut from real-time to highly asynchronous.</div></div><div><br/></div> <div align="right"><p><a href="../speakers/MaheshPaoliniSubramanya/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/591/ErlangFactorySF_Mahesh.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br><p><b><a href="../speakers/JesperLouisAndersen/"><font color="brown">eTorrent, writing Peer-to-Peer clients in Erlang</font></a></b></p><p><table class="talk"><tr><td><table><tr><td height="160" width="130">
+<a href="../speakers/JesperLouisAndersen/">
+<img alt="Jesper Louis Andersen" border="1" class="talk" src="../assets/upload/peopleimage/London2011_JesperLouisAndersen/Jesper.jpg"/>
+<br>Jesper Louis Andersen</br></a>
+<br>
+<div class="company">Erlang Solutions</div>
+</br></td>
+</tr></table></td><td vertical-align="top">Erlang is perfectly suited for a modern distributed world. Part of this 
+world is also a relatively new kind of client/server paradigm, namely 
+Peer-to-Peer communication. We believe that this kind of communication 
+is important to the modern internet and hence, the eTorrent project was 
+born to gauge the usefulness of Erlang in a heavily distributed 
+Peer-to-peer setting.<br/><br/>This talk is about using Erlang for 
+implementing Peer-to-Peer clients. I claim Erlang made us write an 
+efficient BitTorrent client in a fraction of the effort compared to 
+other clients. I claim our client is more robust than the competition 
+for normal operation. And I claim the Erlang mentality fits the 
+Peer-to-Peer model well. I also explain how we utilize the Erlang 
+platform to implement the client in an OTP-idiomatic way, and how we 
+differ from the mainstream implementations.<br/><br style="font-weight: bold;"/><span style="font-weight: bold;">Target audience:</span> People with a keen interest in network protocols and Erlang.<br/><br/><span style="font-weight: bold;">Talk objectives: </span>Explain how etorrent is designed and built.<br/> <div align="right"><p><a href="../speakers/JesperLouisAndersen/" title="Watch presentation"><img alt="Movie" class="movie" src="../assets/images/film_small.png"/> </a><a href="https://web.archive.org/web/20200120192733/http://www.erlang-factory.com/upload/presentations/499/jlouis-efsf2012.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../assets/images/presentation.png"/> </a></p><br/></div></td></tr></table></p><br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></p>
+<div style="clear: left;"> </div>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<table width="100%">
+<tr>
+<td width="20%">
+</td>
+<td align="center" valign="bottom">
+<div class="footer">
+  © 1999 - 2020 
+  <a href="http://www.erlang-solutions.com/" target="_blank">
+    Erlang
+  </a>
+<a href="http://www.erlang-solutions.com/" target="_blank">
+    Solutions Ltd.
+  </a>
+</div>
+</td>
+<td align="right" width="20%">
+</td>
+</tr>
+</table>
+</div>
+<div class="Sheet-tl"> </div>
+<div class="Sheet-tr"><div> </div></div>
+<div class="Sheet-bl"><div> </div></div>
+<div class="Sheet-br"><div> </div></div>
+<div class="Sheet-tc"><div> </div></div>
+<div class="Sheet-bc"><div> </div></div>
+<div class="Sheet-cl"><div> </div></div>
+<div class="Sheet-cr"><div> </div></div>
+<div class="Sheet-cc"> </div>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</html>

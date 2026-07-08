@@ -1,0 +1,103 @@
+edition: Erlang User Conference 2012
+source:  http://www.erlang-factory.com/conference/ErlangUserConference2012  (mode: wayback)
+date:    2026-07-07 11:19
+pages: 82   assets: 128   missing: 16   elapsed: 1624s
+
+[index.html] STRIPPED script: inline
+[community/index.html] STRIPPED script: inline
+[hackathon/index.html] STRIPPED script: inline
+[preferences/index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[programme/54/index.html] STRIPPED script: inline
+[programme/55/index.html] STRIPPED script: inline
+[programme/57/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/BernerSetterwall/index.html] STRIPPED script: inline
+[speakers/BjarneDacker/index.html] STRIPPED script: inline
+[speakers/ChrisBrown/index.html] STRIPPED script: inline
+[speakers/DizzySmith/index.html] STRIPPED script: inline
+[speakers/DmitryGroshev/index.html] STRIPPED script: inline
+[speakers/EricMerritt/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/FrankoFranicevich/index.html] STRIPPED script: inline
+[speakers/FredrikSvahn/index.html] STRIPPED script: inline
+[speakers/FrejDrejhammar/index.html] STRIPPED script: inline
+[speakers/GeoffCant/index.html] STRIPPED script: inline
+[speakers/GordonGuthrie/index.html] STRIPPED script: inline
+[speakers/hanssvensson/index.html] STRIPPED script: inline
+[speakers/HenningDiedrich/index.html] STRIPPED script: inline
+[speakers/IanPlosker/index.html] STRIPPED script: inline
+[speakers/IstvanBozo/index.html] STRIPPED script: inline
+[speakers/JaneWalerud/index.html] STRIPPED script: inline
+[speakers/janhenrynystrom/index.html] STRIPPED script: inline
+[speakers/JesperBoeg/index.html] STRIPPED script: inline
+[speakers/JesperLouisAndersen/index.html] STRIPPED script: inline
+[speakers/JesperWilhelmsson/index.html] STRIPPED script: inline
+[speakers/JohanLundberg/index.html] STRIPPED script: inline
+[speakers/JonasBoner/index.html] STRIPPED script: inline
+[speakers/KennethLundin/index.html] STRIPPED script: inline
+[speakers/KevinHammond/index.html] STRIPPED script: inline
+[speakers/KostisSagonas/index.html] STRIPPED script: inline
+[speakers/KrzysztofRutka/index.html] STRIPPED script: inline
+[speakers/LoicHoguin/index.html] STRIPPED script: inline
+[speakers/LukasLarsson/index.html] STRIPPED script: inline
+[speakers/MagnusKlaar/index.html] STRIPPED script: inline
+[speakers/MalcolmMatalka/index.html] STRIPPED script: inline
+[speakers/MartinRehfeld/index.html] STRIPPED script: inline
+[speakers/MatsCronqvist/index.html] STRIPPED script: inline
+[speakers/MelindaToth/index.html] STRIPPED script: inline
+[speakers/MikeWilliams/index.html] STRIPPED script: inline
+[speakers/NiklasLindstrom/index.html] STRIPPED script: inline
+[speakers/OmerKilic/index.html] STRIPPED script: inline
+[speakers/PatrikNyblom/index.html] STRIPPED script: inline
+[speakers/PaulValckenaers/index.html] STRIPPED script: inline
+[speakers/peterandersson/index.html] STRIPPED script: inline
+[speakers/RichardCarlsson/index.html] STRIPPED script: inline
+[speakers/RickardGreen/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/RolandKarlsson/index.html] STRIPPED script: inline
+[speakers/RomainLenglet/index.html] STRIPPED script: inline
+[speakers/SteveVinoski/index.html] STRIPPED script: inline
+[speakers/ThomasArts/index.html] STRIPPED script: inline
+[speakers/TonyRogvall/index.html] STRIPPED script: inline
+[speakers/UlfWiger/index.html] STRIPPED script: inline
+[speakers/UrbanBoquist/index.html] STRIPPED script: inline
+[speakers/ZoltanHorvath/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[sponsorship_opportunities/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/index.html] STRIPPED script: inline
+[tracks/AConnectedSociety/index.html] STRIPPED script: inline
+[tracks/Case-Studies-and-Architecture/index.html] STRIPPED script: inline
+[tracks/CoolToolsandGadgets/index.html] STRIPPED script: inline
+[tracks/ErlangandtheVM/index.html] STRIPPED script: inline
+[tracks/GivemeabreakfromErlang/index.html] STRIPPED script: inline
+[tracks/TestingToolsandTechniques/index.html] STRIPPED script: inline
+[tracks/tutorialsroom01/index.html] STRIPPED script: inline
+[tracks/tutorialsroom03/index.html] STRIPPED script: inline
+[tracks/tutorialsroom2/index.html] STRIPPED script: inline
+[tutorials/index.html] STRIPPED script: inline
+[university/index.html] STRIPPED script: inline
+[university/index.html] MISSING subpage (-> wayback): /conference/ErlangUserConference2012/university/ErlangExpress
+[university/Agiletraining/index.html] STRIPPED script: inline
+[university/OTPExpress/index.html] STRIPPED script: inline
+[university/RiakTraining/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/javascript/jquery-1.3.2.js: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/javascript/preferences.js: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/javascript/ui.core.js: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/javascript/ui.sortable.js: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/courseimage/ErlangUserConference2012_Agiletraining/trifork_logo.gif: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/163/IMATTENDINGEUC2012.gif: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/9/factory_icon_2.gif: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2012_JohanLundberg/porträtt.jpeg: 'ascii' codec can't encode character '\xe4' in position 120: ordinal not in range(128)
+MISSING asset (css) http://www.erlang-factory.com/javascript/jquery-1.3.2.js: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/javascript/preferences.js: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/javascript/ui.core.js: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/javascript/ui.sortable.js: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/courseimage/ErlangUserConference2012_Agiletraining/trifork_logo.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/163/IMATTENDINGEUC2012.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/9/factory_icon_2.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2012_JohanLundberg/porträtt.jpeg: 'ascii' codec can't encode character '\xe4' in position 120: ordinal not in range(128)
+REWROTE 8 never-archived asset ref(s) to Wayback URLs

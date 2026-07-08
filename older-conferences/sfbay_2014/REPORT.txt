@@ -1,0 +1,83 @@
+edition: Erlang Factory SF Bay Area 2014
+source:  http://www.erlang-factory.com/sfbay2014/home  (mode: live)
+date:    2026-07-07 08:35
+pages: 70   assets: 108   missing: 3   elapsed: 122s
+
+FAILED page http://www.erlang-factory.com/sfbay2014/mahesh-paolinisubramanya: HTTP Error 404: Not Found
+FAILED page http://www.erlang-factory.com/sfbay2014/jared-kofron: HTTP Error 404: Not Found
+FAILED page http://www.erlang-factory.com/sfbay2014/ http:/www.gar1t.com/presentations/2014-03-06-factory/index.html: URL can't contain control characters. '/sfbay2014/ http:/www.gar1t.com/presentations/2014-03-06-factory/index.html' (found at least ' ')
+[index.html] STRIPPED script: inline
+[index.html] MISSING subpage (-> wayback): /sfbay2014/mahesh-paolinisubramanya
+[index.html] MISSING subpage (-> wayback): /sfbay2014/jared-kofron
+[training/index.html] STRIPPED script: inline
+[tracks/index.html] STRIPPED script: inline
+[location/index.html] STRIPPED script: inline
+[sponsors/index.html] STRIPPED script: inline
+[about/index.html] STRIPPED script: inline
+[jose-valim/index.html] STRIPPED script: inline
+[dave-thomas/index.html] STRIPPED script: inline
+[mike-williams/index.html] STRIPPED script: inline
+[robert-virding/index.html] STRIPPED script: inline
+[bruce-tate/index.html] STRIPPED script: inline
+[rick-reed/index.html] STRIPPED script: inline
+[erik-stenman/index.html] STRIPPED script: inline
+[fred-hebert/index.html] STRIPPED script: inline
+[bob-ippolito/index.html] STRIPPED script: inline
+[brett-cameron/index.html] STRIPPED script: inline
+[mark-allen/index.html] STRIPPED script: inline
+[natalya-arbit/index.html] STRIPPED script: inline
+[stuart-bailey/index.html] STRIPPED script: inline
+[loic-hoguin/index.html] STRIPPED script: inline
+[kenji-rikitake/index.html] STRIPPED script: inline
+[natalia-chechina/index.html] STRIPPED script: inline
+[brujo-benavides/index.html] STRIPPED script: inline
+[duncan-mcgreggor/index.html] STRIPPED script: inline
+[anthony-molinaro/index.html] STRIPPED script: inline
+[brian-mitchell/index.html] STRIPPED script: inline
+[sergey-savenko/index.html] STRIPPED script: inline
+[jay-nelson/index.html] STRIPPED script: inline
+[vladimir-kirillov/index.html] STRIPPED script: inline
+[frank-hunleth/index.html] STRIPPED script: inline
+[johnny-winn/index.html] STRIPPED script: inline
+[laura-m-castro/index.html] STRIPPED script: inline
+[robby-clements/index.html] STRIPPED script: inline
+[josh-adams/index.html] STRIPPED script: inline
+[henning-diedrich/index.html] STRIPPED script: inline
+[melinda-toth/index.html] STRIPPED script: inline
+[james-aimonetti/index.html] STRIPPED script: inline
+[joe-devivo/index.html] STRIPPED script: inline
+[sergey-ignatov/index.html] STRIPPED script: inline
+[bernard-duggan/index.html] STRIPPED script: inline
+[yurii-rashkovskii/index.html] STRIPPED script: inline
+[chris-mccord/index.html] STRIPPED script: inline
+[marcos-almonacid/index.html] STRIPPED script: inline
+[garrett-smith/index.html] STRIPPED script: inline
+[garret-smith/index.html] STRIPPED script: inline
+[c-thomas-stover/index.html] STRIPPED script: inline
+[louisphilippe-gauthier/index.html] STRIPPED script: inline
+[anton-lavrik/index.html] STRIPPED script: inline
+[lukas-larsson/index.html] STRIPPED script: inline
+[enrique-paz-perez/index.html] STRIPPED script: inline
+[martin-kristiansen/index.html] STRIPPED script: inline
+[kostis-sagonas/index.html] STRIPPED script: inline
+[brian-troutwine/index.html] STRIPPED script: inline
+[christopher-meiklejohn/index.html] STRIPPED script: inline
+[bryan-hughes/index.html] STRIPPED script: inline
+[joseph-blomstedt/index.html] STRIPPED script: inline
+[maxim-sokhatsky/index.html] STRIPPED script: inline
+[karl-anderson/index.html] STRIPPED script: inline
+[benoit-chesneau/index.html] STRIPPED script: inline
+[francois-orsini/index.html] STRIPPED script: inline
+[jon-vlachogiannis/index.html] STRIPPED script: inline
+[kresten-krab-thorup/index.html] STRIPPED script: inline
+[richard-carlsson/index.html] STRIPPED script: inline
+[russell-branca/index.html] STRIPPED script: inline
+[tom-santero/index.html] STRIPPED script: inline
+[tobias-lindahl/index.html] STRIPPED script: inline
+[ram-c-singh/index.html] STRIPPED script: inline
+[kyle-patterson/index.html] STRIPPED script: inline
+[peter-defebvre/index.html] STRIPPED script: inline
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

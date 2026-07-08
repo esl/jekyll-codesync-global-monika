@@ -1,0 +1,20 @@
+edition: Erlang Factory Lite Krakow 2010
+source:  http://www.erlang-factory.com/conference/krakow2010  (mode: wayback)
+date:    2026-07-07 15:19
+pages: 14   assets: 30   missing: 0   elapsed: 321s
+
+[index.html] STRIPPED script: inline
+[contactKrakow/index.html] STRIPPED script: inline
+[feedback/5/index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/JanuszDziemidowicz/index.html] STRIPPED script: inline
+[speakers/KonradKaplita/index.html] STRIPPED script: inline
+[speakers/KrzysztofGoj/index.html] STRIPPED script: inline
+[speakers/MatsCronqvist/index.html] STRIPPED script: inline
+[speakers/michalslaski/index.html] STRIPPED script: inline
+[speakers/michalslaski/index.html] MISSING subpage (-> wayback): /conference/krakow2010/tracks/Krakow2010
+[speakers/MichalZajda/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline

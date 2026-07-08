@@ -1,0 +1,86 @@
+edition: Erlang & Elixir Factory SF Bay Area 2017
+source:  http://www.erlang-factory.com/sfbay2017  (mode: wayback)
+date:    2026-07-07 18:09
+pages: 58   assets: 81   missing: 22   elapsed: 1299s
+
+[index.html] STRIPPED script: inline
+[about.html] STRIPPED script: inline
+[accommodation.html] STRIPPED script: inline
+[advanced-erlang.html] STRIPPED script: inline
+[andrea-leopardi.html] STRIPPED script: inline
+[anna-neyzberg.html] STRIPPED script: inline
+[ari-lerner.html] STRIPPED script: inline
+[basic-erlang.html] STRIPPED script: inline
+[brian-troutwine.html] STRIPPED script: inline
+[brujo-benavides.html] STRIPPED script: inline
+[buy-tickets.html] STRIPPED script: inline
+[carl-hewitt.html] STRIPPED script: inline
+[casey-rosenthal.html] STRIPPED script: inline
+[christopher-cote.html] STRIPPED script: inline
+[christopher-meiklejohn.html] STRIPPED script: inline
+[claudio-ortolina.html] STRIPPED script: inline
+[complete-otp.html] STRIPPED script: inline
+[danni-friedland.html] STRIPPED script: inline
+[dave-thomas.html] STRIPPED script: inline
+[duncan-sparrell.html] STRIPPED script: inline
+[elixir-bootcamp.html] STRIPPED script: inline
+[filipe-varjao.html] STRIPPED script: inline
+[francesco-cesarini.html] STRIPPED script: inline
+[garett-smith.html] STRIPPED script: inline
+[garrett-smith.html] STRIPPED script: inline
+[hannah-howard.html] STRIPPED script: inline
+[irina-guberman.html] STRIPPED script: inline
+[jeremy-pierre.html] STRIPPED script: inline
+[jesse-anderson.html] STRIPPED script: inline
+[joe-armstrong.html] STRIPPED script: inline
+[josh-adams.html] STRIPPED script: inline
+[justin-schneck.html] STRIPPED script: inline
+[kenji-rikitake.html] STRIPPED script: inline
+[kevin-smith.html] STRIPPED script: inline
+[larry-wall.html] STRIPPED script: inline
+[lauren-tan.html] STRIPPED script: inline
+[learnsome-lfe.html] STRIPPED script: inline
+[lightning-talks.html] STRIPPED script: inline
+[louisphilippe-gauthier.html] STRIPPED script: inline
+[lukas-larson.html] STRIPPED script: inline
+[marc-sugiyama.html] STRIPPED script: inline
+[michal-slaski.html] STRIPPED script: inline
+[peer-stritzinger.html] STRIPPED script: inline
+[peter-alvaro.html] STRIPPED script: inline
+[peter-hastie.html] STRIPPED script: inline
+[richard-carlsson.html] STRIPPED script: inline
+[richard-kallos.html] STRIPPED script: inline
+[robert-virding.html] STRIPPED script: inline
+[sarah-allen.html] STRIPPED script: inline
+[sarah-gray.html] STRIPPED script: inline
+[scaling-elixir-phoenix.html] STRIPPED script: inline
+[ted-burghart.html] STRIPPED script: inline
+[tutorial-dave-thomas.html] STRIPPED script: inline
+[tutorial-garett-smith.html] STRIPPED script: inline
+[tutorial-garrett-smith.html] STRIPPED script: inline
+[tutorial-michal-slaski.html] STRIPPED script: inline
+[tutorials.html] STRIPPED script: inline
+[vladan-djakovic.html] STRIPPED script: inline
+MISSING asset https://www.erlangelixir.com/assets/img/apple-touch-icon-114x114.jpg: HTTP Error 404: Not Found
+MISSING asset https://www.erlangelixir.com/assets/img/apple-touch-icon-72x72.jpg: HTTP Error 404: Not Found
+MISSING asset https://www.erlangelixir.com/assets/img/apple-touch-icon.jpg: HTTP Error 404: Not Found
+MISSING asset https://www.erlangelixir.com/assets/img/favicon.ico: HTTP Error 404: Not Found
+MISSING asset https://www.erlangelixir.com/assets/img/hotel1.jpg: HTTP Error 404: NOT FOUND
+MISSING asset https://www.erlangelixir.com/assets/img/hotel3.jpg: HTTP Error 404: NOT FOUND
+MISSING asset https://www.erlangelixir.com/assets/img/scholarship.jpg: HTTP Error 404: NOT FOUND
+MISSING asset https://www.erlangelixir.com/assets/js/jquery-2.1.4.min.js?ver=1: HTTP Error 404: NOT FOUND
+MISSING asset https://www.erlangelixir.com/assets/js/jquery.countTo.js: HTTP Error 404: NOT FOUND
+MISSING asset (css) https://www.erlangelixir.com/assets/img/apple-touch-icon-114x114.jpg: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/img/apple-touch-icon-72x72.jpg: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/img/apple-touch-icon.jpg: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/img/background/low_poly_background.jpg: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/img/favicon.ico: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/img/hotel1.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) https://www.erlangelixir.com/assets/img/hotel3.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) https://www.erlangelixir.com/assets/img/icon/yt_controls_40x40.png: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/img/icon/yt_play_big_56x82.png: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/img/scholarship.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) https://www.erlangelixir.com/assets/img/stat-bg-1919x1000.jpg: HTTP Error 404: Not Found
+MISSING asset (css) https://www.erlangelixir.com/assets/js/jquery-2.1.4.min.js?ver=1: HTTP Error 404: NOT FOUND
+MISSING asset (css) https://www.erlangelixir.com/assets/js/jquery.countTo.js: HTTP Error 404: NOT FOUND
+REWROTE 13 never-archived asset ref(s) to Wayback URLs

@@ -1,0 +1,51 @@
+edition: Erlang User Conference 2017
+source:  http://www.erlang-factory.com/euc2017/home  (mode: live)
+date:    2026-07-07 08:28
+pages: 43   assets: 71   missing: 3   elapsed: 36s
+
+[index.html] STRIPPED script: inline
+[training/index.html] STRIPPED script: inline
+[about/index.html] STRIPPED script: inline
+[joe-armstrong/index.html] STRIPPED script: inline
+[sam-aaron/index.html] STRIPPED script: inline
+[justin-schneck/index.html] STRIPPED script: inline
+[jonas-boner/index.html] STRIPPED script: inline
+[robert-virding/index.html] STRIPPED script: inline
+[mark-allen/index.html] STRIPPED script: inline
+[kostis-sagonas/index.html] STRIPPED script: inline
+[clara-benac-earle/index.html] STRIPPED script: inline
+[peter-van-roy/index.html] STRIPPED script: inline
+[kenneth-lundin/index.html] STRIPPED script: inline
+[james-fish/index.html] STRIPPED script: inline
+[chad-gibbons/index.html] STRIPPED script: inline
+[claudia-doppioslash/index.html] STRIPPED script: inline
+[andrea-leopardi/index.html] STRIPPED script: inline
+[mariano-guerra/index.html] STRIPPED script: inline
+[pawel-antemijczuk/index.html] STRIPPED script: inline
+[maarten-faddegon/index.html] STRIPPED script: inline
+[loic-hoguin/index.html] STRIPPED script: inline
+[melinda-toth/index.html] STRIPPED script: inline
+[sam-williams/index.html] STRIPPED script: inline
+[adam-lindberg/index.html] STRIPPED script: inline
+[pedro-marques-da-silva/index.html] STRIPPED script: inline
+[pedro-antonio-ferreira-engana/index.html] STRIPPED script: inline
+[benoit-chesneau/index.html] STRIPPED script: inline
+[peter-gomori/index.html] STRIPPED script: inline
+[peer-stritzinger/index.html] STRIPPED script: inline
+[thomas-arts/index.html] STRIPPED script: inline
+[aleksei-magusev/index.html] STRIPPED script: inline
+[benjamin-tan/index.html] STRIPPED script: inline
+[martin-sumner/index.html] STRIPPED script: inline
+[tobias-pfeiffer/index.html] STRIPPED script: inline
+[jesper-l-andersen/index.html] STRIPPED script: inline
+[johnny-winn/index.html] STRIPPED script: inline
+[michal-piotrowski/index.html] STRIPPED script: inline
+[dmytro-lytovchenko/index.html] STRIPPED script: inline
+[luis-rascao/index.html] STRIPPED script: inline
+[tom-szilagyi/index.html] STRIPPED script: inline
+[stavros-aronis/index.html] STRIPPED script: inline
+[david-de-boer/index.html] STRIPPED script: inline
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

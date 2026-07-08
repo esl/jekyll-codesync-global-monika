@@ -1,0 +1,67 @@
+edition: Erlang Factory SF Bay Area 2015
+source:  http://www.erlang-factory.com/sfbay2015/home  (mode: live)
+date:    2026-07-07 08:32
+pages: 53   assets: 82   missing: 5   elapsed: 43s
+
+FAILED page http://www.erlang-factory.com/sfbay2015/robert-virding%20: HTTP Error 404: Not Found
+[index.html] STRIPPED script: inline
+[training/index.html] STRIPPED script: inline
+[tracks/index.html] STRIPPED script: inline
+[about/index.html] STRIPPED script: inline
+[carl-hewitt/index.html] STRIPPED script: inline
+[joe-armstrong/index.html] STRIPPED script: inline
+[joe-armstrong/index.html] MISSING subpage (-> wayback): /sfbay2015/robert-virding%20
+[guido-van-rossum/index.html] STRIPPED script: inline
+[jose-valim/index.html] STRIPPED script: inline
+[robert-virding/index.html] STRIPPED script: inline
+[robert-virding/index.html] MISSING subpage (-> wayback): /sfbay2015/robert-virding%20
+[bruce-tate/index.html] STRIPPED script: inline
+[john-hughes/index.html] STRIPPED script: inline
+[mike-williams/index.html] STRIPPED script: inline
+[mike-williams/index.html] MISSING subpage (-> wayback): /sfbay2015/robert-virding%20
+[andreas-olofsson/index.html] STRIPPED script: inline
+[sandhya-narayan/index.html] STRIPPED script: inline
+[christopher-meiklejohn/index.html] STRIPPED script: inline
+[derek-brown/index.html] STRIPPED script: inline
+[kenji-rikitake/index.html] STRIPPED script: inline
+[sergey-savenko/index.html] STRIPPED script: inline
+[irina-guberman/index.html] STRIPPED script: inline
+[james-aimonetti/index.html] STRIPPED script: inline
+[viktoria-fordos/index.html] STRIPPED script: inline
+[sergey-ignatov/index.html] STRIPPED script: inline
+[fred-hebert/index.html] STRIPPED script: inline
+[juan-puig-martinez/index.html] STRIPPED script: inline
+[anthony-molinaro/index.html] STRIPPED script: inline
+[lukas-larsson/index.html] STRIPPED script: inline
+[mubarak-seyed/index.html] STRIPPED script: inline
+[simon-thompson/index.html] STRIPPED script: inline
+[daniel-pezely/index.html] STRIPPED script: inline
+[louisphilippe-gauthier/index.html] STRIPPED script: inline
+[tristan-sloughter/index.html] STRIPPED script: inline
+[joseph-blomstedt/index.html] STRIPPED script: inline
+[eric-meadowsjonsson/index.html] STRIPPED script: inline
+[marc-sugiyama/index.html] STRIPPED script: inline
+[martin-kristiansen/index.html] STRIPPED script: inline
+[frank-hunleth/index.html] STRIPPED script: inline
+[scott-lystig-fritchie/index.html] STRIPPED script: inline
+[mark-anderson/index.html] STRIPPED script: inline
+[ransom-richardson/index.html] STRIPPED script: inline
+[mark-allen/index.html] STRIPPED script: inline
+[brett-cameron/index.html] STRIPPED script: inline
+[joe-devivo/index.html] STRIPPED script: inline
+[brujo-benavides/index.html] STRIPPED script: inline
+[inaki-garay/index.html] STRIPPED script: inline
+[thomas-arts/index.html] STRIPPED script: inline
+[noah-gift/index.html] STRIPPED script: inline
+[garrett-smith/index.html] STRIPPED script: inline
+[dmitry-demeshchuk/index.html] STRIPPED script: inline
+[michal-slaski/index.html] STRIPPED script: inline
+[sonny-scroggin/index.html] STRIPPED script: inline
+[jamie-winsor/index.html] STRIPPED script: inline
+[brian-wilhite/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/sfbay2015/static/upload/media/1438235538286phoenixmongooseim.pdf: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/sfbay2015/static/upload/media/1438235538286phoenixmongooseim.pdf: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 4 never-archived asset ref(s) to Wayback URLs

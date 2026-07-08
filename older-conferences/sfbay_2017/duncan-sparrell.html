@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en"><!-- Reconstructed from Wayback Machine captures of https://www.erlangelixir.com/duncan-sparrell.html (codesync.global migration, 2026-07-07) -->
+<head>
+<meta charset="utf-8"/>
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Erlang and Elixir San Francisco Bay Area 2017 Conference</title>
+<meta content="The Erlang and Elixir San Francisco Bay Area 2017 Conference will be on 23 - 24 March" name="description"/>
+<meta content="Erlang, Elixir, Phoenix, San Francisco Conference" name="keywords"/>
+<meta content="Lawrence Ansell" name="author"/>
+<link href="https://web.archive.org/web/20231004235502/https://www.erlangelixir.com/assets/img/favicon.ico" rel="shortcut icon"/>
+<link href="https://web.archive.org/web/20231004235502/https://www.erlangelixir.com/assets/img/apple-touch-icon.jpg" rel="apple-touch-icon"/>
+<link href="https://web.archive.org/web/20231004235502/https://www.erlangelixir.com/assets/img/apple-touch-icon-72x72.jpg" rel="apple-touch-icon" sizes="72x72"/>
+<link href="https://web.archive.org/web/20231004235502/https://www.erlangelixir.com/assets/img/apple-touch-icon-114x114.jpg" rel="apple-touch-icon" sizes="114x114"/>
+<link href="assets/assets/css/custom-animations.css" rel="stylesheet" type="text/css">
+<link href="assets/assets/css/style.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+
+<script type="text/javascript">
+piAId = '24452';
+piCId = '32156';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+</link></link></meta></head>
+<body>
+<div class="preloader-mask">
+<div class="preloader"></div>
+</div>
+<header class="header header-black">
+<div class="header-wrapper">
+<div class="container">
+<div class="col-sm-2 col-xs-12 navigation-header">
+<button aria-controls="navigation" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navigation" data-toggle="collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="col-sm-10 col-xs-12 navigation-container">
+<div class="navbar-collapse collapse" id="navigation">
+<ul class="navigation-list pull-left light-text">
+<li class="navigation-item"><a class="navigation-link" href="https://web.archive.org/web/20231004235502/http://www.erlang-factory.com/sfbay2017/">Home</a></li>
+<li class="navigation-item dropdown"><a class="navigation-link dropdown-toggle" data-toggle="dropdown" href="#training">Training</a>
+<ul class="dropdown-menu">
+<li class="navigation-item"><a class="navigation-link" href="basic-erlang.html">Basic Erlang</a></li>
+<li class="navigation-item"><a class="navigation-link" href="advanced-erlang.html">Advanced Erlang</a></li>
+<li class="navigation-item"><a class="navigation-link" href="complete-otp.html">Complete OTP</a></li>
+<li class="navigation-item"><a class="navigation-link" href="learnsome-lfe.html">Learn You Some LFE</a></li>
+<li class="navigation-item"><a class="navigation-link" href="elixir-bootcamp.html">Elixir/OTP Bootcamp</a></li>
+<li class="navigation-item"><a class="navigation-link" href="scaling-elixir-phoenix.html">Scaling Elixir and Phoenix</a></li>
+</ul>
+</li>
+</ul>
+<a class="pull-right buy-btn" href="buy-tickets.html">Buy Tickets</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section class="section" style="padding: 100px 0 30px;">
+<div class="container">
+<div class="col-sm-3 align-center img-column">
+<img alt="" src="assets/assets/img/speakers/duncan-sparrell.jpg"/>
+</div>
+<div class="col-sm-9 align-left">
+<article>
+<h3>Duncan Sparrell</h3>
+<p><span class="text-alt"> <span class="highlight"></span>Award winning (US Intelligence Community Seal Medallion, AT&amp;T Science &amp; Technology Medal) cybergeek; Chief Cyber Curmudgeon at sFractal Consulting</span></p>
+<h4>Responding to Cyber Attack at Machine Speed</h4>
+<p>Cyber-attacks are increasing in terms of sophistication, speed and dynamics.  Advanced cyber actors (and even script kiddies) are utilizing automation with adaptive tradecraft and these trends are likely to continue. A key enabler for the realization of more flexible and interoperable cyber defense components is standardizing interfaces &amp; protocols to facilitate interoperability and integration.  OpenC2.org was founded to standardize machine-to-machine command &amp; control (openC2) to enable cyber defense system interoperability at machine speeds.  The author believes that there is an economic driver for adoption even prior to automated defense, ie that having a standard interface to perform security command &amp; control avoids the vendor lock-in that results from today’s proprietary interfaces.</p>
+<p>Ocas is an open source openC2 simulator developed in erlang by the author for:</p>
+<p>
+<ul type="disc">
+<li style="list-style-type:square">Validating the openC2 language specification,</li>
+<li style="list-style-type:square">Simulating an openC2 interface for the purpose of testing a product which produces openC2,</li>
+<li style="list-style-type:square">Simulating an enclave/network from an openC2 orchestrator perspective for the purposes of evaluating a playbook (automated response to particular trigger) from either the blue-team or red-team perspective.</li>
+</ul>
+</p>
+<p>The talk will begin with the problem openC2 is trying to solve and a review of openC2, its use cases, and current status.  Then a case will be made for why erlang is the right language for developing security applications.  Ocas will be described including use cases, the design choices made in ocas development, the software architecture and code base. The talk will end with a live demo.</p>
+<h6>Talk objectives:</h6>
+<p>This talk aims to:
+<ul type="disc">
+<li style="list-style-type:square">educate everyone (at least a little bit) in cybersecurity,</li>
+<li style="list-style-type:square">explain why erlang is great for developing cybersecurity software,</li>
+<li style="list-style-type:square">introduce the concepts of openC2 (how to respond to attack in near realtime),</li>
+<li style="list-style-type:square">introduce ocas - an open source openC2 simulator in erlang,</li>
+<li style="list-style-type:square">an unabashed plea for help both with cybersecurity in general and ocas in particular - and why the erlang community will benefit</li>
+</ul>
+</p>
+<h6>Target Audience:</h6>
+<p>This talk is aimed at developers of cybersecurity technologies and at enterprise network operators; but should have something for everyone.</p>
+<p>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/F073GDdAHBQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640"></iframe></div>
+<br/>
+<a href="http://bit.ly/2nJslix" target="_blank">View Slides Here</a>
+<br/>
+</p>
+<h6>About</h6><p>Duncan Sparrell is a seasoned (aka old) software developer and network security evangelist. He graduated back when computers were the size of buildings and programmed with punch cards. He is semi-retired and trying to give back to the community while pursuing his interests in cloud security, agile, secure software development, and erlang. Most of his cyber experience is blue team (defense) but he kick-started his cyber chops as part of a CNA (offense) team during first Gulf War. Besides having various certs (CSSIP, CSSLP, CCSK, PE), he was awarded the Intelligence Community Seal Medallion, and the AT&amp;T Science and Technology Medal.  His PGP fingerprint is "A870 5F67 00F9 D3FC ECD1 2D97 2A42 E870 6A4E EC12".</p>
+<strong>Twitter:</strong>
+<a href="https://twitter.com/dsparrell">@dsparrell</a><br/>
+<strong>Github:</strong>
+<a href="https://github.com/sparrell">sparrell</a>
+
+</article>
+</div>
+</div>
+</section>
+<section class="section align-center overlay overlay-clr light-text">
+<div class="container">
+<h5 class="heading-alt">EEF SF BAY AREA 2017 TICKET COUNTDOWN</h5>
+<p class="text-alt" style="margin-bottom: 80px;"></p>
+<!-- Countdown start -->
+<div class="row counters-wrapper countdown">
+<div class="col-sm-3">
+<div class="counter-block counter-white has-separator">
+<div class="counter-box">
+<div class="counter-content">
+<span class="count">{dnn}</span>
+<p class="title">days</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="counter-block counter-block-no-border counter-block-white has-separator">
+<div class="counter-box">
+<div class="counter-content">
+<span class="count">{hnn}</span>
+<p class="title">hours</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="counter-block counter-block-no-border counter-block-white has-separator">
+<div class="counter-box">
+<div class="counter-content">
+<span class="count">{mnn}</span>
+<p class="title">minutes</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="counter-block counter-block-no-border counter-block-white">
+<div class="counter-box">
+<div class="counter-content">
+<span class="count">{snn}</span>
+<p class="title">seconds</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="footer">
+<div class="footer-base">
+<div class="container">
+<div class="col-md-6">
+</div>
+<div class="col-md-6 align-right">
+<ul class="socials-nav align-right">
+<li class="socials-nav-item"><a href="https://twitter.com/erlangfactory"><span class="fa fa-twitter"></span></a></li>
+<li class="socials-nav-item"><a href="https://vimeo.com/166190433"><span class="fa fa-vimeo-square"></span></a></li>
+<li class="socials-nav-item"><a href="https://www.youtube.com/playlist?list=PLWbHc_FXPo2i4xDdRd-sGvZZiKjSABOk4"><span class="fa fa-youtube"></span></a></li>
+</ul>
+<p class="text-alt"><small>All Rights Reserved © 2016</small></p>
+</div>
+</div>
+</div>
+</section>
+<div class="modal-window" data-modal="email-ticket" style="background-color: rgba(2, 2, 2, 0.85);">
+<div class="modal-box small animated" data-animation="zoomIn" data-duration="700">
+<span class="close-btn icon icon-office-52"></span>
+<br/>
+<h6 class="align-center"><span class="highlight">Join Our Mailing List</span></h6>
+<iframe allowtransparency="true" frameborder="0" height="300" src="http://www2.erlang-solutions.com/l/23452/2016-12-09/4c6szk" style="border: 0;padding:50px;" type="text/html" width="100%"></iframe>
+</div>
+</div>
+<div class="modal-window" data-modal="0" style="background-color: rgba(2, 2, 2, 0.85);">
+<div class="modal-box iframe-box iframe-video">
+<span class="close-btn icon icon-office-52"></span>
+<iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/goH-Pv1w6xo?rel=0&amp;showinfo=0"></iframe>
+</div>
+</div>
+<!--[if lt IE 9]>
+		<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>
+	<![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+<script src="https://web.archive.org/web/20231004235502/https://www.erlangelixir.com/assets/js/jquery-2.1.4.min.js?ver=1" type="text/javascript"></script>
+<!--<![endif]-->
+<script src="https://maps.googleapis.com/maps/api/js?v=3&amp;libraries=places"></script>
+<script src="assets/assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/assets/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/assets/js/toastr.min.js" type="text/javascript"></script>
+<script src="assets/assets/js/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="assets/assets/js/jquery.appear.js" type="text/javascript"></script>
+<script src="assets/assets/js/jquery.plugin.js" type="text/javascript"></script>
+<script src="assets/assets/js/jquery.countdown.js" type="text/javascript"></script>
+<script src="assets/assets/js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="assets/assets/js/modal-box.js" type="text/javascript"></script>
+<script src="assets/assets/js/ventcamp.js" type="text/javascript"></script>
+</body>
+</html>

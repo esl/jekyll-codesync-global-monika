@@ -1,0 +1,163 @@
+td, tr
+{
+    margin: 0;
+    padding: 0;
+}
+
+.PageLayout
+{
+    position: relative;
+    display: block;
+}
+
+.PageHeader
+{
+    width: 100%; 
+    height: 50px; 
+}
+ 
+.PageHeader div, .PageHeader span
+{
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 50px;
+}
+
+.PageHeader div
+{
+    width: 60%;
+}
+
+.PageHeader span
+{
+    width: 40%;
+    text-align: right;
+}
+
+.cTable, .cTableBody
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+.cTable
+{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.cTableBody
+{
+    border-collapse: separate;
+    background-color: #eeeeee;
+    border: 2px solid white;
+}
+
+.cTableBody td
+{
+    border-collapse: separate;
+    margin: 1px;
+    padding: 1px;
+}
+
+.cTableBody a:link, .cTableBody a:visited
+{
+    color: red;
+}
+
+.cTableBody a
+{
+    font-weight: normal;
+}
+
+.timeline
+{
+    max-width: 85px;
+    width: 85px;
+}
+
+.cType1, .cType2, .cType3, .cType8
+{
+    min-height: 60px;
+}
+
+.cType9
+{
+    min-height: 20px;
+}
+
+.cType1, .cType2, .cType3, .cType4
+{
+    min-width: 70px;
+    max-width: 90px;
+}
+
+.cType1
+{
+    background-color: #e5e9c5;
+}
+
+.cType2
+{
+    background-color: #ccd1e2;
+}
+
+.cType3
+{
+    background-color: #eacdc5;
+}
+
+.cType4
+{
+    background-color: #c8b5be;
+}
+
+.cType5
+{
+    background-color: #f3dddc;
+}
+
+.cType6
+{
+    background-color: #a8baab;
+}
+
+.cType7
+{
+    background-color: #d9e1cc;
+}
+
+.cType8
+{
+    background-color: #eacdc5;
+}
+
+.cType11 /* keynote */
+{
+    background-color: #dcd1dc;
+}
+
+.cType12  /* break */
+{
+    background-color: #eadcc5;
+}
+
+.cType10 /* blank */
+{
+    background-color: white;
+}
+
+#cProgrammeTable *
+{
+    text-align: center;
+}
+
+/* sponsored */
+.cType1.cSponsored, .cType2.cSponsored, .cType3.cSponsored, .cType4.cSponsored
+{
+    background-color: #cef6f5;
+}

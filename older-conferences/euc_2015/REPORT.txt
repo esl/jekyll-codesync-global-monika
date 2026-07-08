@@ -1,0 +1,64 @@
+edition: Erlang User Conference 2015
+source:  http://www.erlang-factory.com/euc2015/home  (mode: live)
+date:    2026-07-07 08:32
+pages: 55   assets: 84   missing: 3   elapsed: 44s
+
+[index.html] STRIPPED script: https://platform.twitter.com/widgets.js
+[index.html] STRIPPED script: inline
+[tracks/index.html] STRIPPED script: inline
+[training/index.html] STRIPPED script: inline
+[about/index.html] STRIPPED script: inline
+[simon-stlaurent/index.html] STRIPPED script: inline
+[bodil-stokke/index.html] STRIPPED script: inline
+[bruce-tate/index.html] STRIPPED script: inline
+[robert-virding/index.html] STRIPPED script: inline
+[michael-owen/index.html] STRIPPED script: inline
+[kostis-sagonas/index.html] STRIPPED script: inline
+[richard-croucher/index.html] STRIPPED script: inline
+[jose-valim/index.html] STRIPPED script: inline
+[peter-morgan/index.html] STRIPPED script: inline
+[john-derrick/index.html] STRIPPED script: inline
+[simon-thompson/index.html] STRIPPED script: inline
+[sean-cribbs/index.html] STRIPPED script: inline
+[kevin-hammond/index.html] STRIPPED script: inline
+[alvaro-videla/index.html] STRIPPED script: inline
+[christopher-brown/index.html] STRIPPED script: inline
+[thomas-arts/index.html] STRIPPED script: inline
+[oleksiy-kebkal/index.html] STRIPPED script: inline
+[torben-hoffmann/index.html] STRIPPED script: inline
+[mikael-pettersson/index.html] STRIPPED script: inline
+[benoit-chesneau/index.html] STRIPPED script: inline
+[stepan-mitkin/index.html] STRIPPED script: inline
+[laura-m-castro/index.html] STRIPPED script: inline
+[fredrik-linder/index.html] STRIPPED script: inline
+[ramsay-taylor/index.html] STRIPPED script: inline
+[philip-clarke/index.html] STRIPPED script: inline
+[diana-corbacho/index.html] STRIPPED script: inline
+[eric-meadowsjonsson/index.html] STRIPPED script: inline
+[melinda-toth/index.html] STRIPPED script: inline
+[garrett-smith/index.html] STRIPPED script: inline
+[joe-devivo/index.html] STRIPPED script: inline
+[michal-slaski/index.html] STRIPPED script: inline
+[peer-stritzinger/index.html] STRIPPED script: inline
+[larsake-fredlund/index.html] STRIPPED script: inline
+[loic-hoguin/index.html] STRIPPED script: inline
+[radoslaw-gruchalski/index.html] STRIPPED script: inline
+[joacim-halen/index.html] STRIPPED script: inline
+[zvi-avraham/index.html] STRIPPED script: inline
+[michal-piotrowski/index.html] STRIPPED script: inline
+[kirill-bogdanov/index.html] STRIPPED script: inline
+[pawel-pikula/index.html] STRIPPED script: inline
+[vibhav-garg/index.html] STRIPPED script: inline
+[tamas-kozsik/index.html] STRIPPED script: inline
+[jawad-yaqub/index.html] STRIPPED script: inline
+[anders-danne/index.html] STRIPPED script: inline
+[graham-crowe/index.html] STRIPPED script: inline
+[magnus-lang/index.html] STRIPPED script: inline
+[viktor-sovietov/index.html] STRIPPED script: inline
+[stavros-aronis/index.html] STRIPPED script: inline
+[chandru-mullaparthi/index.html] STRIPPED script: inline
+[kenneth-lundin/index.html] STRIPPED script: inline
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

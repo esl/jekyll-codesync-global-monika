@@ -1,0 +1,30 @@
+edition: SIGPLAN Erlang Workshop 2009
+source:  http://www.erlang-factory.com/conference/2009ErlangWorkshop  (mode: wayback)
+date:    2026-07-07 14:25
+pages: 20   assets: 45   missing: 4   elapsed: 563s
+
+[index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AndrasGyorgyBekes/index.html] STRIPPED script: inline
+[speakers/ClaraBenacEarle/index.html] STRIPPED script: inline
+[speakers/ErikRamos/index.html] STRIPPED script: inline
+[speakers/GaborFeher/index.html] STRIPPED script: inline
+[speakers/hanssvensson/index.html] STRIPPED script: inline
+[speakers/janhenrynystrom/index.html] STRIPPED script: inline
+[speakers/janlehnardt/index.html] STRIPPED script: inline
+[speakers/JavierParis/index.html] STRIPPED script: inline
+[speakers/kennethlundin/index.html] STRIPPED script: inline
+[speakers/kostissagonas/index.html] STRIPPED script: inline
+[speakers/LarsAkeFredlund/index.html] STRIPPED script: inline
+[speakers/laszlolovei/index.html] STRIPPED script: inline
+[speakers/MelindaToth/index.html] STRIPPED script: inline
+[speakers/NicolaePaladi/index.html] STRIPPED script: inline
+[speakers/StenGruner/index.html] STRIPPED script: inline
+[speakers/thomasarts/index.html] STRIPPED script: inline
+[speakers/ThomasLorentsen/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/images/acm.gif: HTTP Error 404: Not Found
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/ACM2009_JavierParis/University_of_A_Coruña_Shield_small.jpg: 'ascii' codec can't encode character '\xf1' in position 116: ordinal not in range(128)
+MISSING asset (css) http://www.erlang-factory.com/images/acm.gif: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/ACM2009_JavierParis/University_of_A_Coruña_Shield_small.jpg: 'ascii' codec can't encode character '\xf1' in position 116: ordinal not in range(128)
+REWROTE 2 never-archived asset ref(s) to Wayback URLs

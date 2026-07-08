@@ -1,0 +1,18 @@
+edition: Amsterdam Factory Lite
+source:  http://www.erlang-factory.com/conference/Amsterdam  (mode: wayback)
+date:    2026-07-07 14:43
+pages: 12   assets: 22   missing: 0   elapsed: 302s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[register/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AhmedOmar/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/JeroenKoops/index.html] STRIPPED script: inline
+[speakers/MarcWorrell/index.html] STRIPPED script: inline
+[speakers/WardBekker/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[submit_talk/index.html] MISSING subpage (-> wayback): /conference/amsterdam/venue
+[talks/index.html] STRIPPED script: inline
+[tracks/Amsterdamprogramme/index.html] STRIPPED script: inline

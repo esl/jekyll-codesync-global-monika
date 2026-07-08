@@ -1,0 +1,21 @@
+edition: dublin_2013
+source:  http://www.erlang-factory.com/conference/Dublin2013  (mode: wayback)
+date:    2026-07-07 16:45
+pages: 11   assets: 23   missing: 4   elapsed: 287s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/DarachEnnis/index.html] STRIPPED script: inline
+[speakers/michalslaski/index.html] STRIPPED script: inline
+[speakers/PavloBaron/index.html] STRIPPED script: inline
+[speakers/SteveVinoski/index.html] STRIPPED script: inline
+[speakers/ZubairSheikh/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/dublin2013/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Dublin2013_PavloBaron/Pavlo.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Dublin2013_ZubairSheikh/zsheikhirl.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Dublin2013_PavloBaron/Pavlo.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Dublin2013_ZubairSheikh/zsheikhirl.jpg: HTTP Error 404: NOT FOUND
+REWROTE 2 never-archived asset ref(s) to Wayback URLs

@@ -1,0 +1,77 @@
+edition: Erlang User Conference 2014
+source:  http://www.erlang-factory.com/euc2014/home  (mode: live)
+date:    2026-07-07 08:34
+pages: 61   assets: 99   missing: 3   elapsed: 51s
+
+FAILED page http://www.erlang-factory.com/euc2014/radosaw-szymczyszyn: HTTP Error 404: Not Found
+FAILED page http://www.erlang-factory.com/euc2014/huiqing-li: HTTP Error 404: Not Found
+FAILED page http://www.erlang-factory.com/euc2014/jesper-louis-andersen: HTTP Error 404: Not Found
+FAILED page http://www.erlang-factory.com/euc2014/andreas-schumacher: HTTP Error 404: Not Found
+[index.html] STRIPPED script: inline
+[index.html] MISSING subpage (-> wayback): /euc2014/radosaw-szymczyszyn
+[index.html] MISSING subpage (-> wayback): /euc2014/huiqing-li
+[index.html] MISSING subpage (-> wayback): /euc2014/jesper-louis-andersen
+[index.html] MISSING subpage (-> wayback): /euc2014/andreas-schumacher
+[training/index.html] STRIPPED script: inline
+[tracks/index.html] STRIPPED script: inline
+[about/index.html] STRIPPED script: inline
+[stuart-bailey/index.html] STRIPPED script: inline
+[katie-miller/index.html] STRIPPED script: inline
+[robert-virding/index.html] STRIPPED script: inline
+[bruce-tate/index.html] STRIPPED script: inline
+[erik-stenman/index.html] STRIPPED script: inline
+[andreas-loscher/index.html] STRIPPED script: inline
+[john-hughes/index.html] STRIPPED script: inline
+[ulf-wiger/index.html] STRIPPED script: inline
+[christopher-meiklejohn/index.html] STRIPPED script: inline
+[duncan-mcgreggor/index.html] STRIPPED script: inline
+[kostis-sagonas/index.html] STRIPPED script: inline
+[kenneth-lundin/index.html] STRIPPED script: inline
+[loic-hoguin/index.html] STRIPPED script: inline
+[angela-johansson/index.html] STRIPPED script: inline
+[peer-stritzinger/index.html] STRIPPED script: inline
+[yosuke-hara/index.html] STRIPPED script: inline
+[richard-croucher/index.html] STRIPPED script: inline
+[lukas-larsson/index.html] STRIPPED script: inline
+[benoit-chesneau/index.html] STRIPPED script: inline
+[jesper-l-andersen/index.html] STRIPPED script: inline
+[alvaro-videla/index.html] STRIPPED script: inline
+[heinz-gies/index.html] STRIPPED script: inline
+[motiejus-jakstys/index.html] STRIPPED script: inline
+[simon-thompson/index.html] STRIPPED script: inline
+[torben-hoffmann/index.html] STRIPPED script: inline
+[macias-lopez/index.html] STRIPPED script: inline
+[paul-davis/index.html] STRIPPED script: inline
+[natalia-chechina/index.html] STRIPPED script: inline
+[christopher-brown/index.html] STRIPPED script: inline
+[laura-m-castro/index.html] STRIPPED script: inline
+[wojciech-turek/index.html] STRIPPED script: inline
+[zachary-kessin/index.html] STRIPPED script: inline
+[garrett-smith/index.html] STRIPPED script: inline
+[frej-drejhammar/index.html] STRIPPED script: inline
+[jordan-wilberding/index.html] STRIPPED script: inline
+[samuel-rivas/index.html] STRIPPED script: inline
+[richard-jonas/index.html] STRIPPED script: inline
+[mats-cronqvist/index.html] STRIPPED script: inline
+[roberto-aloi/index.html] STRIPPED script: inline
+[malcolm-matalka/index.html] STRIPPED script: inline
+[paul-butcher/index.html] STRIPPED script: inline
+[jan-henry-nystrom/index.html] STRIPPED script: inline
+[jonathan-olsson/index.html] STRIPPED script: inline
+[martin-kjellin/index.html] STRIPPED script: inline
+[stavros-aronis/index.html] STRIPPED script: inline
+[fredrik-linder/index.html] STRIPPED script: inline
+[tamas-kozsik/index.html] STRIPPED script: inline
+[eric-meadowsjonsson/index.html] STRIPPED script: inline
+[csaba-hoch/index.html] STRIPPED script: inline
+[diana-corbacho/index.html] STRIPPED script: inline
+[marc-sugiyama/index.html] STRIPPED script: inline
+[radoslaw-szymczyszyn/index.html] STRIPPED script: inline
+[thomas-arts/index.html] STRIPPED script: inline
+[christian-dahlqvist/index.html] STRIPPED script: inline
+[kevin-hammond/index.html] STRIPPED script: inline
+[locking/index.html] STRIPPED script: inline
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

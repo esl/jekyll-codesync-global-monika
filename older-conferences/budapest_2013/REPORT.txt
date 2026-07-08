@@ -1,0 +1,29 @@
+edition: budapest_2013
+source:  http://www.erlang-factory.com/conference/Budapest2013  (mode: wayback)
+date:    2026-07-07 16:37
+pages: 19   assets: 44   missing: 2   elapsed: 503s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AbelSinkovics/index.html] STRIPPED script: inline
+[speakers/AlvaroVidela/index.html] STRIPPED script: inline
+[speakers/AndrasGyorgyBekes/index.html] STRIPPED script: inline
+[speakers/atillaerdodi/index.html] STRIPPED script: inline
+[speakers/CsabaHoch/index.html] STRIPPED script: inline
+[speakers/DanielHorpacsi/index.html] STRIPPED script: inline
+[speakers/MatsCronqvist/index.html] STRIPPED script: inline
+[speakers/MelindaToth/index.html] STRIPPED script: inline
+[speakers/PavloBaron/index.html] STRIPPED script: inline
+[speakers/PiotrNosek/index.html] STRIPPED script: inline
+[speakers/RichardCox/index.html] STRIPPED script: inline
+[speakers/TorbenHoffmann/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/budapestefl/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+[venue/index.html] MISSING subpage (-> wayback): /conference/Budapest2013/submit_talk
+[venue/index.html] MISSING subpage (-> wayback): /conference/Budapest2013/register
+MISSING asset http://www.erlang-factory.com/upload/item/442/colabs.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/442/colabs.jpg: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

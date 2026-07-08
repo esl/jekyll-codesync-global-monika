@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Reconstructed from Wayback Machine captures of http://www.erlang-factory.com/conference/ErlangUserConference2013/speakers/HenningDiedrich (codesync.global migration, 2026-07-07) -->
+<head>
+<title>Erlang Factory - Henning Diedrich, Creator of Erlvolt, Maintainer of Emysql</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="../../assets/css/conf.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/css/ctable.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta content="&lt;div&gt;Henning is the founder and CEO of Eonblast, the creator of the Erlang VoltDB driver Erlvolt and a maintainer of the Erlang MySQL driver Emysql. He also contributed the underrated sed script marke" name="description"/>
+<meta content="erlang factory training consulting conference solutions london san francisco Henning Diedrich Made in Heaven: Erlang + VoltDB Tutorial: Ervolt &amp; VoltDB " name="keywords"/>
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/jquery.countdown.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/script.js" type="text/javascript">//nothing </script>
+</head>
+<body>
+<div class="PageBackgroundGradient"> </div>
+<div class="Main">
+<div class="Sheet">
+<div class="Sheet-body">
+<a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/"><div class="Header" style="background-image: url(../../assets/upload/conferenceimage/ErlangUserConference2013/EUC2013.jpg);">
+<div>
+<table class="logo">
+<tr><td class="logo-name"> </td></tr>
+<tr><td class="logo-text"> </td></tr>
+</table>
+</div>
+</div>
+</a>
+<div class="contentLayout">
+<div class="sidebar1">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory</div>
+<ul>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/" title="Erlang Factory">Home</a></li>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/about" title="About">About Us</a></li>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/contact" title="Contact">Contact</a></li>
+</ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th"><a href="../../">Erlang User Conference 2013</a></div><ul> <li><a href="../" title="Speakers">Speakers</a></li><li><a href="../../talks/" title="Talks">Talks</a></li><li><a href="../../tracks/" title="Tracks">Tracks</a></li><li><a href="../../programme/" title="Programme">Programme</a></li><li><a href="../../sponsor/list/" title="Sponsors">Sponsors</a></li></ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Organisers</div>
+<p><a href="http://erlang-solutions.com" target="_blank" title="Erlang Solutions Ltd"> </a></p>
+<p style="text-align: center;"><a href="https://www.erlang-solutions.com/"><img alt="" height="79" src="../../assets/upload/item/121/Erlang-logo-4-col.png" width="159"/></a></p>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Newsletter</div>
+<p>
+                      Subscribe to our Erlang Factory newsletter to receive
+                      the latest updates and news
+                    </p>
+<form action="/ml/subscribe" id="signupform" method="post">
+<table style="width: 100%;">
+<tr>
+<td>
+<input id="s" maxlength="256" name="email" onblur="if (this.value == '') {this.value = 'Your Email';}" onfocus="if(this.value == 'Your Email') {this.value = '';}" size="17" style="width: 95%;" type="text" value="Your Email"/>
+</td>
+</tr>
+<tr>
+<td>
+<div id="recaptcha_widget" style="display:none">
+<div id="recaptcha_image"> </div>
+<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+<span class="recaptcha_only_if_image">Enter the words above:</span>
+<span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+<br/>
+<input id="recaptcha_response_field" name="recaptcha_response_field" style="width:150px" type="text"/>
+<div><a href="javascript:Recaptcha.reload()">Get another CAPTCHA</a></div>
+<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">Get an audio CAPTCHA</a></div>
+<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">Get an image CAPTCHA</a></div>
+<div><a href="javascript:Recaptcha.showhelp()">Help</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="buttonclass" type="submit" value="Sign Up"/>
+</td>
+</tr>
+</table>
+<script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"> </script>
+<script type="text/javascript">
+Recaptcha.create("6Lc7LNISAAAAAH_MJuG4ilssW-cJ6dsw-1Buckj6",
+    "recaptcha_widget",
+    {
+      theme: "custom",
+    }
+  );
+
+$('input[type="submit"]').click(validateCaptchaAndSubmit);
+
+function validateCaptchaAndSubmit(eo) {
+    var challengeId = $('input#recaptcha_challenge_field')[0].value;
+    var userSolution = $('input#recaptcha_response_field')[0].value;
+    $.post(	'/verify_captcha',
+			{"challenge_id":challengeId, "user_solution":userSolution},
+			function(data, textStatus, jqXHR) {
+				if(data=="true") {
+					$("form[action='/ml/subscribe']").submit();
+				} else {
+					alert("Incorrect captcha solution!");
+				}
+			},
+			"text"
+		     );
+    return false;
+}
+</script>
+<style type="text/css">
+div#recaptcha_image {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_image img {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_widget {
+    width: 160px !important;
+}
+</style>
+</form>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="content2">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang User Conference 2013 </div>
+<div class="post">
+<div class="entry">
+<p>
+<div id="speaker">
+<div id="name">Henning Diedrich</div>
+<div id="catchphrase">Creator of Erlvolt, Maintainer of Emysql</div>
+<div id="company">Eonblast Corporation</div><br/>
+<div id="photo"><img alt="Speaker" src="../../assets/upload/peopleimage/ErlangUserConference2013_HenningDiedrich/HenningDi797_bwfinal.png"/></div>
+<div id="bio"><div>Henning is the founder and CEO of Eonblast, the creator of the Erlang VoltDB driver Erlvolt and a maintainer of the Erlang MySQL driver Emysql. He also contributed the underrated sed script markedoc, which converts markdown to edoc.</div><div><br/></div><div>Henning is an entrepreneur, producer, programmer and game designer. He wrote his first games on the C64, develops for the web since Netscape 1.0 and produced his first game server with Java 1.0. He developed a language and VM for insurance tariff calculation for AXA and produced browser games e.g for Bigpoint. In 2009 he founded Eonblast to create a more immersive online game experience and as official cover for the Time Tuner mission.</div><div><br/></div><div>Henning's Open Source contributions for Erlang, Lua, MySQL and VoltDB are direct results of what pieces he found missing for a better game server stack. Starting out on a 1MHz CPU, Henning's special interest tends to be speed as an enabler. He has talked about evil performance optimizations at the Lua Conference, about his record setting Node.js VoltDB benchmark and he was elected to explain "Why Erlang?" to the game developer community at the GDC Online 2012.</div><div><br/></div><div>Twitter: <a href="https://twitter.com/hdiedrich">@hdiedrich</a></div></div>
+<div id="logo"><img alt="" src="../../assets/upload/peopleimage/ErlangUserConference2013_HenningDiedrich/eonblast.jpeg"/></div>
+<hr/>
+<div id="talkstitle">
+    Henning Diedrich is Giving the Following Talks
+  </div>
+<div id="talks">
+<div class="talk">
+<div class="name">Made in Heaven: Erlang + VoltDB</div>
+<br>
+<div class="podcast"><iframe allowfullscreen="" frameborder="0" height="197" mozallowfullscreen="" src="//player.vimeo.com/video/95750364?title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen="" width="350"></iframe></div>
+<div class="description">
+<div>VoltDB and Erlang look like the perfect match to handle high data volumes fast and painless. Both are the result of a scientific approach to a concrete problem, designed from scratch to address the new reality of parallel architectures: not only to cope with, but to use parallel hardware the right way. Both are Open Source, driven by a commercial developer. And Erlang and VoltDB are well known by everyone "in the know", yet awaiting their mainstream break through. </div><div><br/></div><div>VoltDB is the brainchild of Michael Stonebraker, who created Ingres and Postgres, and it's his proposal for an SQL, fully ACID distributed database, specialized for online transactions. VoltDB neither reverts to key-value nor eventual consistency. It does not cover all of SQL but everything you need for typical fast, web-centric transactions. Technically VoltDB is something like a Redis for the cluster, with strong disk persistency and replication. Consequently it matches and surpasses Redis' performance, but for a much larger data set, scaling out almost linearly.</div><div><br/></div><div>This talk presents the new native Erlang VoltDB driver "Erlvolt" that the speaker created over the course of the last three years and that has now become part of the VoltDB distribution. Source examples are presented that show Erlang and VoltDB in action. VoltDB's inner workings are explained to understand why it can be so incredibly fast and still more feature-rich than many of its NoSQL competitors. The recent Erlvolt benchmark clocking in at 877,000 transactions per second is described, and the simple steps to get VoltDB up and running with Erlang, to find out if it can be useful for you.   The speaker is creator and maintainer of the Erlang VoltDB driver Erlvolt and a maintainer of the Erlang MySQL driver Emysql.</div><div><br/></div><div><b>Talk objectives: </b><span style="font-size: 12px;">Demonstrate the ease and performance of using VoltDB with Erlang.</span></div><div><br/></div><div><b>Target audience: </b><span style="font-size: 12px;">Everyone needing a database that will scale.</span></div><div><span style="font-size: 12px;"><br/></span></div><div><span style="font-size: 12px;"><br/></span></div>
+</div>
+</br></div>
+<div class="talk">
+<div class="name">Tutorial: Ervolt &amp; VoltDB</div>
+<br>
+<div class="description">
+<div>The Erlvolt tutorial demonstrates hands-on how to install and use VoltDB with Erlang. Participants can walk every step of the way in parallel on their lap tops. We'll start with a short outline of how VoltDB works, how it matches with Erlang and how it is used. We will create a local hello world example, covering download, installation, building, and writing the code: the database definition, stored procedures, VoltDB project definition and main program. Then run and discuss a meaningful benchmark, creating and using a cluster in the Amazon Elastic Compute Cloud. If you have an AWS EC2 account, you can also try this part yourself during the time of the tutorial. Finally, we will look at the internals of the Erlvolt driver together and participants will be called upon to become collaborators in this exciting open source effort.</div><div><br/></div><div>- learn VoltDB basics</div><div>- install and build VoltDB &amp; Erlvolt on your laptop</div><div>- discuss VoltDB internal architecture and development history</div><div>- write and understand a hello world example application</div><div>- setting up a small online cluster and perform a benchmark on it</div><div>- ask in-depth questions regarding VoltDB and Erlvolt</div>
+</div>
+</br></div>
+</div>
+<div id="coursestitle">
+</div>
+<div id="courses">
+</div>
+<div id="trackstitle">
+</div>
+<div id="tracks">
+</div>
+</div>
+</p>
+<div style="clear: left;"> </div>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<table width="100%">
+<tr>
+<td width="20%">
+</td>
+<td align="center" valign="bottom">
+<div class="footer">
+  © 1999 - 2020 
+  <a href="http://www.erlang-solutions.com/" target="_blank">
+    Erlang
+  </a>
+<a href="http://www.erlang-solutions.com/" target="_blank">
+    Solutions Ltd.
+  </a>
+</div>
+</td>
+<td align="right" width="20%">
+</td>
+</tr>
+</table>
+</div>
+<div class="Sheet-tl"> </div>
+<div class="Sheet-tr"><div> </div></div>
+<div class="Sheet-bl"><div> </div></div>
+<div class="Sheet-br"><div> </div></div>
+<div class="Sheet-tc"><div> </div></div>
+<div class="Sheet-bc"><div> </div></div>
+<div class="Sheet-cl"><div> </div></div>
+<div class="Sheet-cr"><div> </div></div>
+<div class="Sheet-cc"> </div>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</html>

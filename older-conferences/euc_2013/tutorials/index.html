@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Reconstructed from Wayback Machine captures of http://www.erlang-factory.com:80/conference/ErlangUserConference2013/tutorials (codesync.global migration, 2026-07-07) -->
+<head>
+<title>Erlang Factory - Tutorials</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="../assets/css/conf.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/css/ctable.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta content="The Erlang Factory conferences provide inspiring talks, trainings and workshops with leading Erlang experts. The Erlang Factory SF Bay Area is the biggest Erlang event in the US, and Erlang Factory Lites are organised on a monthly basis across the US and Europe." name="description"/>
+<meta content="erlang factory training consulting conference solutions london san francisco " name="keywords"/>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript">//nothing </script>
+<script src="../assets/javascript/jquery.cycle.lite.js" type="text/javascript">//nothing </script>
+<script src="../assets/javascript/jquery.countdown.js" type="text/javascript">//nothing </script>
+<script type="text/javascript">$(document).ready(function() {$('#sponsors').cycle('fade');});</script>
+<script src="../assets/javascript/script.js" type="text/javascript">//nothing </script>
+<meta content="oxoKRalYlIbio9AxnSNkCdX9j6pQqVhl4jdeByVlmbs=" name="verify-v1"/>
+</head>
+<body>
+<div class="PageBackgroundGradient"> </div>
+<div class="Main">
+<div class="Sheet">
+<div class="Sheet-body">
+<a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/"><div class="Header" style="background-image: url(../assets/upload/conferenceimage/ErlangUserConference2013/EUC2013.jpg);">
+<div>
+<table class="logo">
+<tr><td class="logo-name"> </td></tr>
+<tr><td class="logo-text"> </td></tr>
+</table>
+</div>
+</div>
+</a>
+<div class="contentLayout">
+<div class="sidebar1">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory</div>
+<ul>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/" title="Erlang Factory">Home</a></li>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/about" title="About">About Us</a></li>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/contact" title="Contact">Contact</a></li>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/the_erlang_factory_conferences" title="The Erlang Factory Conferences">The Erlang Factory Conferences</a></li>
+</ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th"><a href="../">Erlang User Conference 2013</a></div><ul> <li><a href="../speakers/" title="Speakers">Speakers</a></li><li><a href="../talks/" title="Talks">Talks</a></li><li><a href="../tracks/" title="Tracks">Tracks</a></li><li><a href="../programme/" title="Programme">Programme</a></li><li><a href="../sponsor/list/" title="Sponsors">Sponsors</a></li></ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Organisers</div>
+<p><a href="http://erlang-solutions.com" target="_blank" title="Erlang Solutions Ltd"> </a></p>
+<p style="text-align: center;"><img alt="" height="79" src="../assets/upload/item/121/Erlang-logo-4-col.png" width="159"/></p>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Newsletter</div>
+<p>
+                      Subscribe to our Erlang Factory newsletter to receive
+                      the latest updates and news
+                    </p>
+<form action="/ml/subscribe" id="signupform" method="post">
+<table style="width: 100%;">
+<tr>
+<td>
+<input id="s" maxlength="256" name="email" onblur="if (this.value == '') {this.value = 'Your Email';}" onfocus="if(this.value == 'Your Email') {this.value = '';}" size="17" style="width: 95%;" type="text" value="Your Email"/>
+</td>
+</tr>
+<tr>
+<td>
+<div id="recaptcha_widget" style="display:none">
+<div id="recaptcha_image"> </div>
+<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+<span class="recaptcha_only_if_image">Enter the words above:</span>
+<span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+<br/>
+<input id="recaptcha_response_field" name="recaptcha_response_field" style="width:150px" type="text"/>
+<div><a href="javascript:Recaptcha.reload()">Get another CAPTCHA</a></div>
+<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">Get an audio CAPTCHA</a></div>
+<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">Get an image CAPTCHA</a></div>
+<div><a href="javascript:Recaptcha.showhelp()">Help</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="buttonclass" type="submit" value="Sign Up"/>
+</td>
+</tr>
+</table>
+<script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"> </script>
+<script type="text/javascript">
+Recaptcha.create("6Lc7LNISAAAAAH_MJuG4ilssW-cJ6dsw-1Buckj6",
+    "recaptcha_widget",
+    {
+      theme: "custom",
+    }
+  );
+
+$('input[type="submit"]').click(validateCaptchaAndSubmit);
+
+function validateCaptchaAndSubmit(eo) {
+    var challengeId = $('input#recaptcha_challenge_field')[0].value;
+    var userSolution = $('input#recaptcha_response_field')[0].value;
+    $.post(	'/verify_captcha',
+			{"challenge_id":challengeId, "user_solution":userSolution},
+			function(data, textStatus, jqXHR) {
+				if(data=="true") {
+					$("form[action='/ml/subscribe']").submit();
+				} else {
+					alert("Incorrect captcha solution!");
+				}
+			},
+			"text"
+		     );
+    return false;
+}
+</script>
+<style type="text/css">
+div#recaptcha_image {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_image img {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_widget {
+    width: 160px !important;
+}
+</style>
+</form>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Tutorials</div>
+<div class="post">
+<div class="venue">
+<div class="entry">
+<p style="text-align: justify;">On Wednesday 12 June there will be a series of tutorials held at the Ericsson in Kista. They will start at 9am, with registration starting at 8:30.</p>
+<p style="text-align: justify;">The tutorials range from 1.5hr to 3hrs long and cover topics such as Erlang VM, Elixir, <span style="text-align: justify;">RefactorErl, </span>QuickChecK and Cowboy. Places are limited to offer attendees a more hands-on approach whilst learning from leading experts in each particular field. Tickets are allocated on a first-come, first-served basis.</p>
+<p style="text-align: justify;"><a href="../preferences/" target="_blank">Registration is now open</a>! <a href="../programme/">Programme</a> is available <a href="../programme/">here</a>.</p>
+<div style="clear: left;"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar2">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">News</div>
+<div class="news">
+<div class="news_content"><b>Goodbye Stockholm, Hello Berlin and Tel Aviv    </b><br/><br/><p><span style="color: #000000;">The 19th Erlang User Conference just concluded, and we are uploading slides and videos as fast as we can. Most slides are already up, and we hope to have all videos on the website during the next two weeks. A video of the first keynote is already live, <a href="../speakers/MikeWilliams/">take a look</a>. If you want to get a feel of the atmosphere at EUC, you can also find a photo album <a href="https://www.facebook.com/media/set/?set=oa.10151415903191990&amp;type=1">here</a>.</span></p>
+<p>If you didn't get a chance to come to EUC or you did and now you want more Erlang in your life, fear not! The Erlang Factories Lite will be back in October. By popular demand we're coming to Berlin on the 16th of October. <a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/conference/Berlin2013/speakers/SteveVinoski">Steve Vinoski</a> already confirmed he will be one of our speakers, so hurry up and <a href="https://docs.google.com/spreadsheet/viewform?formkey=dERERk1TdDdvZ3RlUnp4TUpMOUhaOWc6MA">submit your talk</a>.  </p>
+<p style="color: #1c1812; font-family: Tahoma; font-size: 12px;">The first Erlang Factory in Israel will take place at the Google Campus in Tel Aviv on 23 October. Talks will be delivered both in English and in Hebrew. Talk submission is now open <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDlVdUpSRE1xNUR0M1NxNmJIVWtWcnc6MA#gid=0">here</a>.</p>
+<p><span style="color: #000000;"><br/></span></p>
+<p> </p>
+<p> </p>
+<p><span style="color: #000000;"><br/></span></p></div>
+<hr/>
+<br/>
+<div class="more_news">
+<a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/news/rss" target="_self"><img alt="RSS Feed" src="../assets/images/feed.gif"/></a>
+<a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/news/list" target="_self">More News...</a>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Sponsors</div>
+<div class="sponsor_box">
+<div class="pics" id="platinium_sponsor">
+<a href="http://www.basho.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/39/basho-portrait.png"/></a>
+<br/><br/>
+<a href="http://www.campanja.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/107/campanja-erlang.png"/></a>
+<br/><br/>
+<a href="http://klarna.com" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/134/klarna.jpeg"/></a>
+<br/><br/>
+</div>
+<div class="pics" id="sponsors">
+<a href="http://www.ericsson.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/108/Ericsson.jpg"/></a>
+<a href="http://www.erlang-solutions.com" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/119/Erlang-logo-4-col.png"/></a>
+<a href="http://www.spilgames.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/195/spilgames.jpeg"/></a>
+<a href="http://www.st.se/Page441.aspx" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/115/SoT_with_new_slogan.jpg"/></a>
+<a href="http://www.soundrop.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/219/soundroplogo.png"/></a>
+<a href="http://spawngrid.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/196/spawngrid-logo-transparent.png"/></a>
+<a href="http://www.tail-f.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/208/tail-flogo.png"/></a>
+<a href="http://www.infoq.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/211/infoQ-logo.png"/></a>
+<a href="http://oreilly.com/" target="_blank"><img alt="Sponsor" src="../assets/upload/sponsor/46/OReilly.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="social_network">
+<a href="http://twitter.com/#!/erlangfactory"><img src="../assets/images/02-follow-us-on-twitter-button-blue.png"/></a>
+<a href="http://www.linkedin.com/groups/Erlang-Factory-2003110?itemaction=mclk&amp;anetid=2003110&amp;impid=&amp;pgkey=anet_search_results&amp;actpref=anetsrch_name&amp;trk=anetsrch_name&amp;goback=.gdr_1311244833631_1" target="_blank"><img alt="Lindedin" border="0" height="33px" src="../assets/images/linkedin_logo_big.jpg" width="33px"/></a>
+<a href="http://www.facebook.com/#!/group.php?gid=88484936989" target="_blank"><img alt="Facebook" border="0" height="33px" src="../assets/images/facebook_logo_big.jpg" width="33px"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+  © 1999 - 2013 
+  <a href="http://www.erlang-solutions.com/" target="_blank">
+    Erlang
+  </a>
+<a href="http://www.erlang-solutions.com/" target="_blank">
+    Solutions Ltd.
+  </a>
+</div>
+<div class="Sheet-tl"> </div>
+<div class="Sheet-tr"><div> </div></div>
+<div class="Sheet-bl"><div> </div></div>
+<div class="Sheet-br"><div> </div></div>
+<div class="Sheet-tc"><div> </div></div>
+<div class="Sheet-bc"><div> </div></div>
+<div class="Sheet-cl"><div> </div></div>
+<div class="Sheet-cr"><div> </div></div>
+<div class="Sheet-cc"> </div>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</html>

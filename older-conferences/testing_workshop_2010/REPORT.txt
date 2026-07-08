@@ -1,0 +1,25 @@
+edition: Testing Tutorial Workshop 2010
+source:  http://www.erlang-factory.com/conference/TestingTutorialWorkshop2010  (mode: wayback)
+date:    2026-07-07 14:35
+pages: 17   assets: 30   missing: 2   elapsed: 308s
+
+[index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AlvaroFernandezDiaz/index.html] STRIPPED script: inline
+[speakers/HuiqingLi/index.html] STRIPPED script: inline
+[speakers/JakobCederlund/index.html] STRIPPED script: inline
+[speakers/JohnHughes/index.html] STRIPPED script: inline
+[speakers/JosephWayneNorton/index.html] STRIPPED script: inline
+[speakers/LauraMCastro/index.html] STRIPPED script: inline
+[speakers/MazenHarake/index.html] STRIPPED script: inline
+[speakers/MelindaToth/index.html] STRIPPED script: inline
+[speakers/MichalPalka/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/RustyKlophaus/index.html] STRIPPED script: inline
+[speakers/SimonThompson/index.html] STRIPPED script: inline
+[speakers/UlfNorell/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/testingtutorialworkshop2010_RustyKlophaus/basho.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/testingtutorialworkshop2010_RustyKlophaus/basho.gif: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

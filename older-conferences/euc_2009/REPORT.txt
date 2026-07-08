@@ -1,0 +1,56 @@
+edition: Erlang User Conference 2009
+source:  http://www.erlang-factory.com/conference/ErlangUserConference2009  (mode: wayback)
+date:    2026-07-07 12:24
+pages: 39   assets: 80   missing: 10   elapsed: 1166s
+
+[index.html] STRIPPED script: inline
+[community/index.html] STRIPPED script: inline
+[contactEUC/index.html] STRIPPED script: inline
+[contactEUC/index.html] MISSING subpage (-> wayback): /conference/ErlangUserConference2009/contact_form
+[programme/index.html] STRIPPED script: inline
+[programme/index.html] MISSING subpage (-> wayback): /conference/ErlangUserConference2009/tracks/conferenceprogramme
+[register/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/adamlindberg/index.html] STRIPPED script: inline
+[speakers/BjarneDacker/index.html] STRIPPED script: inline
+[speakers/ClaraBenacEarle/index.html] STRIPPED script: inline
+[speakers/EricMerritt/index.html] STRIPPED script: inline
+[speakers/GuyWiener/index.html] STRIPPED script: inline
+[speakers/huiqingli/index.html] STRIPPED script: inline
+[speakers/JacobVorreuter/index.html] STRIPPED script: inline
+[speakers/janhenrynystrom/index.html] STRIPPED script: inline
+[speakers/JaredFlatow/index.html] STRIPPED script: inline
+[speakers/JosephWayneNorton/index.html] STRIPPED script: inline
+[speakers/kennethlundin/index.html] STRIPPED script: inline
+[speakers/kostissagonas/index.html] STRIPPED script: inline
+[speakers/MayerGoldberg/index.html] STRIPPED script: inline
+[speakers/MichaelTruog/index.html] STRIPPED script: inline
+[speakers/PatrikNyblom/index.html] STRIPPED script: inline
+[speakers/RickardCardell/index.html] STRIPPED script: inline
+[speakers/RustyKlophaus/index.html] STRIPPED script: inline
+[speakers/ScottChacon/index.html] STRIPPED script: inline
+[speakers/ScottLystigFritchie/index.html] STRIPPED script: inline
+[speakers/SimonThompson/index.html] STRIPPED script: inline
+[speakers/thomasarts/index.html] STRIPPED script: inline
+[speakers/TomPrestonWerner/index.html] STRIPPED script: inline
+[speakers/ulfwiger/index.html] STRIPPED script: inline
+[speakers/VilleTuulos/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[university/index.html] STRIPPED script: inline
+[university/erlangexpress/index.html] STRIPPED script: inline
+[university/optexpress/index.html] STRIPPED script: inline
+[university/QuickCheck/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/images/euc-stk-09-attend.gif: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/images/euc-stk-09-see.gif: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2009_GuyWiener/Bgu_logo_small.gif: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2009_ScottLystigFritchie/GEMINI.gif: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2009_ScottLystigFritchie/img_0390c.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/images/euc-stk-09-attend.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/images/euc-stk-09-see.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2009_GuyWiener/Bgu_logo_small.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2009_ScottLystigFritchie/GEMINI.gif: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/ErlangUserConference2009_ScottLystigFritchie/img_0390c.jpg: HTTP Error 404: NOT FOUND
+REWROTE 5 never-archived asset ref(s) to Wayback URLs

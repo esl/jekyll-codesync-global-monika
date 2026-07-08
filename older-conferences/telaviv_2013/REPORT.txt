@@ -1,0 +1,20 @@
+edition: Tel Aviv Erlang Factory Lite 2013
+source:  http://www.erlang-factory.com/conference/TelAviv2013  (mode: wayback)
+date:    2026-07-07 16:32
+pages: 15   assets: 34   missing: 0   elapsed: 312s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AlexanderFok/index.html] STRIPPED script: inline
+[speakers/AndyOram/index.html] STRIPPED script: inline
+[speakers/JoelJacobson/index.html] STRIPPED script: inline
+[speakers/MalcolmMatalka/index.html] STRIPPED script: inline
+[speakers/MichaelSnoyman/index.html] STRIPPED script: inline
+[speakers/SamuelRivas/index.html] STRIPPED script: inline
+[speakers/VitalyKushner/index.html] STRIPPED script: inline
+[speakers/ZacharyKessin/index.html] STRIPPED script: inline
+[speakers/ZviAvraham/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/tlvefl/index.html] STRIPPED script: inline

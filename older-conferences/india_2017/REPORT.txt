@@ -1,0 +1,26 @@
+edition: India Erlang & Elixir Factory Lite 2017
+source:  http://www.erlang-factory.com/india2017/home  (mode: live)
+date:    2026-07-07 08:27
+pages: 18   assets: 33   missing: 3   elapsed: 16s
+
+[index.html] STRIPPED script: inline
+[about/index.html] STRIPPED script: inline
+[robert-virding/index.html] STRIPPED script: inline
+[francesco-cesarini/index.html] STRIPPED script: inline
+[gyanendra-aggarwal/index.html] STRIPPED script: inline
+[mark-allen/index.html] STRIPPED script: inline
+[chaitanya-chalasani/index.html] STRIPPED script: inline
+[bryan-hunter/index.html] STRIPPED script: inline
+[kostis-sagonas/index.html] STRIPPED script: inline
+[manoj-govindan/index.html] STRIPPED script: inline
+[peter-saxton/index.html] STRIPPED script: inline
+[khaja-minhajuddin/index.html] STRIPPED script: inline
+[luis-ferreira/index.html] STRIPPED script: inline
+[pranav-rao/index.html] STRIPPED script: inline
+[emil-soman/index.html] STRIPPED script: inline
+[ravi-mohan/index.html] STRIPPED script: inline
+[cameron-price/index.html] STRIPPED script: inline
+MISSING asset (css) http://www.erlang-factory.com/img/texture2.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.eot: HTTP Error 404: Not Found
+MISSING asset (css) http://www.erlang-factory.com/static/fonts/glyphicons-halflings-regular.svg: HTTP Error 404: Not Found
+REWROTE 3 never-archived asset ref(s) to Wayback URLs

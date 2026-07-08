@@ -1,0 +1,15 @@
+edition: Edinburgh Factory Lite
+source:  http://www.erlang-factory.com/conference/Edinburgh  (mode: wayback)
+date:    2026-07-07 14:48
+pages: 10   assets: 23   missing: 0   elapsed: 281s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/DaleHarvey/index.html] STRIPPED script: inline
+[speakers/GordonGuthrie/index.html] STRIPPED script: inline
+[speakers/JakubChlanda/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/SamElliott/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/edinburgh/index.html] STRIPPED script: inline

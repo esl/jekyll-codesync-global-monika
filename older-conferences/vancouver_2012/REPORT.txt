@@ -1,0 +1,28 @@
+edition: Vancouver Erlang Factory Lite 2012
+source:  http://www.erlang-factory.com/conference/Vancouver2012  (mode: wayback)
+date:    2026-07-07 15:49
+pages: 17   assets: 36   missing: 4   elapsed: 538s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/CaseyRosenthal/index.html] STRIPPED script: inline
+[speakers/GeoffCant/index.html] STRIPPED script: inline
+[speakers/JamesGolick/index.html] STRIPPED script: inline
+[speakers/JayNelson/index.html] STRIPPED script: inline
+[speakers/KevinSmith/index.html] STRIPPED script: inline
+[speakers/MaheshPaoliniSubramanya/index.html] STRIPPED script: inline
+[speakers/OmarKjartanYasin/index.html] STRIPPED script: inline
+[speakers/PavloBaron/index.html] STRIPPED script: inline
+[speakers/TavisRudd/index.html] STRIPPED script: inline
+[speakers/YuriiRashkovskii/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[submit_talk/index.html] MISSING subpage (-> wayback): /conference/Vancouver2012/register
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/item/238/harbourcentre.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Vancouver2012_OmarKjartanYasin/omar.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/238/harbourcentre.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Vancouver2012_OmarKjartanYasin/omar.jpg: HTTP Error 404: NOT FOUND
+REWROTE 2 never-archived asset ref(s) to Wayback URLs

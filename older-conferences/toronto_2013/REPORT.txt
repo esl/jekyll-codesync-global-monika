@@ -1,0 +1,19 @@
+edition: Toronto Erlang Factory Lite 2013
+source:  http://www.erlang-factory.com/conference/Toronto2013  (mode: wayback)
+date:    2026-07-07 16:24
+pages: 14   assets: 31   missing: 0   elapsed: 499s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[registration/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/ChristopherMeiklejohn/index.html] STRIPPED script: inline
+[speakers/FredHebert/index.html] STRIPPED script: inline
+[speakers/GarrettSmith/index.html] STRIPPED script: inline
+[speakers/IgorOstaptchenko/index.html] STRIPPED script: inline
+[speakers/LouisPhilippeGauthier/index.html] STRIPPED script: inline
+[speakers/TomSantero/index.html] STRIPPED script: inline
+[speakers/YuriiRashkovskii/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/toronto13/index.html] STRIPPED script: inline

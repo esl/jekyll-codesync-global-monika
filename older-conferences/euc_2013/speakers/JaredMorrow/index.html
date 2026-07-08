@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Reconstructed from Wayback Machine captures of http://www.erlang-factory.com/conference/ErlangUserConference2013/speakers/JaredMorrow (codesync.global migration, 2026-07-07) -->
+<head>
+<title>Erlang Factory - Jared Morrow, Riak and RiakCS Committer</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="../../assets/css/conf.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/css/ctable.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta content="&lt;div&gt;Jared Morrow started his career as an avionics engineer when he graduated from college, around the time of the dotcom explosion when no one was looking for software people. &amp;nbsp;After learning h" name="description"/>
+<meta content="erlang factory training consulting conference solutions london san francisco Jared Morrow Slamming-Your-Head-Into-Keyboard-HOWTO: Packaging Applications " name="keywords"/>
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/jquery.countdown.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/script.js" type="text/javascript">//nothing </script>
+</head>
+<body>
+<div class="PageBackgroundGradient"> </div>
+<div class="Main">
+<div class="Sheet">
+<div class="Sheet-body">
+<a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/"><div class="Header" style="background-image: url(../../assets/upload/conferenceimage/ErlangUserConference2013/EUC2013.jpg);">
+<div>
+<table class="logo">
+<tr><td class="logo-name"> </td></tr>
+<tr><td class="logo-text"> </td></tr>
+</table>
+</div>
+</div>
+</a>
+<div class="contentLayout">
+<div class="sidebar1">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory</div>
+<ul>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/" title="Erlang Factory">Home</a></li>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/about" title="About">About Us</a></li>
+<li><a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/contact" title="Contact">Contact</a></li>
+</ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th"><a href="../../">Erlang User Conference 2013</a></div><ul> <li><a href="../" title="Speakers">Speakers</a></li><li><a href="../../talks/" title="Talks">Talks</a></li><li><a href="../../tracks/" title="Tracks">Tracks</a></li><li><a href="../../programme/" title="Programme">Programme</a></li><li><a href="../../sponsor/list/" title="Sponsors">Sponsors</a></li></ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Organisers</div>
+<p><a href="http://erlang-solutions.com" target="_blank" title="Erlang Solutions Ltd"> </a></p>
+<p style="text-align: center;"><a href="https://www.erlang-solutions.com/"><img alt="" height="79" src="../../assets/upload/item/121/Erlang-logo-4-col.png" width="159"/></a></p>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Newsletter</div>
+<p>
+                      Subscribe to our Erlang Factory newsletter to receive
+                      the latest updates and news
+                    </p>
+<form action="/ml/subscribe" id="signupform" method="post">
+<table style="width: 100%;">
+<tr>
+<td>
+<input id="s" maxlength="256" name="email" onblur="if (this.value == '') {this.value = 'Your Email';}" onfocus="if(this.value == 'Your Email') {this.value = '';}" size="17" style="width: 95%;" type="text" value="Your Email"/>
+</td>
+</tr>
+<tr>
+<td>
+<div id="recaptcha_widget" style="display:none">
+<div id="recaptcha_image"> </div>
+<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+<span class="recaptcha_only_if_image">Enter the words above:</span>
+<span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+<br/>
+<input id="recaptcha_response_field" name="recaptcha_response_field" style="width:150px" type="text"/>
+<div><a href="javascript:Recaptcha.reload()">Get another CAPTCHA</a></div>
+<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">Get an audio CAPTCHA</a></div>
+<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">Get an image CAPTCHA</a></div>
+<div><a href="javascript:Recaptcha.showhelp()">Help</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="buttonclass" type="submit" value="Sign Up"/>
+</td>
+</tr>
+</table>
+<script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"> </script>
+<script type="text/javascript">
+Recaptcha.create("6Lc7LNISAAAAAH_MJuG4ilssW-cJ6dsw-1Buckj6",
+    "recaptcha_widget",
+    {
+      theme: "custom",
+    }
+  );
+
+$('input[type="submit"]').click(validateCaptchaAndSubmit);
+
+function validateCaptchaAndSubmit(eo) {
+    var challengeId = $('input#recaptcha_challenge_field')[0].value;
+    var userSolution = $('input#recaptcha_response_field')[0].value;
+    $.post(	'/verify_captcha',
+			{"challenge_id":challengeId, "user_solution":userSolution},
+			function(data, textStatus, jqXHR) {
+				if(data=="true") {
+					$("form[action='/ml/subscribe']").submit();
+				} else {
+					alert("Incorrect captcha solution!");
+				}
+			},
+			"text"
+		     );
+    return false;
+}
+</script>
+<style type="text/css">
+div#recaptcha_image {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_image img {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_widget {
+    width: 160px !important;
+}
+</style>
+</form>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="content2">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang User Conference 2013 </div>
+<div class="post">
+<div class="entry">
+<p>
+<div id="speaker">
+<div id="name">Jared Morrow</div>
+<div id="catchphrase">Riak and RiakCS Committer</div>
+<div id="company">Basho</div><br/>
+<div id="photo"><img alt="Speaker" src="../../assets/upload/peopleimage/ErlangUserConference2013_JaredMorrow/jaredmorr317_bw.jpg"/></div>
+<div id="bio"><div>Jared Morrow started his career as an avionics engineer when he graduated from college, around the time of the dotcom explosion when no one was looking for software people.  After learning how to make hardware that never fails for aircrafts, he decided to try his hand at writing software again. He spent about 9 years writing embedded C/C++ software for defense and enterprise customers. He finally saw the light, got interested in functional languages, joined Basho and has been getting his mind blown ever since. He focuses on tools, packaging, testing, and anything else that makes Riak and RiakCS better products.</div><div><br/></div><div>Twitter: <a href="https://twitter.com/_jared">@_jared</a></div> </div>
+<div id="logo"><img alt="" src="../../assets/upload/peopleimage/ErlangUserConference2013_JaredMorrow/basho.jpeg"/></div>
+<hr/>
+<div id="talkstitle">
+    Jared Morrow is Giving the Following Talks
+  </div>
+<div id="talks">
+<div class="talk">
+<div class="name">Slamming-Your-Head-Into-Keyboard-HOWTO: Packaging Applications</div>
+<br>
+<div class="podcast"><p>
+<object data="http://www.youtube.com/v/5DDykYE3pWA&amp;feature" height="210" type="application/x-shockwave-flash" width="350">
+<param name="src" value="http://www.youtube.com/v/5DDykYE3pWA&amp;feature"/>
+</object>
+</p></div>
+<div class="description">
+<div>Erlang developers are lucky to have a solid VM, great community, and great tools for building, testing, and debugging their applications. When that application is written and tested, and you as a developer want to make it easy to install everywhere, that is where the *easy* option cannot be found. Few people know how to write a proper .spec file or make deb files and I argue that few people *need* to know about it.</div><div><br/></div><div>Erlang developers shouldn't have to know about debuild, rpmbuild, pkgsrc, pkg_create, or pkg_add. They shouldn't need to read through tomes like Maximum RPM (409 pages), Debian New Maintainers' Guide + Debian Policy (160 pages), or The pkgsrc Guide (154 pages). If you know how pkg_add on FreeBSD is different than pkg_add on SmartOS you are experiencing way too much pain. These are all problems we have at Basho when shipping Riak and Riak CS to customers. This talk covers our solution to this problem with node_package, a universal packaging tool for Erlang applications.</div><div><br/></div><div><b>Talk objectives:</b> Packaging by its very nature is ugly and complicated and I would like to show how this pain can be at least sidestepped by using node_package to worry about packing policy and conventions. I'd like to show how we make packages for debian, ubuntu, fedora, rhel, smartos, freebsd, solaris, and osx in one command. Most importantly I'd like to discuss how we wrote node_package, what decisions were made in its creation, and where we need to improve with help from other application developers.</div><div><br/></div><div><b>Target audience:</b> Erlang developers who want their erlang software to be installed and used.</div> <div>Erlang developers are lucky to have a solid VM, great community, and great tools for building, testing, and debugging their applications. When that application is written and tested, and you as a developer want to make it easy to install everywhere, that is where the *easy* option cannot be found. Few people know how to write a proper .spec file or make deb files and I argue that few people *need* to know about it.</div><div><br/></div><div>Erlang developers shouldn't have to know about debuild, rpmbuild, pkgsrc, pkg_create, or pkg_add. They shouldn't need to read through tomes like Maximum RPM (409 pages), Debian New Maintainers' Guide + Debian Policy (160 pages), or The pkgsrc Guide (154 pages). If you know how pkg_add on FreeBSD is different than pkg_add on SmartOS you are experiencing way too much pain. These are all problems we have at Basho when shipping Riak and Riak CS to customers. This talk covers our solution to this problem with node_package, a universal packaging tool for Erlang applications.</div><div><br/></div><div><b>Talk objectives:</b> Packaging by its very nature is ugly and complicated and I would like to show how this pain can be at least sidestepped by using node_package to worry about packing policy and conventions. I'd like to show how we make packages for debian, ubuntu, fedora, rhel, smartos, freebsd, solaris, and osx in one command. Most importantly I'd like to discuss how we wrote node_package, what decisions were made in its creation, and where we need to improve with help from other application developers.</div><div><br/></div><div><b>Target audience:</b> Erlang developers who want their erlang software to be installed and used.</div>
+</div>
+<div align="left">
+<p>
+<a href="https://web.archive.org/web/20200105164410/http://www.erlang-factory.com/upload/presentations/857/JaredEUC-2013.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../../assets/images/presentation.png"/> </a>
+</p>
+<br>
+</br></div>
+</br></div>
+</div>
+<div id="coursestitle">
+</div>
+<div id="courses">
+</div>
+<div id="trackstitle">
+</div>
+<div id="tracks">
+</div>
+</div>
+</p>
+<div style="clear: left;"> </div>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<table width="100%">
+<tr>
+<td width="20%">
+</td>
+<td align="center" valign="bottom">
+<div class="footer">
+  © 1999 - 2020 
+  <a href="http://www.erlang-solutions.com/" target="_blank">
+    Erlang
+  </a>
+<a href="http://www.erlang-solutions.com/" target="_blank">
+    Solutions Ltd.
+  </a>
+</div>
+</td>
+<td align="right" width="20%">
+</td>
+</tr>
+</table>
+</div>
+<div class="Sheet-tl"> </div>
+<div class="Sheet-tr"><div> </div></div>
+<div class="Sheet-bl"><div> </div></div>
+<div class="Sheet-br"><div> </div></div>
+<div class="Sheet-tc"><div> </div></div>
+<div class="Sheet-bc"><div> </div></div>
+<div class="Sheet-cl"><div> </div></div>
+<div class="Sheet-cr"><div> </div></div>
+<div class="Sheet-cc"> </div>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="http://www.erlang-factory.com/static/upload/media/1510942643184792cbsto.jpg" property="og:image">
+<meta a="" alert="" allen,="" and="" claudia="" companies="" concurrent="" content="Erlang User Conference 2017
+There were two days of in-depth and cutting-edge talks taking us through the latest developments, research, and insights from some of the world" development.="" doppioslash="" elixir="" ericsson,="" erlang="" experts="" few="" fish="" from="" in="" including="" james="" just="" kenneth="" klarna,="" leading="" like="" logic="" lundin,="" mark="" more.'="" motorola,="" name="" peer="" powerhouses="" programming="" property="og:description" representation="" s="" stritzinger,="" talks="" there="" to="" were=""/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>Erlang User Conference 2017</title>
+<meta a="" alert="" allen,="" and="" claudia="" companies="" concurrent="" content="Erlang User Conference 2017
+There were two days of in-depth and cutting-edge talks taking us through the latest developments, research, and insights from some of the world" development.="" doppioslash="" elixir="" ericsson,="" erlang="" experts="" few="" fish="" from="" in="" including="" james="" just="" kenneth="" klarna,="" leading="" like="" logic="" lundin,="" mark="" more.'="" motorola,="" name="" peer="" powerhouses="" programming="" representation="" s="" stritzinger,="" talks="" there="" to="" were=""/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<link href="../assets/static/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../assets/static/img/favicon.ico" rel="shortcut icon">
+<link href="../assets/static/css/theme.css" rel="stylesheet"/>
+<script src="../assets/static/js/respond.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="../assets/static/js/theme.js"></script>
+</link></meta></head>
+<body>
+<div id="wrap">
+<div class="push" id="home"></div>
+<div class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="logo-container">
+<img class="factory-logo" src="../assets/static/upload/media/1390578324541994euclogotransparent.png"/>
+</div>
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav" id="top-nav">
+<li><a class="menu-item" href="../#home">Home</a></li>
+<li><a class="menu-item" href="../#about-code-beam-sto">About Code BEAM STO</a></li>
+<li><a class="menu-item" href="../#speakers">Speakers</a></li>
+<li><a class="menu-item" href="../#programme">Programme</a></li>
+<li><a class="menu-item" href="../#tutorials">Tutorials</a></li>
+<li><a class="menu-item" href="../#themes">Themes</a></li>
+<li><a class="menu-item" href="../#lightning-talks">Lightning Talks</a></li>
+<li><a class="menu-item" href="../#venues">Venues</a></li>
+<li><a class="menu-item" href="../#sponsors">Sponsors</a></li>
+<li><a class="menu-item" href="../#contact-us">Contact us</a></li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Training</a>
+<ul class="dropdown-menu">
+<li><a class="menu-item" href="../training/#complete-otp-1215-june">Complete OTP (12-15 June)</a></li>
+<li><a class="menu-item" href="../training/#complete-erlang-1216-june">Complete Erlang (12-16 June)</a></li>
+</ul>
+</li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+<ul class="dropdown-menu">
+<li><a class="menu-item" href="../about/#sponsors-information">Sponsors Information</a></li>
+<li><a class="menu-item" href="../about/#code-of-conduct">Code of Conduct</a></li>
+<li><a class="menu-item" href="../about/#student-passes">Student passes</a></li>
+<li><a class="menu-item" href="../about/#volunteers">Volunteers</a></li>
+</ul>
+</li>
+</ul>
+</div><!--/.navbar-collapse -->
+</div><!-- end of container -->
+</div> <!-- end of navbar-->
+<div class="container">
+<div class="block">
+<a class="anchor" id=""></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div id="kostis-sagonas">
+<div class="row">
+<div class="col-md-3 speaker-image-column">
+<div class="speaker_image">
+<img src="../assets/static/upload/media/1389896619438289kostis.jpg"/>
+</div>
+</div><!-- end of col-md-6 -->
+<div class="col-md-8">
+<h3 class="talk-title">
+          
+          
+          Tutorial: How to Test and Verify Programs and Protocols with Concuerror<br/>
+          
+          Adventures in Corfu: Testing and Verifying Chain Repair Protocols using Concuerror<br/>
+</h3>
+<span class="modal_speaker_name">Kostis Sagonas</span><br/>
+<span class="tagline">
+          Creator of PropEr, CutEr and Concuerror 
+        </span>
+<br>
+</br></div><!-- end of col-md-->
+</div><!--end of row -->
+<br/>
+<h4 class="modal-title">Tutorial: How to Test and Verify Programs and Protocols with Concuerror</h4>
+<p>Debugging concurrent programs is often quite hard. There is lament about how difficult it is to reproduce a known bug, a lot of guessing about the exact causes and often one has to settle with a fix that "may not completely solve the problem".</p>
+<p>Concuerror is a tool designed to make the process of finding, reproducing and fixing such bugs easy: given any Erlang program as input, it explores all interleavings of the processes involved, focusing smartly on pairs of "racing" events and even popping hints about what the user can do to make the search more effective. If any process crashes, Concuerror will print a detailed log of the events that lead up to the crash and will also allow the developer to visually explore the interleaving.</p>
+<p>You may have already seen one some video or tutorial on what Concuerror can do on some (small) programs.  However, this tutorial will go deeper. After explaining what Concuerror can do for testing concurrent programs, we will also describe how one can use the tool to model, test and verify distributed protocols.  Special emphasis will be given on what a user can do to use the tool most effectively.</p>
+<p><br/>More info on Concuerror: <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://parapluu.github.io/Concuerror&amp;source=gmail&amp;ust=1495118598989000&amp;usg=AFQjCNHRjX1YwsTHm8iaJ2dponkRXHS87w" href="http://parapluu.github.io/Concuerror" target="_blank">http://parapluu.github.io/<wbr/>Concuerror</a></p>
+<br/>
+<h4 class="modal-title">Adventures in Corfu: Testing and Verifying Chain Repair Protocols using Concuerror</h4>
+<p>Corfu is a picturesque island in Greece which is located immediately to the north of the two Paxos islands. It's considerably larger island than the Paxos ones, more involved and, arguably, much more interesting.<strong><a href="https://web.archive.org/web/2019/http://www.erlang-factory.com/static/upload/media/14979655981835658kostissagonasstavrosaronisadventuresincorfu_testingandverifyingchainrepairprotocolsusingconcuerror.pdf" target="_blank"></a></strong></p>
+<p><br/>Corfu also happens to be a consistency platform designed around the abstraction of a shared log. The Corfu infrastructure provides this shared log to clients, which use the log for coordination, communication and storage. Corfu is a variant of Chain Replication and, in this context, one needs to worry about chain repairs: how repair of a failed node can be performed after a node restarts in a way that preserves the key properties that need to hold in this context: immutability and linearizability.<br/><br/>In this talk we will briefly present Corfu (the consistency platform that is, not the island) and we will describe experiences from using Erlang to model chain repair methods for Corfu and from using Concuerror to test and verify the correctness of these methods.<br/><br/>This is recent joint work with Stavros Aronis and Scott Lystig Fritchie.</p>
+<a href="https://web.archive.org/web/2019/http://www.erlang-factory.com/static/upload/media/14979655981835658kostissagonasstavrosaronisadventuresincorfu_testingandverifyingchainrepairprotocolsusingconcuerror.pdf" target="_blank"><span class="glyphicon glyphicon-picture"> Slides</span></a>
+<br/>
+<a href="https://youtu.be/WWBDUpmCUsI?list=PLWbHc_FXPo2jAL3fm0YfN3nFVj6OyQcu2" target="_blank"><span class="glyphicon glyphicon-film"> Video</span></a>
+<h4 class="modal-title">About Kostis </h4>
+<p>
+<span class="speaker-bio">
+<p>Kostis Sagonas is an academic who has been heavily involved in the development of Erlang and its implementation since 1999. At Uppsala University, he led the development team of the HiPE native code compiler that nowadays is part of Erlang/OTP. Together with his students, first at Uppsala University and more recently at the National Technical University of Athens, he has proposed various changes and additions to the language (most notably: bit-level pattern matching and bit-stream comprehensions, and the language of type and spec declarations) and has contributed to its compiler and runtime system. Besides HiPE, he has designed and implemented software development tools for Erlang (dialyzer, typer, tidier, proper, ...) and has contributed bug fixes to many open-source Erlang projects.</p>
+<p><span style="color: #1c1812; font-family: Tahoma; font-size: 11.818181991577148px;"> </span></p><br/>
+<p>GitHub:
+        <a href="http://www.github.com/kostis">
+          kostis
+        </a></p>
+</span>
+</p>
+<a href="../">
+<div class="button">Back to conference page</div>
+</a>
+</div>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+</div>
+</div> <!-- end of wrap -->
+<script type="text/javascript">
+    $(window).scroll(function() {
+        if ($(window).scrollTop() <= 0)
+            $('.logo-container').slideDown({queue: false});
+        else
+            $('.logo-container').slideUp();
+    });
+</script>
+<script src="../assets/static/js/bootstrap.min.js"></script>
+<script src="../assets/static/js/plugins.js"></script>
+<script>
+            $('#top-nav').onePageNav({
+                currentClass: 'active',
+                changeHash: true,
+                scrollSpeed: 750,
+                filter: ':not(.external)'
+            });
+            $('.register-button').click(function() {
+                $('.register-link').click();
+            });
+            $(".dropdown").on('shown.bs.dropdown', function (e) {
+                //function called when dropdown-menu becomes visible
+                var dropdownMenu = $('ul:first', this); //find dropdown-menu
+                //if element was moved to left, set left back to 0 for next calculations
+                $(this).find(".dropdown-menu").first().css('left', 0);
+                var offset = dropdownMenu.offset();
+                var leftOffset = offset.left;
+                var width = dropdownMenu.width();
+                var documentWidth = $(document).width();
+                var sticksOutRightSide = leftOffset + width - documentWidth;
+                if (sticksOutRightSide > 0) {
+                    $(this).find(".dropdown-menu").first().css('left', -(sticksOutRightSide + 20));
+                }
+            });
+        </script>
+
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</body>
+</html>

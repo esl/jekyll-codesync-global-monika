@@ -1,0 +1,18 @@
+edition: Brussels Erlang Factory Lite
+source:  http://www.erlang-factory.com/conference/Brussels  (mode: wayback)
+date:    2026-07-07 14:52
+pages: 13   assets: 24   missing: 0   elapsed: 341s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/JohnHughes/index.html] STRIPPED script: inline
+[speakers/MarianoGuerra/index.html] STRIPPED script: inline
+[speakers/PaulValckenaers/index.html] STRIPPED script: inline
+[speakers/SamuelRivas/index.html] STRIPPED script: inline
+[speakers/TomVanCutsem/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/programme/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline

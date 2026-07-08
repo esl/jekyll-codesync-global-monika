@@ -1,0 +1,20 @@
+edition: Erlang Factory Lite 2010, Los Angeles
+source:  http://www.erlang-factory.com/conference/ErlangFactoryLiteLA  (mode: wayback)
+date:    2026-07-07 15:02
+pages: 14   assets: 30   missing: 0   elapsed: 459s
+
+[index.html] STRIPPED script: inline
+[community/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AlvaroVidela/index.html] STRIPPED script: inline
+[speakers/JackMoffit/index.html] STRIPPED script: inline
+[speakers/JayNelson/index.html] STRIPPED script: inline
+[speakers/KrestenKrabThorup/index.html] STRIPPED script: inline
+[speakers/MattIngenthron/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/UlfWiger/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[submit_talk/index.html] MISSING subpage (-> wayback): /conference/ErlangFactoryLiteLA/register
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline

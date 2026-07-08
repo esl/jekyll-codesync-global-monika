@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Reconstructed from Wayback Machine captures of https://www.erlang-factory.com/conference/ErlangUserConference2011/speakers/ThomasArts (codesync.global migration, 2026-07-07) -->
+<head>
+<title>Erlang Factory - Thomas Arts, Professor and co-founder of QuviQ AB</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="../../assets/css/conf.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/css/ctable.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta content="Prof Thomas Arts is the co-founder and CTO of Quviq, a small company 
+that produced QuickCheck, as testing tool for Erlang. Thomas has over 30
+ publications in various journals and has experience re" name="description"/>
+<meta content="erlang factory training consulting conference solutions london san francisco Thomas Arts Tutorial: Quickcheck for EUnit  Tutorial: QuickCheck Mini " name="keywords"/>
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/jquery.countdown.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/script.js" type="text/javascript">//nothing </script>
+</head>
+<body>
+<div class="PageBackgroundGradient"> </div>
+<div class="Main">
+<div class="Sheet">
+<div class="Sheet-body">
+<a href="https://web.archive.org/web/20200202025019/http://www.erlang-factory.com/"><div class="Header" style="background-image: url(../../assets/upload/conferenceimage/ErlangUserConference2011/EUCBanner4.jpg);">
+<div>
+<table class="logo">
+<tr><td class="logo-name"> </td></tr>
+<tr><td class="logo-text"> </td></tr>
+</table>
+</div>
+</div>
+</a>
+<div class="contentLayout">
+<div class="sidebar1">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory</div>
+<ul>
+<li><a href="https://web.archive.org/web/20200202025019/http://www.erlang-factory.com/" title="Erlang Factory">Home</a></li>
+<li><a href="https://web.archive.org/web/20200202025019/http://www.erlang-factory.com/about" title="About">About Us</a></li>
+<li><a href="https://web.archive.org/web/20200202025019/http://www.erlang-factory.com/contact" title="Contact">Contact</a></li>
+</ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th"><a href="../../">Erlang User Conference - Stockholm 2011</a></div><ul> <li><a href="../" title="Speakers">Speakers</a></li><li><a href="../../talks/" title="Talks">Talks</a></li><li><a href="../../programme/" title="Programme">Programme</a></li><li><a href="../../sponsor/list/" title="Sponsors">Sponsors</a></li><li><a href="../../hackathon/" title="Hackathon">Hackathon</a></li></ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Organisers</div>
+<p><a href="http://erlang-solutions.com" target="_blank" title="Erlang Solutions Ltd"> </a></p>
+<p style="text-align: center;"><img alt="ETC" height="79" src="../../assets/upload/item/121/Erlang-logo-4-col.png" style="margin-right: 1em;" width="159"/></p>
+<p> </p>
+<p style="text-align: center;"><img alt="Ericsson" height="135" src="http://images2.wikia.nocookie.net/__cb20100718153832/logopedia/images/thumb/e/e9/Ericsson_logo.svg/488px-Ericsson_logo.svg.png" style="margin-right: 1em;" width="155"/></p>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Newsletter</div>
+<p>
+                      Subscribe to our Erlang Factory newsletter to receive
+                      the latest updates and news
+                    </p>
+<form action="/ml/subscribe" id="signupform" method="post">
+<table style="width: 100%;">
+<tr>
+<td>
+<input id="s" maxlength="256" name="email" onblur="if (this.value == '') {this.value = 'Your Email';}" onfocus="if(this.value == 'Your Email') {this.value = '';}" size="17" style="width: 95%;" type="text" value="Your Email"/>
+</td>
+</tr>
+<tr>
+<td>
+<div id="recaptcha_widget" style="display:none">
+<div id="recaptcha_image"> </div>
+<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+<span class="recaptcha_only_if_image">Enter the words above:</span>
+<span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+<br/>
+<input id="recaptcha_response_field" name="recaptcha_response_field" style="width:150px" type="text"/>
+<div><a href="javascript:Recaptcha.reload()">Get another CAPTCHA</a></div>
+<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">Get an audio CAPTCHA</a></div>
+<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">Get an image CAPTCHA</a></div>
+<div><a href="javascript:Recaptcha.showhelp()">Help</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="buttonclass" type="submit" value="Sign Up"/>
+</td>
+</tr>
+</table>
+<script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"> </script>
+<script type="text/javascript">
+Recaptcha.create("6Lc7LNISAAAAAH_MJuG4ilssW-cJ6dsw-1Buckj6",
+    "recaptcha_widget",
+    {
+      theme: "custom",
+    }
+  );
+
+$('input[type="submit"]').click(validateCaptchaAndSubmit);
+
+function validateCaptchaAndSubmit(eo) {
+    var challengeId = $('input#recaptcha_challenge_field')[0].value;
+    var userSolution = $('input#recaptcha_response_field')[0].value;
+    $.post(	'/verify_captcha',
+			{"challenge_id":challengeId, "user_solution":userSolution},
+			function(data, textStatus, jqXHR) {
+				if(data=="true") {
+					$("form[action='/ml/subscribe']").submit();
+				} else {
+					alert("Incorrect captcha solution!");
+				}
+			},
+			"text"
+		     );
+    return false;
+}
+</script>
+<style type="text/css">
+div#recaptcha_image {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_image img {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_widget {
+    width: 160px !important;
+}
+</style>
+</form>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="content2">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang User Conference - Stockholm 2011 </div>
+<div class="post">
+<div class="entry">
+<p>
+<div id="speaker">
+<div id="name">Thomas Arts</div>
+<div id="catchphrase">Professor and co-founder of QuviQ AB</div>
+<div id="company">QuviQ AB</div><br/>
+<div id="photo"><img alt="Speaker" src="../../assets/upload/peopleimage/ErlangUserConference2010_ThomasArts/thomas.arts.gif"/></div>
+<div id="bio">Prof Thomas Arts is the co-founder and CTO of Quviq, a small company 
+that produced QuickCheck, as testing tool for Erlang. Thomas has over 30
+ publications in various journals and has experience refereeing 
+conferences and workshops. He has successfully introduced some new 
+technologies to the industry, the latest being QuickCheck, a tool for 
+property based testing and aims to support test driven development. 
+Thomas is also a professor at Chalmers University of Technology in 
+Gothenburg, Sweden.<br/><br/>Thomas was one of the members of Ericsson's 
+computer science lab where he worked on program verification and the 
+development of the Erlang programming language. He has also worked in 
+the broad spectrum theoretical computer science, formal methods and 
+industrial case-study research, mainly applying all kind of techniques 
+to systems written in Erlang.  <br/><br/><ul><li><a href="http://www.quviq.com/">Quviq</a></li><li><a href="http://www.ait.gu.se/english/contact/personnel/thomas_arts/">Papers and Publications</a></li></ul>
+</div>
+<div id="logo"><img alt="" src="../../assets/upload/peopleimage/ErlangUserConference2010_ThomasArts/QuviQ-small.gif"/></div>
+<hr/>
+<div id="talkstitle">
+    Thomas Arts is Giving the Following Talks
+  </div>
+<div id="talks">
+<div class="talk">
+<div class="name">Tutorial: Quickcheck for EUnit </div>
+<br>
+<div class="description">
+    Writing EUnit tests is more common than writing QuickCheck specifications, although QuickCheck specifications potentially explore far more scenarios than manually written unit tests. In particular for implementations that have side-effects, writing a good set of EUnit tests is often difficult and labour intensive.<br/><br/>In this tutorial  we explain a mechanism to extract QuickCheck specifications from EUnit test suites. We use the QSM algorithm to infer state machines from sets of positive and negative traces derived from the test suite. These traces can be derived either statically or dynamically and we describe both approaches here. Finally we show how to move from the inferred state machine to a QuickCheck state machine. This QuickCheck state machine can then be used to generate tests, which include the EUnit tests, but also include many new and different combinations that can augment the test suite. In this way, one can achieve substantially better testing with little extra work.<br/><br/>We'll show the method in action with a test-driven development example, and encourage you to try the method out too. Please bring your own EUnit test suit to play with and see the results.
+
+
+
+
+
+
+
+
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Cambria;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--</style><span lang="EN-US" style='font-size:12.0pt;font-family:Consolas;
+mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;
+color:black;mso-ansi-language:EN-US;mso-fareast-language:EN-US'></span>
+</div>
+<div align="left">
+<p>
+<a href="https://web.archive.org/web/20200202025019/http://www.erlang-factory.com/upload/presentations/480/EUC2011EunitQuickCheck.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../../assets/images/presentation.png"/> </a>
+</p>
+<br>
+</br></div>
+</br></div>
+<div class="talk">
+<div class="name">Tutorial: QuickCheck Mini</div>
+<br>
+<div class="description">
+    QuickCheck support property based development. Instead of writing test cases for your applications, you write a one-pager with a QuickCheck property from which hundreds of test cases are generated automatically. QuickCheck simplifies failing cases to a minimal example on a test failure (so that fault diagnosis is quick and easy). QuickCheck enables developers to dramatically improve test coverage, and find obscure errors at an earlier stage, lowering costs and improving quality as a result.<br/><br/>In this tutorial we will look at QuickCheck Mini, the free version of the QuickCheck library, and use examples to show how developers write QuickCheck specifications—which are actually Erlang programs using the QuickCheck API—and use them to test code written in Erlang or other programming languages. We will show how QuickCheck’s shrinking finds tiny examples that provoke errors, making the step from observing a bug to diagnosing it very short indeed, and we will show how property driven development can produce code that is solid from the word go.<br/><br/>
+</div>
+<div align="left">
+<p>
+<a href="https://web.archive.org/web/20200202025019/http://www.erlang-factory.com/upload/presentations/481/SoftwareTestingwithQuickCheck.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../../assets/images/presentation.png"/> </a>
+</p>
+<br>
+</br></div>
+</br></div>
+</div>
+<div id="coursestitle">
+</div>
+<div id="courses">
+</div>
+<div id="trackstitle">
+</div>
+<div id="tracks">
+</div>
+</div>
+</p>
+<div style="clear: left;"> </div>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<table width="100%">
+<tr>
+<td width="20%">
+</td>
+<td align="center" valign="bottom">
+<div class="footer">
+  © 1999 - 2020 
+  <a href="http://www.erlang-solutions.com/" target="_blank">
+    Erlang
+  </a>
+<a href="http://www.erlang-solutions.com/" target="_blank">
+    Solutions Ltd.
+  </a>
+</div>
+</td>
+<td align="right" width="20%">
+</td>
+</tr>
+</table>
+</div>
+<div class="Sheet-tl"> </div>
+<div class="Sheet-tr"><div> </div></div>
+<div class="Sheet-bl"><div> </div></div>
+<div class="Sheet-br"><div> </div></div>
+<div class="Sheet-tc"><div> </div></div>
+<div class="Sheet-bc"><div> </div></div>
+<div class="Sheet-cl"><div> </div></div>
+<div class="Sheet-cr"><div> </div></div>
+<div class="Sheet-cc"> </div>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</html>

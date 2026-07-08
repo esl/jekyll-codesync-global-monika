@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Reconstructed from Wayback Machine captures of http://www.erlang-factory.com/conference/London2011/speakers/UlfWiger (codesync.global migration, 2026-07-07) -->
+<head>
+<title>Erlang Factory - Ulf Wiger, Uber Erlang programmer and CTO of Erlang Solutions</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="../../assets/css/conf.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/css/ctable.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta content="Being a cat person, Ulf has noticed how cats love to seek out the spots where they can observe everything going on in their world. As CTO of Erlang Solutions, Ulf has such a vista. Before that, his po" name="description"/>
+<meta content="erlang factory training consulting conference solutions london san francisco Ulf Wiger The Erlang/OTP DIAMETER Stack Erlang Enhancement Proposal Panel Debate " name="keywords"/>
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/jquery.countdown.js" type="text/javascript">//nothing </script>
+<script src="../../assets/javascript/script.js" type="text/javascript">//nothing </script>
+</head>
+<body>
+<div class="PageBackgroundGradient"> </div>
+<div class="Main">
+<div class="Sheet">
+<div class="Sheet-body">
+<a href="https://web.archive.org/web/20200127225018/http://www.erlang-factory.com/"><div class="Header" style="background-image: url(../../assets/upload/conferenceimage/London2011/LondonBanner2011.jpg);">
+<div>
+<table class="logo">
+<tr><td class="logo-name"> </td></tr>
+<tr><td class="logo-text"> </td></tr>
+</table>
+</div>
+</div>
+</a>
+<div class="contentLayout">
+<div class="sidebar1">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory</div>
+<ul>
+<li><a href="https://web.archive.org/web/20200127225018/http://www.erlang-factory.com/" title="Erlang Factory">Home</a></li>
+<li><a href="https://web.archive.org/web/20200127225018/http://www.erlang-factory.com/about" title="About">About Us</a></li>
+<li><a href="https://web.archive.org/web/20200127225018/http://www.erlang-factory.com/contact" title="Contact">Contact</a></li>
+</ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th"><a href="../../">Erlang Factory London 2011</a></div><ul> <li><a href="../" title="Speakers">Speakers</a></li><li><a href="../../talks/" title="Talks">Talks</a></li><li><a href="../../programme/" title="Programme">Programme</a></li><li><a href="../../contact/" title="Conference Contact">Conference Contact</a></li><li><a href="../../sponsor/list/" title="Sponsors">Sponsors</a></li></ul>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Organisers</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Newsletter</div>
+<p>
+                      Subscribe to our Erlang Factory newsletter to receive
+                      the latest updates and news
+                    </p>
+<form action="/ml/subscribe" id="signupform" method="post">
+<table style="width: 100%;">
+<tr>
+<td>
+<input id="s" maxlength="256" name="email" onblur="if (this.value == '') {this.value = 'Your Email';}" onfocus="if(this.value == 'Your Email') {this.value = '';}" size="17" style="width: 95%;" type="text" value="Your Email"/>
+</td>
+</tr>
+<tr>
+<td>
+<div id="recaptcha_widget" style="display:none">
+<div id="recaptcha_image"> </div>
+<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+<span class="recaptcha_only_if_image">Enter the words above:</span>
+<span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+<br/>
+<input id="recaptcha_response_field" name="recaptcha_response_field" style="width:150px" type="text"/>
+<div><a href="javascript:Recaptcha.reload()">Get another CAPTCHA</a></div>
+<div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">Get an audio CAPTCHA</a></div>
+<div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">Get an image CAPTCHA</a></div>
+<div><a href="javascript:Recaptcha.showhelp()">Help</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="buttonclass" type="submit" value="Sign Up"/>
+</td>
+</tr>
+</table>
+<script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"> </script>
+<script type="text/javascript">
+Recaptcha.create("6Lc7LNISAAAAAH_MJuG4ilssW-cJ6dsw-1Buckj6",
+    "recaptcha_widget",
+    {
+      theme: "custom",
+    }
+  );
+
+$('input[type="submit"]').click(validateCaptchaAndSubmit);
+
+function validateCaptchaAndSubmit(eo) {
+    var challengeId = $('input#recaptcha_challenge_field')[0].value;
+    var userSolution = $('input#recaptcha_response_field')[0].value;
+    $.post(	'/verify_captcha',
+			{"challenge_id":challengeId, "user_solution":userSolution},
+			function(data, textStatus, jqXHR) {
+				if(data=="true") {
+					$("form[action='/ml/subscribe']").submit();
+				} else {
+					alert("Incorrect captcha solution!");
+				}
+			},
+			"text"
+		     );
+    return false;
+}
+</script>
+<style type="text/css">
+div#recaptcha_image {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_image img {
+    height:30px !important;
+    width:160px !important;
+}
+
+div#recaptcha_widget {
+    width: 160px !important;
+}
+</style>
+</form>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="content2">
+<div class="Block">
+<div class="Block-body">
+<div class="BlockContent">
+<div class="BlockContent-body">
+<div class="menu-th">Erlang Factory London 2011 </div>
+<div class="post">
+<div class="entry">
+<p>
+<div id="speaker">
+<div id="name">Ulf Wiger</div>
+<div id="catchphrase">Uber Erlang programmer and CTO of Erlang Solutions</div>
+<div id="company">Erlang Solutions</div><br/>
+<div id="photo"><img alt="Speaker" src="../../assets/upload/peopleimage/ErlangFactoryLiteLA_UlfWiger/ulfwiger.jpg"/></div>
+<div id="bio">Being a cat person, Ulf has noticed how cats love to seek out the spots where they can observe everything going on in their world. As CTO of Erlang Solutions, Ulf has such a vista. Before that, his position as Chief Erlang Designer at Ericsson for AXD 301 and its spin-off products allowed him to make community building part of his job, as well as finding ways to improve Erlang/OTP - his most visible contributions perhaps being Xmerl, application start phases, nested application support, and the newly released DIAMETER stack. The author of Open Source components like 'gproc', 'ct_expand', 'unsplit' and some recent Mnesia extensions, Ulf still finds excuses to hone his programming skills. </div>
+<div id="logo"><img alt="" src="../../assets/upload/peopleimage/London2011_UlfWiger/150x190mm-EPS-solutions.gif"/></div>
+<hr/>
+<div id="talkstitle">
+    Ulf Wiger is Giving the Following Talks
+  </div>
+<div id="talks">
+<div class="talk">
+<div class="name">The Erlang/OTP DIAMETER Stack</div>
+<br/>
+<div class="podcast"><p>
+<object data="http://vimeo.com/moogaloop.swf?clip_id=26034259&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" height="279" type="application/x-shockwave-flash" width="300">
+<param name="allowfullscreen" value="true"/>
+<param name="allowscriptaccess" value="always"/>
+<param name="src" value="http://vimeo.com/moogaloop.swf?clip_id=26034259&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1"/>
+</object>
+</p>
+<p><a href="http://www.vimeo.com/26034259"><br/></a></p></div>
+<div class="description">
+    It should not surprise anyone that Ericsson has great in-house components written in Erlang for modern multimedia networks. Their battle-proven DIAMETER stack, used in a number of Ericsson products, was included in the latest release of Erlang/OTP. In this talk, we will describe why this is exciting, what DIAMETER is, and where and how it is used in modern multimedia networks to enable subscriber and resource management, presence and billing. We will show how the Erlang/OTP DIAMETER stack leverages the unique features of Erlang, and contributes to making Erlang/OTP an ideal platform for building innovative - and profitable - applications on top of the emerging global service delivery infrastructure.<br/><br/>
+</div>
+<div align="left">
+<p>
+<a href="https://web.archive.org/web/20200127225018/http://www.erlang-factory.com/upload/presentations/432/DiameterStack.pdf" target="_blank" title="Download Presentation"> <img alt="Download Presentation" class="presentation" src="../../assets/images/presentation.png"/> </a>
+</p>
+<br>
+</br></div>
+</div>
+<div class="talk">
+<div class="name">Erlang Enhancement Proposal Panel Debate</div>
+<br>
+<div class="description">
+    Since the release of Erlang/OTP on GitHub the possibilities for the 
+Erlang community to contribute to the development of Erlang has 
+increased tremendously. We should leverage this possibility and the 
+increased interest in Erlang to keep Erlang as a living and growing 
+language by letting the community help the language evolve. In this 
+slot, Erik will present the EPP process and committee. <br/><br/>The 
+committee members present at the Erlang Factory will participate in a 
+panel discussion together with the audience discussing the most 
+important EEP proposals.<br/><br/>EEP <a href="http://www.erlang.org/eeps/">Proposal list</a> on the erlang.org site.<br/>
+</div>
+</br></div>
+</div>
+<div id="coursestitle">
+</div>
+<div id="courses">
+</div>
+<div id="trackstitle">
+</div>
+<div id="tracks">
+</div>
+</div>
+</p>
+<div style="clear: left;"> </div>
+</div>
+</div>
+</div>
+<div class="BlockContent-tl"> </div>
+<div class="BlockContent-tr"><div> </div></div>
+<div class="BlockContent-bl"><div> </div></div>
+<div class="BlockContent-br"><div> </div></div>
+<div class="BlockContent-tc"><div> </div></div>
+<div class="BlockContent-bc"><div> </div></div>
+<div class="BlockContent-cl"><div> </div></div>
+<div class="BlockContent-cr"><div> </div></div>
+<div class="BlockContent-cc"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<table width="100%">
+<tr>
+<td width="20%">
+</td>
+<td align="center" valign="bottom">
+<div class="footer">
+  © 1999 - 2020 
+  <a href="http://www.erlang-solutions.com/" target="_blank">
+    Erlang
+  </a>
+<a href="http://www.erlang-solutions.com/" target="_blank">
+    Solutions Ltd.
+  </a>
+</div>
+</td>
+<td align="right" width="20%">
+</td>
+</tr>
+</table>
+</div>
+<div class="Sheet-tl"> </div>
+<div class="Sheet-tr"><div> </div></div>
+<div class="Sheet-bl"><div> </div></div>
+<div class="Sheet-br"><div> </div></div>
+<div class="Sheet-tc"><div> </div></div>
+<div class="Sheet-bc"><div> </div></div>
+<div class="Sheet-cl"><div> </div></div>
+<div class="Sheet-cr"><div> </div></div>
+<div class="Sheet-cc"> </div>
+</div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</html>

@@ -1,0 +1,33 @@
+edition: Berlin Erlang Factory Lite 2013
+source:  http://www.erlang-factory.com/conference/Berlin2013  (mode: wayback)
+date:    2026-07-07 16:03
+pages: 21   assets: 44   missing: 2   elapsed: 591s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AndrewStone/index.html] STRIPPED script: inline
+[speakers/BenjaminKampmann/index.html] STRIPPED script: inline
+[speakers/DmitryAleksandrov/index.html] STRIPPED script: inline
+[speakers/GustavSimonsson/index.html] STRIPPED script: inline
+[speakers/HeinzGies/index.html] STRIPPED script: inline
+[speakers/JesperLouisAndersen/index.html] STRIPPED script: inline
+[speakers/joearmstrong/index.html] STRIPPED script: inline
+[speakers/KnutNesheim/index.html] STRIPPED script: inline
+[speakers/MartinRehfeld/index.html] STRIPPED script: inline
+[speakers/MathiasMeyer/index.html] STRIPPED script: inline
+[speakers/MatsCronqvist/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/SteveVinoski/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[sponsorship_opportunities/index.html] STRIPPED script: inline
+[sponsorship_opportunities/index.html] MISSING subpage (-> wayback): /conference/Berlin2013/submit_talk
+[sponsorship_opportunities/index.html] MISSING subpage (-> wayback): /conference/Berlin2013/register
+[talks/index.html] STRIPPED script: inline
+[tracks/BerlinEFL/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+[venue/index.html] MISSING subpage (-> wayback): /conference/Berlin2013/submit_talk
+[venue/index.html] MISSING subpage (-> wayback): /conference/Berlin2013/register
+MISSING asset http://www.erlang-factory.com/upload/item/566/ParkPlazaWallstreetBerlin.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/566/ParkPlazaWallstreetBerlin.jpg: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

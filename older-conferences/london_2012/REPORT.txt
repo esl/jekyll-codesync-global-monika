@@ -1,0 +1,37 @@
+edition: London Erlang Factory Lite 2012
+source:  http://www.erlang-factory.com/conference/London2012  (mode: wayback)
+date:    2026-07-07 14:12
+pages: 26   assets: 57   missing: 2   elapsed: 822s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AlvaroVidela/index.html] STRIPPED script: inline
+[speakers/DominicWilliams/index.html] STRIPPED script: inline
+[speakers/FabriceNourisson/index.html] STRIPPED script: inline
+[speakers/francescocesarini/index.html] STRIPPED script: inline
+[speakers/HarroVerkouter/index.html] STRIPPED script: inline
+[speakers/HuiqingLi/index.html] STRIPPED script: inline
+[speakers/IanBarber/index.html] STRIPPED script: inline
+[speakers/IanPlosker/index.html] STRIPPED script: inline
+[speakers/IanPlosker/index.html] MISSING subpage (-> wayback): /conference/London2012/register
+[speakers/JakobSievers/index.html] STRIPPED script: inline
+[speakers/LoicHoguin/index.html] STRIPPED script: inline
+[speakers/MattHeitzenroder/index.html] STRIPPED script: inline
+[speakers/MattKern/index.html] STRIPPED script: inline
+[speakers/MikeWilliams/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/SimonThompson/index.html] STRIPPED script: inline
+[speakers/StephenPage/index.html] STRIPPED script: inline
+[speakers/WardBekker/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/London2012/index.html] STRIPPED script: inline
+[university/index.html] STRIPPED script: inline
+[university/index.html] MISSING subpage (-> wayback): /conference/London2012/university/ErlangExpress
+[university/OTPExpress/index.html] STRIPPED script: inline
+[university/OTPExpress/index.html] MISSING subpage (-> wayback): /conference/London2012/register
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/item/266/Campusreception.jpeg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/266/Campusreception.jpeg: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

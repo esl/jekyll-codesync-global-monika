@@ -1,0 +1,29 @@
+edition: Moscow Erlang Factory Lite 2012
+source:  http://www.erlang-factory.com/conference/Moscow2012  (mode: wayback)
+date:    2026-07-07 15:42
+pages: 15   assets: 29   missing: 8   elapsed: 442s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AlexGunin/index.html] STRIPPED script: inline
+[speakers/AntonLebedevich/index.html] STRIPPED script: inline
+[speakers/BobIppolito/index.html] STRIPPED script: inline
+[speakers/KonstantinTcepliaev/index.html] STRIPPED script: inline
+[speakers/LevWalkin/index.html] STRIPPED script: inline
+[speakers/MaxLapshin/index.html] STRIPPED script: inline
+[speakers/MichalNiec/index.html] STRIPPED script: inline
+[speakers/michalslaski/index.html] STRIPPED script: inline
+[speakers/PeterLemenkov/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+MISSING asset http://www.erlang-factory.com/upload/item/94/yandex.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/95/yandex_red-rose.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/96/mapmoscow.png: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/97/yandex2.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/94/yandex.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/95/yandex_red-rose.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/96/mapmoscow.png: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/97/yandex2.jpg: HTTP Error 404: NOT FOUND
+REWROTE 4 never-archived asset ref(s) to Wayback URLs

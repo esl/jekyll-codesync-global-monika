@@ -1,0 +1,21 @@
+edition: brisbane_2011
+source:  http://www.erlang-factory.com/conference/Brisbane2011  (mode: wayback)
+date:    2026-07-07 15:37
+pages: 13   assets: 20   missing: 2   elapsed: 292s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[register/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/JohnHughes/index.html] STRIPPED script: inline
+[speakers/OliverReeves/index.html] STRIPPED script: inline
+[speakers/RobertVirding/index.html] STRIPPED script: inline
+[speakers/SteveVinoski/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/BrisbaneFactoryLite/index.html] STRIPPED script: inline
+[university/index.html] STRIPPED script: inline
+[university/ErlangExpress/index.html] STRIPPED script: inline
+[university/OTPExpress/index.html] STRIPPED script: inline
+MISSING asset http://erlang-factory.com//upload/item/61/YOWLogo.jpg: HTTP Error 404: Not Found
+MISSING asset (css) http://erlang-factory.com//upload/item/61/YOWLogo.jpg: HTTP Error 404: Not Found
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

@@ -1,0 +1,3314 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="http://www.erlang-factory.com/static/upload/media/1510942323227847cbsf.jpg" property="og:image">
+<meta content='Erlang Factory San Francisco Bay Area 2015
+Conference: 26-27 March; Training: 23-25 March and 30 March-1 April
+Come meet Actor Model creator Carl Hewitt, Elixir Creator José Valim, Erlang inventors Joe Armstrong, Robert Virding and Mike Williams, Haskell and QuickCheck co-inventor John Hughes, "Seven Languages in Seven weeks" author Bruce Tate, O’Reilly Author Simon Thompson, creator of the Parallella board Andreas Olofsson and many more!
+ 
+ 
+ ' property="og:description"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>Erlang Factory SF Bay Area 2015</title>
+<meta content='Erlang Factory San Francisco Bay Area 2015
+Conference: 26-27 March; Training: 23-25 March and 30 March-1 April
+Come meet Actor Model creator Carl Hewitt, Elixir Creator José Valim, Erlang inventors Joe Armstrong, Robert Virding and Mike Williams, Haskell and QuickCheck co-inventor John Hughes, "Seven Languages in Seven weeks" author Bruce Tate, O’Reilly Author Simon Thompson, creator of the Parallella board Andreas Olofsson and many more!
+ 
+ 
+ ' name="description"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<link href="assets/static/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="assets/static/img/favicon.ico" rel="shortcut icon">
+<link href="assets/static/css/theme.css" rel="stylesheet"/>
+<script src="assets/static/js/respond.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="assets/static/js/theme.js"></script>
+</link></meta></head>
+<body>
+<div id="wrap">
+<div class="push" id="home"></div>
+<div class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="logo-container">
+<img class="factory-logo" src="assets/static/upload/media/1388.494701.377692-factory-logo.png"/>
+</div>
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav" id="top-nav">
+<li><a class="menu-item" href="./#home">HOME</a></li>
+<li><a class="menu-item" href="./#about-code-beam-sf">About Code BEAM SF</a></li>
+<li><a class="menu-item" href="./#info">Info</a></li>
+<li><a class="menu-item" href="./#speakers">Speakers</a></li>
+<li><a class="menu-item" href="./#lightning-talks">Lightning Talks </a></li>
+<li><a class="menu-item" href="./#location">Location</a></li>
+<li><a class="menu-item" href="./#programme">Programme</a></li>
+<li><a class="menu-item" href="./#sponsors">Sponsors</a></li>
+<li><a class="menu-item" href="./#scholarship-program">Scholarship Program</a></li>
+<li><a class="menu-item" href="./#contact-us">Contact Us</a></li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Training</a>
+<ul class="dropdown-menu">
+<li><a class="menu-item" href="training/#erlang-express-march-2325">Erlang Express - March 23-25</a></li>
+<li><a class="menu-item" href="training/#advanced-erlang-techniques-march-2325">Advanced Erlang Techniques - March 23-25</a></li>
+<li><a class="menu-item" href="training/#elixir-tutorial-28-march-9am-1pm">Elixir Tutorial - 28 March, 9am - 1pm</a></li>
+<li><a class="menu-item" href="training/#otp-express-march-30april-1">OTP Express - March 30-April 1</a></li>
+<li><a class="menu-item" href="training/#kazoo-march-301-april">Kazoo March 30-1 April</a></li>
+<li><a class="menu-item" href="training/#quickcheck-automatic-test-case-generation-and-shrinking-march-30april-1">QuickCheck - Automatic Test Case Generation and Shrinking - March 30-April 1</a></li>
+</ul>
+</li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Tracks</a>
+<ul class="dropdown-menu">
+<li><a class="menu-item" href="tracks/#how-i-do-stuff">How I Do Stuff</a></li>
+<li><a class="menu-item" href="tracks/#the-erlang-ecosystem-and-its-vm">The Erlang Eco-System and its VM</a></li>
+<li><a class="menu-item" href="tracks/#distribution-and-scalability">Distribution and Scalability</a></li>
+<li><a class="menu-item" href="tracks/#cool-tools-gadgets">Cool Tools &amp; Gadgets</a></li>
+<li><a class="menu-item" href="tracks/#concurrency-multicore">Concurrency &amp; Multi-core</a></li>
+<li><a class="menu-item" href="tracks/#brewing-with-elixir">Brewing with Elixir</a></li>
+</ul>
+</li>
+<li class="dropdown active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+<ul class="dropdown-menu">
+<li><a class="menu-item" href="about/#about-the-conference">About the conference</a></li>
+<li><a class="menu-item" href="about/#programme-committee">Programme Committee</a></li>
+<li><a class="menu-item" href="about/#code-of-conduct">Code of Conduct</a></li>
+<li><a class="menu-item" href="about/#badges">Badges</a></li>
+</ul>
+</li>
+</ul>
+</div><!--/.navbar-collapse -->
+</div><!-- end of container -->
+</div> <!-- end of navbar-->
+<div class="container" style="margin: 0px; padding: 0px; width: 100%; max-width: 100%; text-align: center;">
+<div class="block">
+<a class="anchor" id="home"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<p class="marketing-message" style="text-align: center;"> WE'VE CHANGED SINCE</p>
+<p class="marketing-message" style="text-align: center;">THE LAST ERLANG FACTORY!<br/><br/></p>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="home"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<p></p>
+<h3 class="page-header" style="font-size: 40px;">NEW CODE BEAM SF</h3>
+<h3 class="page-header">DISCOVER THE FUTURE OF THE ERLANG ECOSYSTEM<br/><br/></h3>
+<h3 class="page-header"><a href="http://www.codesync.global" target="_blank"><img alt="" height="76" src="assets/static/upload/media/1510938450309650button.png" width="312"/></a></h3>
+<h3 class="page-header"></h3>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"> </p>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="about-code-beam-sf"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<h2>Bye Erlang Factory! Hello Code BEAM!</h2>
+<p>The Erlang Factory conferences have been evolving for the past few years. The origins were about bringing together developers to spread the Erlang love and to share battle stories. Over the years our community has grown beyond Erlang to encompass a more diverse range of languages from the Erlang Ecosystem.</p>
+<p>Today, to better reflect this, we are rebranding and aligning our events, including the Erlang Factory, under a new name <strong>Code BEAM</strong> belonging to a global family of conferences called <strong>Code Sync</strong>. We are launching a new Code Sync website with all events, past talks and articles, so we hope you'll visit it soon! And see you at the next conference!</p>
+<p dir="ltr">We are happy to answer any questions, simply get in touch <a href="mailto:info@codesync.global" target="_blank">info@codesync.global</a>.</p>
+<p> </p>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="info"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6"><iframe allign="middle" allowfullscreen="" frameborder="0" height="281" mozallowfullscreen="" src="https://player.vimeo.com/video/127022042" webkitallowfullscreen="" width="500"></iframe></div>
+<div class="col-md-3"></div>
+</div>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="speakers"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Carl Hewitt</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="carl-hewitt/" role="button">
+<img src="assets/static/upload/media/1425577474497hewittseated.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="carl-hewitt/" role="button">
+            
+                
+                    Keynote: Actors for CyberThings<br/>
+</a>
+        Creator of Actor Model
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Joe Armstrong</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="joe-armstrong/" role="button">
+<img src="assets/static/upload/media/1438265072483347joearms.jpeg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="joe-armstrong/" role="button">
+            
+                
+                    Keynote: From WhatsApp to Outer Space<br/>
+</a>
+        Co-inventor of Erlang
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Guido van Rossum</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="guido-van-rossum/" role="button">
+<img src="assets/static/upload/media/142244171935979guido.png"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="guido-van-rossum/" role="button">
+            
+                
+                    Panel Discussion<br/>
+</a>
+        Python Benevolent Dictator For Life
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">José Valim</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="jose-valim/" role="button">
+<img src="assets/static/upload/media/1387.223237.202963-josevalim240.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="jose-valim/" role="button">
+            
+                
+                    What Elixir is about<br/>
+                
+                    Panel Discussion<br/>
+</a>
+        Elixir Creator
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Robert Virding</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="robert-virding/" role="button">
+<img src="assets/static/upload/media/1387.219549.408607-RobertVirding240.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="robert-virding/" role="button">
+            
+                
+                    Training: OTP Express<br/>
+                
+                    Training: Advanced Erlang Techniques<br/>
+                
+                    Keynote: From WhatsApp to Outer Space<br/>
+</a>
+        Co-inventor of Erlang
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Bruce Tate</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="bruce-tate/" role="button">
+<img src="assets/static/upload/media/1386.960451.458849-BruceTate240.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="bruce-tate/" role="button">
+            
+                
+                    Tests Can Be Beautiful: Testing in Style with ShouldI<br/>
+                
+                    Tutorial: Elixir<br/>
+                
+                    Panel Discussion<br/>
+</a>
+        CTO icanmakeitbetter.com
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">John Hughes</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="john-hughes/" role="button">
+<img src="assets/static/upload/media/1395320755408205johnhughes.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="john-hughes/" role="button">
+            
+                
+                    Training: QuickCheck<br/>
+                
+                    QuickCheck-CI - providing QuickCheck Access to the Open Source Community<br/>
+                
+                    Panel Discussion<br/>
+</a>
+        QuickCheck Creator
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Mike Williams</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="mike-williams/" role="button">
+<img src="assets/static/upload/media/1389.22018.329944-mikewilliams2.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="mike-williams/" role="button">
+            
+                
+                    Panel Discussion<br/>
+                
+                    Keynote: From WhatsApp to Outer Space<br/>
+</a>
+        Co-inventor of Erlang
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Andreas Olofsson</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="andreas-olofsson/" role="button">
+<img src="assets/static/upload/media/142187739286932andreasadapteva.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="andreas-olofsson/" role="button">
+            
+                
+                    Why Simplicity Matters: a Hardware Perspective<br/>
+</a>
+        Founder of Adapteva and Creator of Parallella Project
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Sandhya Narayan</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="sandhya-narayan/" role="button">
+<img src="assets/static/upload/media/142296214124232sandhya.png"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="sandhya-narayan/" role="button">
+            
+                
+                    Erlang-based Operating System for Internet of Everything<br/>
+</a>
+        Principal Researcher at Infoblox
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Christopher Meiklejohn</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="christopher-meiklejohn/" role="button">
+<img src="assets/static/upload/media/138972409419862chrismeiklejohn.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="christopher-meiklejohn/" role="button">
+            
+                
+                    Distributed Eventually Consistent Computations<br/>
+</a>
+        Software Engineer and Researcher @ Basho
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Derek Brown</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="derek-brown/" role="button">
+<img src="assets/static/upload/media/1424833699494derek.JPG"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="derek-brown/" role="button">
+            
+                
+                    Steganography and Data Hiding<br/>
+</a>
+        Experienced Engineer exploiting Functional Programming and Erlang for the Greater Good
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Kenji Rikitake</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="kenji-rikitake/" role="button">
+<img src="assets/static/upload/media/1453887332513680kenjiface201503282.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="kenji-rikitake/" role="button">
+            
+                
+                    Xorshift* and Erlang/OTP: searching for better PRNGs<br/>
+</a>
+        Professional Internet Engineer / Erlang/OTP Enthusiast
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Sergey Savenko</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="sergey-savenko/" role="button">
+<img src="assets/static/upload/media/1386.957987.133163-SergeySavenko240.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="sergey-savenko/" role="button">
+            
+                
+                    Erlang IDE Done Right<br/>
+</a>
+        Erlang Plugin for IDEA Contributor
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Irina Guberman</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="irina-guberman/" role="button">
+<img src="assets/static/upload/media/14219519134226irina.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="irina-guberman/" role="button">
+            
+                
+                    Maximizing throughput on Multicore Systems <br/>
+</a>
+        Software Engineer at Ubiquiti Networks
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">James Aimonetti</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="james-aimonetti/" role="button">
+<img src="assets/static/upload/media/1387.222036.396373-jamesaimonetti.jpg"/>
+</a>
+</div>
+<span class="talk_title">
+<a href="james-aimonetti/" role="button">
+            
+                
+                    Training: Kazoo<br/>
+</a>
+        Senior Distributed Systems Engineer @ 2600hz
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Viktória Fördős</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="viktoria-fordos/" role="button">
+<img src="assets/static/upload/media/1421858468561335viki.png"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="viktoria-fordos/" role="button">
+            
+                
+                    Scale, Manage and Prevent!<br/>
+</a>
+        ErlangErl@Erlang Solutions
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Sergey Ignatov</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="sergey-ignatov/" role="button">
+<img src="assets/static/upload/media/1387.370708.398773-ignatov.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="sergey-ignatov/" role="button">
+            
+                
+                    Erlang IDE Done Right<br/>
+</a>
+        Erlang Plugin for IDEA Contributor
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Fred Hebert</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="fred-hebert/" role="button">
+<img src="assets/static/upload/media/145292569140345fredhebert2.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="fred-hebert/" role="button">
+            
+                
+                    Rebar3<br/>
+</a>
+        Author of 'Learn You Some Erlang for great good!'
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Juan Puig Martínez</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="juan-puig-martinez/" role="button">
+<img src="assets/static/upload/media/142562979827879jpuigm.jpeg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="juan-puig-martinez/" role="button">
+            
+                
+                    The Art of powering the Internet's Next Messaging System<br/>
+</a>
+        Señor Software Engineer @ Layer
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Anthony Molinaro</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="anthony-molinaro/" role="button">
+<img src="assets/static/upload/media/1387.215447.863203-AnthonyMolinaro240.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="anthony-molinaro/" role="button">
+            
+                
+                    How to Pick a Pool in Erlang without Drowning<br/>
+</a>
+        Architect Generalist
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Lukas Larsson</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="lukas-larsson/" role="button">
+<img src="assets/static/upload/media/1389811159312570lukas.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="lukas-larsson/" role="button">
+            
+                
+                    BEAM - 'The Times They Are A-Changin'<br/>
+</a>
+        Erlang VM Developer
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Mubarak Seyed</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="mubarak-seyed/" role="button">
+<img src="assets/static/upload/media/14256552635874mubarak_seyed.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="mubarak-seyed/" role="button">
+            
+                
+                    The Art of powering the Internet's Next Messaging System<br/>
+</a>
+        Platform Engineer
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Simon Thompson</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="simon-thompson/" role="button">
+<img src="assets/static/upload/media/142634394566225sjtdec214.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="simon-thompson/" role="button">
+            
+                
+                    Evolving Projects to Concurrency with Wrangler<br/>
+</a>
+        Professor of Logic and Computation, University of Kent
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Daniel Pezely</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="daniel-pezely/" role="button">
+<img src="assets/static/upload/media/142656339535143danielpezely.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="daniel-pezely/" role="button">
+            
+                
+                    LDB: 10x Performance Increase After Rewriting Linked-In C Module In Pure-Erlang<br/>
+</a>
+        Software Developer at Splunk
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Louis-Philippe Gauthier</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="louisphilippe-gauthier/" role="button">
+<img src="assets/static/upload/media/1389722487583100lp.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="louisphilippe-gauthier/" role="button">
+            
+                
+                    Debugging Complex Systems<br/>
+</a>
+        Team Lead, AdGear Trader
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Tristan Sloughter</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="tristan-sloughter/" role="button">
+<img src="assets/static/upload/media/142182628746985tristansloughter.jpeg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="tristan-sloughter/" role="button">
+            
+                
+                    Rebar3<br/>
+</a>
+        ‎Routing Infrastructure Developer at Heroku
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Joseph Blomstedt</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="joseph-blomstedt/" role="button">
+<img src="assets/static/upload/media/1389899952327931josephblomstedt.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="joseph-blomstedt/" role="button">
+            
+                
+                    Data Structure Adventures for Fun, Profit, and Performance<br/>
+</a>
+        Distributed Systems Enthusiast
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Eric Meadows-Jönsson</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="eric-meadowsjonsson/" role="button">
+<img src="assets/static/upload/media/1398167454465369eric.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="eric-meadowsjonsson/" role="button">
+            
+                
+                    Tutorial: Elixir<br/>
+                
+                    Hex Package Manager<br/>
+</a>
+        Elixir Team Member
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Marc Sugiyama</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="marc-sugiyama/" role="button">
+<img src="assets/static/upload/media/1400157367545188headshotsquaresmall.jpg"/>
+</a>
+</div>
+<span class="talk_title">
+<a href="marc-sugiyama/" role="button">
+            
+                
+                    Training: Erlang Express<br/>
+</a>
+        Senior Architect @ Erlang Solutions
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Martin Kristiansen</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="martin-kristiansen/" role="button">
+<img src="assets/static/upload/media/1389725420199265martinkristiansen.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="martin-kristiansen/" role="button">
+            
+                
+                    Efficient Architecting and Implementation of Systems<br/>
+</a>
+        Senior Erlang Engineer @ Tigertext
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Frank Hunleth</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="frank-hunleth/" role="button">
+<img src="assets/static/upload/media/14282948169319fhunlethphoto24x24.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="frank-hunleth/" role="button">
+            
+                
+                    Getting Started with Embedded Erlang, Nerves, and SumoBots<br/>
+</a>
+        Embedded Software Developer
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Scott Lystig Fritchie</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="scott-lystig-fritchie/" role="button">
+<img src="assets/static/upload/media/142658467923197scottlystigfritchie2.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="scott-lystig-fritchie/" role="button">
+            
+                
+                    Actively measuring and profiling Code<br/>
+</a>
+        Decade-long Erlang Addict @ Basho Japan KK
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Mark Anderson</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="mark-anderson/" role="button">
+<img src="assets/static/upload/media/1426591688533markchef.jpeg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="mark-anderson/" role="button">
+            
+                
+                    Push Jobs: A Scalable Remote Execution System for Chef<br/>
+</a>
+        Software Engineer at Chef
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Ransom Richardson</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="ransom-richardson/" role="button">
+<img src="assets/static/upload/media/1426573213977ransomr.jpeg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="ransom-richardson/" role="button">
+            
+                
+                    Erlang in the Cloud: The Talko Service Architecture<br/>
+</a>
+        Software Engineer and Architect @ Talko
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Mark Allen</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="mark-allen/" role="button">
+<img src="assets/static/upload/media/14217584539827mrallen.jpeg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="mark-allen/" role="button">
+            
+                
+                    admin-factory<br/>
+</a>
+        Senior Software Developer @ Basho
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Brett Cameron</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="brett-cameron/" role="button">
+<img src="assets/static/upload/media/1386.955560.548402-BrettCameron240.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="brett-cameron/" role="button">
+            
+                
+                    Porting Erlang/OTP to Exotic Platforms: Tips, Tricks and having Some Fun along the Way<br/>
+</a>
+        Senior Technical Consultant at VMS Software with a curious penchant for Italian leather boots, a fondness of craft beer, and a liking of very long guitar solos 
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Joe DeVivo</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="joe-devivo/" role="button">
+<img src="assets/static/upload/media/1386.953949.481484-JoeDevivo240.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="joe-devivo/" role="button">
+            
+                
+                    gen_java: an easy way to include java in erlang applications<br/>
+</a>
+        Erlanger at CHEF
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Brujo Benavides</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="brujo-benavides/" role="button">
+<img src="assets/static/upload/media/1493980439468604headshotsmall.png"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="brujo-benavides/" role="button">
+            
+                
+                    Gadget: The Ultimate Code-Checking Machine<br/>
+</a>
+        CTO @ Inaka
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Iñaki Garay</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="inaki-garay/" role="button">
+<img src="assets/static/upload/media/1421867984536inaki.jpeg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="inaki-garay/" role="button">
+            
+                
+                    Teaching is Learning: training New Hires<br/>
+</a>
+        Erlang Developer @ Inaka
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Thomas Arts</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="thomas-arts/" role="button">
+<img src="assets/static/upload/media/1398868909864704thomasarts.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="thomas-arts/" role="button">
+            
+                
+                    Testing for Concurrency Errors in Elixir Code with QuickCheck<br/>
+</a>
+        CTO at Quviq
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Noah Gift</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="noah-gift/" role="button">
+<img src="assets/static/upload/media/14225886327noahgift.jpeg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="noah-gift/" role="button">
+            
+                
+                    DIY: Using Erlang at a SF Startup From Day 1<br/>
+</a>
+        Chief Technology Officer and General Manager at Sqor, Inc
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Garrett Smith</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="garrett-smith/" role="button">
+<img src="assets/static/upload/media/1470424669247613garrett2016.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="garrett-smith/" role="button">
+            
+                
+                    The Timeless Way of Building Erlang Apps: In Search of a Useful Pattern Language<br/>
+</a>
+        Programmer-In-Anger at Cloudbees 
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Dmitry Demeshchuk</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="dmitry-demeshchuk/" role="button">
+<img src="assets/static/upload/media/142268243512899dmitrydemeshchuk.jpeg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="dmitry-demeshchuk/" role="button">
+            
+                
+                    What Docker Users Can Learn From Erlang<br/>
+</a>
+        Senior Erlang Engineer at Machine Zone
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Michał Ślaski</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="michal-slaski/" role="button">
+<img src="assets/static/upload/media/139628316178763michal_slaski.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="michal-slaski/" role="button">
+            
+                
+                    MongooseIM meets Phoenix<br/>
+</a>
+        MongooseIM design lead 
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Sonny Scroggin</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="sonny-scroggin/" role="button">
+<img src="assets/static/upload/media/1451988832303623sonnyscroggin.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="sonny-scroggin/" role="button">
+            
+                
+                    MongooseIM meets Phoenix<br/>
+</a>
+        Polyglot Hacker @ Blue Box, Inc.
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Jamie Winsor</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="jamie-winsor/" role="button">
+<img src="assets/static/upload/media/1423425525843jamiewindsor.jpg"/>
+<span class="glyphicon glyphicon-picture with-tip" data-original-title="Slides available!" data-placement="right" data-toggle="tooltip" title=""></span>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="jamie-winsor/" role="button">
+            
+                
+                    Building And Releasing A Massively Multiplayer Online Game With Elixir<br/>
+</a>
+        Network Server Programmer @undeadlabs
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+<div class="col-md-3">
+<div class="speaker">
+<h4 class="speaker_name">Brian Wilhite</h4>
+<div class="hidden-xs">
+<a class="image_box speaker_image" href="brian-wilhite/" role="button">
+<img src="assets/static/upload/media/1427323832549543brianw.jpg"/>
+<span class="glyphicon glyphicon-film with-tip" data-original-title="Video available!" data-placement="right" data-toggle="tooltip" title=""></span>
+</a>
+</div>
+<span class="talk_title">
+<a href="brian-wilhite/" role="button">
+            
+                
+                    DIY: Using Erlang at a SF Startup From Day 1<br/>
+</a>
+        Founder &amp; CEO of Sqor, Inc.
+    </span>
+<hr class="visible-xs"/>
+</div>
+</div> <!-- end of col-md-3 -->
+</div> <!-- end of row -->
+<div class="row">
+</div> <!-- end of row -->
+<script>
+    $(window).on('hashchange', function() {
+        var existsModal = function(name) {
+            return $(name + ".modal").length > 0;
+        };
+        var afterHash = window.location.hash;
+        $('.modal').modal('hide');
+        if (existsModal(afterHash)) {
+            $(afterHash).modal('show');
+        } 
+    });
+    $('.modal').on('hidden.bs.modal', function(e) {
+        window.location.hash = "speaker";
+    });
+</script>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="lightning-talks"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<p><strong>Lightning Talks</strong></p>
+<p>Like every year, this is your chance to shine for 5 minutes at the ErLounge in the evening of 26 March! Share with the audience your latest project, an interesting topic (preferably tech-related), get feedback on a problem you're working on, or, why not, do a stand-up routine :)</p>
+<p>Submit your Lightning talk <a href="https://docs.google.com/forms/d/17ji2DqfVpR3d1UnBKyMYlPazuWtyxCVOMmIGtPEnKBs/viewform?usp=send_form"><strong>HERE</strong></a></p>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="location"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<p>Based on your feedback, The Erlang Factory SF Bay Area 2015 is returning to downtown San Francisco to the <a href="http://www.marineclub.com/index.php"> Marines' Memorial Club and Hotel in Union Square</a>. </p>
+<p> </p>
+<p>Marines’ Memorial Club &amp; Hotel</p>
+<p>609 Sutter Street</p>
+<p>San Francisco, CA 94102</p>
+<p>Tel: (415) 673-6672 </p>
+<h4></h4>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="programme"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<p class="erlang-red"><span style="font-weight: bold">Day 1</span>, March 26, 2015</p>
+<table class="hidden-xs">
+<thead class="programme-header">
+<tr>
+<td class="erlang-red" style="font-weight: bold; width: 15%;">Room</td>
+<td style="width:30.0%;">
+<p style="font-weight: bold">Crystal Ballroom</p>
+</td>
+<td style="width:30.0%;">
+<p style="font-weight: bold">Crystal Lounge</p>
+</td>
+<td style="width:30.0%;">
+<p style="font-weight: bold">Regimental</p>
+</td>
+</tr>
+</thead>
+<tr class="programme">
+<td class="erlang-red">9:00 - 9:15</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Welcome
+
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">9:15 - 10:15</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+<a href="carl-hewitt/">
+                Keynote: Actors for CyberThings
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+<a href="carl-hewitt/" style="color: black">
+        Carl Hewitt
+        </a><br/>
+<div class="tag label label-default"></div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">10:15 - 10:35</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        News from the OTP team
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">10:35 - 10:50</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Coffee break
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">10:55 - 11:45</td>
+<td class="cell Elixir Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="jose-valim/">
+                What Elixir is about
+              </a>
+</p>
+</td>
+<td class="cell Riak DistributionScalability Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="mark-allen/">
+                admin-factory
+              </a>
+</p>
+</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="sergey-savenko/">
+                Erlang IDE Done Right
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell Elixir Beginner Intermediate Advanced" colspan="1">
+<a href="jose-valim/" style="color: black">
+        José Valim
+        </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell Riak DistributionScalability Intermediate Advanced" colspan="1">
+<a href="mark-allen/" style="color: black">
+        Mark Allen
+        </a><br/>
+<div class="tag label label-default">Riak</div>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate Advanced" colspan="1">
+<a href="sergey-savenko/" style="color: black">
+        Sergey Savenko
+        </a><br/>
+<a href="sergey-ignatov/" style="color: black">
+        Sergey Ignatov
+        </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">11:50 - 12:40</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="john-hughes/">
+                QuickCheck-CI - providing QuickCheck Access to the Open Source Community
+              </a>
+</p>
+</td>
+<td class="cell DistributionScalability Intermediate Riak Crdts" colspan="1">
+<p class="programme-talk-title">
+<a href="christopher-meiklejohn/">
+                Distributed Eventually Consistent Computations
+              </a>
+</p>
+</td>
+<td class="cell Elixir Beginner Intermediate Advanced Tooling" colspan="1">
+<p class="programme-talk-title">
+<a href="eric-meadowsjonsson/">
+                Hex Package Manager
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell CoolToolsGadgets Beginner Intermediate Advanced" colspan="1">
+<a href="john-hughes/" style="color: black">
+        John Hughes
+        </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell DistributionScalability Intermediate Riak Crdts" colspan="1">
+<a href="christopher-meiklejohn/" style="color: black">
+        Christopher Meiklejohn
+        </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Riak</div>
+<div class="tag label label-default">Crdts</div>
+</td>
+<td class="cell Elixir Beginner Intermediate Advanced Tooling" colspan="1">
+<a href="eric-meadowsjonsson/" style="color: black">
+        Eric Meadows-Jönsson
+        </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<div class="tag label label-default">Tooling</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">12:40 - 14:20</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Lunch
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">14:20 - 15:10</td>
+<td class="cell DistributionScalability Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="mark-anderson/">
+                Push Jobs: A Scalable Remote Execution System for Chef
+              </a>
+</p>
+</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="brujo-benavides/">
+                Gadget: The Ultimate Code-Checking Machine
+              </a>
+</p>
+</td>
+<td class="cell Elixir Beginner Intermediate QuickCheck" colspan="1">
+<p class="programme-talk-title">
+<a href="thomas-arts/">
+                Testing for Concurrency Errors in Elixir Code with QuickCheck
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell DistributionScalability Intermediate Advanced" colspan="1">
+<a href="mark-anderson/" style="color: black">
+        Mark Anderson
+        </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate" colspan="1">
+<a href="brujo-benavides/" style="color: black">
+        Brujo Benavides
+        </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+<td class="cell Elixir Beginner Intermediate QuickCheck" colspan="1">
+<a href="thomas-arts/" style="color: black">
+        Thomas Arts
+        </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">QuickCheck</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">15:15 - 16:05</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="fred-hebert/">
+                Rebar3
+              </a>
+</p>
+</td>
+<td class="cell Elixir Testing Shouldl Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="bruce-tate/">
+                Tests Can Be Beautiful: Testing in Style with ShouldI
+              </a>
+</p>
+</td>
+<td class="cell DistributionScalability Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="scott-lystig-fritchie/">
+                Actively measuring and profiling Code
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell CoolToolsGadgets Beginner Intermediate Advanced" colspan="1">
+<a href="fred-hebert/" style="color: black">
+        Fred Hebert
+        </a><br/>
+<a href="tristan-sloughter/" style="color: black">
+        Tristan Sloughter
+        </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell Elixir Testing Shouldl Intermediate Advanced" colspan="1">
+<a href="bruce-tate/" style="color: black">
+        Bruce Tate
+        </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Testing</div>
+<div class="tag label label-default">Shouldl</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell DistributionScalability Intermediate" colspan="1">
+<a href="scott-lystig-fritchie/" style="color: black">
+        Scott Lystig Fritchie
+        </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">16:05 - 16:25</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Coffee break
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">16:25 - 17:15</td>
+<td class="cell DistributionScalability Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="irina-guberman/">
+                Maximizing throughput on Multicore Systems 
+              </a>
+</p>
+</td>
+<td class="cell CoolToolsGadgets Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="dmitry-demeshchuk/">
+                What Docker Users Can Learn From Erlang
+              </a>
+</p>
+</td>
+<td class="cell Elixir XMPP Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="michal-slaski/">
+                MongooseIM meets Phoenix
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell DistributionScalability Beginner Intermediate Advanced" colspan="1">
+<a href="irina-guberman/" style="color: black">
+        Irina Guberman
+        </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell CoolToolsGadgets Intermediate Advanced" colspan="1">
+<a href="dmitry-demeshchuk/" style="color: black">
+        Dmitry Demeshchuk
+        </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell Elixir XMPP Beginner Intermediate Advanced" colspan="1">
+<a href="michal-slaski/" style="color: black">
+        Michał Ślaski
+        </a><br/>
+<a href="sonny-scroggin/" style="color: black">
+        Sonny Scroggin
+        </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">XMPP</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">17:20 - 18:10</td>
+<td class="cell Elixir Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="jamie-winsor/">
+                Building And Releasing A Massively Multiplayer Online Game With Elixir
+              </a>
+</p>
+</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="anthony-molinaro/">
+                How to Pick a Pool in Erlang without Drowning
+              </a>
+</p>
+</td>
+<td class="cell DistributionScalability Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="viktoria-fordos/">
+                Scale, Manage and Prevent!
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell Elixir Intermediate Advanced" colspan="1">
+<a href="jamie-winsor/" style="color: black">
+        Jamie Winsor
+        </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell CoolToolsGadgets Beginner Intermediate" colspan="1">
+<a href="anthony-molinaro/" style="color: black">
+        Anthony Molinaro
+        </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+<td class="cell DistributionScalability Intermediate Advanced" colspan="1">
+<a href="viktoria-fordos/" style="color: black">
+        Viktória Fördős
+        </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">18:20 - 22:20</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Lightning talks and ErLounge
+
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+</table>
+<div class="panel-group visible-xs" id="accordion1">
+<p>Tap on hour to see the talks</p>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row1day1">
+<span class="erlang-red">9:00 - 9:15</span>
+</a>
+</div>
+<div class="panel-collapse collapse in" id="row1day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">9:00 - 9:15</span></p>
+<p class="programme-talk-title">
+	    
+	    Welcome
+
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row2day1">
+<span class="erlang-red">9:15 - 10:15</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row2day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">9:15 - 10:15</span></p>
+<p class="programme-talk-title">
+<a href="carl-hewitt/">
+                  Keynote: Actors for CyberThings
+                </a>
+<br/>
+<a href="carl-hewitt/" style="color: black">
+	      Carl Hewitt
+	    </a><br/>
+<div class="tag label label-default"></div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row3day1">
+<span class="erlang-red">10:15 - 10:35</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row3day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">10:15 - 10:35</span></p>
+<p class="programme-talk-title">
+	    
+	    News from the OTP team
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row4day1">
+<span class="erlang-red">10:35 - 10:50</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row4day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">10:35 - 10:50</span></p>
+<p class="programme-talk-title">
+	    
+	    Coffee break
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row5day1">
+<span class="erlang-red">10:55 - 11:45</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row5day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">10:55 - 11:45</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="jose-valim/">
+                  What Elixir is about
+                </a>
+<br/>
+<a href="jose-valim/" style="color: black">
+	      José Valim
+	    </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">10:55 - 11:45</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="mark-allen/">
+                  admin-factory
+                </a>
+<br/>
+<a href="mark-allen/" style="color: black">
+	      Mark Allen
+	    </a><br/>
+<div class="tag label label-default">Riak</div>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">10:55 - 11:45</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="sergey-savenko/">
+                  Erlang IDE Done Right
+                </a>
+<br/>
+<a href="sergey-savenko/" style="color: black">
+	      Sergey Savenko
+	    </a><br/>
+<a href="sergey-ignatov/" style="color: black">
+	      Sergey Ignatov
+	    </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row6day1">
+<span class="erlang-red">11:50 - 12:40</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row6day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">11:50 - 12:40</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="john-hughes/">
+                  QuickCheck-CI - providing QuickCheck Access to the Open Source Community
+                </a>
+<br/>
+<a href="john-hughes/" style="color: black">
+	      John Hughes
+	    </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">11:50 - 12:40</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="christopher-meiklejohn/">
+                  Distributed Eventually Consistent Computations
+                </a>
+<br/>
+<a href="christopher-meiklejohn/" style="color: black">
+	      Christopher Meiklejohn
+	    </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Riak</div>
+<div class="tag label label-default">Crdts</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">11:50 - 12:40</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="eric-meadowsjonsson/">
+                  Hex Package Manager
+                </a>
+<br/>
+<a href="eric-meadowsjonsson/" style="color: black">
+	      Eric Meadows-Jönsson
+	    </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<div class="tag label label-default">Tooling</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row7day1">
+<span class="erlang-red">12:40 - 14:20</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row7day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">12:40 - 14:20</span></p>
+<p class="programme-talk-title">
+	    
+	    Lunch
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row8day1">
+<span class="erlang-red">14:20 - 15:10</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row8day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">14:20 - 15:10</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="mark-anderson/">
+                  Push Jobs: A Scalable Remote Execution System for Chef
+                </a>
+<br/>
+<a href="mark-anderson/" style="color: black">
+	      Mark Anderson
+	    </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">14:20 - 15:10</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="brujo-benavides/">
+                  Gadget: The Ultimate Code-Checking Machine
+                </a>
+<br/>
+<a href="brujo-benavides/" style="color: black">
+	      Brujo Benavides
+	    </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">14:20 - 15:10</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="thomas-arts/">
+                  Testing for Concurrency Errors in Elixir Code with QuickCheck
+                </a>
+<br/>
+<a href="thomas-arts/" style="color: black">
+	      Thomas Arts
+	    </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">QuickCheck</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row9day1">
+<span class="erlang-red">15:15 - 16:05</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row9day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">15:15 - 16:05</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="fred-hebert/">
+                  Rebar3
+                </a>
+<br/>
+<a href="fred-hebert/" style="color: black">
+	      Fred Hebert
+	    </a><br/>
+<a href="tristan-sloughter/" style="color: black">
+	      Tristan Sloughter
+	    </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">15:15 - 16:05</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="bruce-tate/">
+                  Tests Can Be Beautiful: Testing in Style with ShouldI
+                </a>
+<br/>
+<a href="bruce-tate/" style="color: black">
+	      Bruce Tate
+	    </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Testing</div>
+<div class="tag label label-default">Shouldl</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">15:15 - 16:05</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="scott-lystig-fritchie/">
+                  Actively measuring and profiling Code
+                </a>
+<br/>
+<a href="scott-lystig-fritchie/" style="color: black">
+	      Scott Lystig Fritchie
+	    </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row10day1">
+<span class="erlang-red">16:05 - 16:25</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row10day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">16:05 - 16:25</span></p>
+<p class="programme-talk-title">
+	    
+	    Coffee break
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row11day1">
+<span class="erlang-red">16:25 - 17:15</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row11day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">16:25 - 17:15</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="irina-guberman/">
+                  Maximizing throughput on Multicore Systems 
+                </a>
+<br/>
+<a href="irina-guberman/" style="color: black">
+	      Irina Guberman
+	    </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">16:25 - 17:15</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="dmitry-demeshchuk/">
+                  What Docker Users Can Learn From Erlang
+                </a>
+<br/>
+<a href="dmitry-demeshchuk/" style="color: black">
+	      Dmitry Demeshchuk
+	    </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">16:25 - 17:15</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="michal-slaski/">
+                  MongooseIM meets Phoenix
+                </a>
+<br/>
+<a href="michal-slaski/" style="color: black">
+	      Michał Ślaski
+	    </a><br/>
+<a href="sonny-scroggin/" style="color: black">
+	      Sonny Scroggin
+	    </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">XMPP</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row12day1">
+<span class="erlang-red">17:20 - 18:10</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row12day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">17:20 - 18:10</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="jamie-winsor/">
+                  Building And Releasing A Massively Multiplayer Online Game With Elixir
+                </a>
+<br/>
+<a href="jamie-winsor/" style="color: black">
+	      Jamie Winsor
+	    </a><br/>
+<div class="tag label label-default">Elixir</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">17:20 - 18:10</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="anthony-molinaro/">
+                  How to Pick a Pool in Erlang without Drowning
+                </a>
+<br/>
+<a href="anthony-molinaro/" style="color: black">
+	      Anthony Molinaro
+	    </a><br/>
+<div class="tag label label-default">CoolToolsGadgets</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">17:20 - 18:10</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="viktoria-fordos/">
+                  Scale, Manage and Prevent!
+                </a>
+<br/>
+<a href="viktoria-fordos/" style="color: black">
+	      Viktória Fördős
+	    </a><br/>
+<div class="tag label label-default">DistributionScalability</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion1" data-toggle="collapse" href="#row13day1">
+<span class="erlang-red">18:20 - 22:20</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row13day1">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">18:20 - 22:20</span></p>
+<p class="programme-talk-title">
+	    
+	    Lightning talks and ErLounge
+
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<p class="erlang-red"><span style="font-weight: bold">Day 2</span>, March 27, 2015</p>
+<table class="hidden-xs">
+<thead class="programme-header">
+<tr>
+<td class="erlang-red" style="font-weight: bold; width: 15%;">Room</td>
+<td style="width:30.0%;">
+<p style="font-weight: bold"> Crystal Ballroom</p>
+</td>
+<td style="width:30.0%;">
+<p style="font-weight: bold">Crystal Lounge</p>
+</td>
+<td style="width:30.0%;">
+<p style="font-weight: bold">Regimental</p>
+</td>
+</tr>
+</thead>
+<tr class="programme">
+<td class="erlang-red">9:00 - 9:15</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Welcome
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">9:15 - 10:15</td>
+<td class="cell Keynote" colspan="3">
+<p class="programme-talk-title">
+<a href="joe-armstrong/">
+                Keynote: From WhatsApp to Outer Space
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell Keynote" colspan="3">
+<a href="joe-armstrong/" style="color: black">
+        Joe Armstrong
+        </a><br/>
+<a href="robert-virding/" style="color: black">
+        Robert Virding
+        </a><br/>
+<a href="mike-williams/" style="color: black">
+        Mike Williams
+        </a><br/>
+<div class="tag label label-default">Keynote</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">10:15 - 10:35</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Coffee break
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">10:35 - 11:25</td>
+<td class="cell ConcurrencyMulti-core Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="andreas-olofsson/">
+                Why Simplicity Matters: a Hardware Perspective
+              </a>
+</p>
+</td>
+<td class="cell" colspan="1">
+<p class="programme-talk-title">
+<a href="garrett-smith/">
+                The Timeless Way of Building Erlang Apps: In Search of a Useful Pattern Language
+              </a>
+</p>
+</td>
+<td class="cell HowIDoStuff Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="juan-puig-martinez/">
+                The Art of powering the Internet's Next Messaging System
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell ConcurrencyMulti-core Beginner Intermediate Advanced" colspan="1">
+<a href="andreas-olofsson/" style="color: black">
+        Andreas Olofsson
+        </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell" colspan="1">
+<a href="garrett-smith/" style="color: black">
+        Garrett Smith
+        </a><br/>
+<div class="tag label label-default"></div>
+</td>
+<td class="cell HowIDoStuff Intermediate" colspan="1">
+<a href="juan-puig-martinez/" style="color: black">
+        Juan Puig Martínez
+        </a><br/>
+<a href="mubarak-seyed/" style="color: black">
+        Mubarak Seyed
+        </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">11:30 - 12:20</td>
+<td class="cell Concurrency Multi-core Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="lukas-larsson/">
+                BEAM - 'The Times They Are A-Changin'
+              </a>
+</p>
+</td>
+<td class="cell HowIDoStuff Beginner" colspan="1">
+<p class="programme-talk-title">
+<a href="ransom-richardson/">
+                Erlang in the Cloud: The Talko Service Architecture
+              </a>
+</p>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="derek-brown/">
+                Steganography and Data Hiding
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell Concurrency Multi-core Intermediate Advanced" colspan="1">
+<a href="lukas-larsson/" style="color: black">
+        Lukas Larsson
+        </a><br/>
+<div class="tag label label-default">Concurrency</div>
+<div class="tag label label-default">Multi-core</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell HowIDoStuff Beginner" colspan="1">
+<a href="ransom-richardson/" style="color: black">
+        Ransom Richardson
+        </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Intermediate" colspan="1">
+<a href="derek-brown/" style="color: black">
+        Derek Brown
+        </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">12:20 - 14:00</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Lunch
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">14:00 - 14:50</td>
+<td class="cell Concurrency Multi-core Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="joseph-blomstedt/">
+                Data Structure Adventures for Fun, Profit, and Performance
+              </a>
+</p>
+</td>
+<td class="cell HowIDoStuff Beginner Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="martin-kristiansen/">
+                Efficient Architecting and Implementation of Systems
+              </a>
+</p>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Beginner Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="kenji-rikitake/">
+                Xorshift* and Erlang/OTP: searching for better PRNGs
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell Concurrency Multi-core Beginner Intermediate Advanced" colspan="1">
+<a href="joseph-blomstedt/" style="color: black">
+        Joseph Blomstedt
+        </a><br/>
+<div class="tag label label-default">Concurrency</div>
+<div class="tag label label-default">Multi-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell HowIDoStuff Beginner Intermediate" colspan="1">
+<a href="martin-kristiansen/" style="color: black">
+        Martin Kristiansen
+        </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Beginner Intermediate" colspan="1">
+<a href="kenji-rikitake/" style="color: black">
+        Kenji Rikitake
+        </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">14:55 - 15:45</td>
+<td class="cell HowIDoStuff Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="inaki-garay/">
+                Teaching is Learning: training New Hires
+              </a>
+</p>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="brett-cameron/">
+                Porting Erlang/OTP to Exotic Platforms: Tips, Tricks and having Some Fun along the Way
+              </a>
+</p>
+</td>
+<td class="cell ConcurrencyMulti-core Beginner Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="frank-hunleth/">
+                Getting Started with Embedded Erlang, Nerves, and SumoBots
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell HowIDoStuff Beginner Intermediate Advanced" colspan="1">
+<a href="inaki-garay/" style="color: black">
+        Iñaki Garay
+        </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Beginner Intermediate Advanced" colspan="1">
+<a href="brett-cameron/" style="color: black">
+        Brett Cameron
+        </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell ConcurrencyMulti-core Beginner Intermediate" colspan="1">
+<a href="frank-hunleth/" style="color: black">
+        Frank Hunleth
+        </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">15:45 - 16:05</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Coffee break
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">16:05 - 16:55</td>
+<td class="cell HowIDoStuff Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="louisphilippe-gauthier/">
+                Debugging Complex Systems
+              </a>
+</p>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="sandhya-narayan/">
+                Erlang-based Operating System for Internet of Everything
+              </a>
+</p>
+</td>
+<td class="cell ConcurrencyMulti-core Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="simon-thompson/">
+                Evolving Projects to Concurrency with Wrangler
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell HowIDoStuff Beginner Intermediate Advanced" colspan="1">
+<a href="louisphilippe-gauthier/" style="color: black">
+        Louis-Philippe Gauthier
+        </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell TheErlangEco-SystemandItsVM Beginner Intermediate Advanced" colspan="1">
+<a href="sandhya-narayan/" style="color: black">
+        Sandhya Narayan
+        </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell ConcurrencyMulti-core Beginner Intermediate Advanced" colspan="1">
+<a href="simon-thompson/" style="color: black">
+        Simon Thompson
+        </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">17:00 - 17:50</td>
+<td class="cell ConcurrencyMulti-core Intermediate" colspan="1">
+<p class="programme-talk-title">
+<a href="daniel-pezely/">
+                LDB: 10x Performance Increase After Rewriting Linked-In C Module In Pure-Erlang
+              </a>
+</p>
+</td>
+<td class="cell TheErlangEco-SystemanditsVM Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="joe-devivo/">
+                gen_java: an easy way to include java in erlang applications
+              </a>
+</p>
+</td>
+<td class="cell HowIDoStuff Beginner Intermediate Advanced" colspan="1">
+<p class="programme-talk-title">
+<a href="noah-gift/">
+                DIY: Using Erlang at a SF Startup From Day 1
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell ConcurrencyMulti-core Intermediate" colspan="1">
+<a href="daniel-pezely/" style="color: black">
+        Daniel Pezely
+        </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Intermediate</div>
+</td>
+<td class="cell TheErlangEco-SystemanditsVM Beginner Intermediate Advanced" colspan="1">
+<a href="joe-devivo/" style="color: black">
+        Joe DeVivo
+        </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemanditsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+<td class="cell HowIDoStuff Beginner Intermediate Advanced" colspan="1">
+<a href="noah-gift/" style="color: black">
+        Noah Gift
+        </a><br/>
+<a href="brian-wilhite/" style="color: black">
+        Brian Wilhite
+        </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">17:55 - 18:45</td>
+<td class="cell Keynote" colspan="3">
+<p class="programme-talk-title">
+<a href="jose-valim/">
+                Panel Discussion
+              </a>
+</p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell Keynote" colspan="3">
+<a href="jose-valim/" style="color: black">
+        José Valim
+        </a><br/>
+<a href="john-hughes/" style="color: black">
+        John Hughes
+        </a><br/>
+<a href="bruce-tate/" style="color: black">
+        Bruce Tate
+        </a><br/>
+<a href="guido-van-rossum/" style="color: black">
+        Guido van Rossum
+        </a><br/>
+<a href="mike-williams/" style="color: black">
+        Mike Williams
+        </a><br/>
+<div class="tag label label-default">Keynote</div>
+</td>
+</tr>
+<tr class="programme">
+<td class="erlang-red">18:45 - 19:00</td>
+<td class="cell" colspan="3">
+<p class="programme-talk-title">
+        
+        Closing notes
+        
+        </p>
+</td>
+</tr>
+<tr class="programme-speakers">
+<td></td>
+<td class="cell" colspan="3">
+</td>
+</tr>
+</table>
+<div class="panel-group visible-xs" id="accordion2">
+<p>Tap on hour to see the talks</p>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row1day2">
+<span class="erlang-red">9:00 - 9:15</span>
+</a>
+</div>
+<div class="panel-collapse collapse in" id="row1day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">9:00 - 9:15</span></p>
+<p class="programme-talk-title">
+	    
+	    Welcome
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row2day2">
+<span class="erlang-red">9:15 - 10:15</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row2day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">9:15 - 10:15</span></p>
+<p class="programme-talk-title">
+<a href="joe-armstrong/">
+                  Keynote: From WhatsApp to Outer Space
+                </a>
+<br/>
+<a href="joe-armstrong/" style="color: black">
+	      Joe Armstrong
+	    </a><br/>
+<a href="robert-virding/" style="color: black">
+	      Robert Virding
+	    </a><br/>
+<a href="mike-williams/" style="color: black">
+	      Mike Williams
+	    </a><br/>
+<div class="tag label label-default">Keynote</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row3day2">
+<span class="erlang-red">10:15 - 10:35</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row3day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">10:15 - 10:35</span></p>
+<p class="programme-talk-title">
+	    
+	    Coffee break
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row4day2">
+<span class="erlang-red">10:35 - 11:25</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row4day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">10:35 - 11:25</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="andreas-olofsson/">
+                  Why Simplicity Matters: a Hardware Perspective
+                </a>
+<br/>
+<a href="andreas-olofsson/" style="color: black">
+	      Andreas Olofsson
+	    </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">10:35 - 11:25</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="garrett-smith/">
+                  The Timeless Way of Building Erlang Apps: In Search of a Useful Pattern Language
+                </a>
+<br/>
+<a href="garrett-smith/" style="color: black">
+	      Garrett Smith
+	    </a><br/>
+<div class="tag label label-default"></div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">10:35 - 11:25</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="juan-puig-martinez/">
+                  The Art of powering the Internet's Next Messaging System
+                </a>
+<br/>
+<a href="juan-puig-martinez/" style="color: black">
+	      Juan Puig Martínez
+	    </a><br/>
+<a href="mubarak-seyed/" style="color: black">
+	      Mubarak Seyed
+	    </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row5day2">
+<span class="erlang-red">11:30 - 12:20</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row5day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">11:30 - 12:20</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="lukas-larsson/">
+                  BEAM - 'The Times They Are A-Changin'
+                </a>
+<br/>
+<a href="lukas-larsson/" style="color: black">
+	      Lukas Larsson
+	    </a><br/>
+<div class="tag label label-default">Concurrency</div>
+<div class="tag label label-default">Multi-core</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">11:30 - 12:20</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="ransom-richardson/">
+                  Erlang in the Cloud: The Talko Service Architecture
+                </a>
+<br/>
+<a href="ransom-richardson/" style="color: black">
+	      Ransom Richardson
+	    </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">11:30 - 12:20</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="derek-brown/">
+                  Steganography and Data Hiding
+                </a>
+<br/>
+<a href="derek-brown/" style="color: black">
+	      Derek Brown
+	    </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row6day2">
+<span class="erlang-red">12:20 - 14:00</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row6day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">12:20 - 14:00</span></p>
+<p class="programme-talk-title">
+	    
+	    Lunch
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row7day2">
+<span class="erlang-red">14:00 - 14:50</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row7day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">14:00 - 14:50</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="joseph-blomstedt/">
+                  Data Structure Adventures for Fun, Profit, and Performance
+                </a>
+<br/>
+<a href="joseph-blomstedt/" style="color: black">
+	      Joseph Blomstedt
+	    </a><br/>
+<div class="tag label label-default">Concurrency</div>
+<div class="tag label label-default">Multi-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">14:00 - 14:50</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="martin-kristiansen/">
+                  Efficient Architecting and Implementation of Systems
+                </a>
+<br/>
+<a href="martin-kristiansen/" style="color: black">
+	      Martin Kristiansen
+	    </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">14:00 - 14:50</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="kenji-rikitake/">
+                  Xorshift* and Erlang/OTP: searching for better PRNGs
+                </a>
+<br/>
+<a href="kenji-rikitake/" style="color: black">
+	      Kenji Rikitake
+	    </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row8day2">
+<span class="erlang-red">14:55 - 15:45</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row8day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">14:55 - 15:45</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="inaki-garay/">
+                  Teaching is Learning: training New Hires
+                </a>
+<br/>
+<a href="inaki-garay/" style="color: black">
+	      Iñaki Garay
+	    </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">14:55 - 15:45</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="brett-cameron/">
+                  Porting Erlang/OTP to Exotic Platforms: Tips, Tricks and having Some Fun along the Way
+                </a>
+<br/>
+<a href="brett-cameron/" style="color: black">
+	      Brett Cameron
+	    </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">14:55 - 15:45</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="frank-hunleth/">
+                  Getting Started with Embedded Erlang, Nerves, and SumoBots
+                </a>
+<br/>
+<a href="frank-hunleth/" style="color: black">
+	      Frank Hunleth
+	    </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row9day2">
+<span class="erlang-red">15:45 - 16:05</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row9day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">15:45 - 16:05</span></p>
+<p class="programme-talk-title">
+	    
+	    Coffee break
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row10day2">
+<span class="erlang-red">16:05 - 16:55</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row10day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">16:05 - 16:55</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="louisphilippe-gauthier/">
+                  Debugging Complex Systems
+                </a>
+<br/>
+<a href="louisphilippe-gauthier/" style="color: black">
+	      Louis-Philippe Gauthier
+	    </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">16:05 - 16:55</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="sandhya-narayan/">
+                  Erlang-based Operating System for Internet of Everything
+                </a>
+<br/>
+<a href="sandhya-narayan/" style="color: black">
+	      Sandhya Narayan
+	    </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemandItsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">16:05 - 16:55</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="simon-thompson/">
+                  Evolving Projects to Concurrency with Wrangler
+                </a>
+<br/>
+<a href="simon-thompson/" style="color: black">
+	      Simon Thompson
+	    </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row11day2">
+<span class="erlang-red">17:00 - 17:50</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row11day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">17:00 - 17:50</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="daniel-pezely/">
+                  LDB: 10x Performance Increase After Rewriting Linked-In C Module In Pure-Erlang
+                </a>
+<br/>
+<a href="daniel-pezely/" style="color: black">
+	      Daniel Pezely
+	    </a><br/>
+<div class="tag label label-default">ConcurrencyMulti-core</div>
+<div class="tag label label-default">Intermediate</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">17:00 - 17:50</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="joe-devivo/">
+                  gen_java: an easy way to include java in erlang applications
+                </a>
+<br/>
+<a href="joe-devivo/" style="color: black">
+	      Joe DeVivo
+	    </a><br/>
+<div class="tag label label-default">TheErlangEco-SystemanditsVM</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+<hr/>
+<div>
+<p><span class="erlang-red">17:00 - 17:50</span> - <span style="font-weight: bold"></span></p>
+<p class="programme-talk-title">
+<a href="noah-gift/">
+                  DIY: Using Erlang at a SF Startup From Day 1
+                </a>
+<br/>
+<a href="noah-gift/" style="color: black">
+	      Noah Gift
+	    </a><br/>
+<a href="brian-wilhite/" style="color: black">
+	      Brian Wilhite
+	    </a><br/>
+<div class="tag label label-default">HowIDoStuff</div>
+<div class="tag label label-default">Beginner</div>
+<div class="tag label label-default">Intermediate</div>
+<div class="tag label label-default">Advanced</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row12day2">
+<span class="erlang-red">17:55 - 18:45</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row12day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">17:55 - 18:45</span></p>
+<p class="programme-talk-title">
+<a href="jose-valim/">
+                  Panel Discussion
+                </a>
+<br/>
+<a href="jose-valim/" style="color: black">
+	      José Valim
+	    </a><br/>
+<a href="john-hughes/" style="color: black">
+	      John Hughes
+	    </a><br/>
+<a href="bruce-tate/" style="color: black">
+	      Bruce Tate
+	    </a><br/>
+<a href="guido-van-rossum/" style="color: black">
+	      Guido van Rossum
+	    </a><br/>
+<a href="mike-williams/" style="color: black">
+	      Mike Williams
+	    </a><br/>
+<div class="tag label label-default">Keynote</div>
+<p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-parent="#accordion2" data-toggle="collapse" href="#row13day2">
+<span class="erlang-red">18:45 - 19:00</span>
+</a>
+</div>
+<div class="panel-collapse collapse" id="row13day2">
+<div class="panel-body">
+<div>
+<p><span class="erlang-red">18:45 - 19:00</span></p>
+<p class="programme-talk-title">
+	    
+	    Closing notes
+	    
+	  <p style="font-size: small"></p>
+</p></div>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<script>
+  $(".tag").click(function() {
+    if ($( this ).parent().hasClass("selected") || $( this ).parent().hasClass("unselected")) {
+      $( ".cell" ).removeClass("selected");
+      $( ".cell" ).removeClass("unselected");
+    } else {
+      var className = $( this ).text().toLowerCase();
+      $('td.cell').filter(function(index, element) {
+        var elementClasses = element.className.toLowerCase().split(/\s+/);
+        return elementClasses.indexOf(className) === -1 ;
+      }).addClass("unselected");
+      $('td.cell').filter(function(index, element) {
+        var elementClasses = element.className.toLowerCase().split(/\s+/);
+        return elementClasses.indexOf(className) !== -1 ;
+      }).addClass("selected");
+    }
+  });
+</script>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="sponsors"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<h2 style="text-align: center;">Platinum sponsors</h2>
+<h2 style="text-align: center;"><a href="http://www.machinezone.com/" target="_blanc"><img alt="Machine Zone logo" src="assets/static/upload/media/13909890403607901390925654764113image.png" width="240"/></a>  <a href="https://www.adroll.com/" target="_blanc"><img alt="AdRoll logo" src="assets/static/upload/media/141164549858419adroll1.png" width="240"/></a><a href="http://www.whatsapp.com/" target="_blank"><img alt="What's app" src="assets/static/upload/media/1392134574986969whatsupwhite.png" style="width: 25%;"> </img></a></h2>
+<h2 style="text-align: center;">Gold sponsors</h2>
+<h2 style="text-align: center;"><a href="https://www.erlang-solutions.com/" target="_blank"><img alt="Erlang Solutions
+  logo" src="assets/static/upload/media/1389870631645186logo.png"/></a> <a href="http://basho.com/" target="_blank"><img alt="Basho
+  logo" src="assets/static/upload/media/141164566615255basho3.png" width="140"/></a> <a href="http://go-factory.com/" target="_blank"><img alt="GoFactory
+  logo" src="assets/static/upload/media/14255746433153gofactorylogohorizblack341.png" width="210"/></a>   <a href="http://plataformatec.com.br/" target="_blank"><img alt="Platformatec logo" height="82" src="assets/static/upload/media/142115931743999pteclogofundobrancoeng.png" width="170"/></a>   <a href="http://inaka.net/"><img alt="inaka" height="79" src="assets/static/upload/media/141782447822446inaka.png" width="170"/></a></h2>
+<h2 style="text-align: center;">Silver sponsors</h2>
+<h2 style="text-align: center;"><a href="https://sameroom.io/" target="_blank"><img alt="sameroom logo" src="assets/static/upload/media/1426617704950532sameroomtransparent.png" width="200"/></a>  <a href="http://www.2600hz.com/" target="_blank"><img alt="2600hz logo" src="assets/static/upload/media/13914486584894662600hzlogo_transparent.png" width="120"/></a><a href="https://sqor.com/" target="_blank"><img alt="2600hz logo" src="assets/static/upload/media/1389603050819978sqor_logo_final_cmyk.png" width="120"/></a></h2>
+<h2 style="text-align: center;">Media Sponsors</h2>
+<h2 style="text-align: center;"><a href="http://www.infoq.com/"><img alt="InfoQ" src="assets/static/upload/media/1389195374374993infoqlogo_transparentpng" style="width: 20%; margin-top: 20px;" width="60"/></a>     <a href="http://www.functionalgeekery.com/"><img alt="FunctionalGekery" src="assets/static/upload/media/142244715861889714776872352223functional_geekery_mediumcopy.png" style="width: 10%; margin-top: 20px;" width="60"/></a><span style="font-size: 11px;">  </span><a href="http://elixir-lang.org/" style="font-size: 11px;"><img alt="" src="assets/static/upload/media/1390391996168336elixirlogo.png" width="120"/></a><span style="font-size: 11px;"> </span><a href="http://mostlyerlang.com/" style="font-size: 11px;"><img alt="mostlyerlang" src="assets/static/upload/media/139756040072686mostlyerlang.jpeg" style="width: 10%; margin-top: 20px;" width="60"/></a><span style="font-size: 11px;"> </span><a href="http://www.lambdaladies.com/" style="font-size: 11px;" target="_blank"><img alt="LambdaLadies" src="assets/static/upload/media/142479568911254113982559648838lambdaladies.png" style="width: 10%; margin-top: 20px;" width="60">  </img></a><span style="font-size: 11px;">  </span><a href="http://hf.cx/" style="font-size: 11px;" target="_blank"><img alt="HF" src="assets/static/upload/media/14248728898462hf.png" style="width: 10%; margin-top: 20px;" width="60"> </img></a><a href="http://www.oreilly.com/" style="font-size: 11px;" target="_blank">  </a></h2>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="scholarship-program"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<h4>Scholarship Program</h4>
+<p>The Erlang community is one of the most friendly and helpful tech communities out there but, much as the rest of the tech world, it's nowhere near as diverse as its members would wish it to be. Erlang Factory is addressing this problem and commits to building a technology scene where everybody, regardless of their gender, race, sexual orientation, religion, nationality, age, socioeconomic background etc. feels welcome and comfortable.</p>
+<p>This year we are implementing our first ever <strong>Diversity Scholarship Program</strong>. It is primarily aimed at (but not restricted to) women, people from ethnic minorities and people with disabilities who would otherwise not be able to attend the conference due to financial reasons. While women, ethnic minorities and people with disabilities will be given priority, depending on our funding we will also consider students or others who cannot attend the event due to financial difficulties.</p>
+<p><strong>Eligibility</strong>: People who would otherwise not be able to attend the conference for financial reasons. A preference will be given to applicants based in the US.</p>
+<p><strong>Selection</strong>: A committee will review applications on individual basis. All committee members will sign a confidentiality agreement to protect the anonymity of applicants. We will do our best to meet as many applications as possible. Please keep in mind that this is the first year of the scholarship program and we do not know what to expect in terms of demands. </p>
+<p><strong>Award</strong>: Applicants will receive a conference registration ticket for 26-27 March. </p>
+<p><strong>Notification</strong>: All applicants will be notified via email with conference registration details.</p>
+<p><strong>Application</strong>: If you wish to apply for a scholarship, please fill in this <a href="https://docs.google.com/a/erlang-solutions.com/forms/d/1C_yDlrz1xXZcDaGJdqyON5CMx2WxFcwkDW28ORh1PVo/viewform" target="_blank">form</a>. All application information will be kept confidential. The deadline for applications is 6 March 2015. Recipients will be notified on a rolling basis, no later than 13 March 2015.</p>
+<p>All conference and event attendees are expected to adhere to our <a href="about/#code-of-conduct">Code of Conduct</a></p>
+<p>If you have any questions, please contact <a href="mailto:conferences@erlang-solutions.com">conferences@erlang-solutions.com</a>.</p>
+<p><strong><a href="https://docs.google.com/a/erlang-solutions.com/forms/d/1C_yDlrz1xXZcDaGJdqyON5CMx2WxFcwkDW28ORh1PVo/viewform" target="_blank">APPLY HERE.</a></strong></p>
+<h2 style="text-align: center;">Diversity sponsors</h2>
+<h2 style="text-align: center;"><a href="http://www.whatsapp.com/" target="_blank"><img alt="What's app" src="assets/static/upload/media/1392134574986969whatsupwhite.png" style="width: 25%;"/></a></h2>
+<h4><br class="Apple-interchange-newline"/>Support the Scholarship!</h4>
+<p>As organisers, we pledge to match any donations towards the Scholarship. In order to help those interested in funding this cause, we prepared three Diversity Sponsorship packages. Please contact contact us at <a href="mailto:conferences@erlang-solutions.com" target="_blank">conferences@erlang-solutions.com</a> to find out what each package means or any other  possible scenarios.</p>
+<p><strong>Paladin Diversity Sponsor</strong>: minimum $6000 </p>
+<p><strong>Champion Diversity Sponsor</strong>: $4000</p>
+<p><strong>Wizard Diversity Sponsor</strong>: $2000</p>
+<p><strong>Awesome supporter</strong>: whatever you can spare, please donate directly through the <a href="./#register">registration page</a></p>
+<p></p>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+<div class="block">
+<a class="anchor" id="contact-us"></a>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron">
+<h2>Contact Us</h2>
+<p>Get in touch:</p>
+<p>If you require general info: <a href="mailto:info@codesync.global">info@codesync.global</a></p>
+<p>To become a sponsor: <a href="mailto:sponsors@codesync.global">sponsors@codesync.global</a><a href="mailto:wioletta.dec@erlang-solutions.com"><br/></a></p>
+<p>To contact the Conference Organiser directly: <a href="mailto:monika.coles@erlang-solutions.com">monika.coles@erlang-solutions.com</a></p>
+<p> </p>
+</div> <!-- end of jumbotron -->
+</div> <!-- end of block -->
+</div>
+<script type="text/javascript">
+        $('.block').first().css("background-color", "rgb(180,15,41)");
+        $('.block').first().css("margin", "0px");
+        $('.jumbotron').first().css("background-color", "transparent");
+        $('.jumbotron').first().css("padding", "0px");
+        $('.jumbotron').eq(1).css("background", "none");
+        //conference specific
+        $('.block').eq(1).addClass('special');
+        $('.block').eq(1).css('background-image', 'url(/static/upload/media/1510942323227847cbsf.jpg)');
+    </script>
+</div> <!-- end of wrap -->
+<script type="text/javascript">
+    $(window).scroll(function() {
+        if ($(window).scrollTop() <= 0)
+            $('.logo-container').slideDown({queue: false});
+        else
+            $('.logo-container').slideUp();
+    });
+</script>
+<script src="assets/static/js/bootstrap.min.js"></script>
+<script src="assets/static/js/plugins.js"></script>
+<script>
+            $('#top-nav').onePageNav({
+                currentClass: 'active',
+                changeHash: true,
+                scrollSpeed: 750,
+                filter: ':not(.external)'
+            });
+            $('.register-button').click(function() {
+                $('.register-link').click();
+            });
+            $(".dropdown").on('shown.bs.dropdown', function (e) {
+                //function called when dropdown-menu becomes visible
+                var dropdownMenu = $('ul:first', this); //find dropdown-menu
+                //if element was moved to left, set left back to 0 for next calculations
+                $(this).find(".dropdown-menu").first().css('left', 0);
+                var offset = dropdownMenu.offset();
+                var leftOffset = offset.left;
+                var width = dropdownMenu.width();
+                var documentWidth = $(document).width();
+                var sticksOutRightSide = leftOffset + width - documentWidth;
+                if (sticksOutRightSide > 0) {
+                    $(this).find(".dropdown-menu").first().css('left', -(sticksOutRightSide + 20));
+                }
+            });
+        </script>
+
+
+
+<script type="text/javascript">
+        piAId = '24452';
+        piCId = '1532';
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+        </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+edition: munich_2012
+source:  http://www.erlang-factory.com/conference/Munich2012  (mode: wayback)
+date:    2026-07-07 15:15
+pages: 12   assets: 27   missing: 2   elapsed: 276s
+
+[index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/DarachEnnis/index.html] STRIPPED script: inline
+[speakers/PaoloNegri/index.html] STRIPPED script: inline
+[speakers/PavloBaron/index.html] STRIPPED script: inline
+[speakers/PeerStritzinger/index.html] STRIPPED script: inline
+[speakers/SteveVinoski/index.html] STRIPPED script: inline
+[speakers/TinoBreddin/index.html] STRIPPED script: inline
+[speakers/WardBekker/index.html] STRIPPED script: inline
+[submit_talk/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+[venue/index.html] MISSING subpage (-> wayback): /conference/Munich2012/register
+MISSING asset http://www.erlang-factory.com/upload/item/288/hbw.jpeg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/288/hbw.jpeg: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

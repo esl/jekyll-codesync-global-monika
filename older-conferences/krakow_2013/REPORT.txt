@@ -1,0 +1,23 @@
+edition: krakow_2013
+source:  http://www.erlang-factory.com/conference/Krakow2013  (mode: wayback)
+date:    2026-07-07 15:31
+pages: 14   assets: 24   missing: 2   elapsed: 340s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/KonradGadek/index.html] STRIPPED script: inline
+[speakers/LukaszKubica/index.html] STRIPPED script: inline
+[speakers/MichalKonarski/index.html] STRIPPED script: inline
+[speakers/MichalPiotrowski/index.html] STRIPPED script: inline
+[speakers/michalslaski/index.html] STRIPPED script: inline
+[speakers/OmerKilic/index.html] STRIPPED script: inline
+[speakers/PaulPeregud/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/krakow2013/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+[venue/index.html] MISSING subpage (-> wayback): /conference/Krakow2013/submit_talk
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Krakow2013_MichalPiotrowski/ScreenShot2013-02-21at16.08.03.png: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Krakow2013_MichalPiotrowski/ScreenShot2013-02-21at16.08.03.png: HTTP Error 404: NOT FOUND
+REWROTE 1 never-archived asset ref(s) to Wayback URLs

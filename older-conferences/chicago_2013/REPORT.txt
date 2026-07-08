@@ -1,0 +1,42 @@
+edition: Chicago Erlang Factory Lite 2013
+source:  http://www.erlang-factory.com/conference/Chicago2013  (mode: wayback)
+date:    2026-07-07 16:13
+pages: 20   assets: 34   missing: 14   elapsed: 644s
+
+[index.html] STRIPPED script: inline
+[programme/index.html] STRIPPED script: inline
+[speakers/index.html] STRIPPED script: inline
+[speakers/AdamDenenberg/index.html] STRIPPED script: inline
+[speakers/AlexanderGounares/index.html] STRIPPED script: inline
+[speakers/ChristopherMeiklejohn/index.html] STRIPPED script: inline
+[speakers/CoreyHaines/index.html] STRIPPED script: inline
+[speakers/EvanMiller/index.html] STRIPPED script: inline
+[speakers/GarrettSmith/index.html] STRIPPED script: inline
+[speakers/JesseGumm/index.html] STRIPPED script: inline
+[speakers/MaheshPaoliniSubramanya/index.html] STRIPPED script: inline
+[speakers/SeanCribbs/index.html] STRIPPED script: inline
+[speakers/SteveVinoski/index.html] STRIPPED script: inline
+[speakers/SusanPotter/index.html] STRIPPED script: inline
+[speakers/ToddBittner/index.html] STRIPPED script: inline
+[sponsor/list/index.html] STRIPPED script: inline
+[sponsorship_opportunities/index.html] STRIPPED script: inline
+[talks/index.html] STRIPPED script: inline
+[tracks/Chicago2013/index.html] STRIPPED script: inline
+[venue/index.html] STRIPPED script: inline
+[venue/index.html] MISSING subpage (-> wayback): /conference/Chicago2013/submit_talk
+[venue/index.html] MISSING subpage (-> wayback): /conference/Chicago2013/register
+MISSING asset http://www.erlang-factory.com/upload/item/627/Siskel.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/item/628/Siskeloutside.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Chicago2013_CoreyHaines/corey-haines.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Chicago2013_JesseGumm/Jesse.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Chicago2013_SeanCribbs/seancribbs1.jpeg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Chicago2013_SusanPotter/susanpotter1.jpg: HTTP Error 404: NOT FOUND
+MISSING asset http://www.erlang-factory.com/upload/peopleimage/Chicago2013_ToddBittner/todd-bittner.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/627/Siskel.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/item/628/Siskeloutside.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Chicago2013_CoreyHaines/corey-haines.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Chicago2013_JesseGumm/Jesse.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Chicago2013_SeanCribbs/seancribbs1.jpeg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Chicago2013_SusanPotter/susanpotter1.jpg: HTTP Error 404: NOT FOUND
+MISSING asset (css) http://www.erlang-factory.com/upload/peopleimage/Chicago2013_ToddBittner/todd-bittner.jpg: HTTP Error 404: NOT FOUND
+REWROTE 7 never-archived asset ref(s) to Wayback URLs
