@@ -3,7 +3,7 @@ conference_brand: _conference_brands/code-mesh.md
 title: Tech Mesh London 2012
 conference_past_conferences: false
 past: true
-external_url: "https://esl.github.io/code-mesh/archives/ldn_2012/"
+external_url: "https://codemesh.io/archives/ldn_2012/"
 bg_image: "/uploads/tech-mesh-bg.jpg"
 logo_img: ''
 conference_location: "London"

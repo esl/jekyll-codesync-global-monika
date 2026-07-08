@@ -58,8 +58,8 @@ EDITIONS = [
     ("elixirconf-eu-2016", "elixirconf-eu", "ElixirConf EU 2016", "2016-05-11", "11-12 MAY 2016", "Berlin", "http://www.archive.elixirconf.eu/elixirconf2016"),
     ("elixirconf-eu-2015", "elixirconf-eu", "ElixirConf EU 2015", "2015-04-23", "23-24 APRIL 2015", "Kraków", "http://www.archive.elixirconf.eu/elixirconf2015"),
     # Code Mesh (older editions still hosted on codemesh.io)
-    ("code-mesh-2017", "code-mesh", "Code Mesh LDN 2017", "2017-11-08", "8-9 NOVEMBER 2017", "London", "http://www.codemesh.io/codemesh2017"),
-    ("code-mesh-2016", "code-mesh", "Code Mesh LDN 2016", "2016-11-03", "3-4 NOVEMBER 2016", "London", "http://www.codemesh.io/codemesh2016"),
+    ("code-mesh-2017", "code-mesh", "Code Mesh LDN 2017", "2017-11-08", "8-9 NOVEMBER 2017", "London", "https://codemesh.io/archives/ldn_2017/"),
+    ("code-mesh-2016", "code-mesh", "Code Mesh LDN 2016", "2016-11-03", "3-4 NOVEMBER 2016", "London", "https://codemesh.io/archives/ldn_2016/"),
     # Code BEAM Europe editions already archived in esl/code-beam-europe
     ("code-beam-europe-2024", "code-beam-europe", "Code BEAM Europe 2024", "2024-10-14", "14-15 OCTOBER 2024", "Berlin", "https://codebeameurope.com/archives/berlin_2024/index.html"),
     ("code-beam-europe-2023", "code-beam-europe", "Code BEAM Europe 2023", "2023-10-19", "19-20 OCTOBER 2023", "Berlin", "https://codebeameurope.com/archives/berlin_2023/index.html"),

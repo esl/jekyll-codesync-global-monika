@@ -3,7 +3,7 @@ conference_brand: _conference_brands/code-mesh.md
 title: Code Mesh LDN 2013
 conference_past_conferences: false
 past: true
-external_url: "https://www.codemesh.io/codemesh2013"
+external_url: "https://codemesh.io/archives/ldn_2013/"
 bg_image: "/uploads/code-mesh-bg.jpg"
 logo_img: ''
 conference_location: "London"
