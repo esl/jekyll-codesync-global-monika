@@ -22,28 +22,39 @@ OUT = ROOT / "_data" / "older_conferences.yml"
 
 def sub_brand(e):
     n = ((e.get("name") or "") + " " + (e.get("url") or "")).lower()
+    city = (e.get("city") or "").lower()
     if "code beam" in n or "codebeam" in n:
         return None  # modern brand, handled in its own repo
     if "user conference" in n or "/euc" in n or "euc2" in n:
         return "Erlang User Conference"
     if "lite" in n:
         return "Erlang & Elixir Factory Lite"
-    if "factory" in n or "sfbay" in n or "/london20" in n:
+    # Erlang Factory proper ran ONLY in the San Francisco Bay Area and London;
+    # every other city in this era was an Erlang (& Elixir) Factory Lite.
+    if ("san francisco" in city or "sfbay" in n
+            or city == "london" or "/london20" in n or "/london2" in n):
         return "Erlang Factory"
-    return "Other"
+    return "Erlang & Elixir Factory Lite"
 
 # Fixed display order of sub-brands
 ORDER = ["Erlang Factory", "Erlang User Conference",
-         "Erlang & Elixir Factory Lite", "Other"]
+         "Erlang & Elixir Factory Lite"]
 
 
-def edition_label(e):
-    """Single clean display label. Names usually already include city+year, so
-    only append the year when it's not already in the name; construct from
-    city+year when there's no name at all (wayback-only editions)."""
+def edition_label(e, brand=None):
+    """Single clean display label. For the Lite section, non-Lite-named city
+    editions are reformatted to the standard "<City> Erlang Factory Lite
+    <year>"; named workshops keep their own name. Otherwise use the existing
+    name (appending the year if missing) or build one from city + year."""
     name = (e.get("name") or "").strip()
     year = e.get("year")
     city = (e.get("city") or "").strip()
+    if (brand == "Erlang & Elixir Factory Lite" and city
+            and "lite" not in name.lower() and "workshop" not in name.lower()):
+        return f"{city} Erlang Factory Lite {year}".strip()
+    if brand == "Erlang Factory" and (not name or name.lower().startswith(city.lower())):
+        place = "SF Bay Area" if "san francisco" in city.lower() else city
+        return f"Erlang Factory {place} {year}".strip() if place else (name or f"Erlang Factory {year}")
     if name:
         if year and str(year) not in name:
             return f"{name} ({year})"
@@ -116,7 +127,7 @@ def main():
         for e in editions:
             total += 1
             url, is_local = edition_url(e, results, url2slug)
-            lines.append(f"    - label: {yaml_escape(edition_label(e))}")
+            lines.append(f"    - label: {yaml_escape(edition_label(e, b))}")
             lines.append(f"      url: {yaml_escape(url)}")
             if is_local:
                 n_local += 1

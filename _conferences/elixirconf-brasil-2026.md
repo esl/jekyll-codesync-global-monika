@@ -4,7 +4,7 @@ title: ElixirConf Brasil 2026
 conference_past_conferences: false
 past: false
 external_url: "https://www.elixirconf.com.br/"
-bg_image: ''
+bg_image: "/uploads/code-beam-europe-bg.jpg"
 logo_img: ''
 conference_location: "Curitiba & Online"
 conference_init_date: 2026-11-01T09:00:00.000+00:00

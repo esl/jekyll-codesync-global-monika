@@ -7,7 +7,7 @@ conference_past_conferences: true
 menu: []
 title: CBL AMSTERDAM 2018
 past: true
-bg_image: ''
+bg_image: "/uploads/code-beam-lite-bg.jpg"
 logo_img: ''
 conference_location: Amsterdam
 primary: ''

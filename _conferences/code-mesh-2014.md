@@ -1,0 +1,15 @@
+---
+conference_brand: _conference_brands/code-mesh.md
+title: Code Mesh LDN 2014
+conference_past_conferences: false
+past: true
+external_url: "https://www.codemesh.io/codemesh2014"
+bg_image: "/uploads/code-mesh-bg.jpg"
+logo_img: ''
+conference_location: "London"
+conference_init_date: 2014-11-04T09:00:00.000+00:00
+conference_dates: "2014"
+head_title: Code Mesh LDN 2014
+---
+
+Archived edition. Full details on the conference site linked above.

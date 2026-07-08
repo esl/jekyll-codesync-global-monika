@@ -4,7 +4,7 @@ title: ElixirConf EU 2018
 conference_past_conferences: false
 past: true
 external_url: "http://www.archive.elixirconf.eu/elixirconfeu2018"
-bg_image: ''
+bg_image: "/uploads/elixirconf-eu-bg.jpg"
 logo_img: ''
 conference_location: "Warsaw"
 conference_init_date: 2018-04-16T09:00:00.000+00:00

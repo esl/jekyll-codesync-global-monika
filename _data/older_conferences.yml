@@ -15,41 +15,14 @@
     - label: "Erlang Factory SF Bay Area 2015"
       url: "/older-conferences/sfbay_2015/"
       local: true
-    - label: "Chicago Erlang 2014"
-      url: "/older-conferences/chicago_2014/"
-      local: true
     - label: "Erlang Factory SF Bay Area 2014"
       url: "/older-conferences/sfbay_2014/"
       local: true
-    - label: "San Francisco 2013"
+    - label: "Erlang Factory SF Bay Area 2013"
       url: "/older-conferences/sfbay_2013/"
       local: true
-    - label: "Krakow 2013"
-      url: "/older-conferences/krakow_2013/"
-      local: true
-    - label: "Budapest 2013"
-      url: "/older-conferences/budapest_2013/"
-      local: true
-    - label: "Dublin 2013"
-      url: "/older-conferences/dublin_2013/"
-      local: true
-    - label: "New York City 2013"
-      url: "/older-conferences/nyc_2013/"
-      local: true
-    - label: "San Francisco 2012"
+    - label: "Erlang Factory SF Bay Area 2012"
       url: "/older-conferences/sfbay_2012/"
-      local: true
-    - label: "Munich 2012"
-      url: "/older-conferences/munich_2012/"
-      local: true
-    - label: "Zurich 2012"
-      url: "/older-conferences/zurich_2012/"
-      local: true
-    - label: "Krakow 2011"
-      url: "/older-conferences/krakow_2011/"
-      local: true
-    - label: "Brisbane 2011"
-      url: "/older-conferences/brisbane_2011/"
       local: true
     - label: "Erlang Factory London 2011"
       url: "/older-conferences/london_2011/"
@@ -57,23 +30,17 @@
     - label: "Erlang Factory SF Bay Area 2011"
       url: "/older-conferences/sfbay_2011/"
       local: true
-    - label: "San Francisco 2010"
+    - label: "Erlang Factory SF Bay Area 2010"
       url: "/older-conferences/sfbay_2010/"
       local: true
-    - label: "London 2010"
+    - label: "Erlang Factory London 2010"
       url: "/older-conferences/london_2010/"
       local: true
-    - label: "Testing Tutorial Workshop 2010"
-      url: "/older-conferences/testing_workshop_2010/"
-      local: true
-    - label: "London 2009"
+    - label: "Erlang Factory London 2009"
       url: "/older-conferences/london_2009/"
       local: true
     - label: "SF Bay Area Erlang Factory 2009"
       url: "/older-conferences/sfbay_2009/"
-      local: true
-    - label: "SIGPLAN Erlang Workshop 2009"
-      url: "/older-conferences/erlang_workshop_2009/"
       local: true
 
 - brand: "Erlang User Conference"
@@ -138,11 +105,26 @@
     - label: "Berlin Erlang Factory Lite 2014"
       url: "/older-conferences/berlin_2014/"
       local: true
+    - label: "Chicago Erlang Factory Lite 2014"
+      url: "/older-conferences/chicago_2014/"
+      local: true
     - label: "Vancouver Erlang Factory Lite (2014)"
       url: "/older-conferences/vancouver_2014/"
       local: true
     - label: "Zurich Erlang Factory Lite 2014"
       url: "/older-conferences/zurich_2014/"
+      local: true
+    - label: "Krakow Erlang Factory Lite 2013"
+      url: "/older-conferences/krakow_2013/"
+      local: true
+    - label: "Budapest Erlang Factory Lite 2013"
+      url: "/older-conferences/budapest_2013/"
+      local: true
+    - label: "Dublin Erlang Factory Lite 2013"
+      url: "/older-conferences/dublin_2013/"
+      local: true
+    - label: "New York City Erlang Factory Lite 2013"
+      url: "/older-conferences/nyc_2013/"
       local: true
     - label: "Berlin Erlang Factory Lite 2013"
       url: "/older-conferences/berlin_2013/"
@@ -155,6 +137,15 @@
       local: true
     - label: "Toronto Erlang Factory Lite 2013"
       url: "/older-conferences/toronto_2013/"
+      local: true
+    - label: "Brussels Erlang Factory Lite 2012"
+      url: "/older-conferences/lite_brussels/"
+      local: true
+    - label: "Munich Erlang Factory Lite 2012"
+      url: "/older-conferences/munich_2012/"
+      local: true
+    - label: "Zurich Erlang Factory Lite 2012"
+      url: "/older-conferences/zurich_2012/"
       local: true
     - label: "London Erlang Factory Lite 2012"
       url: "/older-conferences/london_2012/"
@@ -171,6 +162,18 @@
     - label: "Vancouver Erlang Factory Lite 2012"
       url: "/older-conferences/vancouver_2012/"
       local: true
+    - label: "Amsterdam Erlang Factory Lite 2011"
+      url: "/older-conferences/lite_amsterdam/"
+      local: true
+    - label: "Munich Erlang Factory Lite 2011"
+      url: "/older-conferences/lite_munich/"
+      local: true
+    - label: "Krakow Erlang Factory Lite 2011"
+      url: "/older-conferences/krakow_2011/"
+      local: true
+    - label: "Brisbane Erlang Factory Lite 2011"
+      url: "/older-conferences/brisbane_2011/"
+      local: true
     - label: "Edinburgh Factory Lite (2011)"
       url: "/older-conferences/lite_edinburgh_2011/"
       local: true
@@ -183,13 +186,10 @@
     - label: "Erlang Factory Lite Krakow 2010"
       url: "/older-conferences/lite_krakow_2010/"
       local: true
-    - label: "Amsterdam Factory Lite"
-      url: "/older-conferences/lite_amsterdam/"
+    - label: "Testing Tutorial Workshop 2010"
+      url: "/older-conferences/testing_workshop_2010/"
       local: true
-    - label: "Brussels Erlang Factory Lite"
-      url: "/older-conferences/lite_brussels/"
-      local: true
-    - label: "Erlang Factory Lite Munich"
-      url: "/older-conferences/lite_munich/"
+    - label: "SIGPLAN Erlang Workshop 2009"
+      url: "/older-conferences/erlang_workshop_2009/"
       local: true
 

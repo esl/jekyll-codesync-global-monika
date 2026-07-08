@@ -4,7 +4,7 @@ title: Code Mesh LDN 2017
 conference_past_conferences: false
 past: true
 external_url: "http://www.codemesh.io/codemesh2017"
-bg_image: ''
+bg_image: "/uploads/code-mesh-bg.jpg"
 logo_img: ''
 conference_location: "London"
 conference_init_date: 2017-11-08T09:00:00.000+00:00

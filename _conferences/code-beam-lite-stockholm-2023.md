@@ -4,7 +4,7 @@ title: Code BEAM Lite Stockholm 2023
 conference_past_conferences: false
 past: true
 external_url: "https://codebeamstockholm.com/archive/may_2023/index.html"
-bg_image: ''
+bg_image: "/uploads/code-beam-lite-bg.jpg"
 logo_img: ''
 conference_location: "Stockholm"
 conference_init_date: 2023-05-12T09:00:00.000+00:00

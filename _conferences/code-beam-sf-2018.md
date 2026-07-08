@@ -4,7 +4,7 @@ title: Code BEAM SF 2018
 conference_past_conferences: true
 past: true
 external_url: "https://codebeamamerica.com/archives/sf_2018/index.html"
-bg_image: "/uploads/code-beam-europe-bg.jpg"
+bg_image: "/uploads/code-beam-america-tile.jpg"
 logo_img: "/uploads/code-beam-america-logo.png"
 conference_location: "San Francisco"
 conference_init_date: 2018-03-15T09:00:00.000+00:00

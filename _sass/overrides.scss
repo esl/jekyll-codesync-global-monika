@@ -18,26 +18,15 @@
   .older-conferences-list { columns: 1; }
 }
 
-/* Past-conference tiles: compact 16:9, date/location focus (UX rec 2026-07-06).
-   Scoped to .conferences-grid so the homepage upcoming slider is unaffected. */
+/* Past-conference tiles: compact 16:9, logo + background artwork only, the
+   year lives in the button below (UX rec 2026-07-08). Scoped to
+   .conferences-grid so the homepage upcoming slider is unaffected. */
 .conferences-grid .tile--old .tile--bg {
   aspect-ratio: 16 / 9;
   min-height: 0;
-  padding: 20px 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  padding: 0;
 }
 /* drop the big redundant foreground logo - the bg art + section heading already brand it */
 .conferences-grid .tile--old .tile--bg > picture:not(.tile__bg-image) {
   display: none;
 }
-/* readability scrim behind the text, above the image */
-.conferences-grid .tile--old .tile__bg-image::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0) 65%);
-}
-.conferences-grid .tile--old .heading--medium { margin: 0 0 4px; }
-.conferences-grid .tile--old .heading--small { margin: 0; }

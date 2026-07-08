@@ -401,13 +401,13 @@
   },
   {
     "url": "http://www.erlang-factory.com/conference/Amsterdam",
-    "name": "Amsterdam Factory Lite",
-    "year": null,
+    "name": null,
+    "year": 2011,
     "city": "Amsterdam",
     "live_status": null,
     "has_speakers": true,
     "has_schedule": true,
-    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence); year 2011 + label set by Monika 2026-07-08"
   },
   {
     "url": "http://www.erlang-factory.com/conference/Edinburgh",
@@ -421,13 +421,13 @@
   },
   {
     "url": "http://www.erlang-factory.com/conference/Brussels",
-    "name": "Brussels Erlang Factory Lite",
-    "year": null,
+    "name": null,
+    "year": 2012,
     "city": "Brussels",
     "live_status": null,
     "has_speakers": true,
     "has_schedule": true,
-    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+    "source_of_info": "wayback page <title>; live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence); year 2012 + label set by Monika 2026-07-08"
   },
   {
     "url": "http://www.erlang-factory.com/conference/StAndrews",
@@ -451,13 +451,13 @@
   },
   {
     "url": "http://www.erlang-factory.com/conference/ErlangFactoryLiteMunich",
-    "name": "Erlang Factory Lite Munich",
-    "year": null,
+    "name": null,
+    "year": 2011,
     "city": "Munich",
     "live_status": null,
     "has_speakers": true,
     "has_schedule": true,
-    "source_of_info": "wayback homepage 2011-06 nav title (no year given; distinct from Munich2012: different archived speaker rosters; likely the 2011 Munich Lite); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence)"
+    "source_of_info": "wayback homepage 2011-06 nav title (no year given; distinct from Munich2012: different archived speaker rosters; likely the 2011 Munich Lite); live app removed: spot-checked slugs 301 to trailing slash then 403 Forbidden (unchecked slugs marked null); speakers/schedule flags from archived /speakers, /programme, /talks, /tracks URLs in CDX (null = no archived evidence, not proof of absence); year 2011 + label set by Monika 2026-07-08"
   },
   {
     "url": "http://www.erlang-factory.com/conference/Munich2012",

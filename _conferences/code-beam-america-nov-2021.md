@@ -4,7 +4,7 @@ title: Code BEAM America Nov 2021
 conference_past_conferences: true
 past: true
 external_url: "https://codebeamamerica.com/archives/america_nov_2021/index.html"
-bg_image: "/uploads/code-beam-europe-bg.jpg"
+bg_image: "/uploads/code-beam-america-tile.jpg"
 logo_img: "/uploads/code-beam-america-logo.png"
 conference_location: "Online"
 conference_init_date: 2021-11-03T09:00:00.000+00:00

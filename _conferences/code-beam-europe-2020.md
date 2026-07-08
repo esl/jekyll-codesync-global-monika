@@ -4,7 +4,7 @@ title: Code BEAM Europe 2020
 conference_past_conferences: false
 past: true
 external_url: "https://codebeameurope.com/archives/virtual_2020/index.html"
-bg_image: ''
+bg_image: "/uploads/code-beam-europe-tile.jpg"
 logo_img: ''
 conference_location: "Online"
 conference_init_date: 2020-09-10T09:00:00.000+00:00

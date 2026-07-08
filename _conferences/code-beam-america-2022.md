@@ -4,7 +4,7 @@ title: Code BEAM America 2022
 conference_past_conferences: true
 past: true
 external_url: "https://codebeamamerica.com/archives/CBA_2022/index.html"
-bg_image: "/uploads/code-beam-europe-bg.jpg"
+bg_image: "/uploads/code-beam-america-tile.jpg"
 logo_img: "/uploads/code-beam-america-logo.png"
 conference_location: "San Francisco & Online"
 conference_init_date: 2022-03-03T09:00:00.000+00:00

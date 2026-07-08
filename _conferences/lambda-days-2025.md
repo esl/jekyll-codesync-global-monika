@@ -4,7 +4,7 @@ title: Lambda Days 2025
 conference_past_conferences: false
 past: true
 external_url: "https://www.lambdadays.org/lambdadays2025"
-bg_image: ''
+bg_image: "/uploads/lambda-days-bg.jpg"
 logo_img: ''
 conference_location: "Kraków"
 conference_init_date: 2025-06-12T09:00:00.000+00:00

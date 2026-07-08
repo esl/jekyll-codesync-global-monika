@@ -4,7 +4,7 @@ title: MQ Summit 2025
 conference_past_conferences: false
 past: true
 external_url: "https://mqsummit.com/"
-bg_image: "/uploads/mq-summit-bg.jpg"
+bg_image: "/uploads/mq-summit-tile.jpg"
 logo_img: "/uploads/mq-summit-logo.png"
 conference_location: "Berlin"
 conference_init_date: 2025-11-06T09:00:00.000+00:00

@@ -4,7 +4,7 @@ title: RabbitMQ Summit 2023
 conference_past_conferences: false
 past: true
 external_url: "https://rabbitmqsummit.com/2023"
-bg_image: ''
+bg_image: "/uploads/rabbitmq-summit-bg.jpg"
 logo_img: ''
 conference_location: "Berlin"
 conference_init_date: 2023-10-20T09:00:00.000+00:00

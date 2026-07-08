@@ -4,7 +4,7 @@ title: Code BEAM Europe 2025
 conference_past_conferences: false
 past: true
 external_url: "https://codebeameurope.com/"
-bg_image: "/uploads/code-beam-europe-bg.jpg"
+bg_image: "/uploads/code-beam-europe-tile.jpg"
 logo_img: "/uploads/code-beam-europe-logo.png"
 conference_location: "Berlin & Online"
 primary: "#FF6B35"
