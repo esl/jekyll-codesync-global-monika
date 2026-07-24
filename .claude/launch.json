@@ -6,6 +6,12 @@
       "runtimeExecutable": "bash",
       "runtimeArgs": ["-c", "cd /Users/monika/Documents/jekyll-codesync-global-monika && LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 bundle exec jekyll serve --port 8903 --host 127.0.0.1"],
       "port": 8903
+    },
+    {
+      "name": "lambda-days-archive",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/monika/Documents/jekyll-codesync-global-monika/migration-data/lambda_days/serve.py"],
+      "port": 8907
     }
   ]
 }

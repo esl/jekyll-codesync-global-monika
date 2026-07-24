@@ -4,3 +4,12 @@ _site/
 .jekyll-cache
 Gemfile.lock
 .DS_Store
+
+# Lambda Days archive build artifacts (the deliverable is a separate repo: esl/lambda-days).
+# Keep the tooling (*.py) trackable but never commit the heavy mirror/build output here.
+migration-data/lambda_days/site/
+migration-data/lambda_days/mirror/
+migration-data/lambda_days/build_report.json
+
+# Local scratch/working files (ElixirConf Brasil logo/background sources)
+scratch_brasil/
