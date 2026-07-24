@@ -23,6 +23,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-commonmark
+  - jekyll-redirect-from
   # - jekyll-include-cache
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -30,8 +31,9 @@ plugins:
 ####################################
 ###########   Pagination    ###########
 ####################################
-paginate: 12
-paginate_path: "/media/page:num/"
+# Media/articles section removed for now — pagination (was /media/page:num/) disabled.
+# paginate: 12
+# paginate_path: "/media/page:num/"
 
 # Build settings
 markdown: CommonMark

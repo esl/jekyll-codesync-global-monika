@@ -33,12 +33,13 @@
                 class="paragraph big mono"
                 href="{{ conference_link }}"
               >
-                {{ conference.title }}
-              </a>
+                {{ conference.title }}</a
+              >
               <br />
               <span class="paragraph paragraph--tiny">
                 {{ conference.conference_dates }}
               </span>
+              {% if conference.partner_event %}<br /><span class="partner-tag partner-tag--stacked">Partner event</span>{% endif %}
             </li>
             {% endfor %}
             <li>

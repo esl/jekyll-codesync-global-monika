@@ -14,7 +14,8 @@ head_title: Past Conferences
     {% include head_title.html %}
     <section class="vp--100 m-vp-30 section-container">
         <div class="container--small">
-            {% for conference_brand in site.conference_brands %}
+            {% assign ordered_brands = site.conference_brands | sort: 'order' %}
+            {% for conference_brand in ordered_brands %}
             {% assign brand_past_conferences = site.conferences | where:
             'conference_brand', conference_brand.path | where: 'past', true %}
             {% if brand_past_conferences.size > 0 %}

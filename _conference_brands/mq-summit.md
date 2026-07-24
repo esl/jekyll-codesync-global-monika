@@ -1,7 +1,8 @@
 ---
 title: MQ Summit
+order: 10
 conference_brand_name: "MQ SUMMIT"
-conference_brand_description: "The major European event for Erlang, Elixir and Gleam users"
+conference_brand_description: "The messaging systems conference — RabbitMQ, Kafka, NATS, Pulsar and more"
 conference_brand_website: "https://mqsummit.com/"
 ---
 

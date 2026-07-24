@@ -34,7 +34,7 @@
             {% if page.conference_venue == true  %}
                 {% include conference_venue.html %}
             {% endif %}
-            {% include conference_newsletter.html %}
+            {% comment %} Newsletter section removed for now — to be replaced with a GetResponse form once marketing provides it. Was: {% include conference_newsletter.html %} {% endcomment %}
             {% if page.conference_diversity == true %}
                 {% include conference_diversity.html %}
             {% endif %}

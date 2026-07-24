@@ -1,5 +1,6 @@
 ---
 title: CODE BEAM EUROPE
+order: 1
 conference_brand_name: "Code BEAM Europe"
 conference_brand_description: "The major European event for Erlang, Elixir and Gleam users"
 conference_brand_website: "https://codebeameurope.com/"

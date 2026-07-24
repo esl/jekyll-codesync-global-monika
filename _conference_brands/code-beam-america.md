@@ -1,5 +1,6 @@
 ---
 title: CODE BEAM AMERICA
+order: 2
 conference_brand_name: "Code BEAM America"
 conference_brand_description: "The major American event for Erlang, Elixir and Gleam users"
 conference_brand_website: "https://codebeamamerica.com/"

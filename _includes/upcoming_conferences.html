@@ -15,7 +15,7 @@
             <div class="slider-frame">
                 <ul class="columns slider-container">
                     {% assign sorted_conferences = site.conferences | sort:
-                    'conference_init_date' %} 'date' %} {% for conference in
+                    'conference_init_date' %} {% for conference in
                     sorted_conferences %} {% if conference.past == false %} {%
                     if conference.external_url %} {% assign conference_link =
                     conference.external_url %} {% else %} {% assign
@@ -26,15 +26,9 @@
                             <a class="tile--bg" href="{{ conference_link }}">
                                 <picture class="tile__bg-image"
                                     ><img
-                                        alt="{{ conference.title }} Background"
+                                        alt="{{ conference.title }}"
                                         class="tile__logo lazy"
                                         data-src="{{site.baseurl}}{{ conference.bg_image }}"
-                                /></picture>
-                                <picture
-                                    ><img
-                                        alt="{{ conference.title }} Logo"
-                                        class="tile__logo lazy"
-                                        data-src="{{site.baseurl}}{{ conference.logo_img }}"
                                 /></picture>
                                 <p class="heading heading--medium">
                                     {{ conference.conference_dates }}

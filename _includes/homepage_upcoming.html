@@ -1,0 +1,125 @@
+<section
+    class="anchor__submenu section-container section--spaced"
+    id="ConferencesSlider"
+>
+    <div class="container--small conferences-list">
+        <h2 class="heading heading--large">Upcoming conferences</h2>
+        <p
+            class="paragraph paragraph--medium pt--60 d-pt-40 mb--80 d-mb-50 half-width"
+        >
+            Start booking your calendar. We&rsquo;ll be releasing more dates
+            soon &mdash; here&rsquo;s what&rsquo;s planned so far.
+        </p>
+
+        {% assign upcoming_conferences = site.conferences | where: 'past', false | sort: 'conference_init_date' %}
+        {% assign own_conferences = upcoming_conferences | where_exp: 'c', 'c.partner_event != true' %}
+        {% assign partner_conferences = upcoming_conferences | where_exp: 'c', 'c.partner_event' %}
+        {% assign own_groups = own_conferences | group_by: 'conference_init_date' %}
+
+        {% for group in own_groups %}
+        {% assign lead = group.items | first %}
+        {% assign colocated = false %}{% if group.items.size > 1 %}{% assign colocated = true %}{% endif %}
+        <div class="grid conferences-grid current-conferences pt--30 m-pt-00">
+            {% if colocated %}
+            <div class="row">
+                <h3 class="heading heading--medium">
+                    {{ group.items | map: 'title' | join: ' + ' }}
+                </h3>
+                <p class="col-7 t-col-12 pt--20 normal mb--50">
+                    Two conferences running at the same time in
+                    {{ lead.conference_location }} on {{ lead.conference_dates }}
+                    &mdash; choose the one that&rsquo;s right for you.
+                </p>
+            </div>
+            {% endif %}
+            <div class="row">
+                {% for conference in group.items %}
+                {% if conference.external_url %}{% assign conference_link = conference.external_url %}{% else %}{% assign conference_link = site.baseurl | append: conference.url %}{% endif %}
+                <div class="column js-column mb--50">
+                    <div class="tile tile--old">
+                        <a class="tile--bg" href="{{ conference_link }}" rel="noopener" target="_blank">
+                            <picture class="tile__bg-image">
+                                <img
+                                    alt="{{ conference.title }}"
+                                    class="tile__logo lazy"
+                                    data-src="{{site.baseurl}}{{ conference.bg_image }}"
+                                />
+                            </picture>
+                        </a>
+                        <a
+                            class="btn btn--white btn-arrow"
+                            href="{{ conference_link }}"
+                            rel="noopener"
+                            target="_blank"
+                            >more info</a
+                        >
+                    </div>
+                    {% unless colocated %}
+                    <p class="heading heading--small mt--20">
+                        {{ conference.title }}
+                    </p>
+                    <p class="paragraph paragraph--tiny">
+                        {{ conference.conference_dates }} &middot;
+                        {{ conference.conference_location }}
+                    </p>
+                    {% endunless %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+
+        {% if partner_conferences.size > 0 %}
+        <div class="pt--60 m-pt-30" id="PartnerConferences">
+            <h2 class="heading heading--big">Conferences organised by our partners</h2>
+            <div class="grid conferences-grid current-conferences">
+                <div class="row">
+                    <p class="col-7 t-col-12 pt--20 normal mb--50">
+                        Events run by partners across the wider community that
+                        we&rsquo;re proud to support.
+                    </p>
+                </div>
+                <div class="row">
+                    {% for conference in partner_conferences %}
+                    {% if conference.external_url %}{% assign conference_link = conference.external_url %}{% else %}{% assign conference_link = site.baseurl | append: conference.url %}{% endif %}
+                    <div class="column js-column mb--50">
+                        <div class="tile tile--old">
+                            <a class="tile--bg" href="{{ conference_link }}" rel="noopener" target="_blank">
+                                <picture class="tile__bg-image">
+                                    <img
+                                        alt="{{ conference.title }}"
+                                        class="tile__logo lazy"
+                                        data-src="{{site.baseurl}}{{ conference.bg_image }}"
+                                    />
+                                </picture>
+                            </a>
+                            <a
+                                class="btn btn--white btn-arrow"
+                                href="{{ conference_link }}"
+                                rel="noopener"
+                                target="_blank"
+                                >more info</a
+                            >
+                        </div>
+                        <p class="heading heading--small mt--20">
+                            {{ conference.title }}
+                        </p>
+                        <p class="paragraph paragraph--tiny">
+                            {{ conference.conference_dates }} &middot;
+                            {{ conference.conference_location }}
+                        </p>
+                        <span class="partner-tag partner-tag--stacked">Partner event</span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <a
+            class="btn btn--pink triangle-left-full color--main mt--80 m-mt-40"
+            href="{{site.baseurl}}/conferences/"
+            >All conferences</a
+        >
+    </div>
+</section>

@@ -3,7 +3,7 @@
 }
 
 .social-buttons ul li {
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .social-buttons ul li:hover {
@@ -11,7 +11,7 @@
 }
 
 .talk .description a {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .talk .description a:hover {
@@ -19,11 +19,11 @@
 }
 
 .header .hamburger span {
-  background-color: #c30000;
+  background-color: #ff005f;
 }
 
 .quote g {
-  fill: #c30000;
+  fill: #ff005f;
 }
 
 section.newsletter {
@@ -32,36 +32,36 @@ section.newsletter {
 }
 
 .nav--secondary {
-  background-color: #c30000;
+  background-color: #ff005f;
 }
 
 .training__link:hover {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .academics .grid-middle a {
   text-decoration: underline;
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .banner--menu li:hover a:before {
-  border-color: transparent #c30000 transparent transparent !important;
+  border-color: transparent #ff005f transparent transparent !important;
 }
 
 .banner--menu li:hover a:after {
-  background-color: #c30000 !important;
+  background-color: #ff005f !important;
 }
 
 .main-links li a:hover {
-  // color: #c30000 !important;
+  // color: #ff005f !important;
 }
 
 .header .nav li:hover {
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .btn--pink {
-  background: #c30000;
+  background: #ff005f;
 }
 
 .speakers .hashtags a {
@@ -77,27 +77,27 @@ section.newsletter {
 }
 
 .welcome .welcome__content a {
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .whoweare__text a {
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .whoweare__numbers a {
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .timeline--line {
-  background: #c30000;
-  background: -webkit-linear-gradient(left, #c30000, #ff00ff);
-  background: -o-linear-gradient(right, #c30000, #ff00ff);
-  background: -moz-linear-gradient(right, #c30000, #ff00ff);
-  background: linear-gradient(to right, #c30000, #ff00ff);
+  background: #ff005f;
+  background: -webkit-linear-gradient(left, #ff005f, #ff00ff);
+  background: -o-linear-gradient(right, #ff005f, #ff00ff);
+  background: -moz-linear-gradient(right, #ff005f, #ff00ff);
+  background: linear-gradient(to right, #ff005f, #ff00ff);
 }
 
 .color--main {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .triangle-left-empty--pink svg {
@@ -108,7 +108,7 @@ main .about li:nth-child(even) {
 }
 
 main .about li:nth-child(odd) {
-  color: #c30000;
+  color: #ff005f;
 }
 
 main .about li:first-of-type {
@@ -116,7 +116,7 @@ main .about li:first-of-type {
 }
 
 .timeline--line:before {
-  background-color: #c30000;
+  background-color: #ff005f;
 }
 
 .timeline--line:after {
@@ -127,50 +127,80 @@ main .about li:first-of-type {
   color: #ff00ff;
 }
 
+.partner-tag {
+  display: inline-block;
+  margin-left: 0.6em;
+  padding: 0.15em 0.6em;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  font-size: 0.6em;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* When the pill sits on its own line under the date (homepage banner + partner tiles) */
+.partner-tag--stacked {
+  margin-left: 0; /* frame's left edge aligns with the date above it */
+  margin-top: 0.6em;
+}
+
+/* In the homepage banner, ".banner--menu span" gives every span a 40px hanging indent
+   (used for the date under each title). That would both inflate the bordered pill and
+   push it out of line, so keep the pill compact and shift it by the same 40px so its
+   left edge sits under the date. */
+.banner--menu .partner-tag {
+  padding: 0.15em 0.6em;
+  margin-left: 40px;
+}
+
 .btn.color--main {
-  background-color: #c30000;
+  background-color: #ff005f;
   color: #ffffff;
 }
 
 .btn--transparent.color--main {
   background-color: transparent;
-  color: #c30000;
+  color: #ff005f;
 }
 
 .btn.triangle-left-full-pink {
-  background-color: #c30000;
+  background-color: #ff005f;
 }
 
 .social-sidebar li:hover i {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .footer .logo a {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .footer .logo svg .svg-a {
-  fill: #c30000;
+  fill: #ff005f;
 }
 
 .footer a:hover {
-  // color: #c30000 !important;
+  // color: #ff005f !important;
 }
 
 .footer .contact a {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .footer .highlight a {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .footer .social ul li a {
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .link {
-  color: #c30000 ;
+  color: #ff005f ;
 }
 
 .timeline--text:nth-child(1):before {
@@ -190,32 +220,32 @@ main .about li:first-of-type {
 }
 
 .schedule .active {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .about__description a {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .schedule .tablinks:hover,
 .more:hover {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .btn--transparent.active {
-  color: #c30000 !important;
+  color: #ff005f !important;
 }
 
 .conference .video__desc .social-buttons li {
-  border: 1px solid#c30000;
+  border: 1px solid#ff005f;
 }
 
 .conference .video__desc .social-buttons li:hover {
-  background-color: #c30000;
+  background-color: #ff005f;
 }
 
 .conference .video__desc .social-buttons li i {
-  color: #c30000;
+  color: #ff005f;
 }
 
 .conference .video__desc .social-buttons li:hover i {
@@ -223,7 +253,7 @@ main .about li:first-of-type {
 }
 
 .accordion .arrow--down--white:before {
-  border-color: #c30000 transparent transparent transparent;
+  border-color: #ff005f transparent transparent transparent;
 }
 
 .speakers {
@@ -234,7 +264,7 @@ main .about li:first-of-type {
 }
 
 .speakers p a:hover {
-  color: #c30000;
+  color: #ff005f;
   text-decoration: underline;
 }
 
@@ -257,10 +287,10 @@ main .about li:first-of-type {
 .welcome__content h4,
 .welcome__content h5,
 .welcome__content h6 {
-  color: #c30000;
+  color: #ff005f;
   /* color {{page.primary}} */
 }
 
 .input--checkbox input:checked + label:after {
-  content: url('data:image/svg+xml;charset=UTF-8,<svg aria-hidden="true" width="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23c30000" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg>');
+  content: url('data:image/svg+xml;charset=UTF-8,<svg aria-hidden="true" width="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23ff005f" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg>');
 }

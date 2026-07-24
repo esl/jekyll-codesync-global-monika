@@ -1,5 +1,6 @@
 ---
 title: Code Elixir
+order: 6
 conference_brand_name: "Elixir LDN / Code Elixir"
 conference_brand_description: "The local event for the Erlang & Elixir community"
 ---

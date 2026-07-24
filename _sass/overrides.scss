@@ -30,3 +30,10 @@
 .conferences-grid .tile--old .tile--bg > picture:not(.tile__bg-image) {
   display: none;
 }
+/* All past-conference artwork is 16:9, matching the tile. `cover` (the global
+   default) shaves a sub-pixel sliver off top/bottom from container rounding,
+   which clips logos whose elements run to the edge (e.g. Code Mesh's bracket
+   feet). `contain` fits the whole image edge-to-edge with no crop. */
+.conferences-grid .tile--old .tile__bg-image img {
+  object-fit: contain;
+}
