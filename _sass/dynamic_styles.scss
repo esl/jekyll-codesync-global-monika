@@ -158,9 +158,10 @@ main .about li:first-of-type {
 }
 
 /* Present the embedded GetResponse newsletter form as an intentional rounded
-   card on the section gradient, rather than a hard-edged dark block. */
-.newsletter getresponse-form {
-  display: block;
+   card on the section gradient, rather than a hard-edged dark block. Styles live
+   on a wrapper div, not the <getresponse-form> element: once GetResponse upgrades
+   that custom element, CSS applied directly to it stops taking effect. */
+.newsletter .newsletter-card {
   margin-top: 64px;
   border-radius: 16px;
   overflow: hidden;
