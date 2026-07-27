@@ -59,6 +59,7 @@ HOST = "www.erlang-factory.com"
 # asset buckets used by the codemesh.io-era sites for speaker photos/logos.
 # Per MIGRATION.md, committed assets beat hotlinks to a source that may vanish.
 ASSET_HOSTS = {"esl-conf-static.s3.eu-central-1.amazonaws.com",
+               "esl-conf-staging.s3.eu-central-1.amazonaws.com",
                "s3.amazonaws.com"}
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                     "AppleWebKit/537.36 (codesync-archive-migration)"}
@@ -269,8 +270,9 @@ def local_page_path(prefix, orig_path, query=""):
 
 def local_asset_path(url, page_hosts=None):
     """Absolute original asset URL -> local path under assets/. Assets from a
-    host other than the page's own are namespaced under assets/_ext/<host>/ so
-    two sources can't collide."""
+    host other than the page's own are namespaced under assets/ext/<host>/ so
+    two sources can't collide. (Dir name must NOT start with '_' - Jekyll drops
+    '_'-prefixed paths from the build output, 404ing every cross-host asset.)"""
     p = urllib.parse.urlparse(url)
     host = p.netloc.replace(":80", "")
     path = urllib.parse.unquote(p.path).lstrip("/")
@@ -281,7 +283,7 @@ def local_asset_path(url, page_hosts=None):
         path = f"{stem}.{h}.{ext}" if dot else f"{path}.{h}"
     if page_hosts and host not in page_hosts:
         safe_host = re.sub(r"[^A-Za-z0-9.-]", "_", host)
-        return f"assets/_ext/{safe_host}/{path}"
+        return f"assets/ext/{safe_host}/{path}"
     return "assets/" + path
 
 

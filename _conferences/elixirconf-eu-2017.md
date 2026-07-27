@@ -3,7 +3,7 @@ conference_brand: _conference_brands/elixirconf-eu.md
 title: ElixirConf EU 2017
 conference_past_conferences: false
 past: true
-external_url: "http://www.archive.elixirconf.eu/elixirconf2017"
+external_url: "/archives/elixirconf-eu/2017/"
 bg_image: "/uploads/elixirconf-eu-bg.jpg"
 logo_img: ''
 conference_location: "Barcelona"

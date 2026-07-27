@@ -1,0 +1,42 @@
+[
+  {
+    "url": "http://www.archive.elixirconf.eu/elixirconf2015",
+    "name": "ElixirConf EU 2015",
+    "year": 2015,
+    "city": "Krakow",
+    "live_status": 200,
+    "source_of_info": "hub _conferences/elixirconf-eu-2015.md external_url; archive.elixirconf.eu is Krzysiek's old GCP static host (pod wind-down 2026-07)"
+  },
+  {
+    "url": "http://www.archive.elixirconf.eu/elixirconf2016",
+    "name": "ElixirConf EU 2016",
+    "year": 2016,
+    "city": "Berlin",
+    "live_status": 200,
+    "source_of_info": "hub _conferences/elixirconf-eu-2016.md external_url"
+  },
+  {
+    "url": "http://www.archive.elixirconf.eu/elixirconf2017",
+    "name": "ElixirConf EU 2017",
+    "year": 2017,
+    "city": "Barcelona",
+    "live_status": 200,
+    "source_of_info": "hub _conferences/elixirconf-eu-2017.md external_url"
+  },
+  {
+    "url": "http://www.archive.elixirconf.eu/elixirconfeu2018",
+    "name": "ElixirConf EU 2018",
+    "year": 2018,
+    "city": "Warsaw",
+    "live_status": 200,
+    "source_of_info": "hub _conferences/elixirconf-eu-2018.md external_url"
+  },
+  {
+    "url": "http://www.archive.elixirconf.eu/elixirconfeu2019",
+    "name": "ElixirConf EU 2019",
+    "year": 2019,
+    "city": "Prague",
+    "live_status": 200,
+    "source_of_info": "hub _conferences/elixirconf-eu-2019.md external_url"
+  }
+]
