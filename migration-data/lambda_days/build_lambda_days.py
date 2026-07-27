@@ -842,6 +842,168 @@ def capture_edition_themes():
     log("  edition themes + their assets captured")
 
 
+def _video_embed_src(href):
+    """Map a talk 'Video' link (YouTube or Vimeo) to a privacy-friendly embed URL.
+    Returns (embed_src, provider) or None if the href isn't an embeddable video.
+    Handles youtu.be/<id>, youtube.com/watch?v=<id>[&list=..], /embed/<id>, and
+    vimeo.com/<id> -- plus a stray leading space some source hrefs carry."""
+    href = (href or "").strip().replace("&amp;", "&")
+    u = urllib.parse.urlparse(href)
+    host = u.netloc.lower()
+    if "youtu.be" in host:
+        vid = u.path.strip("/").split("/")[0]
+        return ("https://www.youtube-nocookie.com/embed/" + vid, "youtube") if vid else None
+    if "youtube.com" in host:
+        vid = (urllib.parse.parse_qs(u.query).get("v") or [None])[0]
+        if not vid and u.path.startswith("/embed/"):
+            vid = u.path.split("/embed/", 1)[1].strip("/")
+        return ("https://www.youtube-nocookie.com/embed/" + vid, "youtube") if vid else None
+    if "vimeo.com" in host:
+        vid = u.path.strip("/").split("/")[0]
+        return ("https://player.vimeo.com/video/" + vid, "vimeo") if vid.isdigit() else None
+    return None
+
+
+_VIDEO_ALLOW = {
+    "youtube": ("accelerometer; autoplay; clipboard-write; encrypted-media; "
+                "gyroscope; picture-in-picture; web-share"),
+    "vimeo": "autoplay; fullscreen; picture-in-picture; clipboard-write",
+}
+
+
+def _talk_video_div(soup, src, provider, title):
+    """Build the responsive 16:9 <div class="talk-video"><iframe>...</div> node."""
+    wrap = soup.new_tag("div"); wrap["class"] = "talk-video"
+    iframe = soup.new_tag(
+        "iframe", src=src, title=title, loading="lazy",
+        referrerpolicy="strict-origin-when-cross-origin")
+    iframe["allow"] = _VIDEO_ALLOW[provider]
+    iframe["allowfullscreen"] = ""
+    wrap.append(iframe)
+    return wrap
+
+
+def embed_talk_videos():
+    """Turn each speaker's outbound 'Video' link into an inline embedded player.
+
+    Paulina's request: play talk videos inside the speaker profile instead of
+    linking out. The per-talk video URL already lives in every profile as the
+    '<span class="glyphicon-film"> Video' link, so we parse that, resolve it to a
+    YouTube/Vimeo embed, and REPLACE the link with a responsive 16:9 iframe (styled
+    by the .talk-video class added to theme.css). The text link is dropped per the
+    design decision -- the player has its own 'Watch on YouTube'/Vimeo affordance.
+
+    Scope: speaker DETAIL pages only (lambdadays<year>/<slug>/index.html), never the
+    edition landing pages. Idempotent via a 'talk-video-embedded' marker; pages with
+    no video link or an unrecognised provider are left untouched (logged)."""
+    from bs4 import BeautifulSoup
+    log("== EMBED talk videos into speaker profiles ==")
+
+    # responsive 16:9 wrapper -- added once to theme.css (DRY, no inline styles)
+    css_path = os.path.join(SITE, "static/css/theme.css")
+    if os.path.exists(css_path):
+        c = open(css_path, encoding="utf-8", errors="replace").read()
+        if ".talk-video{" not in c:
+            open(css_path, "a", encoding="utf-8").write(
+                "\n/* archive: embedded talk video (responsive 16:9) */\n"
+                ".talk-video{position:relative;width:100%;max-width:720px;"
+                "margin:18px 0 10px;padding-bottom:56.25%;height:0;overflow:hidden;"
+                "border-radius:8px;background:#000}\n"
+                ".talk-video iframe{position:absolute;top:0;left:0;width:100%;"
+                "height:100%;border:0}\n")
+            log("  added .talk-video CSS to theme.css")
+
+    n_embed = n_skip = 0
+    for y in YEARS:
+        base = os.path.join(SITE, "lambdadays%d" % y)
+        if not os.path.isdir(base):
+            continue
+        for slug in sorted(os.listdir(base)):
+            hp = os.path.join(base, slug, "index.html")  # detail pages only
+            if not os.path.isfile(hp):
+                continue
+            html = open(hp, encoding="utf-8", errors="replace").read()
+            soup = BeautifulSoup(html, "html.parser")
+            # Handle EVERY video link on the page -- some speakers gave multiple
+            # talks, so a profile can carry more than one. Idempotent per-link:
+            # embedding removes the 'Video' link, so a re-run finds nothing to do.
+            spans = soup.find_all("span", class_="glyphicon-film")
+            if not spans:
+                continue  # this speaker has no recorded video -- leave as-is
+            name = soup.find("h3")
+            name = name.get_text(strip=True) if name else slug.replace("-", " ").title()
+            changed = False
+            for span in spans:
+                a = span.find_parent("a")
+                info = _video_embed_src(a.get("href") if a else None)
+                if not info:
+                    n_skip += 1
+                    log("  SKIP (unrecognised video href): lambdadays%d/%s" % (y, slug))
+                    continue
+                src, provider = info
+                h4 = a.find_previous("h4", class_="modal-title")  # this talk's title
+                talk = h4.get_text(strip=True) if h4 else ""
+                title = " — ".join(x for x in (name, talk, "Lambda Days %d" % y) if x)
+                wrap = _talk_video_div(soup, src, provider, title)
+                a.replace_with(wrap)  # drop the text link, keep only the player
+                changed = True
+                n_embed += 1
+            if changed:
+                if "talk-video-embedded" not in html:
+                    soup.append(BeautifulSoup("<!--talk-video-embedded-->", "html.parser"))
+                open(hp, "w", encoding="utf-8").write(str(soup))
+    log("  embedded %d talk videos (%d skipped, unrecognised href)" % (n_embed, n_skip))
+
+
+def fill_missing_videos():
+    """Inject embeds for speaker profiles whose talk had NO 'Video' link at the
+    source, so embed_talk_videos() couldn't reach them. Reads gap_videos.json
+    (mapping 'lambdadays<year>/<slug>' -> a YouTube/Vimeo id or URL, hand-matched
+    from the official Code Sync per-edition playlists) and inserts the same
+    .talk-video player just before the '←Back' link. Idempotent: a page that
+    already carries a .talk-video is left untouched."""
+    from bs4 import BeautifulSoup
+    log("== FILL missing talk videos (gap pages, from playlist matches) ==")
+    mp = os.path.join(HERE, "gap_videos.json")
+    if not os.path.exists(mp):
+        log("  no gap_videos.json -- nothing to fill"); return
+    mapping = json.load(open(mp, encoding="utf-8"))
+    n = miss = 0
+    for key, ref in mapping.items():
+        if key.startswith("_"):
+            continue  # comment fields
+        y = int(key.split("/")[0].replace("lambdadays", ""))
+        hp = os.path.join(SITE, key, "index.html")
+        if not os.path.isfile(hp):
+            log("  MISSING page: %s" % key); miss += 1; continue
+        html = open(hp, encoding="utf-8", errors="replace").read()
+        if 'class="talk-video"' in html:
+            continue  # already embedded
+        # bare 11-char token => YouTube id; anything with '/' or '.' => full URL
+        if "/" not in ref and "." not in ref:
+            src, provider = "https://www.youtube-nocookie.com/embed/" + ref, "youtube"
+        else:
+            info = _video_embed_src(ref)
+            if not info:
+                log("  SKIP (bad ref %r): %s" % (ref, key)); miss += 1; continue
+            src, provider = info
+        soup = BeautifulSoup(html, "html.parser")
+        back = soup.find("a", href="/lambdadays%d/" % y)  # the '←Back' link
+        if back is None:
+            log("  SKIP (no back-link anchor): %s" % key); miss += 1; continue
+        name = soup.find("h3")
+        name = name.get_text(strip=True) if name else ""
+        h4 = back.find_previous("h4", class_="modal-title")
+        talk = h4.get_text(strip=True) if h4 else ""
+        title = " — ".join(x for x in (name, talk, "Lambda Days %d" % y) if x)
+        back.insert_before(_talk_video_div(soup, src, provider, title))
+        if "talk-video-embedded" not in html:
+            soup.append(BeautifulSoup("<!--talk-video-embedded-->", "html.parser"))
+        open(hp, "w", encoding="utf-8").write(str(soup))
+        n += 1
+    log("  filled %d gap videos (%d unresolved)" % (n, miss))
+
+
 if __name__ == "__main__":
     phase = sys.argv[1] if len(sys.argv) > 1 else "all"
     if phase in ("crawl", "all"):
@@ -860,6 +1022,10 @@ if __name__ == "__main__":
         strip_cookie_consent()
     if phase in ("menufix", "themes", "build", "all"):
         menufix()
+    if phase in ("embed", "build", "all"):
+        embed_talk_videos()
+    if phase in ("fillgaps", "embed", "build", "all"):
+        fill_missing_videos()
     if phase in ("sweep", "all"):
         sweep()
     log("done.")
