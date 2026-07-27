@@ -1,8 +1,8 @@
 title: Codesync
 description: > # this means to ignore newlines until "baseurl:"
   Codesync conferences website
-baseurl: "/jekyll-codesync-global-monika"
-url: "https://esl.github.io" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://codesync.global" # the base hostname & protocol for your site
 # Build settings
 
 logo: "./assets/images/icon-large.png"
