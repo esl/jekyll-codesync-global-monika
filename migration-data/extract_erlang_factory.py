@@ -38,6 +38,7 @@ Rules (mirroring extract_cms.py):
 A wayback-reconstructed edition gets a provenance comment in every page and a
 PARTIAL marker in REPORT.txt when archived coverage is thin.
 """
+import gzip
 import json
 import pathlib
 import posixpath
@@ -47,6 +48,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import zlib
 
 from bs4 import BeautifulSoup
 
@@ -90,8 +92,36 @@ def throttle(kind):
     _last_hit[kind] = time.time()
 
 
+def _decompress(data, resp):
+    """Reverse the response's Content-Encoding. Wayback's id_ raw mode replays
+    the original captured response verbatim, and urllib does NOT auto-inflate,
+    so a capture stored with `Content-Encoding: gzip` arrives here as raw gzip
+    bytes. Decoding those as UTF-8 (`decode(..., "replace")`) silently mangled
+    every non-ASCII byte to U+FFFD, corrupting ~pages and the shared conf.css /
+    ctable.css into an unparseable blob (0 CSS rules -> unstyled pages). Driven
+    off the header only: a genuine .gz asset is served WITHOUT this encoding
+    header, so binary downloads are never touched."""
+    enc = (resp.headers.get("Content-Encoding") or "").strip().lower()
+    if not enc or enc == "identity":
+        return data
+    try:
+        if enc in ("gzip", "x-gzip"):
+            return gzip.decompress(data)
+        if enc == "deflate":
+            try:
+                return zlib.decompress(data)
+            except zlib.error:
+                return zlib.decompress(data, -zlib.MAX_WBITS)  # raw deflate
+    except (OSError, EOFError, zlib.error):
+        # Truncated/streamed body (max_bytes cutoff) or a mislabelled payload:
+        # fall back to the raw bytes rather than lose the fetch entirely.
+        return data
+    return data
+
+
 def fetch(url, kind, retries=4, max_bytes=None):
-    """GET url -> bytes. Follows redirects. Raises on final failure."""
+    """GET url -> bytes (Content-Encoding reversed). Follows redirects. Raises
+    on final failure."""
     # encode stray spaces/control chars in the path (some original filenames,
     # e.g. "Rich Hickey_tumbnail.jpg", contain raw spaces urllib rejects)
     url = url.replace(" ", "%20")
@@ -107,8 +137,8 @@ def fetch(url, kind, retries=4, max_bytes=None):
                     data = r.read(max_bytes + 1)
                     if len(data) > max_bytes:
                         raise ValueError("too large (streamed)")
-                    return data
-                return r.read()
+                    return _decompress(data, r)
+                return _decompress(r.read(), r)
         except ValueError:
             raise
         except urllib.error.HTTPError as e:
