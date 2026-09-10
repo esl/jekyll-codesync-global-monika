@@ -144,7 +144,7 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
-| ElixirConf Brasil 2026 | Nov 2026 (Curitiba & online) | elixirconf.com.br (partner-run, first edition); NOTE esl/elixirconf-brasil repo is a stale EU fork (CNAME still www.elixirconf.eu) | none | add to hub upcoming/banner; move to ElixirConf section once past |
+| ElixirConf Brasil 2027 | 20-21 May 2027 (Curitiba & online) | elixirconf.com.br (partner-run, first edition); NOTE esl/elixirconf-brasil repo is a stale EU fork (CNAME still www.elixirconf.eu) | none | add to hub upcoming/banner; move to ElixirConf section once past |
 | Code BEAM Europe 2026 (Haarlem) | 21-22 Oct 2026 | codebeameurope.com (live) | none | add to hub upcoming/banner |
 | Code BEAM Lite London 2026 | 2026 (verify) | codebeamlondon.com (live) | none | verify date; add to hub upcoming/banner |
 
@@ -281,6 +281,6 @@ Kept for the future videos section; may contain talks from lost editions.
    elixirconf-eu-jekyll archives/ while the legacy host is still up.
 6. EUC 2016 tile on the live site links to erlang-factory.com/sfbay2016 (wrong
    event) - do not carry the link over; the census has the right EUC pages.
-7. RESOLVED: ElixirConf Brasil 2026 (first edition, Nov 2026, Curitiba & online)
+7. RESOLVED: ElixirConf Brasil 2027 (first edition, 20-21 May 2027, Curitiba & online)
    lives at elixirconf.com.br, partner-run. The esl/elixirconf-brasil repo is a
    stale EU fork (CNAME still points at www.elixirconf.eu) - clean up or retire it.
