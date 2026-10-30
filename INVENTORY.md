@@ -27,6 +27,7 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
+| Code BEAM Europe 2026 (Haarlem) | 21-22 Oct 2026 | codebeameurope.com (live; no esl/code-beam-europe archive yet) | none | hub entry added (past); external_url still points to live site - swap to archive once it exists |
 | Code BEAM Europe 2025 (Berlin) | 5-6 Nov 2025 | esl/code-beam-europe archives/berlin_2025 | [Code BEAM Europe 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zsb00vrNRGm1db6CK53Yq5V), 43 videos | hub entry still has past:false - flip it (also: Gleam Talks CBE 2025 playlist exists) |
 | Code BEAM Europe 2024 (Berlin) | 14-15 Oct 2024 | esl/code-beam-europe archives/berlin_2024 | [Code BEAM Europe 2024](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zui6Gkr8Nniwyo4TnE17bF0), 51 videos | add hub entry (missing from _conferences) |
 | Code BEAM Europe 2023 (Berlin) | 19-20 Oct 2023 | esl/code-beam-europe archives/berlin_2023 (alive) | [Code BEAM Europe 2023](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZvcztbHJ4LMeXOlHYamUMSR), 48 videos | add hub entry |
@@ -132,6 +133,7 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
+| MQ Summit 2026 (Haarlem) | 21-22 Oct 2026 | mqsummit.com (live; no esl/mq-summit-page archive yet); co-located with Code BEAM Europe 2026 | none | hub entry added (past); external_url still points to live site - swap to archive once it exists |
 | MQ Summit 2025 (Berlin) | 6 Nov 2025 | esl/mq-summit-page archives/berlin_2025 (mqsummit.com) | [MQ Summit 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZufbYkb1FM9e6onSpjQ8Zdv), 12 videos | hub entry has past:false - flip it |
 | RabbitMQ Summit 2024 | 15 Oct 2024 (Berlin) | rabbitmqsummit.com/2024 (alive - canonical reference) | [RabbitMQ Summit 2024](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtLJy7PwHNt_CbDcBqVkk8P), 12 videos | done - hub entry added, date verified on site 2026-07-07 |
 | RabbitMQ Summit 2023 | 20 Oct 2023 (Berlin) | rabbitmqsummit.com/2023 (alive - canonical reference); mq-summit-page archives/berlin_2023 may duplicate it | [RabbitMQ Summit 2023](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsALsESTtvpUSSnB-ut0SRJ), 12 videos | done - hub entry added, date verified on site 2026-07-07 |
@@ -146,7 +148,6 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 |---|---|---|---|---|
 | ElixirConf EU 2027 | 22-23 Apr 2027 (Lisbon & online; 21 Apr training) | www.elixirconf.eu (current site; not yet in archives/) | none | add to hub upcoming/banner; archive to elixirconf-eu-jekyll archives/ when the site rolls over |
 | ElixirConf Brasil 2027 | 20-21 May 2027 (Curitiba & online) | elixirconf.com.br (partner-run, first edition); NOTE esl/elixirconf-brasil repo is a stale EU fork (CNAME still www.elixirconf.eu) | none | add to hub upcoming/banner; move to ElixirConf section once past |
-| Code BEAM Europe 2026 (Haarlem) | 21-22 Oct 2026 | codebeameurope.com (live) | none | add to hub upcoming/banner |
 | Code BEAM Lite London 2026 | 2026 (verify) | codebeamlondon.com (live) | none | verify date; add to hub upcoming/banner |
 
 ## Older Conferences (pre-Sonata, erlang-factory.com era)
