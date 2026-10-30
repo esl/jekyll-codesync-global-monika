@@ -91,7 +91,7 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
-| ElixirConf EU 2026 (Malaga) | 23-24 Apr 2026 | www.elixirconf.eu (current site; not yet in archives/) | [ElixirConf EU 2026](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsIgecSexrk26--PBWiEyUy), 14 videos | add hub entry; archive to elixirconf-eu-jekyll archives/ when the site rolls over |
+| ElixirConf EU 2026 (Malaga) | 23-24 Apr 2026 | elixirconf.eu/archives/malaga_2026 (alive) | [ElixirConf EU 2026](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZsIgecSexrk26--PBWiEyUy), 14 videos | done - hub entry added (past), archive URL live |
 | ElixirConf EU 2025 (Krakow) | 15-16 May 2025 (14 May training) | esl/elixirconf-eu-jekyll archives/krakow_2025 | [ElixirConf EU 2025](https://www.youtube.com/playlist?list=PLvL2NEhYV4Zu421KzHuLICUqieJXI2o_Z), 43 videos | done - hub entry added, date verified 2026-07-07; 2026 (Malaga 23-24 Apr) deferred until archive URL exists |
 | ElixirConf EU 2024 (Lisbon) | 18-19 Apr 2024 | elixirconf.eu/archives/lisbon_2024 (alive, in repo) | [ElixirConf EU 2024](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtQulvJh7sZFDWkaDvB3QT2), 45 videos | none - hub links out |
 | ElixirConf EU 2023 (Lisbon) | 20-21 Apr 2023 | elixirconf.eu/archives/lisbon_2023 (alive, in repo) | [ElixirConf EU 2023](https://www.youtube.com/playlist?list=PLvL2NEhYV4ZtBoR52raL_l7XQIb1YH-H7), 40 videos | none |
@@ -144,6 +144,7 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
+| ElixirConf EU 2027 | 22-23 Apr 2027 (Lisbon & online; 21 Apr training) | www.elixirconf.eu (current site; not yet in archives/) | none | add to hub upcoming/banner; archive to elixirconf-eu-jekyll archives/ when the site rolls over |
 | ElixirConf Brasil 2027 | 20-21 May 2027 (Curitiba & online) | elixirconf.com.br (partner-run, first edition); NOTE esl/elixirconf-brasil repo is a stale EU fork (CNAME still www.elixirconf.eu) | none | add to hub upcoming/banner; move to ElixirConf section once past |
 | Code BEAM Europe 2026 (Haarlem) | 21-22 Oct 2026 | codebeameurope.com (live) | none | add to hub upcoming/banner |
 | Code BEAM Lite London 2026 | 2026 (verify) | codebeamlondon.com (live) | none | verify date; add to hub upcoming/banner |
