@@ -110,7 +110,8 @@ Wayback Machine captures; `OPEN` = needs a decision or missing information.
 
 | Edition | Dates | Where the content lives | YouTube playlist | Action / missing |
 |---|---|---|---|---|
-| ElixirConf US 2025 | 28-29 Aug 2025 | esl/elixirconf-us archives/elixirconf_2025 | none | hub entry has past:false (stale) and references missing brand file elixirconf-us.md - fix both |
+| ElixirConf US 2026 | 10-11 Sep 2026 (Chicago & online) | elixirconf.com (live; no esl/elixirconf-us archive yet) | none | hub entry added (past); external_url still points to live site - swap to archive once it exists |
+| ElixirConf US 2025 | 28-29 Aug 2025 | esl/elixirconf-us archives/elixirconf_2025 | none | done - hub entry added (past), brand file elixirconf-us.md present |
 
 ## Lambda Days
 
