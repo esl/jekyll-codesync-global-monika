@@ -3,7 +3,7 @@ conference_brand: _conference_brands/mq-summit.md
 title: MQ Summit 2026
 conference_past_conferences: false
 past: true
-external_url: "https://mqsummit.com/"
+external_url: "https://mqsummit.com/archives/haarlem_2026/"
 bg_image: "/uploads/mq-summit-tile.jpg"
 logo_img: "/uploads/mq-summit-logo.png"
 conference_location: "Haarlem & Online"

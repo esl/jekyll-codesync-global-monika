@@ -3,7 +3,7 @@ conference_brand: _conference_brands/code-beam-europe.md
 title: Code BEAM Europe 2026
 conference_past_conferences: false
 past: true
-external_url: "https://codebeameurope.com/"
+external_url: "https://codebeameurope.com/archives/haarlem_2026/index.html"
 bg_image: "/uploads/code-beam-europe-tile.jpg"
 logo_img: ''
 conference_location: "Haarlem & Online"
